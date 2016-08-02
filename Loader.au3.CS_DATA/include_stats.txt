@@ -1,0 +1,11 @@
+10|Filename|Lines|Includes|UDF defs|incoming calls|outgoing calls|Globals|native|main code sections|refs record
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Loader.au3|16|1|0|0|4|0|False|1|0
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3|240|1|9|9|15|3|False|3|1
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|674|1|20|18|165|17|False|0|6
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|986|4|15|4|4|1|True|0|47
+True|C:\Program Files (x86)\AutoIt3\Include\MemoryConstants.au3|1042|0|0|0|0|33|True|1|400
+True|C:\Program Files (x86)\AutoIt3\Include\ProcessConstants.au3|1069|0|0|0|0|14|True|0|401
+False|C:\Program Files (x86)\AutoIt3\Include\Security.au3|1413|2|19|0|0|0|True|0|402
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|2258|0|0|0|0|106|True|0|403
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|2400|0|0|157|0|169|True|0|541
+False|C:\Program Files (x86)\AutoIt3\Include\WinAPIError.au3|2462|0|3|0|0|0|True|0|542

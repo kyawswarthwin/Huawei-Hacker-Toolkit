@@ -1,0 +1,58 @@
+57|Filename|Lines|Includes|UDF defs|incoming calls|outgoing calls|Globals|native|main code sections|refs record
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3|524|16|9|11|103|15|False|4|0
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3|1947|4|60|61|58|0|False|0|1
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Busy.au3|2221|6|8|19|121|25|False|0|2
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\CRC.au3|2301|1|4|3|17|4|False|0|3
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Hex.au3|2489|1|4|14|64|0|False|0|4
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\UPDATEAPP.au3|2587|0|4|8|81|0|False|0|5
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|5204|3|40|1|18|14|True|0|5218
+True|C:\Program Files (x86)\AutoIt3\Include\Crypt.au3|5900|1|19|22|39|21|True|0|4711
+True|C:\Program Files (x86)\AutoIt3\Include\EditConstants.au3|6021|0|0|0|0|78|True|0|4712
+True|C:\Program Files (x86)\AutoIt3\Include\GUIConstantsEx.au3|6133|0|0|0|0|73|True|0|4713
+True|C:\Program Files (x86)\AutoIt3\Include\Misc.au3|6664|3|10|1|20|5|True|0|10
+True|C:\Program Files (x86)\AutoIt3\Include\MsgBoxConstants.au3|6733|0|0|0|0|43|True|0|8834
+True|C:\Program Files (x86)\AutoIt3\Include\StaticConstants.au3|6782|0|0|0|0|31|True|0|4715
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3|9999|9|204|36|39|15|True|0|7301
+True|C:\Program Files (x86)\AutoIt3\Include\WindowsConstants.au3|10819|0|0|0|0|731|True|4|4717
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3|11043|1|9|9|15|3|False|3|15
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Registration.au3|11174|8|6|0|0|4|False|0|16
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\AndroidConstants.au3|11511|0|0|0|0|311|False|0|370
+False|C:\Program Files (x86)\AutoIt3\Include\Constants.au3|11688|8|0|0|0|0|True|0|371
+False|C:\Program Files (x86)\AutoIt3\Include\String.au3|11867|1|8|0|0|0|True|0|372
+True|C:\Program Files (x86)\AutoIt3\Include\StringConstants.au3|11923|0|0|0|0|26|True|0|10851
+True|C:\Program Files (x86)\AutoIt3\Include\File.au3|13001|3|18|1|4|0|True|0|698
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\GIFAnimation.au3|14016|0|12|29|145|0|False|0|700
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|14328|4|15|6|4|1|True|0|6860
+True|C:\Program Files (x86)\AutoIt3\Include\AutoItConstants.au3|14667|0|0|0|0|233|True|0|8833
+True|C:\Program Files (x86)\AutoIt3\Include\FileConstants.au3|14820|0|0|0|0|105|True|2|8056
+True|C:\Program Files (x86)\AutoIt3\Include\FontConstants.au3|14926|0|0|0|0|78|True|0|2390
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|15771|0|0|0|0|106|True|0|8835
+False|C:\Program Files (x86)\AutoIt3\Include\WinAPIError.au3|15833|0|3|0|0|0|True|0|8836
+False|C:\Program Files (x86)\AutoIt3\Include\Security.au3|16177|2|19|0|0|0|True|0|5853
+False|C:\Program Files (x86)\AutoIt3\Include\SendMessage.au3|16214|0|2|0|0|0|True|0|2689
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIConstants.au3|16509|0|0|0|0|229|True|3|2692
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|16943|1|20|18|165|17|False|0|4669
+True|C:\Program Files (x86)\AutoIt3\Include\ButtonConstants.au3|17064|0|0|0|0|86|True|0|4710
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIDiag.au3|18009|8|22|0|0|2|True|0|4716
+True|C:\Program Files (x86)\AutoIt3\Include\ColorConstants.au3|18076|0|0|0|0|47|True|0|5129
+True|C:\Program Files (x86)\AutoIt3\Include\DirConstants.au3|18097|0|0|0|0|8|True|0|5130
+True|C:\Program Files (x86)\AutoIt3\Include\ProcessConstants.au3|18124|0|0|0|0|14|True|0|5852
+True|C:\Program Files (x86)\AutoIt3\Include\TrayConstants.au3|18193|0|0|0|0|42|True|0|5135
+True|C:\Program Files (x86)\AutoIt3\Include\MemoryConstants.au3|18249|0|0|0|0|33|True|1|5851
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|18391|0|0|0|0|169|True|0|6482
+True|C:\Program Files (x86)\AutoIt3\Include\APIDiagConstants.au3|18456|0|0|0|0|42|True|1|7299
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3|20313|4|101|0|0|7|True|0|7302
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIInternals.au3|20990|4|36|1|9|6|True|1|11250
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3|22222|4|53|0|0|13|True|0|7304
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3|23088|3|44|0|0|8|True|0|7305
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3|23883|2|54|0|0|1|True|0|7306
+True|C:\Program Files (x86)\AutoIt3\Include\APIFilesConstants.au3|24472|0|0|0|0|476|True|0|8055
+False|C:\Program Files (x86)\AutoIt3\Include\WinAPIMisc.au3|24850|3|24|0|0|0|True|0|8057
+False|C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3|25737|3|59|0|0|0|True|0|9601
+True|C:\Program Files (x86)\AutoIt3\Include\APIProcConstants.au3|25840|0|0|0|0|67|True|0|9106
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPICom.au3|26027|2|11|0|0|1|True|0|9600
+True|C:\Program Files (x86)\AutoIt3\Include\APIShellExConstants.au3|26745|0|0|0|0|657|True|7|9599
+True|C:\Program Files (x86)\AutoIt3\Include\APIThemeConstants.au3|27076|0|0|0|0|274|True|2|9936
+True|C:\Program Files (x86)\AutoIt3\Include\APIMiscConstants.au3|27116|0|0|0|0|24|True|0|10701
+True|C:\Program Files (x86)\AutoIt3\Include\APIShPathConstants.au3|27199|0|0|662|0|58|True|0|10850
+True|C:\Program Files (x86)\AutoIt3\Include\APIComConstants.au3|27218|0|0|0|0|4|True|0|11249

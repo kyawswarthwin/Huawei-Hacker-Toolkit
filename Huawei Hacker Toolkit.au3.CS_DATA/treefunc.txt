@@ -1,0 +1,535 @@
+Huawei Hacker Toolkit.au3 | Binary
+Huawei Hacker Toolkit.au3 | _Singleton
+Huawei Hacker Toolkit.au3 | OnAutoItExitRegister
+Huawei Hacker Toolkit.au3 | _OnExit
+Huawei Hacker Toolkit.au3 | DirRemove
+Huawei Hacker Toolkit.au3 | DirCreate
+Huawei Hacker Toolkit.au3 | GUICreate
+Huawei Hacker Toolkit.au3 | GUICtrlCreateMenu
+Huawei Hacker Toolkit.au3 | GUICtrlCreateMenuItem
+Huawei Hacker Toolkit.au3 | GUICtrlCreatePic
+Huawei Hacker Toolkit.au3 | GUICtrlCreateLabel
+Huawei Hacker Toolkit.au3 | GUICtrlCreateInput
+Huawei Hacker Toolkit.au3 | BitOR
+Huawei Hacker Toolkit.au3 | GUIRegisterMsg
+Huawei Hacker Toolkit.au3 | _WM_DEVICECHANGE
+Huawei Hacker Toolkit.au3 | _WM_COMMAND
+Huawei Hacker Toolkit.au3 | GUISetState
+Huawei Hacker Toolkit.au3 | _GetDeviceInfo
+Huawei Hacker Toolkit.au3 | GUIGetMsg
+Huawei Hacker Toolkit.au3 | FileOpenDialog
+Huawei Hacker Toolkit.au3 | _Busy_Create
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Unpack
+Huawei Hacker Toolkit.au3 | _Busy_Close
+Huawei Hacker Toolkit.au3 | FileDelete
+Huawei Hacker Toolkit.au3 | StringLeft
+Huawei Hacker Toolkit.au3 | StringInStr
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Repack
+Huawei Hacker Toolkit.au3 | MsgBox
+Huawei Hacker Toolkit.au3 | _Android_Shell
+Huawei Hacker Toolkit.au3 | _Android_Push
+Huawei Hacker Toolkit.au3 | _Busy_Update
+Huawei Hacker Toolkit.au3 | _Android_Reboot
+Huawei Hacker Toolkit.au3 | FileExists
+Huawei Hacker Toolkit.au3 | ShellExecute
+Huawei Hacker Toolkit.au3 | _Android_GetProperty
+Huawei Hacker Toolkit.au3 | _Android_Pull
+Huawei Hacker Toolkit.au3 | _Hex_Read
+Huawei Hacker Toolkit.au3 | _Hex_Search
+Huawei Hacker Toolkit.au3 | _Hex_Write
+Huawei Hacker Toolkit.au3 | InputBox
+Huawei Hacker Toolkit.au3 | __Run
+Huawei Hacker Toolkit.au3 | _Android_FileExists
+Huawei Hacker Toolkit.au3 | _Flash
+Huawei Hacker Toolkit.au3 | _Reboot
+Huawei Hacker Toolkit.au3 | _AES_Startup
+Huawei Hacker Toolkit.au3 | _dummyCalls
+Huawei Hacker Toolkit.au3 | Ptr
+Huawei Hacker Toolkit.au3 | BitShift
+Huawei Hacker Toolkit.au3 | __WINVER
+Huawei Hacker Toolkit.au3 | _Singleton | BitAND
+Huawei Hacker Toolkit.au3 | _Singleton | DllStructCreate
+Huawei Hacker Toolkit.au3 | _Singleton | DllCall
+Huawei Hacker Toolkit.au3 | _Singleton | SetError
+Huawei Hacker Toolkit.au3 | _Singleton | DllCall *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Singleton | SetError *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Singleton | DllStructCreate *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Singleton | DllStructSetData
+Huawei Hacker Toolkit.au3 | _Singleton | DllStructGetSize
+Huawei Hacker Toolkit.au3 | _Singleton | DllStructSetData *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Singleton | DllStructGetPtr
+Huawei Hacker Toolkit.au3 | _Singleton | BitAND *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _OnExit | DirRemove *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _WM_DEVICECHANGE | _GetDeviceInfo *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _WM_COMMAND | _WinAPI_LoWord
+Huawei Hacker Toolkit.au3 | _WM_COMMAND | _WinAPI_HiWord
+Huawei Hacker Toolkit.au3 | _WM_COMMAND | GUICtrlSetData
+Huawei Hacker Toolkit.au3 | _WM_COMMAND | _GenerateProductID
+Huawei Hacker Toolkit.au3 | _WM_COMMAND | GUICtrlRead
+Huawei Hacker Toolkit.au3 | _WM_COMMAND | GUICtrlRead *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _GetDeviceInfo | _Android_GetState
+Huawei Hacker Toolkit.au3 | _GetDeviceInfo | _Android_GetProperty *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _GetDeviceInfo | _Android_GetDeviceID
+Huawei Hacker Toolkit.au3 | _GetDeviceInfo | _Android_HasRootAccess
+Huawei Hacker Toolkit.au3 | _GetDeviceInfo | _Connect
+Huawei Hacker Toolkit.au3 | _GetDeviceInfo | _Connect *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _GetDeviceInfo | GUICtrlSetData *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | IsArray
+Huawei Hacker Toolkit.au3 | _Busy_Create | UBound
+Huawei Hacker Toolkit.au3 | _Busy_Create | SetError *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | FileExists *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | _Busy_UseTheme
+Huawei Hacker Toolkit.au3 | _Busy_Create | IsKeyword
+Huawei Hacker Toolkit.au3 | _Busy_Create | IsKeyword *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | _WinAPI_GetClientRect
+Huawei Hacker Toolkit.au3 | _Busy_Create | DllStructCreate *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | _WinAPI_ClientToScreen
+Huawei Hacker Toolkit.au3 | _Busy_Create | BitAND *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | GUICreate *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | BitOR *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | DllStructGetData
+Huawei Hacker Toolkit.au3 | _Busy_Create | DllStructGetData *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | GUISetBkColor
+Huawei Hacker Toolkit.au3 | _Busy_Create | WinSetTrans
+Huawei Hacker Toolkit.au3 | _Busy_Create | WinSetOnTop
+Huawei Hacker Toolkit.au3 | _Busy_Create | GUISetState *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | WinSetOnTop *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | GUISetBkColor *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | GUISetStyle
+Huawei Hacker Toolkit.au3 | _Busy_Create | GUICtrlCreatePic *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | GUICtrlSetState
+Huawei Hacker Toolkit.au3 | _Busy_Create | GUICtrlSetState *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | __GetGifPixSize
+Huawei Hacker Toolkit.au3 | _Busy_Create | _GUICtrlCreateGIF
+Huawei Hacker Toolkit.au3 | _Busy_Create | Int
+Huawei Hacker Toolkit.au3 | _Busy_Create | GUIRegisterMsg *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | __Busy_Refresh
+Huawei Hacker Toolkit.au3 | _Busy_Create | GUICtrlCreateLabel *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | GUICtrlSetBkColor
+Huawei Hacker Toolkit.au3 | _Busy_Create | GUICtrlSetBkColor *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | GUICtrlSetColor
+Huawei Hacker Toolkit.au3 | _Busy_Create | GUICtrlSetFont
+Huawei Hacker Toolkit.au3 | _Busy_Create | GUICtrlSetColor *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | GUICtrlSetFont *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Unpack | _Hex_Read *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Unpack | BinaryLen
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Unpack | SetError *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Unpack | FileDelete *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Unpack | DllStructCreate *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Unpack | __BinaryToDLLStruct
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Unpack | DllStructGetSize *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Unpack | DllStructGetData *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Unpack | StringReplace
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Unpack | Chr
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Unpack | Dec
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Unpack | IniWrite
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Unpack | Hex
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Unpack | IniRead
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Unpack | IniWrite *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Unpack | _Hex_Write *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Unpack | __BinaryFromDLLStruct
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Unpack | _Hex_Copy
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Unpack | BitAND *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Close | IsArray *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Close | UBound *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Close | SetError *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Close | GUIRegisterMsg *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Close | _GUICtrlDeleteGIF
+Huawei Hacker Toolkit.au3 | _Busy_Close | GUISetState *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Close | GUIDelete
+Huawei Hacker Toolkit.au3 | _Busy_Close | GUIDelete *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Close | __Busy_Reset
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Repack | IniReadSection
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Repack | SetError *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Repack | _Hex_Write *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Repack | _PathSplit
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Repack | DllStructCreate *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Repack | __BinaryToDLLStruct *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Repack | _Hex_Read *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Repack | DllStructGetSize *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Repack | DllStructGetData *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Repack | FileGetSize
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Repack | BinaryToString
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Repack | BinaryMid
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Repack | Binary *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Repack | BitAND *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Repack | BitXOR
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Repack | _CRC16
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Repack | StringLen
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Repack | DllStructSetData *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Repack | BitXOR *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Repack | _CRC16 *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Repack | __BinaryFromDLLStruct *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Repack | StringToBinary
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Repack | _Hex_Copy *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Repack | FileGetSize *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Android_Shell | _Android_HasBusyBox
+Huawei Hacker Toolkit.au3 | _Android_Shell | _Android_Shell *** recursion <<< 
+Huawei Hacker Toolkit.au3 | _Android_Shell | _Android_Push *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Android_Shell | __Run *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Android_Shell | _Android_HasBusyBox *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Android_Push | __Run *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Update | IsArray *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Update | UBound *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Update | SetError *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Update | GUICtrlRead *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Update | GUICtrlSetData *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Update | GUICtrlSetState *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Update | GUICtrlSetPos
+Huawei Hacker Toolkit.au3 | _Busy_Update | BitAND *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Update | GUICtrlGetState
+Huawei Hacker Toolkit.au3 | _Android_Reboot | _Android_IsOnline
+Huawei Hacker Toolkit.au3 | _Android_Reboot | SetError *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Android_Reboot | __Run *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Android_Reboot | _Android_IsBootloader
+Huawei Hacker Toolkit.au3 | _Android_Reboot | _Android_IsOnline *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Android_Reboot | _Android_GetProperty *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Android_Reboot | _Android_IsBootloader *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Android_GetProperty | _Android_Shell *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Android_Pull | __Run *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Hex_Read | _WinAPI_CreateFile
+Huawei Hacker Toolkit.au3 | _Hex_Read | SetError *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Hex_Read | _WinAPI_GetFileSizeEx
+Huawei Hacker Toolkit.au3 | _Hex_Read | _WinAPI_CloseHandle
+Huawei Hacker Toolkit.au3 | _Hex_Read | _WinAPI_CloseHandle *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Hex_Read | _WinAPI_SetFilePointer
+Huawei Hacker Toolkit.au3 | _Hex_Read | DllStructCreate *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Hex_Read | _WinAPI_ReadFile
+Huawei Hacker Toolkit.au3 | _Hex_Read | DllStructGetPtr *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Hex_Read | SetExtended
+Huawei Hacker Toolkit.au3 | _Hex_Read | DllStructGetData *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Hex_Search | IsBinary
+Huawei Hacker Toolkit.au3 | _Hex_Search | SetError *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Hex_Search | _WinAPI_CreateFile *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Hex_Search | _WinAPI_GetFileSizeEx *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Hex_Search | _WinAPI_CloseHandle *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Hex_Search | _WinAPI_SetFilePointer *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Hex_Search | DllStructCreate *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Hex_Search | _WinAPI_ReadFile *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Hex_Search | DllStructGetPtr *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Hex_Search | StringInStr *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Hex_Search | BinaryToString *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Hex_Search | DllStructGetData *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Hex_Write | IsBinary *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Hex_Write | SetError *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Hex_Write | _WinAPI_CreateFile *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Hex_Write | _WinAPI_SetFilePointer *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Hex_Write | BinaryLen *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Hex_Write | DllStructCreate *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Hex_Write | DllStructSetData *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Hex_Write | _WinAPI_WriteFile
+Huawei Hacker Toolkit.au3 | _Hex_Write | DllStructGetPtr *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Hex_Write | _WinAPI_CloseHandle *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Hex_Write | Number
+Huawei Hacker Toolkit.au3 | __Run | Run
+Huawei Hacker Toolkit.au3 | __Run | StdoutRead
+Huawei Hacker Toolkit.au3 | __Run | StringStripCR
+Huawei Hacker Toolkit.au3 | __Run | StringTrimRight
+Huawei Hacker Toolkit.au3 | __Run | StringLen *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Android_FileExists | _Android_Shell *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Flash | MsgBox *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Flash | BitOR *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Flash | FileOpenDialog *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Flash | _Busy_Create *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Flash | _Android_Flash
+Huawei Hacker Toolkit.au3 | _Flash | _Busy_Close *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Reboot | MsgBox *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Reboot | BitOR *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Reboot | _Busy_Create *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Reboot | _Android_Reboot *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Reboot | _Busy_Close *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _AES_Startup | IsDllStruct
+Huawei Hacker Toolkit.au3 | _AES_Startup | String
+Huawei Hacker Toolkit.au3 | _AES_Startup | _AES_CodeDecompress
+Huawei Hacker Toolkit.au3 | _AES_Startup | StringInStr *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _AES_Startup | Binary *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _AES_Startup | _MemVirtualAlloc
+Huawei Hacker Toolkit.au3 | _AES_Startup | BinaryLen *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _AES_Startup | DllStructCreate *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _AES_Startup | DllStructSetData *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _AES_Startup | OnAutoItExitRegister *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _AES_Startup | _AES_Exit
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC_Init
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC
+Huawei Hacker Toolkit.au3 | _dummyCalls | _VarIsVar
+Huawei Hacker Toolkit.au3 | _dummyCalls | _ArrayVarIsVar
+Huawei Hacker Toolkit.au3 | _dummyCalls | _VarIsArrayVar
+Huawei Hacker Toolkit.au3 | _dummyCalls | _ArrayVarIsArrayVar
+Huawei Hacker Toolkit.au3 | _dummyCalls | _VarIsNumber
+Huawei Hacker Toolkit.au3 | _dummyCalls | _ArrayVarIsNumber
+Huawei Hacker Toolkit.au3 | __WINVER | DllStructCreate *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | __WINVER | DllStructSetData *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | __WINVER | DllStructGetSize *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | __WINVER | DllCall *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | __WINVER | SetError *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | __WINVER | BitOR *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | __WINVER | BitShift *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | __WINVER | DllStructGetData *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _WM_COMMAND | _WinAPI_LoWord | BitAND *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _WM_COMMAND | _WinAPI_HiWord | BitShift *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _WM_COMMAND | _GenerateProductID | _Crypt_Startup
+Huawei Hacker Toolkit.au3 | _WM_COMMAND | _GenerateProductID | StringTrimLeft
+Huawei Hacker Toolkit.au3 | _WM_COMMAND | _GenerateProductID | _Crypt_HashData
+Huawei Hacker Toolkit.au3 | _WM_COMMAND | _GenerateProductID | StringSplit
+Huawei Hacker Toolkit.au3 | _WM_COMMAND | _GenerateProductID | __HexEx
+Huawei Hacker Toolkit.au3 | _WM_COMMAND | _GenerateProductID | BitXOR *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _WM_COMMAND | _GenerateProductID | Dec *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _WM_COMMAND | _GenerateProductID | StringLeft *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _WM_COMMAND | _GenerateProductID | StringRight
+Huawei Hacker Toolkit.au3 | _WM_COMMAND | _GenerateProductID | StringInStr *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _WM_COMMAND | _GenerateProductID | Chr *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _WM_COMMAND | _GenerateProductID | Asc
+Huawei Hacker Toolkit.au3 | _WM_COMMAND | _GenerateProductID | _Crypt_Shutdown
+Huawei Hacker Toolkit.au3 | _WM_COMMAND | _GenerateProductID | _ArrayToString
+Huawei Hacker Toolkit.au3 | _GetDeviceInfo | _Android_GetState | _Android_IsOnline *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _GetDeviceInfo | _Android_GetState | _Android_IsOffline
+Huawei Hacker Toolkit.au3 | _GetDeviceInfo | _Android_GetState | _Android_IsBootloader *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _GetDeviceInfo | _Android_GetDeviceID | StringRegExp
+Huawei Hacker Toolkit.au3 | _GetDeviceInfo | _Android_GetDeviceID | _Android_Shell *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _GetDeviceInfo | _Android_HasRootAccess | _Android_Shell *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _GetDeviceInfo | _Connect | _Busy_Create *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _GetDeviceInfo | _Connect | _Android_Connect
+Huawei Hacker Toolkit.au3 | _GetDeviceInfo | _Connect | _Busy_Close *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | _Busy_UseTheme | IsArray *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | _Busy_UseTheme | UBound *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | _Busy_UseTheme | SetError *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | _Busy_UseTheme | FileExists *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | _Busy_UseTheme | __ValidateThemeEntry
+Huawei Hacker Toolkit.au3 | _Busy_Create | _Busy_UseTheme | IniRead *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | _Busy_UseTheme | __ValidateThemeEntry *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | _Busy_UseTheme | __Busy_Reset *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | _WinAPI_GetClientRect | DllStructCreate *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | _WinAPI_GetClientRect | DllCall *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | _WinAPI_GetClientRect | SetError *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | _WinAPI_ClientToScreen | DllCall *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | _WinAPI_ClientToScreen | SetError *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | __GetGifPixSize | FileGetSize *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | __GetGifPixSize | FileRead
+Huawei Hacker Toolkit.au3 | _Busy_Create | __GetGifPixSize | Asc *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | __GetGifPixSize | StringMid
+Huawei Hacker Toolkit.au3 | _Busy_Create | __GetGifPixSize | StringMid *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | _GUICtrlCreateGIF | GUICtrlCreateIcon
+Huawei Hacker Toolkit.au3 | _Busy_Create | _GUICtrlCreateGIF | _CreateArrayHIconsFromGIFFile
+Huawei Hacker Toolkit.au3 | _Busy_Create | _GUICtrlCreateGIF | GUICtrlDelete
+Huawei Hacker Toolkit.au3 | _Busy_Create | _GUICtrlCreateGIF | SetError *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | _GUICtrlCreateGIF | UBound *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | _GUICtrlCreateGIF | _AnimateGifInAnotherThread
+Huawei Hacker Toolkit.au3 | _Busy_Create | _GUICtrlCreateGIF | DllCall *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | __Busy_Refresh | _RefreshGIF
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Unpack | __BinaryToDLLStruct | DllStructCreate *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Unpack | __BinaryToDLLStruct | DllStructGetSize *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Unpack | __BinaryToDLLStruct | DllStructGetPtr *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Unpack | __BinaryToDLLStruct | DllStructSetData *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Unpack | __BinaryFromDLLStruct | DllStructCreate *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Unpack | __BinaryFromDLLStruct | DllStructGetSize *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Unpack | __BinaryFromDLLStruct | DllStructGetPtr *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Unpack | __BinaryFromDLLStruct | DllStructGetData *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Unpack | _Hex_Copy | _WinAPI_CreateFile *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Unpack | _Hex_Copy | SetError *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Unpack | _Hex_Copy | _WinAPI_GetFileSizeEx *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Unpack | _Hex_Copy | _WinAPI_CloseHandle *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Unpack | _Hex_Copy | _WinAPI_SetFilePointer *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Unpack | _Hex_Copy | DllStructCreate *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Unpack | _Hex_Copy | _WinAPI_ReadFile *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Unpack | _Hex_Copy | DllStructGetPtr *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Unpack | _Hex_Copy | _WinAPI_WriteFile *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Close | _GUICtrlDeleteGIF | _ExitGIFAnimation
+Huawei Hacker Toolkit.au3 | _Busy_Close | _GUICtrlDeleteGIF | GUICtrlDelete *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Repack | _PathSplit | StringRegExp *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Repack | _PathSplit | StringLeft *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Repack | _PathSplit | StringRegExpReplace
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Repack | _PathSplit | StringRegExpReplace *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Repack | _CRC16 | IsDllStruct *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Repack | _CRC16 | Binary *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Repack | _CRC16 | _MemVirtualAlloc *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Repack | _CRC16 | BinaryLen *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Repack | _CRC16 | DllStructCreate *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Repack | _CRC16 | DllStructSetData *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Repack | _CRC16 | OnAutoItExitRegister *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Repack | _CRC16 | _CRC16_Exit
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Repack | _CRC16 | DllCall *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Repack | _CRC16 | DllStructGetPtr *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Android_Shell | _Android_HasBusyBox | _Android_CommandExists
+Huawei Hacker Toolkit.au3 | _Android_Reboot | _Android_IsOnline | __Run *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Android_Reboot | _Android_IsBootloader | __Run *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Hex_Read | _WinAPI_CreateFile | BitAND *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Hex_Read | _WinAPI_CreateFile | BitOR *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Hex_Read | _WinAPI_CreateFile | DllCall *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Hex_Read | _WinAPI_CreateFile | SetError *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Hex_Read | _WinAPI_GetFileSizeEx | DllCall *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Hex_Read | _WinAPI_GetFileSizeEx | SetError *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Hex_Read | _WinAPI_CloseHandle | DllCall *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Hex_Read | _WinAPI_CloseHandle | SetError *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Hex_Read | _WinAPI_SetFilePointer | DllCall *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Hex_Read | _WinAPI_SetFilePointer | SetError *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Hex_Read | _WinAPI_ReadFile | DllCall *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Hex_Read | _WinAPI_ReadFile | SetError *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Hex_Write | _WinAPI_WriteFile | DllCall *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Hex_Write | _WinAPI_WriteFile | SetError *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Flash | _Android_Flash | __Run *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _AES_Startup | _AES_CodeDecompress | StringInStr *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _AES_Startup | _AES_CodeDecompress | Binary *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _AES_Startup | _AES_CodeDecompress | _MemVirtualAlloc *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _AES_Startup | _AES_CodeDecompress | BinaryLen *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _AES_Startup | _AES_CodeDecompress | DllStructCreate *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _AES_Startup | _AES_CodeDecompress | DllStructSetData *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _AES_Startup | _AES_CodeDecompress | StringLen *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _AES_Startup | _AES_CodeDecompress | DllCall *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _AES_Startup | _AES_CodeDecompress | DllStructGetPtr *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _AES_Startup | _AES_CodeDecompress | DllStructGetData *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _AES_Startup | _AES_CodeDecompress | _MemVirtualFree
+Huawei Hacker Toolkit.au3 | _AES_Startup | _AES_CodeDecompress | BinaryMid *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _AES_Startup | _MemVirtualAlloc | DllCall *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _AES_Startup | _MemVirtualAlloc | SetError *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _AES_Startup | _AES_Exit | _MemVirtualFree *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC_Init | UBound *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC_Init | String *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC_Init | InputBox *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | BinaryToString *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt
+Huawei Hacker Toolkit.au3 | _dummyCalls | _VarIsNumber | Number *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _ArrayVarIsNumber | Number *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _WM_COMMAND | _GenerateProductID | _Crypt_Startup | __Crypt_RefCount
+Huawei Hacker Toolkit.au3 | _WM_COMMAND | _GenerateProductID | _Crypt_Startup | DllOpen
+Huawei Hacker Toolkit.au3 | _WM_COMMAND | _GenerateProductID | _Crypt_Startup | SetError *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _WM_COMMAND | _GenerateProductID | _Crypt_Startup | __Crypt_DllHandleSet
+Huawei Hacker Toolkit.au3 | _WM_COMMAND | _GenerateProductID | _Crypt_Startup | DllCall *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _WM_COMMAND | _GenerateProductID | _Crypt_Startup | __Crypt_DllHandle
+Huawei Hacker Toolkit.au3 | _WM_COMMAND | _GenerateProductID | _Crypt_Startup | DllClose
+Huawei Hacker Toolkit.au3 | _WM_COMMAND | _GenerateProductID | _Crypt_Startup | __Crypt_DllHandle *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _WM_COMMAND | _GenerateProductID | _Crypt_Startup | __Crypt_ContextSet
+Huawei Hacker Toolkit.au3 | _WM_COMMAND | _GenerateProductID | _Crypt_Startup | __Crypt_RefCountInc
+Huawei Hacker Toolkit.au3 | _WM_COMMAND | _GenerateProductID | _Crypt_HashData | _Crypt_Startup *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _WM_COMMAND | _GenerateProductID | _Crypt_HashData | DllCall *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _WM_COMMAND | _GenerateProductID | _Crypt_HashData | __Crypt_DllHandle *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _WM_COMMAND | _GenerateProductID | _Crypt_HashData | __Crypt_Context
+Huawei Hacker Toolkit.au3 | _WM_COMMAND | _GenerateProductID | _Crypt_HashData | DllStructCreate *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _WM_COMMAND | _GenerateProductID | _Crypt_HashData | BinaryLen *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _WM_COMMAND | _GenerateProductID | _Crypt_HashData | DllStructSetData *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _WM_COMMAND | _GenerateProductID | _Crypt_HashData | DllStructGetSize *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _WM_COMMAND | _GenerateProductID | _Crypt_HashData | DllStructGetData *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _WM_COMMAND | _GenerateProductID | _Crypt_HashData | _Crypt_Shutdown *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _WM_COMMAND | _GenerateProductID | _Crypt_HashData | SetError *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _WM_COMMAND | _GenerateProductID | __HexEx | Hex *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _WM_COMMAND | _GenerateProductID | __HexEx | StringLeft *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _WM_COMMAND | _GenerateProductID | __HexEx | StringMid *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _WM_COMMAND | _GenerateProductID | _Crypt_Shutdown | __Crypt_RefCountDec
+Huawei Hacker Toolkit.au3 | _WM_COMMAND | _GenerateProductID | _Crypt_Shutdown | __Crypt_RefCount *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _WM_COMMAND | _GenerateProductID | _Crypt_Shutdown | DllCall *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _WM_COMMAND | _GenerateProductID | _Crypt_Shutdown | __Crypt_DllHandle *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _WM_COMMAND | _GenerateProductID | _Crypt_Shutdown | __Crypt_Context *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _WM_COMMAND | _GenerateProductID | _Crypt_Shutdown | DllClose *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _WM_COMMAND | _GenerateProductID | _ArrayToString | IsArray *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _WM_COMMAND | _GenerateProductID | _ArrayToString | SetError *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _WM_COMMAND | _GenerateProductID | _ArrayToString | UBound *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _WM_COMMAND | _GenerateProductID | _ArrayToString | StringTrimRight *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _WM_COMMAND | _GenerateProductID | _ArrayToString | StringLen *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _GetDeviceInfo | _Android_GetState | _Android_IsOffline | __Run *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _GetDeviceInfo | _Connect | _Android_Connect | _Android_IsOnline *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _GetDeviceInfo | _Connect | _Android_Connect | __Run *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _GetDeviceInfo | _Connect | _Android_Connect | SetError *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _GetDeviceInfo | _Connect | _Android_Connect | Int *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | _Busy_UseTheme | __ValidateThemeEntry | SetError *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | _Busy_UseTheme | __ValidateThemeEntry | StringRegExp *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | _GUICtrlCreateGIF | _CreateArrayHIconsFromGIFFile | DllCall *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | _GUICtrlCreateGIF | _CreateArrayHIconsFromGIFFile | SetError *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | _GUICtrlCreateGIF | _CreateArrayHIconsFromGIFFile | DllOpen *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | _GUICtrlCreateGIF | _CreateArrayHIconsFromGIFFile | DllStructCreate *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | _GUICtrlCreateGIF | _CreateArrayHIconsFromGIFFile | DllStructSetData *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | _GUICtrlCreateGIF | _CreateArrayHIconsFromGIFFile | DllStructGetPtr *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | _GUICtrlCreateGIF | _CreateArrayHIconsFromGIFFile | GUICtrlSetPos *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | _GUICtrlCreateGIF | _CreateArrayHIconsFromGIFFile | GUICtrlSendMsg
+Huawei Hacker Toolkit.au3 | _Busy_Create | _GUICtrlCreateGIF | _CreateArrayHIconsFromGIFFile | DllStructGetSize *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | _GUICtrlCreateGIF | _CreateArrayHIconsFromGIFFile | DllStructGetData *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | _GUICtrlCreateGIF | _AnimateGifInAnotherThread | DllCall *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | _GUICtrlCreateGIF | _AnimateGifInAnotherThread | SetError *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | _GUICtrlCreateGIF | _AnimateGifInAnotherThread | UBound *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | _GUICtrlCreateGIF | _AnimateGifInAnotherThread | DllStructCreate *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | _GUICtrlCreateGIF | _AnimateGifInAnotherThread | DllStructGetPtr *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | _GUICtrlCreateGIF | _AnimateGifInAnotherThread | DllStructGetSize *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | _GUICtrlCreateGIF | _AnimateGifInAnotherThread | DllStructSetData *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | _GUICtrlCreateGIF | _AnimateGifInAnotherThread | SwapEndian
+Huawei Hacker Toolkit.au3 | _Busy_Create | _GUICtrlCreateGIF | _AnimateGifInAnotherThread | SwapEndian *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | _GUICtrlCreateGIF | _AnimateGifInAnotherThread | GUICtrlGetHandle
+Huawei Hacker Toolkit.au3 | _Busy_Create | _GUICtrlCreateGIF | _AnimateGifInAnotherThread | GUICtrlGetHandle *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | __Busy_Refresh | _RefreshGIF | IsArray *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | __Busy_Refresh | _RefreshGIF | GUICtrlGetHandle *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | __Busy_Refresh | _RefreshGIF | DllCall *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | __Busy_Refresh | _RefreshGIF | DllStructGetData *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | __Busy_Refresh | _RefreshGIF | UBound *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Close | _GUICtrlDeleteGIF | _ExitGIFAnimation | DllCall *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Close | _GUICtrlDeleteGIF | _ExitGIFAnimation | IsArray *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Close | _GUICtrlDeleteGIF | _ExitGIFAnimation | UBound *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _UPDATEAPP_Repack | _CRC16 | _CRC16_Exit | _MemVirtualFree *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Android_Shell | _Android_HasBusyBox | _Android_CommandExists | _Android_Shell *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _AES_Startup | _AES_CodeDecompress | _MemVirtualFree | DllCall *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _AES_Startup | _AES_CodeDecompress | _MemVirtualFree | SetError *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | Binary *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | BinaryLen *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | SetError *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | BinaryMid *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | String *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesEncryptKey
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesDecryptCFB
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesEncryptKey *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesCryptOFB
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesDecryptKey
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesDecryptCBC_Pad
+Huawei Hacker Toolkit.au3 | _Busy_Create | _GUICtrlCreateGIF | _AnimateGifInAnotherThread | SwapEndian | Hex *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _Busy_Create | _GUICtrlCreateGIF | _AnimateGifInAnotherThread | SwapEndian | BinaryMid *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesEncryptKey | IsDllStruct *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesEncryptKey | _AES_Startup *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesEncryptKey | _AesPrepareKey
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesEncryptKey | DllStructCreate *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesEncryptKey | BinaryLen *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesEncryptKey | DllStructSetData *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesEncryptKey | DllCall *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesEncryptKey | DllStructGetPtr *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesDecryptCFB | IsDllStruct *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesDecryptCFB | _AES_Startup *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesDecryptCFB | SetError *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesDecryptCFB | Binary *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesDecryptCFB | BinaryLen *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesDecryptCFB | DllStructCreate *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesDecryptCFB | DllStructSetData *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesDecryptCFB | DllCall *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesDecryptCFB | DllStructGetPtr *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesDecryptCFB | DllStructGetData *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesCryptOFB | IsDllStruct *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesCryptOFB | _AES_Startup *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesCryptOFB | SetError *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesCryptOFB | Binary *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesCryptOFB | BinaryLen *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesCryptOFB | DllStructCreate *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesCryptOFB | DllStructSetData *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesCryptOFB | DllCall *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesCryptOFB | DllStructGetPtr *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesCryptOFB | DllStructGetData *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesDecryptKey | IsDllStruct *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesDecryptKey | _AES_Startup *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesDecryptKey | _AesPrepareKey *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesDecryptKey | DllStructCreate *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesDecryptKey | BinaryLen *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesDecryptKey | DllStructSetData *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesDecryptKey | DllCall *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesDecryptKey | DllStructGetPtr *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesDecryptCBC_Pad | _AesDecryptCBC
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesDecryptCBC_Pad | BinaryLen *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesDecryptCBC_Pad | BinaryMid *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesDecryptCBC_Pad | Binary *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesEncryptKey | _AesPrepareKey | Binary *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesEncryptKey | _AesPrepareKey | BinaryLen *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesEncryptKey | _AesPrepareKey | DllStructCreate *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesEncryptKey | _AesPrepareKey | DllStructSetData *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesEncryptKey | _AesPrepareKey | DllStructGetData *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesDecryptCBC_Pad | _AesDecryptCBC | IsDllStruct *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesDecryptCBC_Pad | _AesDecryptCBC | _AES_Startup *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesDecryptCBC_Pad | _AesDecryptCBC | SetError *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesDecryptCBC_Pad | _AesDecryptCBC | Binary *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesDecryptCBC_Pad | _AesDecryptCBC | Ceiling
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesDecryptCBC_Pad | _AesDecryptCBC | BinaryLen *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesDecryptCBC_Pad | _AesDecryptCBC | DllStructCreate *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesDecryptCBC_Pad | _AesDecryptCBC | DllStructSetData *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesDecryptCBC_Pad | _AesDecryptCBC | DllCall *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesDecryptCBC_Pad | _AesDecryptCBC | DllStructGetPtr *** DUPL. <<< 
+Huawei Hacker Toolkit.au3 | _dummyCalls | _MCFCC | _AesDecrypt | _AesDecryptCBC_Pad | _AesDecryptCBC | DllStructGetData *** DUPL. <<< 

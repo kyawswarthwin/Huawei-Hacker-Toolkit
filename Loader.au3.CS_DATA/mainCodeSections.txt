@@ -1,0 +1,6 @@
+5|Source file|first line nr|last line nr|last line|
+1|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Loader.au3|13|15|Run(@ScriptFullPath & ' /AutoIt3ExecuteScript "' & @ScriptDir & '\Script.scr"')|
+2|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3|135|135|_AES_Startup()|
+2|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3|141|141|$CCkey[0]="0x3CA86772DB0B25CBD8AC911792C2217A9DD04C218DAE0F4261BD76EF512838FBDE2BDA417829E56D62EDE396B376E2CC" ; do not edit|
+2|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3|155|155|_dummyCalls() ; do not remove!|
+5|C:\Program Files (x86)\AutoIt3\Include\MemoryConstants.au3|27|28|Global Const $GHND = BitOR($GMEM_MOVEABLE, $GMEM_ZEROINIT)|

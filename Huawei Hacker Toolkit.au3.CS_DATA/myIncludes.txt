@@ -1,0 +1,11 @@
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Busy.au3
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\CRC.au3
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Hex.au3
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\UPDATEAPP.au3
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Registration.au3
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\AndroidConstants.au3
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\GIFAnimation.au3
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3

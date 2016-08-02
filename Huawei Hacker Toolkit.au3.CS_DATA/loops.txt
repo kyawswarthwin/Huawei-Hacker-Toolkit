@@ -1,0 +1,573 @@
+572|Source file|Line|Tracking tag|Reference|Parameters
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3|114|Loop Start #1 |While|1
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3|318|Loop Start #2 |While|1
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3|325|Loop End  #2 |WEnd|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3|340|Loop Start #3 |While|1
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3|347|Loop End  #3 |WEnd|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3|396|Loop End  #1 |WEnd|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3|455|Loop Start #4 |For|$i = 1 To $aChar[0]
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3|461|Loop End  #4 |Next|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3|518|Loop Start #5 |While|StringLeft($sHex, 1) = {string351}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3|521|Loop End  #5 |WEnd|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3|116|Loop Start #6 |While|1
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3|120|Loop End  #6 |WEnd|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3|140|Loop Start #7 |For|$i = 1 To $aChar[0]
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3|146|Loop End  #7 |Next|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3|627|Loop Start #8 |For|$i = 1 To $aOutput[0]
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3|650|Loop End  #8 |Next|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3|1374|Loop Start #9 |Do|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3|1376|Loop End  #9 |Until|_Android_IsBootloader()
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3|1378|Loop Start #10 |Do|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3|1380|Loop End  #10 |Until|_Android_IsOnline()
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Hex.au3|64|Loop Start #11 |While|$iBytesRead < $iCount
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Hex.au3|69|Loop End  #11 |WEnd|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Hex.au3|141|Loop Start #12 |While|1
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Hex.au3|150|Loop End  #12 |WEnd|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\UPDATEAPP.au3|10|Loop Start #13 |While|1
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\UPDATEAPP.au3|36|Loop End  #13 |WEnd|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\UPDATEAPP.au3|59|Loop Start #14 |For|$i = 1 To $aSequence[0][0]
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\UPDATEAPP.au3|67|Loop Start #15 |While|$iOffset < $iBodySize
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\UPDATEAPP.au3|71|Loop End  #15 |WEnd|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\UPDATEAPP.au3|86|Loop End  #14 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|113|Loop Start #16 |For|$i = 0 To $iAdd - 1
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|119|Loop End  #16 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|135|Loop Start #17 |For|$i = 0 To $iValDim_1 - 1
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|143|Loop Start #18 |For|$j = 0 To $iColCount - 1
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|145|Loop End  #18 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|146|Loop End  #17 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|152|Loop Start #19 |For|$iWriteTo_Index = 0 To $iValDim_1 - 1
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|153|Loop Start #20 |For|$j = 0 To $iDim_2 - 1
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|165|Loop End  #20 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|166|Loop End  #19 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|199|Loop Start #21 |While|$iStart <= $iMid And $vValue <> $aArray[$iMid]
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|206|Loop End  #21 |WEnd|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|213|Loop Start #22 |While|$iStart <= $iMid And $vValue <> $aArray[$iMid][$iColumn]
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|220|Loop End  #22 |WEnd|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|245|Loop Start #23 |For|$i = 0 To $iDim_1 - 1
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|247|Loop End  #23 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|254|Loop Start #24 |For|$i = 0 To $iDim_1 - 1
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|255|Loop Start #25 |For|$j = $iColumn To $iDim_2 - 2
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|257|Loop End  #25 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|258|Loop End  #24 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|278|Loop Start #26 |For|$i = 0 To $iDim_1 - 1
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|280|Loop End  #26 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|289|Loop Start #27 |For|$i = 0 To $iDim_1 - 1
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|290|Loop Start #28 |For|$j = $iDim_2 To $iColumn + 1 Step -1
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|292|Loop End  #28 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|294|Loop End  #27 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|315|Loop Start #29 |For|$i = 0 To $iR - 1
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|317|Loop End  #29 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|324|Loop Start #30 |While|$iLeft > 0
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|326|Loop Start #31 |For|$i = 0 To $iSet - 1
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|328|Loop End  #31 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|331|Loop End  #30 |WEnd|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|353|Loop Start #32 |For|$i = $iStart To $iDim_1_Src - 1
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|355|Loop End  #32 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|361|Loop Start #33 |For|$i = $iStart To $iDim_1_Src - 1
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|362|Loop Start #34 |For|$j = 0 To $iDim_2_Tgt - 1
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|364|Loop End  #34 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|365|Loop End  #33 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|388|Loop Start #35 |For|$i = 1 To $aSplit_1[0]
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|398|Loop Start #36 |Do|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|401|Loop End  #36 |Until|$iNumber = $aSplit_2[2]
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|404|Loop End  #35 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|413|Loop Start #37 |For|$i = 1 To $vRange[0]
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|415|Loop End  #37 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|417|Loop Start #38 |For|$iReadFrom_Index = 0 To $iDim_1
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|426|Loop End  #38 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|431|Loop Start #39 |For|$i = 1 To $vRange[0]
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|433|Loop End  #39 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|435|Loop Start #40 |For|$iReadFrom_Index = 0 To $iDim_1
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|440|Loop Start #41 |For|$j = 0 To $iDim_2
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|442|Loop End  #41 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|446|Loop End  #40 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|625|Loop Start #42 |For|$j = $iItem_Start To $iItem_End
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|627|Loop End  #42 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|632|Loop Start #43 |For|$iIndex = $iSubItem_Start To $iSubItem_End
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|636|Loop End  #43 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|639|Loop Start #44 |For|$j = $iIndex To $iSubItem_End
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|641|Loop End  #44 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|663|Loop Start #45 |For|$i = $iItem_Start To $iItem_End
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|666|Loop Start #46 |For|$j = $iSubItem_Start To $iSubItem_End
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|703|Loop End  #46 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|706|Loop End  #45 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|793|Loop Start #47 |For|$i = 0 To UBound($avArrayText) - 1
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|798|Loop End  #47 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|809|Loop Start #48 |For|$i = 1 To $iSubItem_End - $iSubItem_Start + 1
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|811|Loop End  #48 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|825|Loop Start #49 |For|$i = 0 To $iSubItem_End - $iSubItem_Start + 1
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|837|Loop End  #49 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|844|Loop Start #50 |For|$i = 0 To $iSubItem_End - $iSubItem_Start + 1
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|853|Loop End  #50 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|886|Loop Start #51 |While|1
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|903|Loop Start #52 |For|$i = 0 To $iItem_End - $iItem_Start
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|917|Loop Start #53 |For|$j = 1 To $aSplit[0]
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|919|Loop End  #53 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|925|Loop End  #52 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|931|Loop Start #54 |For|$j = 1 To $aSplit[0]
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|933|Loop End  #54 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|949|Loop Start #55 |For|$i = 0 To GUICtrlSendMsg($idListView, $_ARRAYCONSTANT_LVM_GETITEMCOUNT, 0, 0)
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|954|Loop End  #55 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|965|Loop End  #51 |WEnd|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|997|Loop Start #56 |For|$i = 0 To $iEnd_Row - $iStart_Row
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|999|Loop End  #56 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1013|Loop Start #57 |For|$i = 0 To $iEnd_Row - $iStart_Row
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1014|Loop Start #58 |For|$j = 0 To $iEnd_Col - $iStart_Col
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1020|Loop End  #58 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1021|Loop End  #57 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1048|Loop Start #59 |Do|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1052|Loop End  #59 |Until|@error
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1093|Loop Start #60 |For|$i = 1 To $aSplit_1[0]
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1103|Loop Start #61 |Do|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1106|Loop End  #61 |Until|$iNumber = $aSplit_2[2]
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1109|Loop End  #60 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1113|Loop Start #62 |For|$i = 2 To $vRange[0]
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1115|Loop End  #62 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1125|Loop Start #63 |For|$iReadFromIndex = $iDim_1 To 0 Step -1
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1132|Loop Start #64 |While|$iReadFromIndex = $iInsert_Index
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1142|Loop End  #64 |WEnd|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1143|Loop End  #63 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1158|Loop Start #65 |For|$iReadFromIndex = $iDim_1 To 0 Step -1
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1165|Loop Start #66 |While|$iReadFromIndex = $iInsert_Index
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1183|Loop End  #66 |WEnd|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1184|Loop End  #65 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1201|Loop Start #67 |For|$i = 0 To $iValDim_1 - 1
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1203|Loop Start #68 |For|$j = 0 To $iValDim_2 - 1
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1205|Loop End  #68 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1206|Loop End  #67 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1212|Loop Start #69 |For|$iReadFromIndex = $iDim_1 To 0 Step -1
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1214|Loop Start #70 |For|$j = 0 To $iDim_2 - 1
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1216|Loop End  #70 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1221|Loop Start #71 |While|$iReadFromIndex = $iInsert_Index
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1223|Loop Start #72 |For|$j = 0 To $iDim_2 - 1
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1239|Loop End  #72 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1247|Loop End  #71 |WEnd|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1248|Loop End  #69 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1325|Loop Start #73 |For|$i = 0 To $iSize - 1
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1327|Loop End  #73 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1328|Loop Start #74 |For|$i = $iSize To 1 Step -1
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1330|Loop End  #74 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1378|Loop Start #75 |For|$i = $iUBound To $iUBoundS Step -1
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1380|Loop End  #75 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1381|Loop Start #76 |For|$i = 0 To $iUBoundS - 1
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1383|Loop End  #76 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1385|Loop Start #77 |For|$i = 0 To $iUBound - $iUBoundS
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1387|Loop End  #77 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1388|Loop Start #78 |For|$i = 0 To $iUBoundS - 1
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1390|Loop End  #78 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1396|Loop Start #79 |For|$i = $iUBound To 1 Step -1
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1398|Loop End  #79 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1401|Loop Start #80 |For|$i = 0 To $iUBound - 1
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1403|Loop End  #80 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1432|Loop Start #81 |For|$i = $iStart To Int(($iStart + $iEnd - 1) / 2)
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1437|Loop End  #81 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1491|Loop Start #82 |For|$i = $iStart To $iEnd Step $iStep
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1494|Loop End  #82 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1496|Loop Start #83 |For|$i = $iStart To $iEnd Step $iStep
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1499|Loop End  #83 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1502|Loop Start #84 |For|$i = $iStart To $iEnd Step $iStep
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1508|Loop End  #84 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1534|Loop Start #85 |For|$j = $iSubItem To $iDim_Sub
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1537|Loop Start #86 |For|$i = $iStart To $iEnd Step $iStep
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1545|Loop End  #86 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1547|Loop Start #87 |For|$i = $iStart To $iEnd Step $iStep
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1555|Loop End  #87 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1558|Loop Start #88 |For|$i = $iStart To $iEnd Step $iStep
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1572|Loop End  #88 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1574|Loop End  #85 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1603|Loop Start #89 |For|$i = $iEnd_Row To $iStart_Row + 1 Step -1
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1608|Loop End  #89 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1621|Loop Start #90 |For|$i = $iEnd_Row To $iStart_Row + 1 Step -1
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1623|Loop Start #91 |For|$j = $iCol_Start To $iCol_End
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1627|Loop End  #91 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1628|Loop End  #90 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1713|Loop Start #92 |For|$i = $iStart + 1 To $iEnd
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1717|Loop Start #93 |For|$j = $i - 1 To $iStart Step -1
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1722|Loop End  #93 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1724|Loop Start #94 |For|$j = $i - 1 To $iStart Step -1
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1727|Loop End  #94 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1731|Loop End  #92 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1737|Loop Start #95 |Do|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1740|Loop Start #96 |While|($aArray[$L] < $vPivot And IsNumber($aArray[$L])) Or (Not IsNumber($aArray[$L]) And StringCompare($aArray[$L], $vPivot) < 0)
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1742|Loop End  #96 |WEnd|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1744|Loop Start #97 |While|($aArray[$R] > $vPivot And IsNumber($aArray[$R])) Or (Not IsNumber($aArray[$R]) And StringCompare($aArray[$R], $vPivot) > 0)
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1746|Loop End  #97 |WEnd|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1748|Loop Start #98 |While|(StringCompare($aArray[$L], $vPivot) < 0)
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1750|Loop End  #98 |WEnd|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1751|Loop Start #99 |While|(StringCompare($aArray[$R], $vPivot) > 0)
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1753|Loop End  #99 |WEnd|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1764|Loop End  #95 |Until|$L > $R
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1793|Loop Start #100 |Do|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1796|Loop Start #101 |While|($iStep * ($aArray[$L][$iSubItem] - $vPivot) < 0 And IsNumber($aArray[$L][$iSubItem])) Or (Not IsNumber($aArray[$L][$iSubItem]) And $iStep * StringCompare($aArray[$L][$iSubItem], $vPivot) < 0)
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1798|Loop End  #101 |WEnd|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1800|Loop Start #102 |While|($iStep * ($aArray[$R][$iSubItem] - $vPivot) > 0 And IsNumber($aArray[$R][$iSubItem])) Or (Not IsNumber($aArray[$R][$iSubItem]) And $iStep * StringCompare($aArray[$R][$iSubItem], $vPivot) > 0)
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1802|Loop End  #102 |WEnd|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1804|Loop Start #103 |While|($iStep * StringCompare($aArray[$L][$iSubItem], $vPivot) < 0)
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1806|Loop End  #103 |WEnd|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1807|Loop Start #104 |While|($iStep * StringCompare($aArray[$R][$iSubItem], $vPivot) > 0)
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1809|Loop End  #104 |WEnd|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1814|Loop Start #105 |For|$i = 0 To $iSubMax
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1818|Loop End  #105 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1822|Loop End  #100 |Until|$L > $R
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1851|Loop Start #106 |While|$i < $iPivot_Right
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1854|Loop Start #107 |While|$iAi < $aArray[$j]
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1858|Loop End  #107 |WEnd|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1861|Loop End  #106 |WEnd|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1863|Loop Start #108 |While|1
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1867|Loop End  #108 |WEnd|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1868|Loop Start #109 |While|1
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1879|Loop Start #110 |While|$iA1 < $aArray[$k]
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1882|Loop End  #110 |WEnd|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1884|Loop Start #111 |While|$iA2 < $aArray[$k]
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1887|Loop End  #111 |WEnd|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1890|Loop End  #109 |WEnd|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1893|Loop Start #112 |While|$iLast < $aArray[$iPivot_Right]
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1896|Loop End  #112 |WEnd|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1959|Loop Start #113 |Do|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1961|Loop End  #113 |Until|$aArray[$iLess] >= $iPivot_1
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1962|Loop Start #114 |Do|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1964|Loop End  #114 |Until|$aArray[$iGreater] <= $iPivot_2
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1966|Loop Start #115 |While|$k <= $iGreater
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1973|Loop Start #116 |While|$aArray[$iGreater] > $iPivot_2
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1976|Loop End  #116 |WEnd|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1988|Loop End  #115 |WEnd|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1996|Loop Start #117 |While|$aArray[$iLess] = $iPivot_1
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1998|Loop End  #117 |WEnd|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|1999|Loop Start #118 |While|$aArray[$iGreater] = $iPivot_2
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2001|Loop End  #118 |WEnd|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2003|Loop Start #119 |While|$k <= $iGreater
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2010|Loop Start #120 |While|$aArray[$iGreater] = $iPivot_2
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2013|Loop End  #120 |WEnd|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2025|Loop End  #119 |WEnd|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2031|Loop Start #121 |While|$k <= $iGreater
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2042|Loop Start #122 |While|$aArray[$iGreater] > $iPivot
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2044|Loop End  #122 |WEnd|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2056|Loop End  #121 |WEnd|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2100|Loop Start #123 |For|$j = $iStart To $iEnd
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2104|Loop End  #123 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2107|Loop Start #124 |For|$j = $iStart To $iEnd
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2111|Loop End  #124 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2154|Loop Start #125 |For|$i = $iStart_Row To $iEnd_Row
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2156|Loop End  #125 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2165|Loop Start #126 |For|$i = $iStart_Row To $iEnd_Row
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2166|Loop Start #127 |For|$j = $iStart_Col To $iEnd_Col
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2168|Loop End  #127 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2170|Loop End  #126 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2189|Loop Start #128 |For|$i = 0 To UBound($aArray) - 1
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2191|Loop End  #128 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2197|Loop Start #129 |For|$i = 0 To $iDim_1 - 1
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2198|Loop Start #130 |For|$j = 0 To $iDim_2 - 1
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2200|Loop End  #130 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2201|Loop End  #129 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2205|Loop Start #131 |For|$i = 0 To $iDim_1 - 1
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2206|Loop Start #132 |For|$j = $i + 1 To $iDim_2 - 1
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2210|Loop End  #132 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2211|Loop End  #131 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2241|Loop Start #133 |For|$i = $iStart To $iEnd
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2243|Loop End  #133 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2245|Loop Start #134 |For|$i = $iStart To $iEnd
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2247|Loop End  #134 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2253|Loop Start #135 |For|$i = $iStart To $iEnd
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2255|Loop End  #135 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2257|Loop Start #136 |For|$i = $iStart To $iEnd
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2259|Loop End  #136 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2310|Loop Start #137 |For|$i = $iBase To UBound($aArray) - 1
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2353|Loop End  #137 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2361|Loop Start #138 |For|$vKey In $oDictionary.Keys()
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2368|Loop End  #138 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2390|Loop Start #139 |For|$i = 0 To UBound($aArray) - 1
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2395|Loop End  #139 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2398|Loop Start #140 |For|$i = 0 To UBound($aArray) - 1
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2423|Loop End  #140 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2448|Loop Start #141 |While|$iRepeatCount > 1
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2452|Loop End  #141 |WEnd|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2478|Loop Start #142 |For|$i = 0 To $iSize - 1
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2480|Loop End  #142 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2485|Loop Start #143 |For|$i = $iStart To $iSize - 1
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2493|Loop End  #143 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2516|Loop Start #144 |For|$i = $iR To 1 Step -1
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2519|Loop End  #144 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2549|Loop Start #145 |While|$aIdx[$i] == $iN - $iR + $i
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2551|Loop End  #145 |WEnd|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2554|Loop Start #146 |For|$j = $i + 1 To $iR - 1
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2556|Loop End  #146 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2580|Loop Start #147 |For|$i = $iStart To $iEnd
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2582|Loop End  #147 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2584|Loop Start #148 |For|$i = $iStart To $iEnd
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2586|Loop End  #148 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2591|Loop Start #149 |For|$i = $iStart To $iEnd
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2593|Loop End  #149 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2595|Loop Start #150 |For|$i = $iStart To $iEnd
+True|C:\Program Files (x86)\AutoIt3\Include\Array.au3|2597|Loop End  #150 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Crypt.au3|114|Loop Start #151 |Do|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Crypt.au3|144|Loop End  #151 |Until|True
+True|C:\Program Files (x86)\AutoIt3\Include\Crypt.au3|189|Loop Start #152 |Do|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Crypt.au3|221|Loop End  #152 |Until|True
+True|C:\Program Files (x86)\AutoIt3\Include\Crypt.au3|251|Loop Start #153 |Do|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Crypt.au3|275|Loop End  #153 |Until|True
+True|C:\Program Files (x86)\AutoIt3\Include\Crypt.au3|294|Loop Start #154 |Do|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Crypt.au3|341|Loop End  #154 |Until|True
+True|C:\Program Files (x86)\AutoIt3\Include\Crypt.au3|363|Loop Start #155 |Do|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Crypt.au3|371|Loop Start #156 |Do|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Crypt.au3|391|Loop End  #156 |Until|False
+True|C:\Program Files (x86)\AutoIt3\Include\Crypt.au3|392|Loop End  #155 |Until|True
+True|C:\Program Files (x86)\AutoIt3\Include\Crypt.au3|412|Loop Start #157 |Do|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Crypt.au3|436|Loop Start #158 |Do|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Crypt.au3|458|Loop End  #158 |Until|False
+True|C:\Program Files (x86)\AutoIt3\Include\Crypt.au3|459|Loop End  #157 |Until|True
+True|C:\Program Files (x86)\AutoIt3\Include\Crypt.au3|481|Loop Start #159 |Do|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Crypt.au3|505|Loop Start #160 |Do|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Crypt.au3|527|Loop End  #160 |Until|False
+True|C:\Program Files (x86)\AutoIt3\Include\Crypt.au3|528|Loop End  #159 |Until|True
+True|C:\Program Files (x86)\AutoIt3\Include\Misc.au3|288|Loop Start #161 |For|$i = 1 To StringLen($sFilePath)
+True|C:\Program Files (x86)\AutoIt3\Include\Misc.au3|290|Loop End  #161 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Misc.au3|432|Loop Start #162 |For|$i = (UBound($aVersion1) - Abs($iPartDifference)) To $aVersion1[0]
+True|C:\Program Files (x86)\AutoIt3\Include\Misc.au3|434|Loop End  #162 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Misc.au3|439|Loop Start #163 |For|$i = (UBound($aVersion2) - Abs($iPartDifference)) To $aVersion2[0]
+True|C:\Program Files (x86)\AutoIt3\Include\Misc.au3|441|Loop End  #163 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Misc.au3|443|Loop Start #164 |For|$i = 1 To $aVersion1[0]
+True|C:\Program Files (x86)\AutoIt3\Include\Misc.au3|465|Loop End  #164 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3|1015|Loop Start #165 |While|$hWnd <> 0
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3|1021|Loop End  #165 |WEnd|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3|1051|Loop Start #166 |While|$hWnd <> 0
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3|1065|Loop End  #166 |WEnd|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3|1076|Loop Start #167 |While|$hWnd <> 0
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3|1079|Loop End  #167 |WEnd|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3|1651|Loop Start #168 |For|$i = 1 To $asFLines[0]
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3|1657|Loop End  #168 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3|1664|Loop Start #169 |For|$i = 1 To $asFilter[0]
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3|1666|Loop End  #169 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3|1689|Loop Start #170 |For|$x = 1 To $iPathLen
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3|1697|Loop End  #170 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3|1779|Loop Start #171 |For|$i = 1 To $asFLines[0]
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3|1785|Loop End  #171 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3|1792|Loop Start #172 |For|$i = 1 To $asFilter[0]
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3|1794|Loop End  #172 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3|2087|Loop Start #173 |For|$iI = $__g_aInProcess_WinAPI[0][0] To 1 Step -1
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3|2096|Loop End  #173 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3|2129|Loop Start #174 |For|$x = 1 To UBound($aClassName) - 1
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3|2131|Loop End  #174 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3|2504|Loop Start #175 |For|$path In $aExtraPaths
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3|2506|Loop End  #175 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3|2511|Loop Start #176 |For|$i = 1 To $iExtraCount
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3|2514|Loop End  #176 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3|2865|Loop Start #177 |For|$x = 0 To $iElementNum - 1
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3|2867|Loop End  #177 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3|2873|Loop Start #178 |For|$x = 0 To $iElementNum - 1
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3|2875|Loop End  #178 |Next|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Registration.au3|41|Loop Start #179 |While|1
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Registration.au3|71|Loop End  #179 |WEnd|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Registration.au3|76|Loop Start #180 |For|$i = 1 To 9
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Registration.au3|78|Loop End  #180 |Next|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Registration.au3|110|Loop Start #181 |For|$i = 1 To 16
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Registration.au3|113|Loop End  #181 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\String.au3|111|Loop Start #182 |For|$i = 1 To StringLen($sString)
+True|C:\Program Files (x86)\AutoIt3\Include\String.au3|125|Loop End  #182 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\String.au3|140|Loop Start #183 |While|$iRepeatCount > 1
+True|C:\Program Files (x86)\AutoIt3\Include\String.au3|144|Loop End  #183 |WEnd|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\String.au3|154|Loop Start #184 |For|$i = 1 To StringLen($sString)
+True|C:\Program Files (x86)\AutoIt3\Include\String.au3|168|Loop End  #184 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\File.au3|85|Loop Start #185 |While|1
+True|C:\Program Files (x86)\AutoIt3\Include\File.au3|90|Loop End  #185 |WEnd|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\File.au3|238|Loop Start #186 |While|$asFolderSearchList[0] > 0
+True|C:\Program Files (x86)\AutoIt3\Include\File.au3|282|Loop Start #187 |While|1
+True|C:\Program Files (x86)\AutoIt3\Include\File.au3|375|Loop End  #187 |WEnd|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\File.au3|384|Loop End  #186 |WEnd|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\File.au3|435|Loop Start #188 |For|$i = 1 To $asRootFileMatchList[0]
+True|C:\Program Files (x86)\AutoIt3\Include\File.au3|437|Loop End  #188 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\File.au3|444|Loop Start #189 |For|$i = 1 To $asFolderMatchList[0]
+True|C:\Program Files (x86)\AutoIt3\Include\File.au3|456|Loop Start #190 |For|$j = 1 To $asFolderFileSectionList[0][0]
+True|C:\Program Files (x86)\AutoIt3\Include\File.au3|471|Loop Start #191 |For|$k = $iFileSectionStartIndex To $iFileSectionEndIndex
+True|C:\Program Files (x86)\AutoIt3\Include\File.au3|474|Loop End  #191 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\File.au3|477|Loop End  #190 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\File.au3|478|Loop End  #189 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\File.au3|631|Loop Start #192 |For|$i = 0 To $iDim_1 - $iFlags - 1
+True|C:\Program Files (x86)\AutoIt3\Include\File.au3|641|Loop Start #193 |For|$j = 0 To $iFields - 1
+True|C:\Program Files (x86)\AutoIt3\Include\File.au3|643|Loop End  #193 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\File.au3|644|Loop End  #192 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\File.au3|656|Loop Start #194 |For|$i = 0 To $iDim_1 - $iFlags - 1
+True|C:\Program Files (x86)\AutoIt3\Include\File.au3|659|Loop End  #194 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\File.au3|724|Loop Start #195 |For|$i = $iBase To $iUBound
+True|C:\Program Files (x86)\AutoIt3\Include\File.au3|730|Loop End  #195 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\File.au3|733|Loop Start #196 |For|$i = $iBase To $iUBound
+True|C:\Program Files (x86)\AutoIt3\Include\File.au3|735|Loop Start #197 |For|$j = 1 To UBound($aArray, $UBOUND_COLUMNS) - 1
+True|C:\Program Files (x86)\AutoIt3\Include\File.au3|737|Loop End  #197 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\File.au3|743|Loop End  #196 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\File.au3|808|Loop Start #198 |For|$i = 0 To $iUBound
+True|C:\Program Files (x86)\AutoIt3\Include\File.au3|820|Loop End  #198 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\File.au3|845|Loop Start #199 |For|$i = 1 To 2
+True|C:\Program Files (x86)\AutoIt3\Include\File.au3|859|Loop End  #199 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\File.au3|881|Loop Start #200 |For|$i = 2 To $aTemp[0]
+True|C:\Program Files (x86)\AutoIt3\Include\File.au3|888|Loop End  #200 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\File.au3|894|Loop Start #201 |For|$i = 0 To $j - 1
+True|C:\Program Files (x86)\AutoIt3\Include\File.au3|896|Loop End  #201 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\File.au3|904|Loop Start #202 |Do|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\File.au3|906|Loop End  #202 |Until|@extended = 0
+True|C:\Program Files (x86)\AutoIt3\Include\File.au3|924|Loop Start #203 |While|1
+True|C:\Program Files (x86)\AutoIt3\Include\File.au3|930|Loop End  #203 |WEnd|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\File.au3|933|Loop Start #204 |For|$j = 1 To $asTo[0]
+True|C:\Program Files (x86)\AutoIt3\Include\File.au3|938|Loop End  #204 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\File.au3|941|Loop Start #205 |For|$j = 1 To $asFrom[0]
+True|C:\Program Files (x86)\AutoIt3\Include\File.au3|946|Loop End  #205 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\File.au3|1067|Loop Start #206 |Do|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\File.au3|1070|Loop Start #207 |While|StringLen($sTempName) < $iRandomLength
+True|C:\Program Files (x86)\AutoIt3\Include\File.au3|1072|Loop End  #207 |WEnd|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\File.au3|1075|Loop End  #206 |Until|Not FileExists($sTempName)
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\GIFAnimation.au3|41|Loop Start #208 |For|$i = 0 To UBound($aGIFArrayOfIconHandles) - 1
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\GIFAnimation.au3|43|Loop End  #208 |Next|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\GIFAnimation.au3|70|Loop Start #209 |For|$i = 0 To UBound($aGIFArrayOfIconHandles) - 1
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\GIFAnimation.au3|72|Loop End  #209 |Next|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\GIFAnimation.au3|198|Loop Start #210 |For|$i = 0 To UBound($aGIFArrayOfIconHandles) - 1
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\GIFAnimation.au3|200|Loop End  #210 |Next|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\GIFAnimation.au3|203|Loop Start #211 |For|$i = 1 To UBound($aGIFArrayOfIconHandles) - 1
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\GIFAnimation.au3|205|Loop End  #211 |Next|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\GIFAnimation.au3|406|Loop Start #212 |For|$i = 1 To $iUbound
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\GIFAnimation.au3|408|Loop End  #212 |Next|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\GIFAnimation.au3|421|Loop Start #213 |For|$i = 1 To $iUbound
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\GIFAnimation.au3|436|Loop End  #213 |Next|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\GIFAnimation.au3|460|Loop Start #214 |For|$i = 1 To $iUbound
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\GIFAnimation.au3|462|Loop End  #214 |Next|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\GIFAnimation.au3|482|Loop Start #215 |For|$i = 1 To $iUbound
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\GIFAnimation.au3|504|Loop End  #215 |Next|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\GIFAnimation.au3|659|Loop Start #216 |For|$i = 0 To $iFrameCount - 1
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\GIFAnimation.au3|687|Loop End  #216 |Next|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\GIFAnimation.au3|726|Loop Start #217 |For|$i = 0 To $iFrameCount - 1
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\GIFAnimation.au3|735|Loop End  #217 |Next|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\GIFAnimation.au3|909|Loop Start #218 |For|$i = 0 To $iFrameCount - 1
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\GIFAnimation.au3|937|Loop End  #218 |Next|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\GIFAnimation.au3|978|Loop Start #219 |For|$i = 0 To $iFrameCount - 1
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\GIFAnimation.au3|987|Loop End  #219 |Next|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|88|Loop Start #220 |For|$i = 1 To 16
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|90|Loop End  #220 |Next|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|339|Loop Start #221 |For|$i = $DataLen To $DataLen - 16 Step -1
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|343|Loop End  #221 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIDiag.au3|144|Loop Start #222 |For|$i = 1 To $aData[0]
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIDiag.au3|184|Loop Start #223 |Do|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIDiag.au3|187|Loop Start #224 |For|$j = 0 To UBound($aType) - 1
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIDiag.au3|194|Loop End  #224 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIDiag.au3|198|Loop End  #223 |Until|1
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIDiag.au3|204|Loop Start #225 |Do|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIDiag.au3|227|Loop End  #225 |Until|1
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIDiag.au3|246|Loop Start #226 |For|$j = 1 To $iIndex
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIDiag.au3|270|Loop End  #226 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIDiag.au3|299|Loop End  #222 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIDiag.au3|319|Loop Start #227 |For|$i = 0 To UBound($aWidth) - 1
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIDiag.au3|321|Loop End  #227 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIDiag.au3|338|Loop Start #228 |While|1
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIDiag.au3|350|Loop End  #228 |WEnd|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIDiag.au3|383|Loop Start #229 |Do|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIDiag.au3|414|Loop End  #229 |Until|1
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIDiag.au3|553|Loop Start #230 |While|1
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIDiag.au3|560|Loop End  #230 |WEnd|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIDiag.au3|589|Loop Start #231 |For|$oProperty In $oItems
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIDiag.au3|596|Loop End  #231 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIDiag.au3|606|Loop Start #232 |For|$oProperty In $oItems
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIDiag.au3|614|Loop End  #232 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIDiag.au3|626|Loop Start #233 |For|$oProperty In $oItems
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIDiag.au3|635|Loop End  #233 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIDiag.au3|647|Loop Start #234 |For|$oProperty In $oItems
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIDiag.au3|654|Loop End  #234 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIDiag.au3|716|Loop Start #235 |Do|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIDiag.au3|757|Loop End  #235 |Until|1
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIDiag.au3|776|Loop Start #236 |Do|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIDiag.au3|817|Loop End  #236 |Until|1
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIDiag.au3|891|Loop Start #237 |Do|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIDiag.au3|915|Loop End  #237 |Until|1
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3|508|Loop Start #238 |Do|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3|545|Loop End  #238 |Until|Not $iOffset
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3|574|Loop Start #239 |Do|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3|581|Loop End  #239 |Until|Not $iOffset
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3|611|Loop Start #240 |For|$i = 1 To $iCount
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3|614|Loop Start #241 |Do|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3|625|Loop End  #241 |Until|1
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3|633|Loop End  #240 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3|922|Loop Start #242 |For|$i = 0 To 2
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3|924|Loop End  #242 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3|965|Loop Start #243 |For|$i = 0 To 5
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3|967|Loop End  #243 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3|985|Loop Start #244 |For|$i = 0 To 2
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3|987|Loop End  #244 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3|1045|Loop Start #245 |For|$i = 1 To 3
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3|1054|Loop End  #245 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3|1219|Loop Start #246 |Do|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3|1259|Loop End  #246 |Until|1
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3|1304|Loop Start #247 |For|$i = 0 To 4
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3|1311|Loop End  #247 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3|1325|Loop Start #248 |For|$i = 0 To 4
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3|1332|Loop End  #248 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3|1606|Loop Start #249 |Do|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3|1613|Loop End  #249 |Until|Not $iOffset
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIInternals.au3|97|Loop Start #250 |For|$i = $iStart To $iEnd
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIInternals.au3|99|Loop End  #250 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIInternals.au3|103|Loop Start #251 |For|$i = $iStart To $iEnd
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIInternals.au3|106|Loop End  #251 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIInternals.au3|305|Loop Start #252 |While|1
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIInternals.au3|320|Loop End  #252 |WEnd|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIInternals.au3|335|Loop Start #253 |For|$i = 1 To 4
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIInternals.au3|337|Loop End  #253 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIInternals.au3|350|Loop Start #254 |For|$i = 1 To 8
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIInternals.au3|352|Loop End  #254 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIInternals.au3|365|Loop Start #255 |For|$i = 1 To 2
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIInternals.au3|367|Loop End  #255 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3|131|Loop Start #256 |For|$i = 0 To $iCount - 1
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3|134|Loop End  #256 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3|146|Loop Start #257 |For|$i = 0 To UBound($aPrivileges) - 1
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3|151|Loop End  #257 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3|168|Loop Start #258 |For|$i = 0 To $iCount - 1
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3|175|Loop End  #258 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3|312|Loop Start #259 |While|(Not @error) And ($aRet[0])
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3|320|Loop End  #259 |WEnd|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3|348|Loop Start #260 |For|$i = 1 To $iSize
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3|350|Loop End  #260 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3|371|Loop Start #261 |For|$i = 1 To DllStructGetData($tSHI, 1)
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3|380|Loop End  #261 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3|399|Loop Start #262 |Do|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3|433|Loop Start #263 |For|$i = 1 To $iCount
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3|436|Loop End  #263 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3|437|Loop End  #262 |Until|1
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3|461|Loop Start #264 |While|Not @error And $aRet[0]
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3|467|Loop End  #264 |WEnd|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3|486|Loop Start #265 |For|$i = 1 To $aThreads[0]
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3|492|Loop End  #265 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3|594|Loop Start #266 |While|(Not @error) And ($aRet[0])
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3|601|Loop End  #266 |WEnd|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3|647|Loop Start #267 |Do|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3|680|Loop End  #267 |Until|1
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3|752|Loop Start #268 |For|$i = 0 To 5
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3|754|Loop End  #268 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3|775|Loop Start #269 |For|$i = 0 To 9
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3|777|Loop End  #269 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3|796|Loop Start #270 |While|(Not @error) And ($aRet[0])
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3|802|Loop End  #270 |WEnd|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3|847|Loop Start #271 |Do|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3|866|Loop End  #271 |Until|1
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3|898|Loop Start #272 |Do|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3|932|Loop End  #272 |Until|1
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3|992|Loop Start #273 |Do|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3|1006|Loop End  #273 |Until|1
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3|108|Loop Start #274 |For|$i = 0 To 3
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3|110|Loop End  #274 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3|252|Loop Start #275 |For|$i = 0 To UBound($aPaths) - 1
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3|254|Loop End  #275 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3|255|Loop Start #276 |For|$i = 0 To UBound($aPaths) - 1
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3|257|Loop End  #276 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3|259|Loop Start #277 |For|$i = 0 To UBound($aPaths) - 1
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3|263|Loop End  #277 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3|270|Loop Start #278 |For|$i = 0 To UBound($aPaths) - 1
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3|272|Loop End  #278 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3|561|Loop Start #279 |For|$i = 0 To 14
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3|565|Loop End  #279 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3|566|Loop Start #280 |For|$i = 15 To 19
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3|570|Loop End  #280 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3|692|Loop Start #281 |For|$i = $iStart To $iEnd
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3|699|Loop End  #281 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3|711|Loop Start #282 |For|$i = 1 To $iCount
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3|716|Loop End  #282 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3|833|Loop Start #283 |For|$i = 0 To 14
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3|837|Loop End  #283 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3|838|Loop Start #284 |For|$i = 15 To 19
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3|842|Loop End  #284 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3|324|Loop Start #285 |For|$i = 0 To 2
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3|326|Loop End  #285 |Next|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3|98|Loop Start #286 |For|$i = 1 To $aRet[2]
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3|100|Loop End  #286 |Next|<n/a>

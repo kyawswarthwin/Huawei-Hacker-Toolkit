@@ -1,0 +1,53 @@
+#include {incl24} ; {file:4}{line:8}
+Global $* ; {file:4}{line:10}{ref864}
+Global $* ; {file:4}{line:10}{ref865}
+Global $* ; {file:4}{line:11}{ref866}
+Global $* ; {file:4}{line:11}{ref867}
+Func {funcU96} ({none}) ; {file:4}{line:13}
+{var248} = 0 ; {file:4}{line:14}
+{funcU97} ( {var249} , 0 , {var250} )  ; {file:4}{line:15}
+EndFunc ; {file:4}{line:16}
+Func {funcU98} ({none}) ; {file:4}{line:18}
+{var251} = 0 ; {file:4}{line:19}
+{funcU97} ( {var252} , 0 , {var250} )  ; {file:4}{line:20}
+EndFunc ; {file:4}{line:21}
+Func {funcU99} ({var253}, {var254} = -1, {var255} = 0xEDB88320) ; {file:4}{line:23}
+If Not {funcA286} ( {var248} ) Then  ; {file:4}{line:24}
+If {macro6} Then ; {file:4}{line:25}
+Local {var256} = {string620} ; {file:4}{line:26}
+Else ; {file:4}{line:27}
+Local {var256} = {string621} ; {file:4}{line:28}
+EndIf ; {file:4}{line:29}
+{var256} = {funcA43} ( {var256} )  ; {file:4}{line:30}
+{var249} = {funcU100} ( 0 , {funcA44} ( {var256} ) , {var257} , {var258} )  ; {file:4}{line:32}
+{var248} = {funcA129} ( {string622} & {funcA44} ( {var256} ) & {string623} , {var249} )  ; {file:4}{line:33}
+{funcA133} ( {var248} , 1 , {var256} )  ; {file:4}{line:34}
+{funcA315} ( {string624} )  ; {file:4}{line:35}
+EndIf ; {file:4}{line:36}
+{var253} = {funcA43} ( {var253} )  ; {file:4}{line:38}
+Local {var259} = {funcA44} ( {var253} )  ; {file:4}{line:39}
+Local {var260} = {funcA129} ( {string625} & {var259} & {string626} )  ; {file:4}{line:40}
+{funcA133} ( {var260} , 1 , {var253} )  ; {file:4}{line:41}
+Local {var261} = {funcA122} ( {string627} , {string628} , {string629} , {string630} , {funcA131} ( {var248} ) , {string631} , {funcA131} ( {var260} ) , {string632} , {var259} , {string633} , {var254} , {string634} , {var255} )  ; {file:4}{line:43}
+Return {var261}[0] ; {file:4}{line:49}
+EndFunc ; {file:4}{line:50}
+Func {funcU101} ({var253}, {var254} = 0, {var255} = 0xA001) ; {file:4}{line:52}
+If Not {funcA286} ( {var251} ) Then  ; {file:4}{line:53}
+If {macro6} Then ; {file:4}{line:54}
+Local {var256} = {string635} ; {file:4}{line:55}
+Else ; {file:4}{line:56}
+Local {var256} = {string636} ; {file:4}{line:57}
+EndIf ; {file:4}{line:58}
+{var256} = {funcA43} ( {var256} )  ; {file:4}{line:59}
+{var252} = {funcU100} ( 0 , {funcA44} ( {var256} ) , {var257} , {var258} )  ; {file:4}{line:61}
+{var251} = {funcA129} ( {string637} & {funcA44} ( {var256} ) & {string638} , {var252} )  ; {file:4}{line:62}
+{funcA133} ( {var251} , 1 , {var256} )  ; {file:4}{line:63}
+{funcA315} ( {string639} )  ; {file:4}{line:64}
+EndIf ; {file:4}{line:65}
+{var253} = {funcA43} ( {var253} )  ; {file:4}{line:67}
+Local {var259} = {funcA44} ( {var253} )  ; {file:4}{line:68}
+Local {var260} = {funcA129} ( {string640} & {var259} & {string641} )  ; {file:4}{line:69}
+{funcA133} ( {var260} , 1 , {var253} )  ; {file:4}{line:70}
+Local {var261} = {funcA122} ( {string642} , {string643} , {string644} , {string645} , {funcA131} ( {var251} ) , {string646} , {funcA131} ( {var260} ) , {string647} , {var259} , {string648} , {var254} , {string649} , {var255} )  ; {file:4}{line:72}
+Return {var261}[0] ; {file:4}{line:78}
+EndFunc ; {file:4}{line:79}

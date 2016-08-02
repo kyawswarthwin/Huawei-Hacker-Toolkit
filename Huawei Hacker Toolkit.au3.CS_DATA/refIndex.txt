@@ -1,0 +1,936 @@
+935|$refs start row|$refs end row|start line nr|end line nr|incoming calls|outgoing calls
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3|1|369|1|524|11|103
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3|370|694|1|1947|61|58
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Busy.au3|695|862|1|2221|19|121
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\CRC.au3|863|909|1|2301|3|17
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Hex.au3|910|986|1|2489|14|64
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\UPDATEAPP.au3|987|1081|1|2587|8|81
+C:\Program Files (x86)\AutoIt3\Include\Array.au3|1082|2003|1|5204|1|18
+C:\Program Files (x86)\AutoIt3\Include\Crypt.au3|2004|2238|1|5900|22|39
+C:\Program Files (x86)\AutoIt3\Include\EditConstants.au3|2239|2316|1|6021|0|0
+C:\Program Files (x86)\AutoIt3\Include\GUIConstantsEx.au3|2317|2389|1|6133|0|0
+C:\Program Files (x86)\AutoIt3\Include\Misc.au3|2390|2610|1|6664|1|20
+C:\Program Files (x86)\AutoIt3\Include\MsgBoxConstants.au3|2611|2653|1|6733|0|0
+C:\Program Files (x86)\AutoIt3\Include\StaticConstants.au3|2654|2684|1|6782|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3|2685|3930|1|9999|36|39
+C:\Program Files (x86)\AutoIt3\Include\WindowsConstants.au3|3931|4668|1|10819|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3|4669|4709|1|11043|9|15
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Registration.au3|4710|4816|1|11174|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\AndroidConstants.au3|4817|5127|1|11511|0|0
+C:\Program Files (x86)\AutoIt3\Include\Constants.au3|5128|5135|1|11688|0|0
+C:\Program Files (x86)\AutoIt3\Include\String.au3|5136|5191|1|11867|0|0
+C:\Program Files (x86)\AutoIt3\Include\StringConstants.au3|5192|5217|1|11923|0|0
+C:\Program Files (x86)\AutoIt3\Include\File.au3|5218|5539|1|13001|1|4
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\GIFAnimation.au3|5540|5850|1|14016|29|145
+C:\Program Files (x86)\AutoIt3\Include\Memory.au3|5851|5940|1|14328|6|4
+C:\Program Files (x86)\AutoIt3\Include\AutoItConstants.au3|5941|6173|1|14667|0|0
+C:\Program Files (x86)\AutoIt3\Include\FileConstants.au3|6174|6283|1|14820|0|0
+C:\Program Files (x86)\AutoIt3\Include\FontConstants.au3|6284|6361|1|14926|0|0
+C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|6362|6467|1|15771|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIError.au3|6468|6481|1|15833|0|0
+C:\Program Files (x86)\AutoIt3\Include\Security.au3|6482|6615|1|16177|0|0
+C:\Program Files (x86)\AutoIt3\Include\SendMessage.au3|6616|6623|1|16214|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIConstants.au3|6624|6859|1|16509|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|6860|7212|1|16943|18|165
+C:\Program Files (x86)\AutoIt3\Include\ButtonConstants.au3|7213|7298|1|17064|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIDiag.au3|7299|7692|1|18009|0|0
+C:\Program Files (x86)\AutoIt3\Include\ColorConstants.au3|7693|7739|1|18076|0|0
+C:\Program Files (x86)\AutoIt3\Include\DirConstants.au3|7740|7747|1|18097|0|0
+C:\Program Files (x86)\AutoIt3\Include\ProcessConstants.au3|7748|7761|1|18124|0|0
+C:\Program Files (x86)\AutoIt3\Include\TrayConstants.au3|7762|7803|1|18193|0|0
+C:\Program Files (x86)\AutoIt3\Include\MemoryConstants.au3|7804|7840|1|18249|0|0
+C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|7841|8009|1|18391|0|0
+C:\Program Files (x86)\AutoIt3\Include\APIDiagConstants.au3|8010|8054|1|18456|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3|8055|8832|1|20313|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIInternals.au3|8833|9105|1|20990|1|9
+C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3|9106|9598|1|22222|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3|9599|9935|1|23088|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3|9936|10224|1|23883|0|0
+C:\Program Files (x86)\AutoIt3\Include\APIFilesConstants.au3|10225|10700|1|24472|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIMisc.au3|10701|10849|1|24850|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3|10850|11181|1|25737|0|0
+C:\Program Files (x86)\AutoIt3\Include\APIProcConstants.au3|11182|11248|1|25840|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPICom.au3|11249|11313|1|26027|0|0
+C:\Program Files (x86)\AutoIt3\Include\APIShellExConstants.au3|11314|11979|1|26745|0|0
+C:\Program Files (x86)\AutoIt3\Include\APIThemeConstants.au3|11980|12257|1|27076|0|0
+C:\Program Files (x86)\AutoIt3\Include\APIMiscConstants.au3|12258|12281|1|27116|0|0
+C:\Program Files (x86)\AutoIt3\Include\APIShPathConstants.au3|12282|12339|1|27199|662|0
+C:\Program Files (x86)\AutoIt3\Include\APIComConstants.au3|12340|12343|1|27218|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3 UDF: _WM_DEVICECHANGE|293|295|398|405|1|1
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3 UDF: _WM_COMMAND|296|303|407|416|1|6
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3 UDF: _GetDeviceInfo|304|314|418|442|2|9
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3 UDF: _Connect|315|319|444|448|2|3
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3 UDF: _GenerateProductID|320|338|450|464|1|15
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3 UDF: _Flash|339|348|466|489|1|8
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3 UDF: _Reboot|349|357|491|503|1|7
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3 UDF: _OnExit|358|360|505|507|1|1
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3 UDF: __HexEx|361|368|516|523|1|4
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: __Android_GetBatteryInfo|374|378|95|98|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: __Run|379|387|113|122|17|5
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: __URLEncode|388|395|137|148|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_Call|396|400|163|167|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_CommandExists|401|403|182|184|1|1
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_Connect|404|412|199|207|1|7
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_Dial|413|417|222|226|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_FileExists|418|420|241|243|1|1
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_Flash|421|423|259|261|1|1
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_ForceStopPackage|424|426|276|278|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_GetBatteryHealth|427|429|293|295|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_GetBatteryLevel|430|433|310|312|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_GetBatteryPlugType|434|438|327|335|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_GetBatteryStatus|439|441|350|352|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_GetBatteryTechnology|442|444|367|369|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_GetBatteryTemperature|445|447|384|386|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_GetBatteryVoltage|448|450|401|403|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_GetDeviceID|451|454|418|421|1|2
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_GetExternalStorageDirectory|455|458|436|439|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_GetLegacyExternalStorageDirectory|459|461|454|456|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_GetNetworkClass|462|463|471|482|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_GetNetworkCountryISO|464|466|497|499|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_GetNetworkOperator|467|469|514|516|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_GetNetworkOperatorName|470|472|531|533|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_GetNetworkType|473|475|548|583|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_GetNetworkTypeName|476|478|598|600|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_GetPackageInfo|479|497|623|651|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_GetPhoneType|498|500|666|668|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_GetProperty|501|503|683|685|4|1
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_GetSerialNumber|504|506|700|702|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_GetSIMCountryISO|507|509|717|719|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_GetSIMOperator|510|512|734|736|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_GetSIMOperatorName|513|515|751|753|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_GetSIMState|516|518|768|783|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_GetState|519|523|798|808|1|3
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_HasBusyBox|524|526|823|825|2|1
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_HasRootAccess|527|529|840|842|1|1
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_Install|530|570|859|940|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_IsAirplaneModeOn|571|575|955|961|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_IsBatteryCharged|576|579|976|978|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_IsBatteryLow|580|582|993|995|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_IsBatteryPresent|583|585|1010|1012|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_IsBootloader|586|588|1027|1029|3|1
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_IsNetworkRoaming|589|591|1044|1046|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_IsOffline|592|594|1061|1063|1|1
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_IsOnline|595|597|1078|1080|5|1
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_IsScreenOn|598|605|1095|1105|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_Pull|606|608|1121|1123|1|1
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_Push|609|611|1139|1141|3|1
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_Reboot|612|627|1156|1180|2|14
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_Remount|628|632|1196|1202|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_Send|633|637|1217|1223|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_SendSMS|638|642|1239|1243|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_Shell|643|660|1260|1294|16|16
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_StartActivity|661|663|1309|1311|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_TakeSnapshot|664|668|1326|1330|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_Uninstall|669|673|1346|1356|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_WaitForDevice|674|683|1371|1382|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_Wake|684|687|1397|1399|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_WipeDataCache|688|694|1414|1422|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Busy.au3 UDF: _Busy_Close|726|737|55|65|4|10
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Busy.au3 UDF: _Busy_Create|738|807|86|170|4|68
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Busy.au3 UDF: _Busy_Update|808|819|185|198|1|10
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Busy.au3 UDF: _Busy_UseTheme|820|840|217|243|1|19
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Busy.au3 UDF: __ValidateThemeEntry|841|845|247|252|5|3
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Busy.au3 UDF: __Busy_Reset|846|847|254|260|2|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Busy.au3 UDF: __GetGifPixSize|848|859|262|268|1|10
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Busy.au3 UDF: __Busy_Refresh|860|862|270|273|1|1
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\CRC.au3 UDF: _CRC32_Exit|868|870|13|16|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\CRC.au3 UDF: _CRC16_Exit|871|873|18|21|1|1
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\CRC.au3 UDF: _CRC32|874|891|23|50|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\CRC.au3 UDF: _CRC16|892|909|52|79|2|16
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Hex.au3 UDF: _Hex_Copy|911|934|37|73|2|20
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Hex.au3 UDF: _Hex_Read|935|950|90|110|5|14
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Hex.au3 UDF: _Hex_Search|951|971|127|154|1|17
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Hex.au3 UDF: _Hex_Write|972|986|171|187|6|13
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\UPDATEAPP.au3 UDF: _UPDATEAPP_Unpack|987|1023|3|37|1|33
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\UPDATEAPP.au3 UDF: _UPDATEAPP_Repack|1024|1069|39|87|1|40
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\UPDATEAPP.au3 UDF: __BinaryToDLLStruct|1070|1075|89|92|2|4
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\UPDATEAPP.au3 UDF: __BinaryFromDLLStruct|1076|1081|94|97|4|4
+C:\Program Files (x86)\AutoIt3\Include\Array.au3 UDF: _ArrayAdd|1099|1138|73|173|0|0
+C:\Program Files (x86)\AutoIt3\Include\Array.au3 UDF: _ArrayBinarySearch|1139|1160|179|227|0|0
+C:\Program Files (x86)\AutoIt3\Include\Array.au3 UDF: _ArrayColDelete|1161|1177|233|263|0|0
+C:\Program Files (x86)\AutoIt3\Include\Array.au3 UDF: _ArrayColInsert|1178|1194|269|300|0|0
+C:\Program Files (x86)\AutoIt3\Include\Array.au3 UDF: _ArrayCombinations|1195|1210|306|333|0|0
+C:\Program Files (x86)\AutoIt3\Include\Array.au3 UDF: _ArrayConcatenate|1211|1234|339|370|0|0
+C:\Program Files (x86)\AutoIt3\Include\Array.au3 UDF: _ArrayDelete|1235|1275|376|454|0|0
+C:\Program Files (x86)\AutoIt3\Include\Array.au3 UDF: _ArrayDisplay|1276|1419|460|975|0|0
+C:\Program Files (x86)\AutoIt3\Include\Array.au3 UDF: _ArrayExtract|1420|1439|981|1029|0|0
+C:\Program Files (x86)\AutoIt3\Include\Array.au3 UDF: _ArrayFindAll|1440|1447|1035|1056|0|0
+C:\Program Files (x86)\AutoIt3\Include\Array.au3 UDF: _ArrayInsert|1448|1518|1062|1254|0|0
+C:\Program Files (x86)\AutoIt3\Include\Array.au3 UDF: _ArrayMax|1519|1523|1260|1269|0|0
+C:\Program Files (x86)\AutoIt3\Include\Array.au3 UDF: _ArrayMaxIndex|1524|1527|1275|1283|0|0
+C:\Program Files (x86)\AutoIt3\Include\Array.au3 UDF: _ArrayMin|1528|1532|1289|1298|0|0
+C:\Program Files (x86)\AutoIt3\Include\Array.au3 UDF: _ArrayMinIndex|1533|1536|1304|1311|0|0
+C:\Program Files (x86)\AutoIt3\Include\Array.au3 UDF: _ArrayPermute|1537|1549|1317|1338|0|0
+C:\Program Files (x86)\AutoIt3\Include\Array.au3 UDF: _ArrayPop|1550|1557|1344|1359|0|0
+C:\Program Files (x86)\AutoIt3\Include\Array.au3 UDF: _ArrayPush|1558|1579|1365|1410|0|0
+C:\Program Files (x86)\AutoIt3\Include\Array.au3 UDF: _ArrayReverse|1580|1592|1416|1440|0|0
+C:\Program Files (x86)\AutoIt3\Include\Array.au3 UDF: _ArraySearch|1593|1638|1446|1579|0|0
+C:\Program Files (x86)\AutoIt3\Include\Array.au3 UDF: _ArrayShuffle|1639|1658|1585|1634|0|0
+C:\Program Files (x86)\AutoIt3\Include\Array.au3 UDF: _ArraySort|1659|1674|1640|1688|0|0
+C:\Program Files (x86)\AutoIt3\Include\Array.au3 UDF: __ArrayQuickSort1D|1675|1709|1705|1768|0|0
+C:\Program Files (x86)\AutoIt3\Include\Array.au3 UDF: __ArrayQuickSort2D|1710|1735|1788|1826|0|0
+C:\Program Files (x86)\AutoIt3\Include\Array.au3 UDF: __ArrayDualPivotSort|1736|1779|1844|2060|0|0
+C:\Program Files (x86)\AutoIt3\Include\Array.au3 UDF: _ArraySwap|1780|1797|2066|2119|0|0
+C:\Program Files (x86)\AutoIt3\Include\Array.au3 UDF: _ArrayToClip|1798|1803|2125|2130|0|0
+C:\Program Files (x86)\AutoIt3\Include\Array.au3 UDF: _ArrayToString|1804|1829|2136|2177|1|18
+C:\Program Files (x86)\AutoIt3\Include\Array.au3 UDF: _ArrayTranspose|1830|1848|2183|2217|0|0
+C:\Program Files (x86)\AutoIt3\Include\Array.au3 UDF: _ArrayTrim|1849|1873|2223|2266|0|0
+C:\Program Files (x86)\AutoIt3\Include\Array.au3 UDF: _ArrayUnique|1874|1911|2272|2380|0|0
+C:\Program Files (x86)\AutoIt3\Include\Array.au3 UDF: _Array1DToHistogram|1912|1942|2386|2426|0|0
+C:\Program Files (x86)\AutoIt3\Include\Array.au3 UDF: __Array_StringRepeat|1943|1951|2442|2454|0|0
+C:\Program Files (x86)\AutoIt3\Include\Array.au3 UDF: __Array_ExeterInternal|1952|1960|2476|2495|0|0
+C:\Program Files (x86)\AutoIt3\Include\Array.au3 UDF: __Array_Combinations|1961|1965|2513|2521|0|0
+C:\Program Files (x86)\AutoIt3\Include\Array.au3 UDF: __Array_GetNext|1966|1971|2542|2559|0|0
+C:\Program Files (x86)\AutoIt3\Include\Array.au3 UDF: __Array_MinMaxIndex|1972|1997|2561|2604|0|0
+C:\Program Files (x86)\AutoIt3\Include\Array.au3 UDF: __Array_GreaterThan|1998|1999|2606|2608|0|0
+C:\Program Files (x86)\AutoIt3\Include\Array.au3 UDF: __Array_LessThan|2000|2001|2610|2612|0|0
+C:\Program Files (x86)\AutoIt3\Include\Array.au3 UDF: __ArrayUnique_AutoErrFunc|2002|2003|2614|2616|0|0
+C:\Program Files (x86)\AutoIt3\Include\Crypt.au3 UDF: _Crypt_Startup|2026|2038|71|89|2|11
+C:\Program Files (x86)\AutoIt3\Include\Crypt.au3 UDF: _Crypt_Shutdown|2039|2047|95|101|2|7
+C:\Program Files (x86)\AutoIt3\Include\Crypt.au3 UDF: _Crypt_DeriveKey|2048|2067|107|148|0|0
+C:\Program Files (x86)\AutoIt3\Include\Crypt.au3 UDF: _Crypt_DestroyKey|2068|2073|154|164|0|0
+C:\Program Files (x86)\AutoIt3\Include\Crypt.au3 UDF: _Crypt_EncryptData|2074|2098|170|227|0|0
+C:\Program Files (x86)\AutoIt3\Include\Crypt.au3 UDF: _Crypt_DecryptData|2099|2123|233|281|0|0
+C:\Program Files (x86)\AutoIt3\Include\Crypt.au3 UDF: _Crypt_HashData|2124|2148|287|349|1|21
+C:\Program Files (x86)\AutoIt3\Include\Crypt.au3 UDF: _Crypt_HashFile|2149|2162|355|398|0|0
+C:\Program Files (x86)\AutoIt3\Include\Crypt.au3 UDF: _Crypt_EncryptFile|2163|2184|404|467|0|0
+C:\Program Files (x86)\AutoIt3\Include\Crypt.au3 UDF: _Crypt_DecryptFile|2185|2206|473|536|0|0
+C:\Program Files (x86)\AutoIt3\Include\Crypt.au3 UDF: _Crypt_GenRandom|2207|2214|542|552|0|0
+C:\Program Files (x86)\AutoIt3\Include\Crypt.au3 UDF: __Crypt_RefCount|2215|2216|567|569|2|0
+C:\Program Files (x86)\AutoIt3\Include\Crypt.au3 UDF: __Crypt_RefCountInc|2217|2218|584|586|1|0
+C:\Program Files (x86)\AutoIt3\Include\Crypt.au3 UDF: __Crypt_RefCountDec|2219|2220|601|603|1|0
+C:\Program Files (x86)\AutoIt3\Include\Crypt.au3 UDF: __Crypt_DllHandle|2221|2222|618|620|9|0
+C:\Program Files (x86)\AutoIt3\Include\Crypt.au3 UDF: __Crypt_DllHandleSet|2223|2224|635|637|1|0
+C:\Program Files (x86)\AutoIt3\Include\Crypt.au3 UDF: __Crypt_Context|2225|2226|652|654|2|0
+C:\Program Files (x86)\AutoIt3\Include\Crypt.au3 UDF: __Crypt_ContextSet|2227|2228|669|671|1|0
+C:\Program Files (x86)\AutoIt3\Include\Crypt.au3 UDF: __Crypt_GetCalgFromCryptKey|2229|2238|686|695|0|0
+C:\Program Files (x86)\AutoIt3\Include\Misc.au3 UDF: _ChooseColor|2398|2427|159|194|0|0
+C:\Program Files (x86)\AutoIt3\Include\Misc.au3 UDF: _ChooseFont|2428|2476|200|245|0|0
+C:\Program Files (x86)\AutoIt3\Include\Misc.au3 UDF: _ClipPutFile|2477|2516|251|315|0|0
+C:\Program Files (x86)\AutoIt3\Include\Misc.au3 UDF: _MouseTrap|2517|2529|321|344|0|0
+C:\Program Files (x86)\AutoIt3\Include\Misc.au3 UDF: _Singleton|2530|2552|350|395|1|20
+C:\Program Files (x86)\AutoIt3\Include\Misc.au3 UDF: _IsPressed|2553|2557|401|407|0|0
+C:\Program Files (x86)\AutoIt3\Include\Misc.au3 UDF: _VersionCompare|2558|2597|413|468|0|0
+C:\Program Files (x86)\AutoIt3\Include\Misc.au3 UDF: __MISC_GetDC|2598|2602|484|488|0|0
+C:\Program Files (x86)\AutoIt3\Include\Misc.au3 UDF: __MISC_GetDeviceCaps|2603|2606|504|508|0|0
+C:\Program Files (x86)\AutoIt3\Include\Misc.au3 UDF: __MISC_ReleaseDC|2607|2610|526|530|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_AttachConsole|2709|2712|346|350|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_AttachThreadInput|2713|2716|356|361|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_Beep|2717|2720|367|372|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_BitBlt|2721|2724|378|384|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_CallNextHookEx|2725|2728|390|395|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_CallWindowProc|2729|2732|401|407|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_ClientToScreen|2733|2736|413|418|1|2
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_CloseHandle|2737|2740|424|429|12|2
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_CombineRgn|2741|2744|435|441|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_CommDlgExtendedError|2745|2765|447|508|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_CopyIcon|2766|2769|514|519|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_CreateBitmap|2770|2773|525|531|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_CreateCompatibleBitmap|2774|2777|537|542|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_CreateCompatibleDC|2778|2781|548|553|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_CreateEvent|2782|2785|559|571|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_CreateFile|2786|2809|577|611|5|22
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_CreateFont|2810|2813|617|624|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_CreateFontIndirect|2814|2817|630|635|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_CreatePen|2818|2821|641|646|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_CreateProcess|2822|2827|652|675|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_CreateRectRgn|2828|2831|681|687|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_CreateRoundRectRgn|2832|2835|693|699|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_CreateSolidBitmap|2836|2860|705|729|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_CreateSolidBrush|2861|2864|735|740|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_CreateWindowEx|2865|2869|746|754|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_DefWindowProc|2870|2873|760|766|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_DeleteDC|2874|2877|772|777|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_DeleteObject|2878|2881|783|788|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_DestroyIcon|2882|2885|794|799|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_DestroyWindow|2886|2889|805|810|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_DrawEdge|2890|2893|816|822|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_DrawFrameControl|2894|2897|828|834|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_DrawIcon|2898|2901|840|845|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_DrawIconEx|2902|2905|851|873|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_DrawLine|2906|2911|879|885|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_DrawText|2912|2915|891|897|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_DuplicateHandle|2916|2919|903|915|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_EnableWindow|2920|2923|921|926|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_EnumDisplayDevices|2924|2949|932|958|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_EnumWindows|2950|2954|964|969|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: __WinAPI_EnumWindowsAdd|2955|2957|985|995|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: __WinAPI_EnumWindowsChild|2958|2966|1013|1022|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: __WinAPI_EnumWindowsInit|2967|2968|1037|1041|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_EnumWindowsPopup|2969|2982|1047|1067|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_EnumWindowsTop|2983|2992|1073|1081|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_ExpandEnvironmentStrings|2993|2996|1087|1092|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_ExtractIconEx|2997|3000|1098|1104|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_FatalAppExit|3001|3004|1110|1113|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_FillRect|3005|3010|1119|1129|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_FindExecutable|3011|3016|1135|1141|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_FindWindow|3017|3020|1147|1152|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_FlashWindow|3021|3024|1158|1163|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_FlashWindowEx|3025|3043|1169|1186|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_FloatToInt|3044|3050|1192|1198|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_FlushFileBuffers|3051|3054|1204|1209|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_FormatMessage|3055|3059|1215|1224|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_FrameRect|3060|3063|1230|1235|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_FreeLibrary|3064|3067|1241|1246|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_GetAncestor|3068|3071|1252|1257|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_GetAsyncKeyState|3072|3075|1263|1268|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_GetBkMode|3076|3079|1274|1279|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_GetClassName|3080|3086|1285|1291|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_GetClientHeight|3087|3092|1297|1302|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_GetClientWidth|3093|3098|1308|1313|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_GetClientRect|3099|3103|1319|1325|1|3
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_GetCurrentProcess|3104|3107|1331|1336|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_GetCurrentProcessID|3108|3111|1342|1347|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_GetCurrentThread|3112|3115|1353|1358|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_GetCurrentThreadId|3116|3119|1364|1369|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_GetCursorInfo|3120|3130|1375|1389|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_GetDC|3131|3134|1395|1400|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_GetDesktopWindow|3135|3138|1406|1411|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_GetDeviceCaps|3139|3142|1417|1422|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_GetDIBits|3143|3146|1428|1434|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_GetDlgCtrlID|3147|3150|1440|1445|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_GetDlgItem|3151|3154|1451|1456|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_GetFileSizeEx|3155|3158|1462|1467|3|2
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_GetFocus|3159|3162|1473|1478|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_GetForegroundWindow|3163|3166|1484|1489|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_GetGuiResources|3167|3171|1495|1501|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_GetIconInfo|3172|3181|1507|1520|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_GetLastErrorMessage|3182|3194|1526|1546|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_GetLayeredWindowAttributes|3195|3202|1552|1565|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_GetModuleHandle|3203|3206|1571|1582|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_GetMousePos|3207|3216|1588|1599|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_GetMousePosX|3217|3221|1605|1610|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_GetMousePosY|3222|3226|1616|1621|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_GetObject|3227|3230|1627|1632|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_GetOpenFileName|3231|3305|1638|1709|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_GetOverlappedResult|3306|3309|1715|1722|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_GetParent|3310|3313|1728|1733|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_GetProcAddress|3314|3318|1739|1746|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_GetProcessAffinityMask|3319|3322|1752|1761|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_GetSaveFileName|3323|3374|1767|1817|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_GetStockObject|3375|3378|1823|1828|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_GetStdHandle|3379|3383|1834|1842|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_GetSysColor|3384|3387|1848|1853|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_GetSysColorBrush|3388|3391|1859|1864|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_GetSystemMetrics|3392|3395|1870|1875|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_GetTextExtentPoint32|3396|3401|1881|1888|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_GetTextMetrics|3402|3406|1894|1900|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_GetWindow|3407|3410|1906|1911|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_GetWindowDC|3411|3414|1917|1922|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_GetWindowHeight|3415|3420|1928|1933|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_GetWindowLong|3421|3424|1939|1946|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_GetWindowPlacement|3425|3431|1952|1960|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_GetWindowRect|3432|3436|1966|1972|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_GetWindowRgn|3437|3440|1978|1983|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_GetWindowText|3441|3445|1989|1994|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_GetWindowThreadProcessId|3446|3449|2000|2006|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_GetWindowWidth|3450|3455|2012|2017|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_GetXYFromPoint|3456|3459|2023|2026|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_GlobalMemoryStatus|3460|3473|2032|2047|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_GUIDFromString|3474|3478|2053|2060|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_GUIDFromStringEx|3479|3482|2066|2071|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_HiWord|3483|3485|2077|2079|1|1
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_InProcess|3486|3490|2085|2105|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_IntToFloat|3491|3497|2111|2117|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_IsClassName|3498|3511|2123|2133|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_IsWindow|3512|3515|2139|2144|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_IsWindowVisible|3516|3519|2150|2155|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_InvalidateRect|3520|3523|2161|2166|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_LineTo|3524|3527|2172|2177|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_LoadBitmap|3528|3532|2183|2190|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_LoadImage|3533|3537|2196|2204|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_LoadLibrary|3538|3541|2210|2215|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_LoadLibraryEx|3542|3545|2221|2226|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_LoadShell32Icon|3546|3552|2232|2239|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_LoadString|3553|3557|2245|2250|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_LocalFree|3558|3561|2256|2261|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_LoWord|3562|3564|2267|2269|1|1
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_MAKELANGID|3565|3568|2275|2277|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_MAKELCID|3569|3572|2283|2285|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_MakeLong|3573|3577|2291|2293|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_MakeQWord|3578|3585|2299|2306|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_MessageBeep|3586|3589|2312|2333|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_MsgBox|3590|3593|2339|2342|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_Mouse_Event|3594|3597|2348|2352|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_MoveTo|3598|3601|2358|2363|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_MoveWindow|3602|3605|2369|2375|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_MulDiv|3606|3609|2381|2386|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_MultiByteToWideChar|3610|3618|2392|2411|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_MultiByteToWideCharEx|3619|3623|2417|2423|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_OpenProcess|3624|3636|2429|2462|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: __WinAPI_ParseFileDialogPath|3637|3642|2477|2484|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_PathFindOnPath|3643|3664|2490|2522|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_PointFromRect|3665|3673|2528|2541|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_PostMessage|3674|3677|2547|2552|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_PrimaryLangId|3678|3680|2558|2560|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_PtInRect|3681|3684|2566|2571|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_ReadFile|3685|3688|2577|2584|3|2
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_ReadProcessMemory|3689|3692|2590|2597|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_RectIsEmpty|3693|3698|2603|2606|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_RedrawWindow|3699|3702|2612|2618|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_RegisterWindowMessage|3703|3706|2624|2629|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_ReleaseCapture|3707|3710|2635|2640|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_ReleaseDC|3711|3714|2646|2651|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_ScreenToClient|3715|3718|2657|2662|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_SelectObject|3719|3722|2668|2673|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_SetBkColor|3723|3726|2679|2684|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_SetBkMode|3727|3730|2690|2695|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_SetCapture|3731|3734|2701|2706|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_SetCursor|3735|3738|2712|2717|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_SetDefaultPrinter|3739|3742|2723|2728|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_SetDIBits|3743|3746|2734|2740|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_SetEndOfFile|3747|3750|2746|2751|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_SetEvent|3751|3754|2757|2762|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_SetFilePointer|3755|3758|2768|2773|7|2
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_SetFocus|3759|3762|2779|2784|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_SetFont|3763|3765|2790|2792|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_SetHandleInformation|3766|3769|2798|2803|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_SetLayeredWindowAttributes|3770|3777|2809|2819|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_SetParent|3778|3781|2825|2830|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_SetProcessAffinityMask|3782|3785|2836|2841|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_SetSysColors|3786|3806|2847|2881|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_SetTextColor|3807|3810|2887|2892|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_SetWindowLong|3811|3815|2898|2906|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_SetWindowPlacement|3816|3819|2912|2917|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_SetWindowPos|3820|3823|2923|2929|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_SetWindowRgn|3824|3827|2935|2940|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_SetWindowsHookEx|3828|3831|2946|2952|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_SetWindowText|3832|3835|2958|2963|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_ShowCursor|3836|3839|2969|2974|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_ShowError|3840|3843|2980|2983|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_ShowMsg|3844|3846|2989|2991|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_ShowWindow|3847|3850|2997|3002|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_StringFromGUID|3851|3855|3008|3013|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_StringLenA|3856|3859|3019|3024|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_StringLenW|3860|3863|3030|3035|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_SubLangId|3864|3866|3041|3043|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_SystemParametersInfo|3867|3870|3049|3055|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_TwipsPerPixelX|3871|3875|3061|3067|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_TwipsPerPixelY|3876|3880|3073|3079|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_UnhookWindowsHookEx|3881|3884|3085|3090|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_UpdateLayeredWindow|3885|3888|3096|3102|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_UpdateWindow|3889|3892|3108|3113|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_WaitForInputIdle|3893|3896|3119|3124|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_WaitForMultipleObjects|3897|3900|3130|3135|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_WaitForSingleObject|3901|3904|3141|3146|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_WideCharToMultiByte|3905|3913|3152|3167|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_WindowFromPoint|3914|3917|3173|3178|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_WriteConsole|3918|3922|3184|3190|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_WriteFile|3923|3926|3196|3203|2|2
+C:\Program Files (x86)\AutoIt3\Include\WinAPI.au3 UDF: _WinAPI_WriteProcessMemory|3927|3930|3209|3216|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _VarIsVar|4670|4671|101|103|1|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _ArrayVarIsVar|4672|4673|106|108|1|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _VarIsArrayVar|4674|4675|111|113|1|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _ArrayVarIsArrayVar|4676|4677|116|118|1|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _VarIsNumber|4678|4680|121|123|1|1
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _ArrayVarIsNumber|4681|4683|126|128|1|1
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _MCFCC|4689|4692|145|147|1|2
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _dummyCalls|4694|4703|157|174|1|8
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _MCFCC_Init|4704|4708|177|205|1|3
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Registration.au3 UDF: _Registration_Check|4722|4770|16|72|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Registration.au3 UDF: _Registration_GenerateSerialNumber|4771|4779|74|80|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Registration.au3 UDF: _Registration_ValidateSerialNumber|4780|4783|82|85|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Registration.au3 UDF: __Registration_WM_COMMAND|4784|4794|87|104|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Registration.au3 UDF: __GenerateSerialNumber|4795|4806|106|116|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\Registration.au3 UDF: __Register|4807|4816|118|130|0|0
+C:\Program Files (x86)\AutoIt3\Include\String.au3 UDF: _HexToString|5137|5140|27|30|0|0
+C:\Program Files (x86)\AutoIt3\Include\String.au3 UDF: _StringBetween|5141|5144|36|60|0|0
+C:\Program Files (x86)\AutoIt3\Include\String.au3 UDF: _StringExplode|5145|5151|66|86|0|0
+C:\Program Files (x86)\AutoIt3\Include\String.au3 UDF: _StringInsert|5152|5158|92|103|0|0
+C:\Program Files (x86)\AutoIt3\Include\String.au3 UDF: _StringProper|5159|5168|109|127|0|0
+C:\Program Files (x86)\AutoIt3\Include\String.au3 UDF: _StringRepeat|5169|5177|133|146|0|0
+C:\Program Files (x86)\AutoIt3\Include\String.au3 UDF: _StringTitleCase|5178|5187|152|170|0|0
+C:\Program Files (x86)\AutoIt3\Include\String.au3 UDF: _StringToHex|5188|5191|176|178|0|0
+C:\Program Files (x86)\AutoIt3\Include\File.au3 UDF: _FileCountLines|5221|5230|43|50|0|0
+C:\Program Files (x86)\AutoIt3\Include\File.au3 UDF: _FileCreate|5231|5238|56|64|0|0
+C:\Program Files (x86)\AutoIt3\Include\File.au3 UDF: _FileListToArray|5239|5255|70|94|0|0
+C:\Program Files (x86)\AutoIt3\Include\File.au3 UDF: _FileListToArrayRec|5256|5338|100|490|0|0
+C:\Program Files (x86)\AutoIt3\Include\File.au3 UDF: __FLTAR_AddFileLists|5339|5343|506|521|0|0
+C:\Program Files (x86)\AutoIt3\Include\File.au3 UDF: __FLTAR_AddToList|5344|5349|534|548|0|0
+C:\Program Files (x86)\AutoIt3\Include\File.au3 UDF: __FLTAR_ListToMask|5350|5358|561|571|0|0
+C:\Program Files (x86)\AutoIt3\Include\File.au3 UDF: _FilePrint|5359|5361|577|580|0|0
+C:\Program Files (x86)\AutoIt3\Include\File.au3 UDF: _FileReadToArray|5362|5391|587|690|0|0
+C:\Program Files (x86)\AutoIt3\Include\File.au3 UDF: _FileWriteFromArray|5392|5414|696|751|0|0
+C:\Program Files (x86)\AutoIt3\Include\File.au3 UDF: _FileWriteLog|5415|5424|757|783|0|0
+C:\Program Files (x86)\AutoIt3\Include\File.au3 UDF: _FileWriteToLine|5425|5444|789|825|0|0
+C:\Program Files (x86)\AutoIt3\Include\File.au3 UDF: _PathFull|5445|5471|831|908|0|0
+C:\Program Files (x86)\AutoIt3\Include\File.au3 UDF: _PathGetRelative|5472|5490|914|949|0|0
+C:\Program Files (x86)\AutoIt3\Include\File.au3 UDF: _PathMake|5491|5503|955|981|0|0
+C:\Program Files (x86)\AutoIt3\Include\File.au3 UDF: _PathSplit|5504|5509|987|1003|1|4
+C:\Program Files (x86)\AutoIt3\Include\File.au3 UDF: _ReplaceStringInFile|5510|5524|1009|1042|0|0
+C:\Program Files (x86)\AutoIt3\Include\File.au3 UDF: _TempFile|5525|5539|1048|1077|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\GIFAnimation.au3 UDF: _GUICtrlCreateGIF|5540|5553|24|51|1|10
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\GIFAnimation.au3 UDF: _GUICtrlCreateGIFFromBinary|5554|5567|53|79|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\GIFAnimation.au3 UDF: _GUICtrlDeleteGIF|5568|5571|94|103|1|2
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\GIFAnimation.au3 UDF: _StopGIFAnimation|5572|5576|119|137|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\GIFAnimation.au3 UDF: _ResumeGIFAnimation|5577|5581|153|171|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\GIFAnimation.au3 UDF: _ExitGIFAnimation|5582|5593|189|212|1|6
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\GIFAnimation.au3 UDF: _RefreshGIF|5594|5602|230|266|1|7
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\GIFAnimation.au3 UDF: _GIFGetDimension|5603|5623|288|353|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\GIFAnimation.au3 UDF: _AnimateGifInAnotherThread|5624|5691|365|529|1|58
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\GIFAnimation.au3 UDF: SwapEndian|5692|5695|541|545|23|2
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\GIFAnimation.au3 UDF: _CreateArrayHIconsFromGIFFile|5696|5761|557|760|1|60
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Include\GIFAnimation.au3 UDF: _CreateArrayHIconsFromGIFBinaryImage|5762|5850|772|1014|0|0
+C:\Program Files (x86)\AutoIt3\Include\Memory.au3 UDF: _MemFree|5856|5862|64|71|0|0
+C:\Program Files (x86)\AutoIt3\Include\Memory.au3 UDF: _MemGlobalAlloc|5863|5866|77|81|0|0
+C:\Program Files (x86)\AutoIt3\Include\Memory.au3 UDF: _MemGlobalFree|5867|5870|87|91|0|0
+C:\Program Files (x86)\AutoIt3\Include\Memory.au3 UDF: _MemGlobalLock|5871|5874|97|101|0|0
+C:\Program Files (x86)\AutoIt3\Include\Memory.au3 UDF: _MemGlobalSize|5875|5878|107|111|0|0
+C:\Program Files (x86)\AutoIt3\Include\Memory.au3 UDF: _MemGlobalUnlock|5879|5882|117|121|0|0
+C:\Program Files (x86)\AutoIt3\Include\Memory.au3 UDF: _MemInit|5883|5896|139|157|0|0
+C:\Program Files (x86)\AutoIt3\Include\Memory.au3 UDF: _MemMoveMemory|5897|5900|163|166|0|0
+C:\Program Files (x86)\AutoIt3\Include\Memory.au3 UDF: _MemRead|5901|5905|185|190|0|0
+C:\Program Files (x86)\AutoIt3\Include\Memory.au3 UDF: _MemWrite|5906|5912|210|217|0|0
+C:\Program Files (x86)\AutoIt3\Include\Memory.au3 UDF: _MemVirtualAlloc|5913|5916|223|227|3|2
+C:\Program Files (x86)\AutoIt3\Include\Memory.au3 UDF: _MemVirtualAllocEx|5917|5920|233|237|0|0
+C:\Program Files (x86)\AutoIt3\Include\Memory.au3 UDF: _MemVirtualFree|5921|5924|243|247|3|2
+C:\Program Files (x86)\AutoIt3\Include\Memory.au3 UDF: _MemVirtualFreeEx|5925|5928|253|257|0|0
+C:\Program Files (x86)\AutoIt3\Include\Memory.au3 UDF: __Mem_OpenProcess|5929|5940|277|311|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIError.au3 UDF: _WinAPI_GetLastError|6468|6471|20|23|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIError.au3 UDF: _WinAPI_SetLastError|6472|6475|29|32|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIError.au3 UDF: __COMErrorFormating|6476|6481|48|61|0|0
+C:\Program Files (x86)\AutoIt3\Include\Security.au3 UDF: _Security__AdjustTokenPrivileges|6484|6487|39|44|0|0
+C:\Program Files (x86)\AutoIt3\Include\Security.au3 UDF: _Security__CreateProcessWithToken|6488|6491|50|55|0|0
+C:\Program Files (x86)\AutoIt3\Include\Security.au3 UDF: _Security__DuplicateTokenEx|6492|6495|61|66|0|0
+C:\Program Files (x86)\AutoIt3\Include\Security.au3 UDF: _Security__GetAccountSid|6496|6501|72|78|0|0
+C:\Program Files (x86)\AutoIt3\Include\Security.au3 UDF: _Security__GetLengthSid|6502|6507|84|91|0|0
+C:\Program Files (x86)\AutoIt3\Include\Security.au3 UDF: _Security__GetTokenInformation|6508|6515|97|107|0|0
+C:\Program Files (x86)\AutoIt3\Include\Security.au3 UDF: _Security__ImpersonateSelf|6516|6519|113|118|0|0
+C:\Program Files (x86)\AutoIt3\Include\Security.au3 UDF: _Security__IsValidSid|6520|6523|124|129|0|0
+C:\Program Files (x86)\AutoIt3\Include\Security.au3 UDF: _Security__LookupAccountName|6524|6532|135|146|0|0
+C:\Program Files (x86)\AutoIt3\Include\Security.au3 UDF: _Security__LookupAccountSid|6533|6540|152|174|0|0
+C:\Program Files (x86)\AutoIt3\Include\Security.au3 UDF: _Security__LookupPrivilegeValue|6541|6544|180|185|0|0
+C:\Program Files (x86)\AutoIt3\Include\Security.au3 UDF: _Security__OpenProcessToken|6545|6548|191|196|0|0
+C:\Program Files (x86)\AutoIt3\Include\Security.au3 UDF: _Security__OpenThreadToken|6549|6554|202|213|0|0
+C:\Program Files (x86)\AutoIt3\Include\Security.au3 UDF: _Security__OpenThreadTokenEx|6555|6566|219|230|0|0
+C:\Program Files (x86)\AutoIt3\Include\Security.au3 UDF: _Security__SetPrivilege|6567|6588|236|266|0|0
+C:\Program Files (x86)\AutoIt3\Include\Security.au3 UDF: _Security__SetTokenInformation|6589|6592|272|277|0|0
+C:\Program Files (x86)\AutoIt3\Include\Security.au3 UDF: _Security__SidToStringSid|6593|6602|283|295|0|0
+C:\Program Files (x86)\AutoIt3\Include\Security.au3 UDF: _Security__SidTypeStr|6603|6604|301|326|0|0
+C:\Program Files (x86)\AutoIt3\Include\Security.au3 UDF: _Security__StringSidToSid|6605|6615|332|343|0|0
+C:\Program Files (x86)\AutoIt3\Include\SendMessage.au3 UDF: _SendMessage|6616|6619|20|25|0|0
+C:\Program Files (x86)\AutoIt3\Include\SendMessage.au3 UDF: _SendMessageA|6620|6623|31|36|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AES_Exit|6878|6880|18|21|1|1
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AES_Startup|6881|6905|23|67|6|23
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AesPrepareKey|6906|6912|69|83|2|5
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AesPrepareIV|6913|6924|85|98|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AesEncryptKey|6925|6938|100|115|2|12
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AesDecryptKey|6939|6952|117|132|1|12
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AesEncryptBlock|6953|6967|134|148|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AesDecryptBlock|6968|6982|150|164|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AesEncryptECB|6983|7001|166|184|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AesDecryptECB|7002|7020|186|204|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AesEncryptCBC|7021|7043|206|227|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AesDecryptCBC|7044|7066|229|250|1|21
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AesEncryptCFB|7067|7088|252|273|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AesDecryptCFB|7089|7110|275|296|1|20
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AesCryptOFB|7111|7132|299|321|1|20
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AesEncryptCBC_Pad|7133|7142|323|334|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AesDecryptCBC_Pad|7143|7151|336|345|1|5
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AesEncrypt|7152|7162|347|364|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AesDecrypt|7163|7180|366|387|1|16
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AES_CodeDecompress|7181|7212|389|432|1|30
+C:\Program Files (x86)\AutoIt3\Include\WinAPIDiag.au3 UDF: _WinAPI_DisplayStruct|7309|7450|55|364|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIDiag.au3 UDF: _WinAPI_EnumDllProc|7451|7468|370|423|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIDiag.au3 UDF: _WinAPI_GetApplicationRestartSettings|7469|7476|429|452|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIDiag.au3 UDF: _WinAPI_GetErrorMessage|7477|7481|458|465|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIDiag.au3 UDF: _WinAPI_GetErrorMode|7482|7485|471|477|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIDiag.au3 UDF: _WinAPI_IsInternetConnected|7486|7492|483|493|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIDiag.au3 UDF: _WinAPI_IsNetworkAlive|7493|7500|499|509|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIDiag.au3 UDF: _WinAPI_NtStatusToDosError|7501|7504|515|520|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIDiag.au3 UDF: _WinAPI_RegisterApplicationRestart|7505|7509|526|532|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIDiag.au3 UDF: _WinAPI_SetErrorMode|7510|7513|538|543|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIDiag.au3 UDF: _WinAPI_ShowLastError|7514|7526|549|575|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIDiag.au3 UDF: _WinAPI_UniqueHardwareID|7527|7564|581|665|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIDiag.au3 UDF: _WinAPI_UnregisterApplicationRestart|7565|7569|671|677|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIDiag.au3 UDF: __DlgSubclassProc|7570|7581|683|710|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIDiag.au3 UDF: __EnumDllProcA|7582|7603|712|770|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIDiag.au3 UDF: __EnumDllProcW|7604|7625|772|830|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIDiag.au3 UDF: __EnumSymbolsProcA|7626|7637|832|845|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIDiag.au3 UDF: __EnumSymbolsProcW|7638|7649|847|860|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIDiag.au3 UDF: __Hex|7650|7653|862|884|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIDiag.au3 UDF: __MD5|7654|7671|886|921|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIDiag.au3 UDF: __Quit|7672|7676|923|930|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIDiag.au3 UDF: __Ver|7677|7692|932|942|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_BackupRead|8066|8069|144|155|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_BackupReadAbort|8070|8073|161|169|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_BackupSeek|8074|8080|175|186|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_BackupWrite|8081|8084|192|203|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_BackupWriteAbort|8085|8088|209|217|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_CopyFileEx|8089|8092|223|230|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_CreateDirectory|8093|8096|236|242|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_CreateDirectoryEx|8097|8100|248|254|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_CreateFileEx|8101|8107|260|267|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_CreateFileMapping|8108|8116|273|287|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_CreateHardLink|8117|8120|293|299|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_CreateObjectID|8121|8131|305|320|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_CreateSymbolicLink|8132|8135|326|336|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_DecryptFile|8136|8139|342|348|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_DefineDosDevice|8140|8144|354|366|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_DeleteFile|8145|8148|372|378|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_DeleteObjectID|8149|8155|384|394|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_DeleteVolumeMountPoint|8156|8159|400|406|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_DeviceIoControl|8160|8164|412|420|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_DuplicateEncryptionInfoFile|8165|8169|426|433|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_EjectMedia|8170|8176|439|448|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_EncryptFile|8177|8180|454|460|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_EncryptionDisable|8181|8184|466|472|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_EnumFiles|8185|8214|478|549|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_EnumFileStreams|8215|8235|555|584|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_EnumHardLinks|8236|8264|590|638|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_FileEncryptionStatus|8265|8268|644|649|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_FileExists|8269|8273|655|660|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_FileInUse|8274|8278|666|674|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_FindClose|8279|8282|680|686|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_FindCloseChangeNotification|8283|8286|692|698|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_FindFirstChangeNotification|8287|8291|704|710|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_FindFirstFile|8292|8298|716|722|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_FindFirstFileName|8299|8303|728|736|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_FindFirstStream|8304|8310|742|748|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_FindNextChangeNotification|8311|8314|754|760|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_FindNextFile|8315|8320|766|772|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_FindNextFileName|8321|8326|778|787|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_FindNextStream|8327|8332|793|799|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_FlushViewOfFile|8333|8336|805|811|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_GetBinaryType|8337|8341|817|823|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_GetCDType|8342|8381|829|867|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_GetCompressedFileSize|8382|8389|873|883|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_GetCompression|8390|8396|889|899|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_GetCurrentDirectory|8397|8401|905|911|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_GetDiskFreeSpaceEx|8402|8407|917|926|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_GetDriveBusType|8408|8421|932|949|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_GetDriveGeometryEx|8422|8433|955|969|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_GetDriveNumber|8434|8445|975|989|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_GetDriveType|8446|8450|995|1006|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_GetFileAttributes|8451|8454|1012|1018|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_GetFileID|8455|8460|1024|1032|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_GetFileInformationByHandle|8461|8480|1038|1060|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_GetFileInformationByHandleEx|8481|8488|1066|1075|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_GetFilePointerEx|8489|8494|1081|1089|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_GetFileSizeOnDisk|8495|8503|1095|1106|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_GetFileTitle|8504|8507|1112|1118|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_GetFileType|8508|8513|1124|1131|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_GetFinalPathNameByHandle|8514|8526|1137|1148|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_GetFinalPathNameByHandleEx|8527|8530|1154|1160|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_GetFullPathName|8531|8534|1166|1172|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_GetLogicalDrives|8535|8538|1178|1184|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_GetObjectID|8539|8549|1190|1205|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_GetPEType|8550|8570|1211|1264|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_GetProfilesDirectory|8571|8574|1270|1275|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_GetTempFileName|8575|8578|1281|1286|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_GetVolumeInformation|8579|8585|1292|1313|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_GetVolumeInformationByHandle|8586|8591|1319|1334|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_GetVolumeNameForVolumeMountPoint|8592|8595|1340|1345|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_IOCTL|8596|8601|1351|1353|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_IsDoorOpen|8602|8637|1359|1393|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_IsPathShared|8638|8644|1399|1406|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_IsWritable|8645|8654|1412|1426|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_LoadMedia|8655|8661|1432|1441|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_LockDevice|8662|8668|1447|1456|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_LockFile|8669|8676|1462|1470|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_MapViewOfFile|8677|8682|1476|1483|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_MoveFileEx|8683|8687|1489|1502|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_OpenFileById|8688|8711|1508|1546|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_OpenFileMapping|8712|8715|1552|1558|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_PathIsDirectoryEmpty|8716|8719|1564|1569|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_QueryDosDevice|8720|8727|1575|1591|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_ReadDirectoryChanges|8728|8742|1597|1616|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_RemoveDirectory|8743|8746|1622|1628|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_ReOpenFile|8747|8751|1634|1640|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_ReplaceFile|8752|8756|1646|1659|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_SearchPath|8757|8761|1665|1677|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_SetCompression|8762|8768|1683|1693|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_SetCurrentDirectory|8769|8772|1699|1705|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_SetFileAttributes|8773|8776|1711|1717|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_SetFileInformationByHandleEx|8777|8782|1723|1730|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_SetFilePointerEx|8783|8786|1736|1742|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_SetFileShortName|8787|8790|1748|1754|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_SetFileValidData|8791|8794|1760|1766|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_SetSearchPathMode|8795|8798|1772|1778|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_SetVolumeMountPoint|8799|8802|1784|1790|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_SfcIsFileProtected|8803|8808|1796|1803|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_UnlockFile|8809|8816|1809|1817|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_UnmapViewOfFile|8817|8820|1823|1829|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: _WinAPI_Wow64EnableWow64FsRedirection|8821|8824|1835|1841|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIFiles.au3 UDF: __WinAPI_MakeQWord|8825|8832|1847|1854|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIInternals.au3 UDF: _WinAPI_ArrayToStruct|8845|8857|93|109|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIInternals.au3 UDF: _WinAPI_CreateMargins|8858|8864|115|124|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIInternals.au3 UDF: _WinAPI_CreatePoint|8865|8869|130|136|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIInternals.au3 UDF: _WinAPI_CreateRect|8870|8876|142|150|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIInternals.au3 UDF: _WinAPI_CreateRectEx|8877|8883|156|164|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIInternals.au3 UDF: _WinAPI_CreateSize|8884|8888|170|176|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIInternals.au3 UDF: _WinAPI_FatalExit|8889|8892|182|185|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIInternals.au3 UDF: _WinAPI_GetBitmapDimension|8893|8901|191|198|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIInternals.au3 UDF: _WinAPI_GetString|8902|8910|204|212|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIInternals.au3 UDF: _WinAPI_IsBadReadPtr|8911|8914|218|223|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIInternals.au3 UDF: _WinAPI_IsBadWritePtr|8915|8918|229|234|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIInternals.au3 UDF: _WinAPI_IsWow64Process|8919|8926|240|251|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIInternals.au3 UDF: _WinAPI_MoveMemory|8927|8934|257|265|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIInternals.au3 UDF: _WinAPI_PathIsDirectory|8935|8938|271|276|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIInternals.au3 UDF: _WinAPI_StrLen|8939|8942|282|290|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIInternals.au3 UDF: _WinAPI_StructToArray|8943|8959|296|325|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIInternals.au3 UDF: _WinAPI_SwapDWord|8960|8970|331|340|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIInternals.au3 UDF: _WinAPI_SwapQWord|8971|8981|346|355|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIInternals.au3 UDF: _WinAPI_SwapWord|8982|8992|361|370|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIInternals.au3 UDF: _WinAPI_SwitchColor|8993|9000|376|379|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIInternals.au3 UDF: _WinAPI_ZeroMemory|9001|9006|385|392|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIInternals.au3 UDF: __CheckErrorArrayBounds|9007|9014|398|411|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIInternals.au3 UDF: __CheckErrorCloseHandle|9015|9020|413|420|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIInternals.au3 UDF: __DLL|9021|9025|422|429|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIInternals.au3 UDF: __EnumWindowsProc|9026|9030|431|444|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIInternals.au3 UDF: __FatalExit|9031|9034|446|449|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIInternals.au3 UDF: __HeapAlloc|9035|9041|466|480|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIInternals.au3 UDF: __HeapFree|9042|9048|497|505|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIInternals.au3 UDF: __HeapReAlloc|9049|9060|524|541|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIInternals.au3 UDF: __HeapSize|9061|9067|557|563|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIInternals.au3 UDF: __HeapValidate|9068|9073|579|585|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIInternals.au3 UDF: __Inc|9074|9081|587|611|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIInternals.au3 UDF: __Iif|9082|9083|628|630|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIInternals.au3 UDF: __Init|9084|9090|632|639|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIInternals.au3 UDF: __RGB|9091|9093|641|646|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIInternals.au3 UDF: __WINVER|9094|9104|667|674|1|9
+C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3 UDF: _WinAPI_AdjustTokenPrivileges|9123|9164|100|180|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3 UDF: _WinAPI_AssignProcessToJobObject|9165|9168|186|192|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3 UDF: _WinAPI_CreateJobObject|9169|9173|198|210|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3 UDF: _WinAPI_CreateMutex|9174|9177|216|222|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3 UDF: _WinAPI_CreateProcessWithToken|9178|9184|228|250|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3 UDF: _WinAPI_CreateSemaphore|9185|9188|256|263|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3 UDF: _WinAPI_DuplicateTokenEx|9189|9192|269|276|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3 UDF: _WinAPI_EmptyWorkingSet|9193|9200|282|293|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3 UDF: _WinAPI_EnumChildProcess|9201|9219|299|326|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3 UDF: _WinAPI_EnumDeviceDrivers|9220|9230|332|352|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3 UDF: _WinAPI_EnumProcessHandles|9231|9253|358|385|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3 UDF: _WinAPI_EnumProcessModules|9254|9273|391|442|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3 UDF: _WinAPI_EnumProcessThreads|9274|9290|448|473|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3 UDF: _WinAPI_EnumProcessWindows|9291|9302|479|498|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3 UDF: _WinAPI_GetCurrentProcessExplicitAppUserModelID|9303|9309|504|512|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3 UDF: _WinAPI_GetDeviceDriverBaseName|9310|9313|518|525|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3 UDF: _WinAPI_GetDeviceDriverFileName|9314|9317|531|538|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3 UDF: _WinAPI_GetExitCodeProcess|9318|9321|544|550|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3 UDF: _WinAPI_GetModuleFileNameEx|9322|9325|556|562|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3 UDF: _WinAPI_GetModuleInformation|9326|9331|568|575|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3 UDF: _WinAPI_GetParentProcess|9332|9346|581|606|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3 UDF: _WinAPI_GetPriorityClass|9347|9354|612|626|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3 UDF: _WinAPI_GetProcessCommandLine|9355|9383|632|685|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3 UDF: _WinAPI_GetProcessFileName|9384|9391|691|705|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3 UDF: _WinAPI_GetProcessHandleCount|9392|9399|711|722|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3 UDF: _WinAPI_GetProcessID|9400|9403|728|734|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3 UDF: _WinAPI_GetProcessIoCounters|9404|9415|740|756|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3 UDF: _WinAPI_GetProcessMemoryInfo|9416|9428|762|779|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3 UDF: _WinAPI_GetProcessName|9429|9444|785|808|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3 UDF: _WinAPI_GetProcessTimes|9445|9453|814|831|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3 UDF: _WinAPI_GetProcessUser|9454|9469|837|877|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3 UDF: _WinAPI_GetProcessWorkingDirectory|9470|9497|883|937|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3 UDF: _WinAPI_GetThreadDesktop|9498|9501|943|949|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3 UDF: _WinAPI_GetThreadErrorMode|9502|9505|955|960|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3 UDF: _WinAPI_GetWindowFileName|9506|9512|966|980|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3 UDF: _WinAPI_IsElevated|9513|9523|986|1011|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3 UDF: _WinAPI_IsProcessInJob|9524|9527|1017|1023|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3 UDF: _WinAPI_OpenJobObject|9528|9531|1029|1035|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3 UDF: _WinAPI_OpenMutex|9532|9535|1041|1047|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3 UDF: _WinAPI_OpenProcessToken|9536|9540|1053|1064|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3 UDF: _WinAPI_OpenSemaphore|9541|9544|1070|1076|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3 UDF: _WinAPI_QueryInformationJobObject|9545|9549|1082|1089|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3 UDF: _WinAPI_ReleaseMutex|9550|9553|1095|1101|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3 UDF: _WinAPI_ReleaseSemaphore|9554|9557|1107|1112|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3 UDF: _WinAPI_ResetEvent|9558|9561|1118|1124|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3 UDF: _WinAPI_SetInformationJobObject|9562|9566|1130|1137|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3 UDF: _WinAPI_SetPriorityClass|9567|9574|1143|1158|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3 UDF: _WinAPI_SetThreadDesktop|9575|9578|1164|1170|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3 UDF: _WinAPI_SetThreadErrorMode|9579|9582|1176|1181|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3 UDF: _WinAPI_SetThreadExecutionState|9583|9586|1187|1193|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3 UDF: _WinAPI_TerminateJobObject|9587|9590|1199|1205|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3 UDF: _WinAPI_TerminateProcess|9591|9594|1211|1217|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIProc.au3 UDF: _WinAPI_UserHandleGrantAccess|9595|9598|1223|1229|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3 UDF: _WinAPI_DefSubclassProc|9610|9613|87|93|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3 UDF: _WinAPI_DllGetVersion|9614|9624|99|112|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3 UDF: _WinAPI_GetAllUsersProfileDirectory|9625|9628|118|124|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3 UDF: _WinAPI_GetDefaultUserProfileDirectory|9629|9632|130|136|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3 UDF: _WinAPI_GetWindowSubclass|9633|9636|142|148|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3 UDF: _WinAPI_RemoveWindowSubclass|9637|9640|154|160|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3 UDF: _WinAPI_SetCurrentProcessExplicitAppUserModelID|9641|9645|166|172|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3 UDF: _WinAPI_SetWindowSubclass|9646|9649|178|185|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3 UDF: _WinAPI_ShellAddToRecentDocs|9650|9656|191|207|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3 UDF: _WinAPI_ShellChangeNotify|9657|9662|213|226|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3 UDF: _WinAPI_ShellChangeNotifyDeregister|9663|9666|232|238|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3 UDF: _WinAPI_ShellChangeNotifyRegister|9667|9694|244|275|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3 UDF: _WinAPI_ShellCreateDirectory|9695|9699|281|287|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3 UDF: _WinAPI_ShellEmptyRecycleBin|9700|9704|293|299|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3 UDF: _WinAPI_ShellExecute|9705|9712|305|326|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3 UDF: _WinAPI_ShellExecuteEx|9713|9716|332|338|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3 UDF: _WinAPI_ShellExtractAssociatedIcon|9717|9725|344|357|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3 UDF: _WinAPI_ShellExtractIcon|9726|9729|363|370|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3 UDF: _WinAPI_ShellFileOperation|9730|9749|376|405|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3 UDF: _WinAPI_ShellFlushSFCache|9750|9753|411|416|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3 UDF: _WinAPI_ShellGetFileInfo|9754|9758|422|428|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3 UDF: _WinAPI_ShellGetIconOverlayIndex|9759|9763|434|446|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3 UDF: _WinAPI_ShellGetKnownFolderIDList|9764|9771|452|462|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3 UDF: _WinAPI_ShellGetKnownFolderPath|9772|9781|468|480|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3 UDF: _WinAPI_ShellGetLocalizedName|9782|9787|486|498|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3 UDF: _WinAPI_ShellGetPathFromIDList|9788|9791|504|510|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3 UDF: _WinAPI_ShellGetSetFolderCustomSettings|9792|9796|516|525|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3 UDF: _WinAPI_ShellGetSettings|9797|9809|531|572|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3 UDF: _WinAPI_ShellGetSpecialFolderLocation|9810|9814|578|584|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3 UDF: _WinAPI_ShellGetSpecialFolderPath|9815|9818|590|595|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3 UDF: _WinAPI_ShellGetStockIconInfo|9819|9826|601|610|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3 UDF: _WinAPI_ShellILCreateFromPath|9827|9831|616|622|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3 UDF: _WinAPI_ShellNotifyIcon|9832|9835|628|634|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3 UDF: _WinAPI_ShellNotifyIconGetRect|9836|9850|640|656|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3 UDF: _WinAPI_ShellObjectProperties|9851|9855|662|675|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3 UDF: _WinAPI_ShellOpenFolderAndSelectItems|9856|9881|681|721|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3 UDF: _WinAPI_ShellQueryRecycleBin|9882|9891|727|739|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3 UDF: _WinAPI_ShellQueryUserNotificationState|9892|9896|745|751|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3 UDF: _WinAPI_ShellRemoveLocalizedName|9897|9901|757|763|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3 UDF: _WinAPI_ShellRestricted|9902|9905|769|774|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3 UDF: _WinAPI_ShellSetKnownFolderPath|9906|9913|780|790|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3 UDF: _WinAPI_ShellSetLocalizedName|9914|9918|796|802|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3 UDF: _WinAPI_ShellSetSettings|9919|9931|808|852|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShellEx.au3 UDF: _WinAPI_ShellUpdateImage|9932|9935|858|863|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3 UDF: _WinAPI_BeginBufferedPaint|9939|9955|89|115|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3 UDF: _WinAPI_BufferedPaintClear|9956|9960|121|127|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3 UDF: _WinAPI_BufferedPaintInit|9961|9965|133|139|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3 UDF: _WinAPI_BufferedPaintSetAlpha|9966|9970|145|151|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3 UDF: _WinAPI_BufferedPaintUnInit|9971|9975|157|163|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3 UDF: _WinAPI_CloseThemeData|9976|9980|169|175|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3 UDF: _WinAPI_DrawThemeBackground|9981|9985|181|188|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3 UDF: _WinAPI_DrawThemeEdge|9986|9990|194|201|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3 UDF: _WinAPI_DrawThemeIcon|9991|9995|207|214|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3 UDF: _WinAPI_DrawThemeParentBackground|9996|10000|220|226|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3 UDF: _WinAPI_DrawThemeText|10001|10005|232|239|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3 UDF: _WinAPI_DrawThemeTextEx|10006|10010|245|252|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3 UDF: _WinAPI_EndBufferedPaint|10011|10015|258|264|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3 UDF: _WinAPI_GetBufferedPaintBits|10016|10021|270|276|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3 UDF: _WinAPI_GetBufferedPaintDC|10022|10025|282|287|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3 UDF: _WinAPI_GetBufferedPaintTargetDC|10026|10029|293|298|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3 UDF: _WinAPI_GetBufferedPaintTargetRect|10030|10035|304|311|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3 UDF: _WinAPI_GetCurrentThemeName|10036|10042|317|328|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3 UDF: _WinAPI_GetThemeAppProperties|10043|10046|334|339|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3 UDF: _WinAPI_GetThemeBackgroundContentRect|10047|10052|345|353|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3 UDF: _WinAPI_GetThemeBackgroundExtent|10053|10058|359|367|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3 UDF: _WinAPI_GetThemeBackgroundRegion|10059|10063|373|380|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3 UDF: _WinAPI_GetThemeBitmap|10064|10068|386|393|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3 UDF: _WinAPI_GetThemeBool|10069|10073|399|406|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3 UDF: _WinAPI_GetThemeColor|10074|10079|412|419|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3 UDF: _WinAPI_GetThemeDocumentationProperty|10080|10084|425|432|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3 UDF: _WinAPI_GetThemeEnumValue|10085|10089|438|445|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3 UDF: _WinAPI_GetThemeFilename|10090|10094|451|458|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3 UDF: _WinAPI_GetThemeFont|10095|10100|464|472|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3 UDF: _WinAPI_GetThemeInt|10101|10105|478|485|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3 UDF: _WinAPI_GetThemeMargins|10106|10111|491|499|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3 UDF: _WinAPI_GetThemeMetric|10112|10116|505|512|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3 UDF: _WinAPI_GetThemePartSize|10117|10122|518|526|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3 UDF: _WinAPI_GetThemePosition|10123|10128|532|540|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3 UDF: _WinAPI_GetThemePropertyOrigin|10129|10133|546|553|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3 UDF: _WinAPI_GetThemeRect|10134|10139|559|567|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3 UDF: _WinAPI_GetThemeString|10140|10144|573|580|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3 UDF: _WinAPI_GetThemeSysBool|10145|10148|586|591|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3 UDF: _WinAPI_GetThemeSysColor|10149|10152|597|602|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3 UDF: _WinAPI_GetThemeSysColorBrush|10153|10156|608|613|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3 UDF: _WinAPI_GetThemeSysFont|10157|10162|619|626|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3 UDF: _WinAPI_GetThemeSysInt|10163|10167|632|638|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3 UDF: _WinAPI_GetThemeSysSize|10168|10171|644|649|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3 UDF: _WinAPI_GetThemeSysString|10172|10176|655|661|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3 UDF: _WinAPI_GetThemeTextExtent|10177|10182|667|675|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3 UDF: _WinAPI_GetThemeTextMetrics|10183|10188|681|689|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3 UDF: _WinAPI_GetThemeTransitionDuration|10189|10193|695|702|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3 UDF: _WinAPI_GetWindowTheme|10194|10197|708|713|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3 UDF: _WinAPI_IsThemeActive|10198|10201|719|724|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3 UDF: _WinAPI_IsThemeBackgroundPartiallyTransparent|10202|10205|730|736|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3 UDF: _WinAPI_IsThemePartDefined|10206|10209|742|747|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3 UDF: _WinAPI_OpenThemeData|10210|10213|753|759|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3 UDF: _WinAPI_SetThemeAppProperties|10214|10217|765|770|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPITheme.au3 UDF: _WinAPI_SetWindowTheme|10218|10224|776|792|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIMisc.au3 UDF: _WinAPI_CharToOem|10704|10707|72|77|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIMisc.au3 UDF: _WinAPI_CopyStruct|10708|10717|83|99|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIMisc.au3 UDF: _WinAPI_DWordToFloat|10718|10724|105|111|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIMisc.au3 UDF: _WinAPI_DWordToInt|10725|10729|117|122|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIMisc.au3 UDF: _WinAPI_FloatToDWord|10730|10736|128|134|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIMisc.au3 UDF: _WinAPI_GetExtended|10737|10738|140|142|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIMisc.au3 UDF: _WinAPI_HashData|10739|10746|148|158|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIMisc.au3 UDF: _WinAPI_HashString|10747|10755|164|177|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIMisc.au3 UDF: _WinAPI_HiByte|10756|10759|183|185|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIMisc.au3 UDF: _WinAPI_HiDWord|10760|10766|191|197|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIMisc.au3 UDF: _WinAPI_IntToDWord|10767|10771|203|208|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIMisc.au3 UDF: _WinAPI_LoByte|10772|10774|214|216|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIMisc.au3 UDF: _WinAPI_LoDWord|10775|10781|222|228|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIMisc.au3 UDF: _WinAPI_LongMid|10782|10789|234|236|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIMisc.au3 UDF: _WinAPI_MakeWord|10790|10797|242|249|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIMisc.au3 UDF: _WinAPI_OemToChar|10798|10801|255|260|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIMisc.au3 UDF: _WinAPI_PlaySound|10802|10806|266|282|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIMisc.au3 UDF: _WinAPI_ShortToWord|10807|10809|288|290|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIMisc.au3 UDF: _WinAPI_StrFormatByteSize|10810|10813|296|301|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIMisc.au3 UDF: _WinAPI_StrFormatByteSizeEx|10814|10822|307|315|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIMisc.au3 UDF: _WinAPI_StrFormatKBSize|10823|10826|321|326|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIMisc.au3 UDF: _WinAPI_StrFromTimeInterval|10827|10831|332|338|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIMisc.au3 UDF: _WinAPI_UnionStruct|10832|10844|344|364|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIMisc.au3 UDF: _WinAPI_WordToShort|10845|10849|370|375|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_CommandLineToArgv|10853|10863|84|105|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_IsNameInExpression|10864|10870|111|121|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_ParseURL|10871|10889|127|143|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_ParseUserName|10890|10897|149|173|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_PathAddBackslash|10898|10904|179|187|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_PathAddExtension|10905|10913|193|207|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_PathAppend|10914|10920|213|222|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_PathBuildRoot|10921|10924|228|234|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_PathCanonicalize|10925|10928|240|246|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_PathCommonPrefix|10929|10933|252|257|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_PathCompactPath|10934|10947|263|289|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_PathCompactPathEx|10948|10951|295|300|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_PathCreateFromUrl|10952|10956|306|312|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_PathFindExtension|10957|10960|318|323|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_PathFindFileName|10961|10964|329|334|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_PathFindNextComponent|10965|10972|340|348|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_PathGetArgs|10973|10980|354|362|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_PathGetCharType|10981|10985|368|373|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_PathGetDriveNumber|10986|10990|379|385|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_PathIsContentType|10991|10994|391|396|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_PathIsExe|10995|10998|402|407|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_PathIsFileSpec|10999|11002|413|418|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_PathIsLFNFileSpec|11003|11006|424|429|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_PathIsRelative|11007|11010|435|440|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_PathIsRoot|11011|11014|446|451|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_PathIsSameRoot|11015|11018|457|462|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_PathIsSystemFolder|11019|11022|468|473|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_PathIsUNC|11023|11026|479|484|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_PathIsUNCServer|11027|11030|490|495|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_PathIsUNCServerShare|11031|11034|501|506|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_PathMakeSystemFolder|11035|11038|512|518|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_PathMatchSpec|11039|11042|524|529|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_PathParseIconLocation|11043|11046|535|543|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_PathRelativePathTo|11047|11050|549|563|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_PathRemoveArgs|11051|11054|569|574|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_PathRemoveBackslash|11055|11058|580|585|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_PathRemoveExtension|11059|11062|591|596|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_PathRemoveFileSpec|11063|11067|602|607|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_PathRenameExtension|11068|11074|613|622|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_PathSearchAndQualify|11075|11080|628|634|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_PathSkipRoot|11081|11088|640|649|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_PathStripPath|11089|11092|655|660|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_PathStripToRoot|11093|11096|666|672|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_PathUndecorate|11097|11100|678|683|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_PathUnExpandEnvStrings|11101|11104|689|695|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_PathUnmakeSystemFolder|11105|11108|701|707|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_PathUnquoteSpaces|11109|11112|713|718|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_PathYetAnotherMakeUniqueName|11113|11116|724|730|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_ShellGetImageList|11117|11124|736|751|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_UrlApplyScheme|11125|11129|757|763|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_UrlCanonicalize|11130|11134|769|775|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_UrlCombine|11135|11139|781|788|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_UrlCompare|11140|11143|794|799|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_UrlCreateFromPath|11144|11148|805|813|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_UrlFixup|11149|11153|819|825|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_UrlGetPart|11154|11158|831|838|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_UrlHash|11159|11166|844|854|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: _WinAPI_UrlIs|11167|11170|860|865|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3 UDF: __US|11171|11181|871|884|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPICom.au3 UDF: _WinAPI_CLSIDFromProgID|11252|11259|46|56|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPICom.au3 UDF: _WinAPI_CoInitialize|11260|11264|62|68|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPICom.au3 UDF: _WinAPI_CoTaskMemAlloc|11265|11268|74|80|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPICom.au3 UDF: _WinAPI_CoTaskMemFree|11269|11272|86|91|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPICom.au3 UDF: _WinAPI_CoTaskMemRealloc|11273|11276|97|103|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPICom.au3 UDF: _WinAPI_CoUninitialize|11277|11280|109|114|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPICom.au3 UDF: _WinAPI_CreateGUID|11281|11288|120|130|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPICom.au3 UDF: _WinAPI_CreateStreamOnHGlobal|11289|11293|136|142|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPICom.au3 UDF: _WinAPI_GetHGlobalFromStream|11294|11298|148|154|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPICom.au3 UDF: _WinAPI_ProgIDFromCLSID|11299|11308|160|171|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPICom.au3 UDF: _WinAPI_ReleaseStream|11309|11313|177|184|0|0

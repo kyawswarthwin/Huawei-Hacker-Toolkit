@@ -1,0 +1,29 @@
+28|Source file|first line nr|last line nr|last line|
+1|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3|34|34|Global Const $vPrivateKey = Binary("0x5D744568B606B05925AA26F8FD75392AFF9EE47A2B544C52027612F218CD9D1A")|
+1|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3|38|38|Global Const $dSignature1 = Binary("0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")|
+1|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3|53|53|Global Const $dSignature2 = Binary("0x55AA5AA5")|
+1|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3|58|396|WEnd|
+15|C:\Program Files (x86)\AutoIt3\Include\WindowsConstants.au3|56|56|Global Const $WS_OVERLAPPEDWINDOW = BitOR($WS_CAPTION, $WS_MAXIMIZEBOX, $WS_MINIMIZEBOX, $WS_OVERLAPPED, $WS_SYSMENU, $WS_THICKFRAME)|
+15|C:\Program Files (x86)\AutoIt3\Include\WindowsConstants.au3|84|84|Global Const $DS_SHELLFONT = BitOR($DS_FIXEDSYS, $DS_SETFONT)|
+15|C:\Program Files (x86)\AutoIt3\Include\WindowsConstants.au3|113|114|Global Const $WS_EX_PALETTEWINDOW = BitOR($WS_EX_TOOLWINDOW, $WS_EX_TOPMOST, $WS_EX_WINDOWEDGE)|
+15|C:\Program Files (x86)\AutoIt3\Include\WindowsConstants.au3|818|818|Global Const $GUI_SS_DEFAULT_GUI = BitOR($WS_MINIMIZEBOX, $WS_CAPTION, $WS_POPUP, $WS_SYSMENU)|
+16|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3|135|135|_AES_Startup()|
+16|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3|141|141|$CCkey[0]="0x3CA86772DB0B25CBD8AC911792C2217A9DD04C218DAE0F4261BD76EF512838FBDE2BDA417829E56D62EDE396B376E2CC" ; do not edit|
+16|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3|155|155|_dummyCalls() ; do not remove!|
+26|C:\Program Files (x86)\AutoIt3\Include\FileConstants.au3|93|94|Global Const $FILE_SHARE_ANY = BitOR($FILE_SHARE_READ, $FILE_SHARE_WRITE, $FILE_SHARE_DELETE)|
+26|C:\Program Files (x86)\AutoIt3\Include\FileConstants.au3|100|100|Global Const $GENERIC_READWRITE = BitOR($GENERIC_READ, $GENERIC_WRITE)|
+32|C:\Program Files (x86)\AutoIt3\Include\WinAPIConstants.au3|13|14|Global Const $INVALID_HANDLE_VALUE = Ptr(-1)|
+32|C:\Program Files (x86)\AutoIt3\Include\WinAPIConstants.au3|77|77|Global Const $LLKHF_EXTENDED = BitShift($KF_EXTENDED, 8)|
+32|C:\Program Files (x86)\AutoIt3\Include\WinAPIConstants.au3|79|80|Global Const $LLKHF_UP = BitShift($KF_UP, 8)|
+40|C:\Program Files (x86)\AutoIt3\Include\MemoryConstants.au3|27|28|Global Const $GHND = BitOR($GMEM_MOVEABLE, $GMEM_ZEROINIT)|
+42|C:\Program Files (x86)\AutoIt3\Include\APIDiagConstants.au3|63|63|Global Const $UHID_All = BitOR($UHID_MB, $UHID_BIOS, $UHID_CPU, $UHID_HDD)|
+44|C:\Program Files (x86)\AutoIt3\Include\WinAPIInternals.au3|25|25|Global Const $__WINVER = __WINVER()|
+53|C:\Program Files (x86)\AutoIt3\Include\APIShellExConstants.au3|62|62|Global Const $SHERB_NO_UI = BitOR($SHERB_NOCONFIRMATION, $SHERB_NOPROGRESSUI, $SHERB_NOSOUND)|
+53|C:\Program Files (x86)\AutoIt3\Include\APIShellExConstants.au3|121|121|Global Const $FOF_NO_UI = BitOR($FOF_NOCONFIRMATION, $FOF_NOCONFIRMMKDIR, $FOF_NOERRORUI, $FOF_SILENT)|
+53|C:\Program Files (x86)\AutoIt3\Include\APIShellExConstants.au3|151|151|Global Const $SFGAO_CAPABILITYMASK = BitOR($SFGAO_CANCOPY, $SFGAO_CANMOVE, $SFGAO_CANLINK, $SFGAO_CANRENAME, $SFGAO_CANDELETE, $SFGAO_HASPROPSHEET, $SFGAO_DROPTARGET)|
+53|C:\Program Files (x86)\AutoIt3\Include\APIShellExConstants.au3|160|160|Global Const $SFGAO_DISPLAYATTRMASK = BitOR($SFGAO_ISSLOW, $SFGAO_GHOSTED, $SFGAO_LINK, $SFGAO_SHARE, $SFGAO_READONLY, $SFGAO_HIDDEN)|
+53|C:\Program Files (x86)\AutoIt3\Include\APIShellExConstants.au3|172|172|Global Const $SFGAO_STORAGECAPMASK = BitOR($SFGAO_STORAGE, $SFGAO_LINK, $SFGAO_READONLY, $SFGAO_STREAM, $SFGAO_STORAGEANCESTOR, $SFGAO_FILESYSANCESTOR, $SFGAO_FOLDER, $SFGAO_FILESYSTEM)|
+53|C:\Program Files (x86)\AutoIt3\Include\APIShellExConstants.au3|175|175|Global Const $SFGAO_PKEYSFGAOMASK = BitOR($SFGAO_ISSLOW, $SFGAO_READONLY, $SFGAO_HASSUBFOLDER, $SFGAO_VALIDATE)|
+53|C:\Program Files (x86)\AutoIt3\Include\APIShellExConstants.au3|194|194|Global Const $FCS_WRITE = BitOR($FCS_READ, $FCS_FORCEWRITE)|
+54|C:\Program Files (x86)\AutoIt3\Include\APIThemeConstants.au3|38|38|Global Const $DTT_VALIDBITS = BitOR($DTT_TEXTCOLOR, $DTT_BORDERCOLOR, $DTT_SHADOWCOLOR, $DTT_SHADOWTYPE, $DTT_SHADOWOFFSET, $DTT_BORDERSIZE, $DTT_FONTPROP, $DTT_COLORPROP, $DTT_STATEID, $DTT_CALCRECT, $DTT_APPLYOVERLAY, $DTT_GLOWSIZE, $DTT_COMPOSITED)|
+54|C:\Program Files (x86)\AutoIt3\Include\APIThemeConstants.au3|52|52|Global Const $GBF_VALIDBITS = BitOR($GBF_DIRECT, $GBF_COPY)|

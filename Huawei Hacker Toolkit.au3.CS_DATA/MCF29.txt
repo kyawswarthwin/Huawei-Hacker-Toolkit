@@ -1,0 +1,13 @@
+Func {funcU173} (Const {var1251} = {macro22}, Const {var1252} = {macro25}) ; {file:29}{line:20}
+Local {var241} = {funcA122} ( {string3648} , {string3649} , {string3650} )  ; {file:29}{line:21}
+Return {funcA375} ( {var1251} , {var1252} , {var241} [ 0 ] )  ; {file:29}{line:22}
+EndFunc  ; {file:29}{line:23}
+Func {funcU348} ({var1253}, Const {var1251} = {macro22}, Const {var1252} = {macro25}) ; {file:29}{line:29}
+{funcA122} ( {string3651} , {string3652} , {string3653} , {string3654} , {var1253} )  ; {file:29}{line:30}
+Return {funcA375} ( {var1251} , {var1252} , Null )  ; {file:29}{line:31}
+EndFunc  ; {file:29}{line:32}
+Func {funcU439} ({var1254}, {var1255} = {macro91}) ; {file:29}{line:48}
+Local Const {var875} = 2  ; {file:29}{line:49}
+Local {var1256} = {string3655} & {macro68} & {string3656} & {var1254}.Scriptline & {string3657} & {macro14} & {var1255} & {string3658} & {macro91} & {string3659} & {funcA262} ( {var1254}.Number , 8 ) & {string3660} & {var1254}.Number & {string3661} & {macro14} & {var1255} & {string3662} & {macro91} & {string3663} & {funcA421} ( {var1254}.WinDescription , {var875} ) & {macro14} & {var1255} & {string3664} & {macro91} & {string3665} & {funcA421} ( {var1254}.Description , {var875} ) & {macro14} & {var1255} & {string3666} & {macro91} & {string3667} & {var1254}.Source & {macro14} & {var1255} & {string3668} & {macro91} & {string3669} & {var1254}.HelpFile & {macro14} & {var1255} & {string3670} & {macro91} & {string3671} & {var1254}.HelpContext & {macro14} & {var1255} & {string3672} & {macro91} & {string3673} & {var1254}.LastDllError & {macro14} & {var1255} & {string3674} & {macro91} & {string3675} & {funcA262} ( {var1254}.retcode )  ; {file:29}{line:50}
+Return {var1256} ; {file:29}{line:60}
+EndFunc  ; {file:29}{line:61}

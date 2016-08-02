@@ -1,0 +1,10 @@
+@AutoItX64
+@Compiled
+@CRLF
+@error
+@extended
+@OSVersion
+@ScriptDir
+@ScriptFullPath
+@ScriptName
+@TAB

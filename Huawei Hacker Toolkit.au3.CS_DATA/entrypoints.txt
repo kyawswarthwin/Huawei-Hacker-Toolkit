@@ -1,0 +1,11 @@
+10|Source file|Line|Tracking tag|Reference|Parameters
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3|34|Main Code|Entry point|Global Const $vPrivateKey = Binary("0x5D744568B606B05925AA26F8FD75392AFF9EE47A2B544C52027612F218CD9D1A")
+False|C:\Program Files (x86)\AutoIt3\Include\WindowsConstants.au3|56|Main Code|Entry point|Global Const $WS_OVERLAPPEDWINDOW = BitOR($WS_CAPTION, $WS_MAXIMIZEBOX, $WS_MINIMIZEBOX, $WS_OVERLAPPED, $WS_SYSMENU, $WS_THICKFRAME)
+False|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3|135|Main Code|Entry point|_AES_Startup()
+False|C:\Program Files (x86)\AutoIt3\Include\FileConstants.au3|93|Main Code|Entry point|Global Const $FILE_SHARE_READWRITE = BitOR($FILE_SHARE_READ, $FILE_SHARE_WRITE)
+False|C:\Program Files (x86)\AutoIt3\Include\WinAPIConstants.au3|13|Main Code|Entry point|Global Const $HGDI_ERROR = Ptr(-1)
+False|C:\Program Files (x86)\AutoIt3\Include\MemoryConstants.au3|27|Main Code|Entry point|Global Const $GPTR = BitOR($GMEM_FIXED, $GMEM_ZEROINIT) ; in fact equal $GMEM_ZEROINIT
+False|C:\Program Files (x86)\AutoIt3\Include\APIDiagConstants.au3|63|Main Code|Entry point|Global Const $UHID_All = BitOR($UHID_MB, $UHID_BIOS, $UHID_CPU, $UHID_HDD)
+False|C:\Program Files (x86)\AutoIt3\Include\WinAPIInternals.au3|25|Main Code|Entry point|Global Const $__WINVER = __WINVER()
+False|C:\Program Files (x86)\AutoIt3\Include\APIShellExConstants.au3|62|Main Code|Entry point|Global Const $SHERB_NO_UI = BitOR($SHERB_NOCONFIRMATION, $SHERB_NOPROGRESSUI, $SHERB_NOSOUND)
+False|C:\Program Files (x86)\AutoIt3\Include\APIThemeConstants.au3|38|Main Code|Entry point|Global Const $DTT_VALIDBITS = BitOR($DTT_TEXTCOLOR, $DTT_BORDERCOLOR, $DTT_SHADOWCOLOR, $DTT_SHADOWTYPE, $DTT_SHADOWOFFSET, $DTT_BORDERSIZE, $DTT_FONTPROP, $DTT_COLORPROP, $DTT_STATEID, $DTT_CALCRECT, $DTT_APPLYOVERLAY, $DTT_GLOWSIZE, $DTT_COMPOSITED)

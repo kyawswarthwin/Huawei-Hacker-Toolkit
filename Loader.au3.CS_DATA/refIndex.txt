@@ -1,0 +1,77 @@
+76|$refs start row|$refs end row|start line nr|end line nr|incoming calls|outgoing calls
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Loader.au3|1|5|1|16|0|4
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3|6|46|1|240|9|15
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|47|399|1|674|18|165
+C:\Program Files (x86)\AutoIt3\Include\Memory.au3|400|489|1|986|4|4
+C:\Program Files (x86)\AutoIt3\Include\MemoryConstants.au3|490|526|1|1042|0|0
+C:\Program Files (x86)\AutoIt3\Include\ProcessConstants.au3|527|540|1|1069|0|0
+C:\Program Files (x86)\AutoIt3\Include\Security.au3|541|674|1|1413|0|0
+C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|675|780|1|2258|0|0
+C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|781|949|1|2400|157|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIError.au3|950|963|1|2462|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _VarIsVar|7|8|101|103|1|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _ArrayVarIsVar|9|10|106|108|1|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _VarIsArrayVar|11|12|111|113|1|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _ArrayVarIsArrayVar|13|14|116|118|1|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _VarIsNumber|15|17|121|123|1|1
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _ArrayVarIsNumber|18|20|126|128|1|1
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _MCFCC|26|29|145|147|1|2
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _dummyCalls|31|40|157|174|1|8
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _MCFCC_Init|41|45|177|205|1|3
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AES_Exit|65|67|18|21|1|1
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AES_Startup|68|92|23|67|6|23
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AesPrepareKey|93|99|69|83|2|5
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AesPrepareIV|100|111|85|98|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AesEncryptKey|112|125|100|115|2|12
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AesDecryptKey|126|139|117|132|1|12
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AesEncryptBlock|140|154|134|148|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AesDecryptBlock|155|169|150|164|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AesEncryptECB|170|188|166|184|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AesDecryptECB|189|207|186|204|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AesEncryptCBC|208|230|206|227|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AesDecryptCBC|231|253|229|250|1|21
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AesEncryptCFB|254|275|252|273|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AesDecryptCFB|276|297|275|296|1|20
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AesCryptOFB|298|319|299|321|1|20
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AesEncryptCBC_Pad|320|329|323|334|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AesDecryptCBC_Pad|330|338|336|345|1|5
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AesEncrypt|339|349|347|364|0|0
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AesDecrypt|350|367|366|387|1|16
+C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AES_CodeDecompress|368|399|389|432|1|30
+C:\Program Files (x86)\AutoIt3\Include\Memory.au3 UDF: _MemFree|405|411|64|71|0|0
+C:\Program Files (x86)\AutoIt3\Include\Memory.au3 UDF: _MemGlobalAlloc|412|415|77|81|0|0
+C:\Program Files (x86)\AutoIt3\Include\Memory.au3 UDF: _MemGlobalFree|416|419|87|91|0|0
+C:\Program Files (x86)\AutoIt3\Include\Memory.au3 UDF: _MemGlobalLock|420|423|97|101|0|0
+C:\Program Files (x86)\AutoIt3\Include\Memory.au3 UDF: _MemGlobalSize|424|427|107|111|0|0
+C:\Program Files (x86)\AutoIt3\Include\Memory.au3 UDF: _MemGlobalUnlock|428|431|117|121|0|0
+C:\Program Files (x86)\AutoIt3\Include\Memory.au3 UDF: _MemInit|432|445|139|157|0|0
+C:\Program Files (x86)\AutoIt3\Include\Memory.au3 UDF: _MemMoveMemory|446|449|163|166|0|0
+C:\Program Files (x86)\AutoIt3\Include\Memory.au3 UDF: _MemRead|450|454|185|190|0|0
+C:\Program Files (x86)\AutoIt3\Include\Memory.au3 UDF: _MemWrite|455|461|210|217|0|0
+C:\Program Files (x86)\AutoIt3\Include\Memory.au3 UDF: _MemVirtualAlloc|462|465|223|227|2|2
+C:\Program Files (x86)\AutoIt3\Include\Memory.au3 UDF: _MemVirtualAllocEx|466|469|233|237|0|0
+C:\Program Files (x86)\AutoIt3\Include\Memory.au3 UDF: _MemVirtualFree|470|473|243|247|2|2
+C:\Program Files (x86)\AutoIt3\Include\Memory.au3 UDF: _MemVirtualFreeEx|474|477|253|257|0|0
+C:\Program Files (x86)\AutoIt3\Include\Memory.au3 UDF: __Mem_OpenProcess|478|489|277|311|0|0
+C:\Program Files (x86)\AutoIt3\Include\Security.au3 UDF: _Security__AdjustTokenPrivileges|543|546|39|44|0|0
+C:\Program Files (x86)\AutoIt3\Include\Security.au3 UDF: _Security__CreateProcessWithToken|547|550|50|55|0|0
+C:\Program Files (x86)\AutoIt3\Include\Security.au3 UDF: _Security__DuplicateTokenEx|551|554|61|66|0|0
+C:\Program Files (x86)\AutoIt3\Include\Security.au3 UDF: _Security__GetAccountSid|555|560|72|78|0|0
+C:\Program Files (x86)\AutoIt3\Include\Security.au3 UDF: _Security__GetLengthSid|561|566|84|91|0|0
+C:\Program Files (x86)\AutoIt3\Include\Security.au3 UDF: _Security__GetTokenInformation|567|574|97|107|0|0
+C:\Program Files (x86)\AutoIt3\Include\Security.au3 UDF: _Security__ImpersonateSelf|575|578|113|118|0|0
+C:\Program Files (x86)\AutoIt3\Include\Security.au3 UDF: _Security__IsValidSid|579|582|124|129|0|0
+C:\Program Files (x86)\AutoIt3\Include\Security.au3 UDF: _Security__LookupAccountName|583|591|135|146|0|0
+C:\Program Files (x86)\AutoIt3\Include\Security.au3 UDF: _Security__LookupAccountSid|592|599|152|174|0|0
+C:\Program Files (x86)\AutoIt3\Include\Security.au3 UDF: _Security__LookupPrivilegeValue|600|603|180|185|0|0
+C:\Program Files (x86)\AutoIt3\Include\Security.au3 UDF: _Security__OpenProcessToken|604|607|191|196|0|0
+C:\Program Files (x86)\AutoIt3\Include\Security.au3 UDF: _Security__OpenThreadToken|608|613|202|213|0|0
+C:\Program Files (x86)\AutoIt3\Include\Security.au3 UDF: _Security__OpenThreadTokenEx|614|625|219|230|0|0
+C:\Program Files (x86)\AutoIt3\Include\Security.au3 UDF: _Security__SetPrivilege|626|647|236|266|0|0
+C:\Program Files (x86)\AutoIt3\Include\Security.au3 UDF: _Security__SetTokenInformation|648|651|272|277|0|0
+C:\Program Files (x86)\AutoIt3\Include\Security.au3 UDF: _Security__SidToStringSid|652|661|283|295|0|0
+C:\Program Files (x86)\AutoIt3\Include\Security.au3 UDF: _Security__SidTypeStr|662|663|301|326|0|0
+C:\Program Files (x86)\AutoIt3\Include\Security.au3 UDF: _Security__StringSidToSid|664|674|332|343|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIError.au3 UDF: _WinAPI_GetLastError|950|953|20|23|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIError.au3 UDF: _WinAPI_SetLastError|954|957|29|32|0|0
+C:\Program Files (x86)\AutoIt3\Include\WinAPIError.au3 UDF: __COMErrorFormating|958|963|48|61|0|0

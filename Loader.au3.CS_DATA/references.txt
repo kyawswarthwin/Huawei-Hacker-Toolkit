@@ -1,0 +1,964 @@
+963|Source file|Line|Tracking tag|Reference|Parameters
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Loader.au3|11|#include|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3|<n\a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Loader.au3|13|Exit|<explicit>|If Not @Compiled Then Exit
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Loader.au3|13|Main Code|Entry point|If Not @Compiled Then Exit
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Loader.au3|15|AU3 call|Run|@ScriptFullPath & {string2} & @ScriptDir & {string3}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Loader.au3|15|Exit|<implicit Exit>|Run(@ScriptFullPath & ' /AutoIt3ExecuteScript "' & @ScriptDir & '\Script.scr"')
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3|89|#include|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|<n\a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3|101|func def|_VarIsVar|ByRef $a, ByRef $b
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3|103|func end|_VarIsVar|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3|106|func def|_ArrayVarIsVar|ByRef $a, $b, ByRef $c
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3|108|func end|_ArrayVarIsVar|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3|111|func def|_VarIsArrayVar|ByRef $a, ByRef $b, $c
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3|113|func end|_VarIsArrayVar|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3|116|func def|_ArrayVarIsArrayVar|ByRef $a, $b, ByRef $c, $d
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3|118|func end|_ArrayVarIsArrayVar|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3|121|func def|_VarIsNumber|ByRef $a, $number
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3|122|AU3 call|Number|$number
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3|123|func end|_VarIsNumber|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3|126|func def|_ArrayVarIsNumber|ByRef $a, $b, $number
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3|127|AU3 call|Number|$number
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3|128|func end|_ArrayVarIsNumber|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3|135|UDF call|_AES_Startup|{none}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3|135|Main Code|Entry point|_AES_Startup()
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3|138|Global|$MCFinclude|{string5}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3|139|Global|$CCkeytype|0
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3|140|Global|$CCkey[2]|{none}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3|145|func def|_MCFCC|Const $hexstring,$index=0
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3|146|AU3 call|BinaryToString|_AesDecrypt ( $CCKey [ $index ] , $hexstring )
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3|146|UDF call|_AesDecrypt|$CCKey [ $index ] , $hexstring
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3|147|func end|_MCFCC|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3|155|UDF call|_dummyCalls|{none}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3|157|func def|_dummyCalls|{none}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3|162|UDF call|_MCFCC_Init|0 , False
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3|163|UDF call|_MCFCC|{string7}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3|167|UDF call|_VarIsVar|$a , $b
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3|168|UDF call|_ArrayVarIsVar|$c , 0 , $a
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3|169|UDF call|_VarIsArrayVar|$a , $c , 0
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3|170|UDF call|_ArrayVarIsArrayVar|$c , 0 , $c , 0
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3|171|UDF call|_VarIsNumber|$a , 1
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3|172|UDF call|_ArrayVarIsNumber|$c , 0 , 1
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3|174|func end|_dummyCalls|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3|177|func def|_MCFCC_Init|$type=0,$query=True
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3|196|AU3 call|UBound|$CCkey
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3|198|AU3 call|String|$type
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3|202|AU3 call|InputBox|{string17} , {string18} , {string19} , {string20} , 250 , 140
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3|205|func end|_MCFCC_Init|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3|155|Exit|<implicit Exit>|_dummyCalls() ; do not remove!
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|8|#include|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|<n\a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|10|Global|$_AES_CodeBuffer|{none}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|10|Global|$_AES_CodeBufferMemory|{none}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|11|Global|$_AES_EncryptOffset|{none}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|11|Global|$_AES_DecryptOffset|{none}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|11|Global|$_AES_EncryptKeyOffset|{none}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|11|Global|$_AES_DecryptKeyOffset|{none}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|12|Global|$_AES_EncryptECBOffset|{none}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|12|Global|$_AES_DecryptECBOffset|{none}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|13|Global|$_AES_EncryptCBCOffset|{none}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|13|Global|$_AES_DecryptCBCOffset|{none}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|14|Global|$_AES_EncryptCFBOffset|{none}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|14|Global|$_AES_DecryptCFBOffset|{none}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|15|Global|$_AES_CryptOFBOffset|{none}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|15|Global|$_AES_ModeResetOffset|{none}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|16|Global|$AES_CBC_MODE|0
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|16|Global|$AES_CFB_MODE|1
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|16|Global|$AES_OFB_MODE|2
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|18|func def|_AES_Exit|{none}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|20|UDF call|_MemVirtualFree|$_AES_CodeBufferMemory , 0 , $MEM_RELEASE
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|21|func end|_AES_Exit|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|23|func def|_AES_Startup|{none}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|24|AU3 call|IsDllStruct|$_AES_CodeBuffer
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|46|AU3 call|String|_AES_CodeDecompress ( $Code )
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|46|UDF call|_AES_CodeDecompress|$Code
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|47|AU3 call|StringInStr|$Opcode , {string39}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|48|AU3 call|StringInStr|$Opcode , {string40}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|49|AU3 call|StringInStr|$Opcode , {string41}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|50|AU3 call|StringInStr|$Opcode , {string42}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|51|AU3 call|StringInStr|$Opcode , {string43}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|52|AU3 call|StringInStr|$Opcode , {string44}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|53|AU3 call|StringInStr|$Opcode , {string45}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|54|AU3 call|StringInStr|$Opcode , {string46}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|55|AU3 call|StringInStr|$Opcode , {string47}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|56|AU3 call|StringInStr|$Opcode , {string48}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|57|AU3 call|StringInStr|$Opcode , {string49}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|58|AU3 call|StringInStr|$Opcode , {string50}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|59|AU3 call|Binary|$Opcode
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|62|UDF call|_MemVirtualAlloc|0 , BinaryLen ( $Opcode ) , $MEM_COMMIT , $PAGE_EXECUTE_READWRITE
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|62|AU3 call|BinaryLen|$Opcode
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|63|AU3 call|DllStructCreate|{string51} & BinaryLen ( $Opcode ) & {string52} , $_AES_CodeBufferMemory
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|63|AU3 call|BinaryLen|$Opcode
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|64|AU3 call|DllStructSetData|$_AES_CodeBuffer , 1 , $Opcode
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|65|AU3 call|OnAutoItExitRegister|{string53}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|65|UDF call|_AES_Exit|{none}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|67|func end|_AES_Startup|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|69|func def|_AesPrepareKey|$Key
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|70|AU3 call|Binary|$Key
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|71|AU3 call|BinaryLen|$Key
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|80|AU3 call|DllStructCreate|{string54} & $KeyLen & {string55}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|81|AU3 call|DllStructSetData|$KeyBuffer , 1 , $Key
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|82|AU3 call|DllStructGetData|$KeyBuffer , 1
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|83|func end|_AesPrepareKey|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|85|func def|_AesPrepareIV|$IV = Default
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|86|AU3 call|IsKeyword|$IV
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|88|Loop Start|For|$i = 1 To 16
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|89|AU3 call|Hex|Random ( 0 , 255 , 1 ) , 2
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|89|AU3 call|Random|0 , 255 , 1
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|90|Loop End |Next|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|91|AU3 call|Binary|$IV
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|93|AU3 call|DllStructCreate|{string57}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|94|AU3 call|DllStructSetData|$IVBuffer , 1 , Binary ( $IV )
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|94|AU3 call|Binary|$IV
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|95|AU3 call|DllStructGetData|$IVBuffer , 1
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|98|func end|_AesPrepareIV|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|100|func def|_AesEncryptKey|$Key
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|101|AU3 call|IsDllStruct|$_AES_CodeBuffer
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|101|UDF call|_AES_Startup|{none}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|102|UDF call|_AesPrepareKey|$Key
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|104|AU3 call|DllStructCreate|{string58}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|105|AU3 call|DllStructCreate|{string59} & BinaryLen ( $Key ) & {string60}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|105|AU3 call|BinaryLen|$Key
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|106|AU3 call|DllStructSetData|$AesKey , 1 , $Key
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|108|AU3 call|DllCall|{string61} , {string62} , {string63} , {string64} , DllStructGetPtr ( $_AES_CodeBuffer ) + $_AES_EncryptKeyOffset , {string65} , DllStructGetPtr ( $AesCtx ) , {string66} , DllStructGetPtr ( $AesKey ) , {string67} , BinaryLen ( $Key ) * 8 , {string68} , 0
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|108|AU3 call|DllStructGetPtr|$_AES_CodeBuffer
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|108|AU3 call|DllStructGetPtr|$AesCtx
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|108|AU3 call|DllStructGetPtr|$AesKey
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|108|AU3 call|BinaryLen|$Key
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|115|func end|_AesEncryptKey|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|117|func def|_AesDecryptKey|$Key
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|118|AU3 call|IsDllStruct|$_AES_CodeBuffer
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|118|UDF call|_AES_Startup|{none}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|119|UDF call|_AesPrepareKey|$Key
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|121|AU3 call|DllStructCreate|{string69}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|122|AU3 call|DllStructCreate|{string70} & BinaryLen ( $Key ) & {string71}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|122|AU3 call|BinaryLen|$Key
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|123|AU3 call|DllStructSetData|$AesKey , 1 , $Key
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|125|AU3 call|DllCall|{string72} , {string73} , {string74} , {string75} , DllStructGetPtr ( $_AES_CodeBuffer ) + $_AES_DecryptKeyOffset , {string76} , DllStructGetPtr ( $AesCtx ) , {string77} , DllStructGetPtr ( $AesKey ) , {string78} , BinaryLen ( $Key ) * 8 , {string79} , 0
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|125|AU3 call|DllStructGetPtr|$_AES_CodeBuffer
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|125|AU3 call|DllStructGetPtr|$AesCtx
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|125|AU3 call|DllStructGetPtr|$AesKey
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|125|AU3 call|BinaryLen|$Key
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|132|func end|_AesDecryptKey|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|134|func def|_AesEncryptBlock|ByRef $AesCtx, $Data
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|135|AU3 call|IsDllStruct|$_AES_CodeBuffer
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|135|UDF call|_AES_Startup|{none}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|136|AU3 call|IsDllStruct|$AesCtx
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|136|AU3 call|SetError|1 , 0 , Binary ( {string80} )
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|136|AU3 call|Binary|{string80}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|138|AU3 call|DllStructCreate|{string81}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|139|AU3 call|DllStructSetData|$DataBuffer , 1 , $Data
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|141|AU3 call|DllCall|{string82} , {string83} , {string84} , {string85} , DllStructGetPtr ( $_AES_CodeBuffer ) + $_AES_EncryptOffset , {string86} , DllStructGetPtr ( $AesCtx ) , {string87} , DllStructGetPtr ( $DataBuffer ) , {string88} , DllStructGetPtr ( $DataBuffer ) , {string89} , 0
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|141|AU3 call|DllStructGetPtr|$_AES_CodeBuffer
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|141|AU3 call|DllStructGetPtr|$AesCtx
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|141|AU3 call|DllStructGetPtr|$DataBuffer
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|141|AU3 call|DllStructGetPtr|$DataBuffer
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|147|AU3 call|DllStructGetData|$DataBuffer , 1
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|148|func end|_AesEncryptBlock|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|150|func def|_AesDecryptBlock|ByRef $AesCtx, $Data
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|151|AU3 call|IsDllStruct|$_AES_CodeBuffer
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|151|UDF call|_AES_Startup|{none}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|152|AU3 call|IsDllStruct|$AesCtx
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|152|AU3 call|SetError|1 , 0 , Binary ( {string90} )
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|152|AU3 call|Binary|{string90}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|154|AU3 call|DllStructCreate|{string91}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|155|AU3 call|DllStructSetData|$DataBuffer , 1 , $Data
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|157|AU3 call|DllCall|{string92} , {string93} , {string94} , {string95} , DllStructGetPtr ( $_AES_CodeBuffer ) + $_AES_DecryptOffset , {string96} , DllStructGetPtr ( $AesCtx ) , {string97} , DllStructGetPtr ( $DataBuffer ) , {string98} , DllStructGetPtr ( $DataBuffer ) , {string99} , 0
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|157|AU3 call|DllStructGetPtr|$_AES_CodeBuffer
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|157|AU3 call|DllStructGetPtr|$AesCtx
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|157|AU3 call|DllStructGetPtr|$DataBuffer
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|157|AU3 call|DllStructGetPtr|$DataBuffer
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|163|AU3 call|DllStructGetData|$DataBuffer , 1
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|164|func end|_AesDecryptBlock|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|166|func def|_AesEncryptECB|ByRef $AesCtx, $Data
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|167|AU3 call|IsDllStruct|$_AES_CodeBuffer
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|167|UDF call|_AES_Startup|{none}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|168|AU3 call|IsDllStruct|$AesCtx
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|168|AU3 call|SetError|1 , 0 , Binary ( {string100} )
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|168|AU3 call|Binary|{string100}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|170|AU3 call|Binary|$Data
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|171|AU3 call|Ceiling|BinaryLen ( $Data ) / 16
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|171|AU3 call|BinaryLen|$Data
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|172|AU3 call|SetError|1 , 0 , Binary ( {string101} )
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|172|AU3 call|Binary|{string101}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|174|AU3 call|DllStructCreate|{string102} & $DataLen & {string103}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|175|AU3 call|DllStructSetData|$DataBuffer , 1 , $Data
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|177|AU3 call|DllCall|{string104} , {string105} , {string106} , {string107} , DllStructGetPtr ( $_AES_CodeBuffer ) + $_AES_EncryptECBOffset , {string108} , DllStructGetPtr ( $AesCtx ) , {string109} , DllStructGetPtr ( $DataBuffer ) , {string110} , $DataLen , {string111} , 0
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|177|AU3 call|DllStructGetPtr|$_AES_CodeBuffer
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|177|AU3 call|DllStructGetPtr|$AesCtx
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|177|AU3 call|DllStructGetPtr|$DataBuffer
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|183|AU3 call|DllStructGetData|$DataBuffer , 1
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|184|func end|_AesEncryptECB|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|186|func def|_AesDecryptECB|ByRef $AesCtx, $Data
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|187|AU3 call|IsDllStruct|$_AES_CodeBuffer
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|187|UDF call|_AES_Startup|{none}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|188|AU3 call|IsDllStruct|$AesCtx
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|188|AU3 call|SetError|1 , 0 , Binary ( {string112} )
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|188|AU3 call|Binary|{string112}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|190|AU3 call|Binary|$Data
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|191|AU3 call|Ceiling|BinaryLen ( $Data ) / 16
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|191|AU3 call|BinaryLen|$Data
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|192|AU3 call|SetError|1 , 0 , Binary ( {string113} )
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|192|AU3 call|Binary|{string113}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|194|AU3 call|DllStructCreate|{string114} & $DataLen & {string115}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|195|AU3 call|DllStructSetData|$DataBuffer , 1 , $Data
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|197|AU3 call|DllCall|{string116} , {string117} , {string118} , {string119} , DllStructGetPtr ( $_AES_CodeBuffer ) + $_AES_DecryptECBOffset , {string120} , DllStructGetPtr ( $AesCtx ) , {string121} , DllStructGetPtr ( $DataBuffer ) , {string122} , $DataLen , {string123} , 0
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|197|AU3 call|DllStructGetPtr|$_AES_CodeBuffer
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|197|AU3 call|DllStructGetPtr|$AesCtx
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|197|AU3 call|DllStructGetPtr|$DataBuffer
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|203|AU3 call|DllStructGetData|$DataBuffer , 1
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|204|func end|_AesDecryptECB|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|206|func def|_AesEncryptCBC|ByRef $AesCtx, ByRef $IV, $Data
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|207|AU3 call|IsDllStruct|$_AES_CodeBuffer
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|207|UDF call|_AES_Startup|{none}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|208|AU3 call|IsDllStruct|$AesCtx
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|208|AU3 call|SetError|1 , 0 , Binary ( {string124} )
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|208|AU3 call|Binary|{string124}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|210|AU3 call|Binary|$Data
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|211|AU3 call|Ceiling|BinaryLen ( $Data ) / 16
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|211|AU3 call|BinaryLen|$Data
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|212|AU3 call|SetError|1 , 0 , Binary ( {string125} )
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|212|AU3 call|Binary|{string125}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|214|AU3 call|DllStructCreate|{string126} & $DataLen & {string127}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|215|AU3 call|DllStructSetData|$DataBuffer , 1 , $Data
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|217|AU3 call|DllStructCreate|{string128}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|218|AU3 call|DllStructSetData|$IVBuffer , 1 , $IV
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|220|AU3 call|DllCall|{string129} , {string130} , {string131} , {string132} , DllStructGetPtr ( $_AES_CodeBuffer ) + $_AES_EncryptCBCOffset , {string133} , DllStructGetPtr ( $AesCtx ) , {string134} , DllStructGetPtr ( $DataBuffer ) , {string135} , $DataLen , {string136} , DllStructGetPtr ( $IVBuffer )
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|220|AU3 call|DllStructGetPtr|$_AES_CodeBuffer
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|220|AU3 call|DllStructGetPtr|$AesCtx
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|220|AU3 call|DllStructGetPtr|$DataBuffer
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|220|AU3 call|DllStructGetPtr|$IVBuffer
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|225|AU3 call|DllStructGetData|$IVBuffer , 1
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|226|AU3 call|DllStructGetData|$DataBuffer , 1
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|227|func end|_AesEncryptCBC|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|229|func def|_AesDecryptCBC|ByRef $AesCtx, ByRef $IV, $Data
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|230|AU3 call|IsDllStruct|$_AES_CodeBuffer
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|230|UDF call|_AES_Startup|{none}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|231|AU3 call|IsDllStruct|$AesCtx
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|231|AU3 call|SetError|1 , 0 , Binary ( {string137} )
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|231|AU3 call|Binary|{string137}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|233|AU3 call|Binary|$Data
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|234|AU3 call|Ceiling|BinaryLen ( $Data ) / 16
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|234|AU3 call|BinaryLen|$Data
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|235|AU3 call|SetError|1 , 0 , Binary ( {string138} )
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|235|AU3 call|Binary|{string138}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|237|AU3 call|DllStructCreate|{string139} & $DataLen & {string140}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|238|AU3 call|DllStructSetData|$DataBuffer , 1 , $Data
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|240|AU3 call|DllStructCreate|{string141}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|241|AU3 call|DllStructSetData|$IVBuffer , 1 , $IV
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|243|AU3 call|DllCall|{string142} , {string143} , {string144} , {string145} , DllStructGetPtr ( $_AES_CodeBuffer ) + $_AES_DecryptCBCOffset , {string146} , DllStructGetPtr ( $AesCtx ) , {string147} , DllStructGetPtr ( $DataBuffer ) , {string148} , $DataLen , {string149} , DllStructGetPtr ( $IVBuffer )
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|243|AU3 call|DllStructGetPtr|$_AES_CodeBuffer
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|243|AU3 call|DllStructGetPtr|$AesCtx
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|243|AU3 call|DllStructGetPtr|$DataBuffer
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|243|AU3 call|DllStructGetPtr|$IVBuffer
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|248|AU3 call|DllStructGetData|$IVBuffer , 1
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|249|AU3 call|DllStructGetData|$DataBuffer , 1
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|250|func end|_AesDecryptCBC|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|252|func def|_AesEncryptCFB|ByRef $AesCtx, ByRef $IV, $Data
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|253|AU3 call|IsDllStruct|$_AES_CodeBuffer
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|253|UDF call|_AES_Startup|{none}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|254|AU3 call|IsDllStruct|$AesCtx
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|254|AU3 call|SetError|1 , 0 , Binary ( {string150} )
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|254|AU3 call|Binary|{string150}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|256|AU3 call|Binary|$Data
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|257|AU3 call|BinaryLen|$Data
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|258|AU3 call|SetError|1 , 0 , Binary ( {string151} )
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|258|AU3 call|Binary|{string151}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|260|AU3 call|DllStructCreate|{string152} & $DataLen & {string153}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|261|AU3 call|DllStructSetData|$DataBuffer , 1 , $Data
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|263|AU3 call|DllStructCreate|{string154}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|264|AU3 call|DllStructSetData|$IVBuffer , 1 , $IV
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|266|AU3 call|DllCall|{string155} , {string156} , {string157} , {string158} , DllStructGetPtr ( $_AES_CodeBuffer ) + $_AES_EncryptCFBOffset , {string159} , DllStructGetPtr ( $AesCtx ) , {string160} , DllStructGetPtr ( $DataBuffer ) , {string161} , $DataLen , {string162} , DllStructGetPtr ( $IVBuffer )
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|266|AU3 call|DllStructGetPtr|$_AES_CodeBuffer
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|266|AU3 call|DllStructGetPtr|$AesCtx
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|266|AU3 call|DllStructGetPtr|$DataBuffer
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|266|AU3 call|DllStructGetPtr|$IVBuffer
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|271|AU3 call|DllStructGetData|$IVBuffer , 1
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|272|AU3 call|DllStructGetData|$DataBuffer , 1
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|273|func end|_AesEncryptCFB|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|275|func def|_AesDecryptCFB|ByRef $AesCtx, ByRef $IV, $Data
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|276|AU3 call|IsDllStruct|$_AES_CodeBuffer
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|276|UDF call|_AES_Startup|{none}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|277|AU3 call|IsDllStruct|$AesCtx
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|277|AU3 call|SetError|1 , 0 , Binary ( {string163} )
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|277|AU3 call|Binary|{string163}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|279|AU3 call|Binary|$Data
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|280|AU3 call|BinaryLen|$Data
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|281|AU3 call|SetError|1 , 0 , Binary ( {string164} )
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|281|AU3 call|Binary|{string164}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|283|AU3 call|DllStructCreate|{string165} & $DataLen & {string166}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|284|AU3 call|DllStructSetData|$DataBuffer , 1 , $Data
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|286|AU3 call|DllStructCreate|{string167}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|287|AU3 call|DllStructSetData|$IVBuffer , 1 , $IV
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|289|AU3 call|DllCall|{string168} , {string169} , {string170} , {string171} , DllStructGetPtr ( $_AES_CodeBuffer ) + $_AES_DecryptCFBOffset , {string172} , DllStructGetPtr ( $AesCtx ) , {string173} , DllStructGetPtr ( $DataBuffer ) , {string174} , $DataLen , {string175} , DllStructGetPtr ( $IVBuffer )
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|289|AU3 call|DllStructGetPtr|$_AES_CodeBuffer
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|289|AU3 call|DllStructGetPtr|$AesCtx
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|289|AU3 call|DllStructGetPtr|$DataBuffer
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|289|AU3 call|DllStructGetPtr|$IVBuffer
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|294|AU3 call|DllStructGetData|$IVBuffer , 1
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|295|AU3 call|DllStructGetData|$DataBuffer , 1
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|296|func end|_AesDecryptCFB|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|299|func def|_AesCryptOFB|ByRef $AesCtx, ByRef $IV, $Data
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|300|AU3 call|IsDllStruct|$_AES_CodeBuffer
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|300|UDF call|_AES_Startup|{none}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|301|AU3 call|IsDllStruct|$AesCtx
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|301|AU3 call|SetError|1 , 0 , Binary ( {string176} )
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|301|AU3 call|Binary|{string176}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|303|AU3 call|Binary|$Data
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|304|AU3 call|BinaryLen|$Data
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|305|AU3 call|SetError|1 , 0 , Binary ( {string177} )
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|305|AU3 call|Binary|{string177}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|307|AU3 call|DllStructCreate|{string178} & $DataLen & {string179}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|308|AU3 call|DllStructSetData|$DataBuffer , 1 , $Data
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|310|AU3 call|DllStructCreate|{string180}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|311|AU3 call|DllStructSetData|$IVBuffer , 1 , $IV
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|313|AU3 call|DllCall|{string181} , {string182} , {string183} , {string184} , DllStructGetPtr ( $_AES_CodeBuffer ) + $_AES_CryptOFBOffset , {string185} , DllStructGetPtr ( $AesCtx ) , {string186} , DllStructGetPtr ( $DataBuffer ) , {string187} , $DataLen , {string188} , DllStructGetPtr ( $IVBuffer )
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|313|AU3 call|DllStructGetPtr|$_AES_CodeBuffer
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|313|AU3 call|DllStructGetPtr|$AesCtx
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|313|AU3 call|DllStructGetPtr|$DataBuffer
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|313|AU3 call|DllStructGetPtr|$IVBuffer
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|319|AU3 call|DllStructGetData|$IVBuffer , 1
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|320|AU3 call|DllStructGetData|$DataBuffer , 1
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|321|func end|_AesCryptOFB|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|323|func def|_AesEncryptCBC_Pad|ByRef $AesCtx, ByRef $IV, $Data
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|324|AU3 call|Binary|$Data
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|326|AU3 call|Mod|BinaryLen ( $Data ) , 16
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|326|AU3 call|BinaryLen|$Data
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|329|AU3 call|DllStructCreate|{string189} & $PadLen & {string190}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|330|AU3 call|DllStructSetData|$Pad , 1 , Binary ( {string191} ) , 1
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|330|AU3 call|Binary|{string191}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|331|AU3 call|DllStructGetData|$Pad , 1
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|333|UDF call|_AesEncryptCBC|$AesCtx , $IV , $Data & $Pad
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|334|func end|_AesEncryptCBC_Pad|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|336|func def|_AesDecryptCBC_Pad|ByRef $AesCtx, ByRef $IV, $Data
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|337|UDF call|_AesDecryptCBC|$AesCtx , $IV , $Data
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|338|AU3 call|BinaryLen|$Data
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|339|Loop Start|For|$i = $DataLen To $DataLen - 16 Step -1
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|340|AU3 call|BinaryMid|$Data , $i , 1
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|340|AU3 call|Binary|{string192}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|341|AU3 call|BinaryMid|$Data , 1 , $i - 1
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|343|Loop End |Next|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|345|func end|_AesDecryptCBC_Pad|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|347|func def|_AesEncrypt|$Key, $Data, $Mode = $AES_CBC_MODE, $IV = Default
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|348|UDF call|_AesPrepareIV|$IV
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|351|UDF call|_AesEncryptKey|$Key
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|353|AU3 call|String|$Mode
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|355|UDF call|_AesEncryptCFB|$AesCtx , $IV , $Data
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|357|UDF call|_AesCryptOFB|$AesCtx , $IV , $Data
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|359|UDF call|_AesEncryptCBC_Pad|$AesCtx , $IV , $Data
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|362|AU3 call|BinaryLen|$Ret
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|362|AU3 call|SetError|1 , 0 , Binary ( {string195} )
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|362|AU3 call|Binary|{string195}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|364|func end|_AesEncrypt|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|366|func def|_AesDecrypt|$Key, $Data, $Mode = $AES_CBC_MODE
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|367|AU3 call|Binary|$Data
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|368|AU3 call|BinaryLen|$Data
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|368|AU3 call|SetError|1 , 0 , Binary ( {string196} )
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|368|AU3 call|Binary|{string196}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|370|AU3 call|BinaryMid|$Data , 1 , 16
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|371|AU3 call|BinaryMid|$Data , 17
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|373|AU3 call|String|$Mode
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|375|UDF call|_AesEncryptKey|$Key
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|376|UDF call|_AesDecryptCFB|$AesCtx , $IV , $Data
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|378|UDF call|_AesEncryptKey|$Key
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|379|UDF call|_AesCryptOFB|$AesCtx , $IV , $Data
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|381|UDF call|_AesDecryptKey|$Key
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|382|UDF call|_AesDecryptCBC_Pad|$AesCtx , $IV , $Data
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|385|AU3 call|BinaryLen|$Ret
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|385|AU3 call|SetError|1 , 0 , Binary ( {string199} )
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|385|AU3 call|Binary|{string199}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|387|func end|_AesDecrypt|<n/a>
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|389|func def|_AES_CodeDecompress|$Code
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|395|AU3 call|StringInStr|$Opcode , {string202}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|396|AU3 call|StringInStr|$Opcode , {string203}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|397|AU3 call|StringInStr|$Opcode , {string204}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|398|AU3 call|Binary|$Opcode
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|400|UDF call|_MemVirtualAlloc|0 , BinaryLen ( $Opcode ) , $MEM_COMMIT , $PAGE_EXECUTE_READWRITE
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|400|AU3 call|BinaryLen|$Opcode
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|401|AU3 call|DllStructCreate|{string205} & BinaryLen ( $Opcode ) & {string206} , $CodeBufferMemory
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|401|AU3 call|BinaryLen|$Opcode
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|402|AU3 call|DllStructSetData|$CodeBuffer , 1 , $Opcode
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|404|AU3 call|DllStructCreate|{string207}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|405|AU3 call|StringLen|$Code
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|406|AU3 call|DllStructCreate|{string208} & $Length & {string209}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|408|AU3 call|DllCall|{string210} , {string211} , {string212} , {string213} , DllStructGetPtr ( $CodeBuffer ) + $B64D_Init , {string214} , DllStructGetPtr ( $B64D_State ) , {string215} , 0 , {string216} , 0 , {string217} , 0
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|408|AU3 call|DllStructGetPtr|$CodeBuffer
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|408|AU3 call|DllStructGetPtr|$B64D_State
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|414|AU3 call|DllCall|{string218} , {string219} , {string220} , {string221} , DllStructGetPtr ( $CodeBuffer ) + $B64D_DecodeData , {string222} , $Code , {string223} , $Length , {string224} , DllStructGetPtr ( $Output ) , {string225} , DllStructGetPtr ( $B64D_State )
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|414|AU3 call|DllStructGetPtr|$CodeBuffer
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|414|AU3 call|DllStructGetPtr|$Output
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|414|AU3 call|DllStructGetPtr|$B64D_State
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|420|AU3 call|DllStructGetData|DllStructCreate ( {string226} , DllStructGetPtr ( $Output ) ) , 1
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|420|AU3 call|DllStructCreate|{string226} , DllStructGetPtr ( $Output )
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|420|AU3 call|DllStructGetPtr|$Output
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|421|AU3 call|DllStructCreate|{string227} & ( $ResultLen + 16 ) & {string228}
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|423|AU3 call|DllCall|{string229} , {string230} , {string231} , {string232} , DllStructGetPtr ( $CodeBuffer ) + $AP_Decompress , {string233} , DllStructGetPtr ( $Output ) + 4 , {string234} , DllStructGetPtr ( $Result ) , {string235} , 0 , {string236} , 0
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|423|AU3 call|DllStructGetPtr|$CodeBuffer
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|423|AU3 call|DllStructGetPtr|$Output
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|423|AU3 call|DllStructGetPtr|$Result
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|430|UDF call|_MemVirtualFree|$CodeBufferMemory , 0 , $MEM_RELEASE
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|431|AU3 call|BinaryMid|DllStructGetData ( $Result , 1 ) , 1 , $Ret [ 0 ]
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|431|AU3 call|DllStructGetData|$Result , 1
+True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|432|func end|_AES_CodeDecompress|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|3|#include|C:\Program Files (x86)\AutoIt3\Include\MemoryConstants.au3|<n\a>
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|4|#include|C:\Program Files (x86)\AutoIt3\Include\ProcessConstants.au3|<n\a>
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|5|#include|C:\Program Files (x86)\AutoIt3\Include\Security.au3|<n\a>
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|6|#include|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|<n\a>
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|48|Global|$tagMEMMAP|{string241}
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|64|func def|_MemFree|ByRef $tMemMap
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|65|AU3 call|DllStructGetData|$tMemMap , {string242}
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|66|AU3 call|DllStructGetData|$tMemMap , {string243}
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|67|UDF call|_MemVirtualFreeEx|$hProcess , $pMemory , 0 , $MEM_RELEASE
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|68|AU3 call|DllCall|{string244} , {string245} , {string246} , {string247} , $hProcess
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|69|AU3 call|SetError|@error , @extended , False
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|71|func end|_MemFree|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|77|func def|_MemGlobalAlloc|$iBytes, $iFlags = 0
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|78|AU3 call|DllCall|{string248} , {string249} , {string250} , {string251} , $iFlags , {string252} , $iBytes
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|79|AU3 call|SetError|@error , @extended , 0
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|81|func end|_MemGlobalAlloc|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|87|func def|_MemGlobalFree|$hMemory
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|88|AU3 call|DllCall|{string253} , {string254} , {string255} , {string256} , $hMemory
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|89|AU3 call|SetError|@error , @extended , False
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|91|func end|_MemGlobalFree|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|97|func def|_MemGlobalLock|$hMemory
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|98|AU3 call|DllCall|{string257} , {string258} , {string259} , {string260} , $hMemory
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|99|AU3 call|SetError|@error , @extended , 0
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|101|func end|_MemGlobalLock|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|107|func def|_MemGlobalSize|$hMemory
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|108|AU3 call|DllCall|{string261} , {string262} , {string263} , {string264} , $hMemory
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|109|AU3 call|SetError|@error , @extended , 0
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|111|func end|_MemGlobalSize|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|117|func def|_MemGlobalUnlock|$hMemory
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|118|AU3 call|DllCall|{string265} , {string266} , {string267} , {string268} , $hMemory
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|119|AU3 call|SetError|@error , @extended , 0
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|121|func end|_MemGlobalUnlock|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|139|func def|_MemInit|$hWnd, $iSize, ByRef $tMemMap
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|140|AU3 call|DllCall|{string269} , {string270} , {string271} , {string272} , $hWnd , {string273} , 0
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|141|AU3 call|SetError|@error + 10 , @extended , 0
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|143|AU3 call|SetError|1 , 0 , 0
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|145|AU3 call|BitOR|$PROCESS_VM_OPERATION , $PROCESS_VM_READ , $PROCESS_VM_WRITE
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|146|UDF call|__Mem_OpenProcess|$iAccess , False , $iProcessID , True
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|147|AU3 call|BitOR|$MEM_RESERVE , $MEM_COMMIT
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|148|UDF call|_MemVirtualAllocEx|$hProcess , 0 , $iSize , $iAlloc , $PAGE_READWRITE
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|150|AU3 call|SetError|2 , 0 , 0
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|152|AU3 call|DllStructCreate|$tagMEMMAP
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|153|AU3 call|DllStructSetData|$tMemMap , {string274} , $hProcess
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|154|AU3 call|DllStructSetData|$tMemMap , {string275} , $iSize
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|155|AU3 call|DllStructSetData|$tMemMap , {string276} , $pMemory
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|157|func end|_MemInit|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|163|func def|_MemMoveMemory|$pSource, $pDest, $iLength
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|164|AU3 call|DllCall|{string277} , {string278} , {string279} , {string280} , $pDest , {string281} , $pSource , {string282} , $iLength
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|165|AU3 call|SetError|@error , @extended
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|166|func end|_MemMoveMemory|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|185|func def|_MemRead|ByRef $tMemMap, $pSrce, $pDest, $iSize
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|186|AU3 call|DllCall|{string283} , {string284} , {string285} , {string286} , DllStructGetData ( $tMemMap , {string287} ) , {string288} , $pSrce , {string289} , $pDest , {string290} , $iSize , {string291} , 0
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|186|AU3 call|DllStructGetData|$tMemMap , {string287}
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|188|AU3 call|SetError|@error , @extended , False
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|190|func end|_MemRead|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|210|func def|_MemWrite|ByRef $tMemMap, $pSrce, $pDest = 0, $iSize = 0, $sSrce = {string292}
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|211|AU3 call|DllStructGetData|$tMemMap , {string293}
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|212|AU3 call|DllStructGetData|$tMemMap , {string294}
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|213|AU3 call|DllCall|{string295} , {string296} , {string297} , {string298} , DllStructGetData ( $tMemMap , {string299} ) , {string300} , $pDest , $sSrce , $pSrce , {string301} , $iSize , {string302} , 0
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|213|AU3 call|DllStructGetData|$tMemMap , {string299}
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|215|AU3 call|SetError|@error , @extended , False
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|217|func end|_MemWrite|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|223|func def|_MemVirtualAlloc|$pAddress, $iSize, $iAllocation, $iProtect
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|224|AU3 call|DllCall|{string303} , {string304} , {string305} , {string306} , $pAddress , {string307} , $iSize , {string308} , $iAllocation , {string309} , $iProtect
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|225|AU3 call|SetError|@error , @extended , 0
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|227|func end|_MemVirtualAlloc|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|233|func def|_MemVirtualAllocEx|$hProcess, $pAddress, $iSize, $iAllocation, $iProtect
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|234|AU3 call|DllCall|{string310} , {string311} , {string312} , {string313} , $hProcess , {string314} , $pAddress , {string315} , $iSize , {string316} , $iAllocation , {string317} , $iProtect
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|235|AU3 call|SetError|@error , @extended , 0
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|237|func end|_MemVirtualAllocEx|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|243|func def|_MemVirtualFree|$pAddress, $iSize, $iFreeType
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|244|AU3 call|DllCall|{string318} , {string319} , {string320} , {string321} , $pAddress , {string322} , $iSize , {string323} , $iFreeType
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|245|AU3 call|SetError|@error , @extended , False
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|247|func end|_MemVirtualFree|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|253|func def|_MemVirtualFreeEx|$hProcess, $pAddress, $iSize, $iFreeType
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|254|AU3 call|DllCall|{string324} , {string325} , {string326} , {string327} , $hProcess , {string328} , $pAddress , {string329} , $iSize , {string330} , $iFreeType
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|255|AU3 call|SetError|@error , @extended , False
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|257|func end|_MemVirtualFreeEx|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|277|func def|__Mem_OpenProcess|$iAccess, $bInherit, $iProcessID, $bDebugPriv = False
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|279|AU3 call|DllCall|{string331} , {string332} , {string333} , {string334} , $iAccess , {string335} , $bInherit , {string336} , $iProcessID
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|280|AU3 call|SetError|@error + 10 , @extended , 0
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|285|UDF call|_Security__OpenThreadTokenEx|BitOR ( $TOKEN_ADJUST_PRIVILEGES , $TOKEN_QUERY )
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|285|AU3 call|BitOR|$TOKEN_ADJUST_PRIVILEGES , $TOKEN_QUERY
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|286|AU3 call|SetError|@error + 20 , @extended , 0
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|287|UDF call|_Security__SetPrivilege|$hToken , {string337} , True
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|293|AU3 call|DllCall|{string338} , {string339} , {string340} , {string341} , $iAccess , {string342} , $bInherit , {string343} , $iProcessID
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|299|UDF call|_Security__SetPrivilege|$hToken , {string344} , False
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|307|AU3 call|DllCall|{string345} , {string346} , {string347} , {string348} , $hToken
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|310|AU3 call|SetError|$iError , $iLastError , $iRet
+True|C:\Program Files (x86)\AutoIt3\Include\Memory.au3|311|func end|__Mem_OpenProcess|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\MemoryConstants.au3|12|Global|$GMEM_FIXED|0x0000
+True|C:\Program Files (x86)\AutoIt3\Include\MemoryConstants.au3|13|Global|$GMEM_MOVEABLE|0x0002
+True|C:\Program Files (x86)\AutoIt3\Include\MemoryConstants.au3|14|Global|$GMEM_NOCOMPACT|0x0010
+True|C:\Program Files (x86)\AutoIt3\Include\MemoryConstants.au3|15|Global|$GMEM_NODISCARD|0x0020
+True|C:\Program Files (x86)\AutoIt3\Include\MemoryConstants.au3|16|Global|$GMEM_ZEROINIT|0x0040
+True|C:\Program Files (x86)\AutoIt3\Include\MemoryConstants.au3|17|Global|$GMEM_MODIFY|0x0080
+True|C:\Program Files (x86)\AutoIt3\Include\MemoryConstants.au3|18|Global|$GMEM_DISCARDABLE|0x0100
+True|C:\Program Files (x86)\AutoIt3\Include\MemoryConstants.au3|19|Global|$GMEM_NOT_BANKED|0x1000
+True|C:\Program Files (x86)\AutoIt3\Include\MemoryConstants.au3|20|Global|$GMEM_SHARE|0x2000
+True|C:\Program Files (x86)\AutoIt3\Include\MemoryConstants.au3|21|Global|$GMEM_DDESHARE|0x2000
+True|C:\Program Files (x86)\AutoIt3\Include\MemoryConstants.au3|22|Global|$GMEM_NOTIFY|0x4000
+True|C:\Program Files (x86)\AutoIt3\Include\MemoryConstants.au3|23|Global|$GMEM_LOWER|0x1000
+True|C:\Program Files (x86)\AutoIt3\Include\MemoryConstants.au3|24|Global|$GMEM_VALID_FLAGS|0x7F72
+True|C:\Program Files (x86)\AutoIt3\Include\MemoryConstants.au3|25|Global|$GMEM_INVALID_HANDLE|0x8000
+True|C:\Program Files (x86)\AutoIt3\Include\MemoryConstants.au3|27|Global|$GPTR|BitOR($GMEM_FIXED, $GMEM_ZEROINIT)
+True|C:\Program Files (x86)\AutoIt3\Include\MemoryConstants.au3|27|AU3 call|BitOR|$GMEM_FIXED , $GMEM_ZEROINIT
+True|C:\Program Files (x86)\AutoIt3\Include\MemoryConstants.au3|27|Main Code|Entry point|Global Const $GPTR = BitOR($GMEM_FIXED, $GMEM_ZEROINIT) ; in fact equal $GMEM_ZEROINIT
+True|C:\Program Files (x86)\AutoIt3\Include\MemoryConstants.au3|28|Global|$GHND|BitOR($GMEM_MOVEABLE, $GMEM_ZEROINIT)
+True|C:\Program Files (x86)\AutoIt3\Include\MemoryConstants.au3|28|AU3 call|BitOR|$GMEM_MOVEABLE , $GMEM_ZEROINIT
+True|C:\Program Files (x86)\AutoIt3\Include\MemoryConstants.au3|32|Global|$MEM_COMMIT|0x00001000
+True|C:\Program Files (x86)\AutoIt3\Include\MemoryConstants.au3|33|Global|$MEM_RESERVE|0x00002000
+True|C:\Program Files (x86)\AutoIt3\Include\MemoryConstants.au3|34|Global|$MEM_TOP_DOWN|0x00100000
+True|C:\Program Files (x86)\AutoIt3\Include\MemoryConstants.au3|35|Global|$MEM_SHARED|0x08000000
+True|C:\Program Files (x86)\AutoIt3\Include\MemoryConstants.au3|39|Global|$PAGE_NOACCESS|0x00000001
+True|C:\Program Files (x86)\AutoIt3\Include\MemoryConstants.au3|40|Global|$PAGE_READONLY|0x00000002
+True|C:\Program Files (x86)\AutoIt3\Include\MemoryConstants.au3|41|Global|$PAGE_READWRITE|0x00000004
+True|C:\Program Files (x86)\AutoIt3\Include\MemoryConstants.au3|42|Global|$PAGE_EXECUTE|0x00000010
+True|C:\Program Files (x86)\AutoIt3\Include\MemoryConstants.au3|43|Global|$PAGE_EXECUTE_READ|0x00000020
+True|C:\Program Files (x86)\AutoIt3\Include\MemoryConstants.au3|44|Global|$PAGE_EXECUTE_READWRITE|0x00000040
+True|C:\Program Files (x86)\AutoIt3\Include\MemoryConstants.au3|45|Global|$PAGE_EXECUTE_WRITECOPY|0x00000080
+True|C:\Program Files (x86)\AutoIt3\Include\MemoryConstants.au3|46|Global|$PAGE_GUARD|0x00000100
+True|C:\Program Files (x86)\AutoIt3\Include\MemoryConstants.au3|47|Global|$PAGE_NOCACHE|0x00000200
+True|C:\Program Files (x86)\AutoIt3\Include\MemoryConstants.au3|48|Global|$PAGE_WRITECOMBINE|0x00000400
+True|C:\Program Files (x86)\AutoIt3\Include\MemoryConstants.au3|49|Global|$PAGE_WRITECOPY|0x00000008
+True|C:\Program Files (x86)\AutoIt3\Include\MemoryConstants.au3|53|Global|$MEM_DECOMMIT|0x00004000
+True|C:\Program Files (x86)\AutoIt3\Include\MemoryConstants.au3|54|Global|$MEM_RELEASE|0x00008000
+True|C:\Program Files (x86)\AutoIt3\Include\MemoryConstants.au3|28|Exit|<implicit Exit>|Global Const $GHND = BitOR($GMEM_MOVEABLE, $GMEM_ZEROINIT)
+True|C:\Program Files (x86)\AutoIt3\Include\ProcessConstants.au3|12|Global|$PROCESS_TERMINATE|0x00000001
+True|C:\Program Files (x86)\AutoIt3\Include\ProcessConstants.au3|13|Global|$PROCESS_CREATE_THREAD|0x00000002
+True|C:\Program Files (x86)\AutoIt3\Include\ProcessConstants.au3|14|Global|$PROCESS_SET_SESSIONID|0x00000004
+True|C:\Program Files (x86)\AutoIt3\Include\ProcessConstants.au3|15|Global|$PROCESS_VM_OPERATION|0x00000008
+True|C:\Program Files (x86)\AutoIt3\Include\ProcessConstants.au3|16|Global|$PROCESS_VM_READ|0x00000010
+True|C:\Program Files (x86)\AutoIt3\Include\ProcessConstants.au3|17|Global|$PROCESS_VM_WRITE|0x00000020
+True|C:\Program Files (x86)\AutoIt3\Include\ProcessConstants.au3|18|Global|$PROCESS_DUP_HANDLE|0x00000040
+True|C:\Program Files (x86)\AutoIt3\Include\ProcessConstants.au3|19|Global|$PROCESS_CREATE_PROCESS|0x00000080
+True|C:\Program Files (x86)\AutoIt3\Include\ProcessConstants.au3|20|Global|$PROCESS_SET_QUOTA|0x00000100
+True|C:\Program Files (x86)\AutoIt3\Include\ProcessConstants.au3|21|Global|$PROCESS_SET_INFORMATION|0x00000200
+True|C:\Program Files (x86)\AutoIt3\Include\ProcessConstants.au3|22|Global|$PROCESS_QUERY_INFORMATION|0x00000400
+True|C:\Program Files (x86)\AutoIt3\Include\ProcessConstants.au3|23|Global|$PROCESS_QUERY_LIMITED_INFORMATION|0x1000
+True|C:\Program Files (x86)\AutoIt3\Include\ProcessConstants.au3|24|Global|$PROCESS_SUSPEND_RESUME|0x00000800
+True|C:\Program Files (x86)\AutoIt3\Include\ProcessConstants.au3|25|Global|$PROCESS_ALL_ACCESS|0x001F0FFF
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|3|#include|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|<n\a>
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|4|#include|C:\Program Files (x86)\AutoIt3\Include\WinAPIError.au3|<n\a>
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|39|func def|_Security__AdjustTokenPrivileges|$hToken, $bDisableAll, $tNewState, $iBufferLen, $tPrevState = 0, $pRequired = 0
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|40|AU3 call|DllCall|{string351} , {string352} , {string353} , {string354} , $hToken , {string355} , $bDisableAll , {string356} , $tNewState , {string357} , $iBufferLen , {string358} , $tPrevState , {string359} , $pRequired
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|41|AU3 call|SetError|@error , @extended , False
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|44|func end|_Security__AdjustTokenPrivileges|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|50|func def|_Security__CreateProcessWithToken|$hToken, $iLogonFlags, $sCommandLine, $iCreationFlags, $sCurDir, $tSTARTUPINFO, $tPROCESS_INFORMATION
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|51|AU3 call|DllCall|{string360} , {string361} , {string362} , {string363} , $hToken , {string364} , $iLogonFlags , {string365} , 0 , {string366} , $sCommandLine , {string367} , $iCreationFlags , {string368} , 0 , {string369} , $sCurDir , {string370} , $tSTARTUPINFO , {string371} , $tPROCESS_INFORMATION
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|52|AU3 call|SetError|@error , @extended , False
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|55|func end|_Security__CreateProcessWithToken|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|61|func def|_Security__DuplicateTokenEx|$hExistingToken, $iDesiredAccess, $iImpersonationLevel, $iTokenType
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|62|AU3 call|DllCall|{string372} , {string373} , {string374} , {string375} , $hExistingToken , {string376} , $iDesiredAccess , {string377} , 0 , {string378} , $iImpersonationLevel , {string379} , $iTokenType , {string380} , 0
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|63|AU3 call|SetError|@error , @extended , 0
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|66|func end|_Security__DuplicateTokenEx|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|72|func def|_Security__GetAccountSid|$sAccount, $sSystem = {string381}
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|73|UDF call|_Security__LookupAccountName|$sAccount , $sSystem
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|74|AU3 call|SetError|@error , @extended , 0
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|76|AU3 call|IsArray|$aAcct
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|76|UDF call|_Security__StringSidToSid|$aAcct [ 0 ]
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|78|func end|_Security__GetAccountSid|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|84|func def|_Security__GetLengthSid|$pSID
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|85|UDF call|_Security__IsValidSid|$pSID
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|85|AU3 call|SetError|@error + 10 , @extended , 0
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|87|AU3 call|DllCall|{string383} , {string384} , {string385} , {string386} , $pSID
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|88|AU3 call|SetError|@error , @extended , 0
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|91|func end|_Security__GetLengthSid|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|97|func def|_Security__GetTokenInformation|$hToken, $iClass
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|98|AU3 call|DllCall|{string387} , {string388} , {string389} , {string390} , $hToken , {string391} , $iClass , {string392} , 0 , {string393} , 0 , {string394} , 0
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|99|AU3 call|SetError|@error + 10 , @extended , 0
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|102|AU3 call|DllStructCreate|{string395} & $iLen & {string396}
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|103|AU3 call|DllCall|{string397} , {string398} , {string399} , {string400} , $hToken , {string401} , $iClass , {string402} , $tBuffer , {string403} , DllStructGetSize ( $tBuffer ) , {string404} , 0
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|103|AU3 call|DllStructGetSize|$tBuffer
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|104|AU3 call|SetError|@error , @extended , 0
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|107|func end|_Security__GetTokenInformation|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|113|func def|_Security__ImpersonateSelf|$iLevel = $SECURITYIMPERSONATION
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|114|AU3 call|DllCall|{string405} , {string406} , {string407} , {string408} , $iLevel
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|115|AU3 call|SetError|@error , @extended , False
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|118|func end|_Security__ImpersonateSelf|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|124|func def|_Security__IsValidSid|$pSID
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|125|AU3 call|DllCall|{string409} , {string410} , {string411} , {string412} , $pSID
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|126|AU3 call|SetError|@error , @extended , False
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|129|func end|_Security__IsValidSid|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|135|func def|_Security__LookupAccountName|$sAccount, $sSystem = {string413}
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|136|AU3 call|DllStructCreate|{string414}
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|137|AU3 call|DllCall|{string415} , {string416} , {string417} , {string418} , $sSystem , {string419} , $sAccount , {string420} , $tData , {string421} , DllStructGetSize ( $tData ) , {string422} , {string423} , {string424} , DllStructGetSize ( $tData ) , {string425} , 0
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|137|AU3 call|DllStructGetSize|$tData
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|137|AU3 call|DllStructGetSize|$tData
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|138|AU3 call|SetError|@error , @extended , 0
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|141|UDF call|_Security__SidToStringSid|DllStructGetPtr ( $tData , {string426} )
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|141|AU3 call|DllStructGetPtr|$tData , {string426}
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|146|func end|_Security__LookupAccountName|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|152|func def|_Security__LookupAccountSid|$vSID, $sSystem = {string427}
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|155|AU3 call|IsString|$vSID
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|156|UDF call|_Security__StringSidToSid|$vSID
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|160|UDF call|_Security__IsValidSid|$pSID
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|160|AU3 call|SetError|@error + 10 , @extended , 0
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|165|AU3 call|DllCall|{string430} , {string431} , {string432} , $sTypeSystem , $sSystem , {string433} , $pSID , {string434} , {string435} , {string436} , 65536 , {string437} , {string438} , {string439} , 65536 , {string440} , 0
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|166|AU3 call|SetError|@error , @extended , 0
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|174|func end|_Security__LookupAccountSid|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|180|func def|_Security__LookupPrivilegeValue|$sSystem, $sName
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|181|AU3 call|DllCall|{string441} , {string442} , {string443} , {string444} , $sSystem , {string445} , $sName , {string446} , 0
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|182|AU3 call|SetError|@error , @extended , 0
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|185|func end|_Security__LookupPrivilegeValue|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|191|func def|_Security__OpenProcessToken|$hProcess, $iAccess
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|192|AU3 call|DllCall|{string447} , {string448} , {string449} , {string450} , $hProcess , {string451} , $iAccess , {string452} , 0
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|193|AU3 call|SetError|@error , @extended , 0
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|196|func end|_Security__OpenProcessToken|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|202|func def|_Security__OpenThreadToken|$iAccess, $hThread = 0, $bOpenAsSelf = False
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|204|AU3 call|DllCall|{string453} , {string454} , {string455}
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|205|AU3 call|SetError|@error + 10 , @extended , 0
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|209|AU3 call|DllCall|{string456} , {string457} , {string458} , {string459} , $hThread , {string460} , $iAccess , {string461} , $bOpenAsSelf , {string462} , 0
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|210|AU3 call|SetError|@error , @extended , 0
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|213|func end|_Security__OpenThreadToken|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|219|func def|_Security__OpenThreadTokenEx|$iAccess, $hThread = 0, $bOpenAsSelf = False
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|220|UDF call|_Security__OpenThreadToken|$iAccess , $hThread , $bOpenAsSelf
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|223|UDF call|_WinAPI_GetLastError|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|223|AU3 call|SetError|20 , _WinAPI_GetLastError ( ) , 0
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|223|UDF call|_WinAPI_GetLastError|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|224|UDF call|_Security__ImpersonateSelf|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|224|AU3 call|SetError|@error + 10 , _WinAPI_GetLastError ( ) , 0
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|224|UDF call|_WinAPI_GetLastError|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|225|UDF call|_Security__OpenThreadToken|$iAccess , $hThread , $bOpenAsSelf
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|226|AU3 call|SetError|@error , _WinAPI_GetLastError ( ) , 0
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|226|UDF call|_WinAPI_GetLastError|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|230|func end|_Security__OpenThreadTokenEx|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|236|func def|_Security__SetPrivilege|$hToken, $sPrivilege, $bEnable
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|237|UDF call|_Security__LookupPrivilegeValue|{string463} , $sPrivilege
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|238|AU3 call|SetError|@error + 10 , @extended , False
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|241|AU3 call|DllStructCreate|$tagTOKEN_PRIVILEGES
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|242|AU3 call|DllStructGetSize|$tCurrState
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|243|AU3 call|DllStructCreate|$tagTOKEN_PRIVILEGES
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|244|AU3 call|DllStructGetSize|$tPrevState
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|245|AU3 call|DllStructCreate|{string465}
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|247|AU3 call|DllStructSetData|$tCurrState , {string466} , 1
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|248|AU3 call|DllStructSetData|$tCurrState , {string467} , $iLUID
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|249|UDF call|_Security__AdjustTokenPrivileges|$hToken , False , $tCurrState , $iCurrState , $tPrevState , $tRequired
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|249|AU3 call|SetError|2 , @error , False
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|252|AU3 call|DllStructSetData|$tPrevState , {string468} , 1
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|253|AU3 call|DllStructSetData|$tPrevState , {string469} , $iLUID
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|254|AU3 call|DllStructGetData|$tPrevState , {string470}
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|256|AU3 call|BitOR|$iAttributes , $SE_PRIVILEGE_ENABLED
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|258|AU3 call|BitAND|$iAttributes , BitNOT ( $SE_PRIVILEGE_ENABLED )
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|258|AU3 call|BitNOT|$SE_PRIVILEGE_ENABLED
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|260|AU3 call|DllStructSetData|$tPrevState , {string471} , $iAttributes
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|262|UDF call|_Security__AdjustTokenPrivileges|$hToken , False , $tPrevState , $iPrevState , $tCurrState , $tRequired
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|262|AU3 call|SetError|3 , @error , False
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|266|func end|_Security__SetPrivilege|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|272|func def|_Security__SetTokenInformation|$hToken, $iTokenInformation, $vTokenInformation, $iTokenInformationLength
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|273|AU3 call|DllCall|{string472} , {string473} , {string474} , {string475} , $hToken , {string476} , $iTokenInformation , {string477} , $vTokenInformation , {string478} , $iTokenInformationLength
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|274|AU3 call|SetError|@error , @extended , False
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|277|func end|_Security__SetTokenInformation|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|283|func def|_Security__SidToStringSid|$pSID
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|284|UDF call|_Security__IsValidSid|$pSID
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|284|AU3 call|SetError|@error + 10 , 0 , {string479}
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|286|AU3 call|DllCall|{string480} , {string481} , {string482} , {string483} , $pSID , {string484} , 0
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|287|AU3 call|SetError|@error , @extended , {string485}
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|290|AU3 call|DllCall|{string486} , {string487} , {string488} , {string489} , $pStringSid
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|291|AU3 call|DllStructGetData|DllStructCreate ( {string490} & $aLen [ 0 ] + 1 & {string491} , $pStringSid ) , {string492}
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|291|AU3 call|DllStructCreate|{string490} & $aLen [ 0 ] + 1 & {string491} , $pStringSid
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|292|AU3 call|DllCall|{string493} , {string494} , {string495} , {string496} , $pStringSid
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|295|func end|_Security__SidToStringSid|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|301|func def|_Security__SidTypeStr|$iType
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|326|func end|_Security__SidTypeStr|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|332|func def|_Security__StringSidToSid|$sSID
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|333|AU3 call|DllCall|{string508} , {string509} , {string510} , {string511} , $sSID , {string512} , 0
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|334|AU3 call|SetError|@error , @extended , 0
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|337|AU3 call|DllStructCreate|{string513} & _Security__GetLengthSid ( $pSID ) & {string514} , $pSID
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|337|UDF call|_Security__GetLengthSid|$pSID
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|338|AU3 call|DllStructCreate|{string515} & DllStructGetSize ( $tBuffer ) & {string516}
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|338|AU3 call|DllStructGetSize|$tBuffer
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|339|AU3 call|DllStructSetData|$tSID , {string517} , DllStructGetData ( $tBuffer , {string518} )
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|339|AU3 call|DllStructGetData|$tBuffer , {string518}
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|340|AU3 call|DllCall|{string519} , {string520} , {string521} , {string522} , $pSID
+True|C:\Program Files (x86)\AutoIt3\Include\Security.au3|343|func end|_Security__StringSidToSid|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|123|Global|$tagPOINT|{string523}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|128|Global|$tagRECT|{string524}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|133|Global|$tagSIZE|{string525}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|138|Global|$tagMARGINS|{string526}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|147|Global|$tagFILETIME|{string527}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|152|Global|$tagSYSTEMTIME|{string528}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|157|Global|$tagTIME_ZONE_INFORMATION|{string529}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|162|Global|$tagNMHDR|{string530}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|172|Global|$tagCOMBOBOXEXITEM|{string531} & {string532}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|179|Global|$tagNMCBEDRAGBEGIN|$tagNMHDR & {string533}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|185|Global|$tagNMCBEENDEDIT|$tagNMHDR & {string534}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|190|Global|$tagNMCOMBOBOXEX|$tagNMHDR & {string535} & {string536}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|201|Global|$tagDTPRANGE|{string537} & {string538} & {string539}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|208|Global|$tagNMDATETIMECHANGE|$tagNMHDR & {string540} & $tagSYSTEMTIME
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|213|Global|$tagNMDATETIMEFORMAT|$tagNMHDR & {string541} & $tagSYSTEMTIME & {string542}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|218|Global|$tagNMDATETIMEFORMATQUERY|$tagNMHDR & {string543}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|223|Global|$tagNMDATETIMEKEYDOWN|$tagNMHDR & {string544} & $tagSYSTEMTIME
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|228|Global|$tagNMDATETIMESTRING|$tagNMHDR & {string545} & $tagSYSTEMTIME & {string546}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|238|Global|$tagEVENTLOGRECORD|{string547} & {string548} & {string549}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|252|Global|$tagGDIP_EFFECTPARAMS_Blur|{string550}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|258|Global|$tagGDIP_EFFECTPARAMS_BrightnessContrast|{string551}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|264|Global|$tagGDIP_EFFECTPARAMS_ColorBalance|{string552}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|270|Global|$tagGDIP_EFFECTPARAMS_ColorCurve|{string553}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|276|Global|$tagGDIP_EFFECTPARAMS_ColorLUT|{string554}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|282|Global|$tagGDIP_EFFECTPARAMS_HueSaturationLightness|{string555}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|288|Global|$tagGDIP_EFFECTPARAMS_Levels|{string556}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|294|Global|$tagGDIP_EFFECTPARAMS_RedEyeCorrection|{string557}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|300|Global|$tagGDIP_EFFECTPARAMS_Sharpen|{string558}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|306|Global|$tagGDIP_EFFECTPARAMS_Tint|{string559}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|311|Global|$tagGDIPBITMAPDATA|{string560}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|316|Global|$tagGDIPCOLORMATRIX|{string561}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|321|Global|$tagGDIPENCODERPARAM|{string562}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|327|Global|$tagGDIPENCODERPARAMS|{string563} & $tagGDIPENCODERPARAM
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|332|Global|$tagGDIPRECTF|{string564}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|337|Global|$tagGDIPSTARTUPINPUT|{string565}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|342|Global|$tagGDIPSTARTUPOUTPUT|{string566}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|347|Global|$tagGDIPIMAGECODECINFO|{string567} & {string568}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|354|Global|$tagGDIPPENCODERPARAMS|{string569}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|364|Global|$tagHDITEM|{string570}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|369|Global|$tagNMHDDISPINFO|$tagNMHDR & {string571}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|374|Global|$tagNMHDFILTERBTNCLICK|$tagNMHDR & {string572} & $tagRECT
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|379|Global|$tagNMHEADER|$tagNMHDR & {string573}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|389|Global|$tagGETIPAddress|{string574}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|394|Global|$tagNMIPADDRESS|$tagNMHDR & {string575}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|404|Global|$tagLVFINDINFO|{string576} & $tagPOINT & {string577}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|410|Global|$tagLVHITTESTINFO|$tagPOINT & {string578}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|416|Global|$tagLVITEM|{string579} & {string580}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|422|Global|$tagNMLISTVIEW|$tagNMHDR & {string581} & {string582}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|428|Global|$tagNMLVCUSTOMDRAW|{string583} & $tagNMHDR & {string584} & $tagRECT & {string585} & {string586} & {string587}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|436|Global|$tagNMLVDISPINFO|$tagNMHDR & {string588} & $tagLVITEM
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|442|Global|$tagNMLVFINDITEM|$tagNMHDR & {string589} & $tagLVFINDINFO
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|447|Global|$tagNMLVGETINFOTIP|$tagNMHDR & {string590}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|452|Global|$tagNMITEMACTIVATE|$tagNMHDR & {string591} & $tagPOINT & {string592}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|458|Global|$tagNMLVKEYDOWN|{string593} & $tagNMHDR & {string594}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|463|Global|$tagNMLVSCROLL|$tagNMHDR & {string595}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|474|Global|$tagMCHITTESTINFO|{string596} & $tagPOINT & {string597} & $tagSYSTEMTIME & {string598} & $tagRECT & {string599}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|480|Global|$tagMCMONTHRANGE|{string600} & {string601} & {string602}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|487|Global|$tagMCRANGE|{string603} & {string604} & {string605}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|494|Global|$tagMCSELRANGE|{string606} & {string607} & {string608}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|501|Global|$tagNMDAYSTATE|$tagNMHDR & {string609} & $tagSYSTEMTIME & {string610}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|506|Global|$tagNMSELCHANGE|$tagNMHDR & {string611} & {string612}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|519|Global|$tagNMOBJECTNOTIFY|$tagNMHDR & {string613}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|524|Global|$tagNMTCKEYDOWN|{string614} & $tagNMHDR & {string615}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|540|Global|$tagTVITEM|{string616} & {string617}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|547|Global|$tagTVITEMEX|{string618} & $tagTVITEM & {string619}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|552|Global|$tagNMTREEVIEW|$tagNMHDR & {string620} & {string621} & {string622} & {string623} & {string624} & {string625}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|562|Global|$tagNMTVCUSTOMDRAW|{string626} & $tagNMHDR & {string627} & $tagRECT & {string628} & {string629}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|569|Global|$tagNMTVDISPINFO|$tagNMHDR & {string630} & $tagTVITEM
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|574|Global|$tagNMTVGETINFOTIP|$tagNMHDR & {string631}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|579|Global|$tagNMTVITEMCHANGE|$tagNMHDR & {string632}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|584|Global|$tagTVHITTESTINFO|$tagPOINT & {string633}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|589|Global|$tagNMTVKEYDOWN|{string634} & $tagNMHDR & {string635}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|599|Global|$tagNMMOUSE|$tagNMHDR & {string636} & $tagPOINT & {string637}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|609|Global|$tagTOKEN_PRIVILEGES|{string638}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|619|Global|$tagIMAGEINFO|{string639} & $tagRECT
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|629|Global|$tagMENUINFO|{string640}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|634|Global|$tagMENUITEMINFO|{string641} & {string642}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|646|Global|$tagREBARBANDINFO|{string643} & {string644} & {string645} & ((@OSVersion = {string646}) ? {string647} : {string648} & $tagRECT & {string649})
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|653|Global|$tagNMREBARAUTOBREAK|$tagNMHDR & {string650}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|658|Global|$tagNMRBAUTOSIZE|$tagNMHDR & {string651} & {string652} & {string653}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|665|Global|$tagNMREBAR|$tagNMHDR & {string654}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|670|Global|$tagNMREBARCHEVRON|$tagNMHDR & {string655} & $tagRECT & {string656}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|675|Global|$tagNMREBARCHILDSIZE|$tagNMHDR & {string657} & {string658} & {string659}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|687|Global|$tagCOLORSCHEME|{string660}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|692|Global|$tagNMTOOLBAR|$tagNMHDR & {string661} & {string662} & {string663} & $tagRECT
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|699|Global|$tagNMTBHOTITEM|$tagNMHDR & {string664}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|704|Global|$tagTBBUTTON|{string665}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|709|Global|$tagTBBUTTONINFO|{string666}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|719|Global|$tagNETRESOURCE|{string667}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|730|Global|$tagOVERLAPPED|{string668}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|735|Global|$tagOPENFILENAME|{string669} & {string670} & {string671} & {string672}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|743|Global|$tagBITMAPINFOHEADER|{string673} & {string674}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|749|Global|$tagBITMAPINFO|$tagBITMAPINFOHEADER & {string675}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|754|Global|$tagBLENDFUNCTION|{string676}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|759|Global|$tagGUID|{string677}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|764|Global|$tagWINDOWPLACEMENT|{string678}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|769|Global|$tagWINDOWPOS|{string679}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|774|Global|$tagSCROLLINFO|{string680}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|779|Global|$tagSCROLLBARINFO|{string681} & $tagRECT & {string682} & {string683}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|785|Global|$tagLOGFONT|{string684} & {string685}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|791|Global|$tagKBDLLHOOKSTRUCT|{string686}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|802|Global|$tagPROCESS_INFORMATION|{string687}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|807|Global|$tagSTARTUPINFO|{string688} & {string689} & {string690}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|819|Global|$tagSECURITY_ATTRIBUTES|{string691}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|829|Global|$tagWIN32_FIND_DATA|{string692}
+True|C:\Program Files (x86)\AutoIt3\Include\StructureConstants.au3|839|Global|$tagTEXTMETRIC|{string693} & {string694} & {string695} & {string696}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|12|Global|$SE_ASSIGNPRIMARYTOKEN_NAME|{string697}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|13|Global|$SE_AUDIT_NAME|{string698}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|14|Global|$SE_BACKUP_NAME|{string699}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|15|Global|$SE_CHANGE_NOTIFY_NAME|{string700}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|16|Global|$SE_CREATE_GLOBAL_NAME|{string701}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|17|Global|$SE_CREATE_PAGEFILE_NAME|{string702}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|18|Global|$SE_CREATE_PERMANENT_NAME|{string703}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|19|Global|$SE_CREATE_SYMBOLIC_LINK_NAME|{string704}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|20|Global|$SE_CREATE_TOKEN_NAME|{string705}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|21|Global|$SE_DEBUG_NAME|{string706}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|22|Global|$SE_ENABLE_DELEGATION_NAME|{string707}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|23|Global|$SE_IMPERSONATE_NAME|{string708}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|24|Global|$SE_INC_BASE_PRIORITY_NAME|{string709}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|25|Global|$SE_INC_WORKING_SET_NAME|{string710}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|26|Global|$SE_INCREASE_QUOTA_NAME|{string711}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|27|Global|$SE_LOAD_DRIVER_NAME|{string712}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|28|Global|$SE_LOCK_MEMORY_NAME|{string713}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|29|Global|$SE_MACHINE_ACCOUNT_NAME|{string714}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|30|Global|$SE_MANAGE_VOLUME_NAME|{string715}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|31|Global|$SE_PROF_SINGLE_PROCESS_NAME|{string716}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|32|Global|$SE_RELABEL_NAME|{string717}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|33|Global|$SE_REMOTE_SHUTDOWN_NAME|{string718}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|34|Global|$SE_RESTORE_NAME|{string719}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|35|Global|$SE_SECURITY_NAME|{string720}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|36|Global|$SE_SHUTDOWN_NAME|{string721}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|37|Global|$SE_SYNC_AGENT_NAME|{string722}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|38|Global|$SE_SYSTEM_ENVIRONMENT_NAME|{string723}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|39|Global|$SE_SYSTEM_PROFILE_NAME|{string724}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|40|Global|$SE_SYSTEMTIME_NAME|{string725}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|41|Global|$SE_TAKE_OWNERSHIP_NAME|{string726}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|42|Global|$SE_TCB_NAME|{string727}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|43|Global|$SE_TIME_ZONE_NAME|{string728}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|44|Global|$SE_TRUSTED_CREDMAN_ACCESS_NAME|{string729}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|45|Global|$SE_UNSOLICITED_INPUT_NAME|{string730}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|46|Global|$SE_UNDOCK_NAME|{string731}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|48|Global|$SE_PRIVILEGE_ENABLED_BY_DEFAULT|0x00000001
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|49|Global|$SE_PRIVILEGE_ENABLED|0x00000002
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|50|Global|$SE_PRIVILEGE_REMOVED|0x00000004
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|51|Global|$SE_PRIVILEGE_USED_FOR_ACCESS|0x80000000
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|53|Global|$SE_GROUP_MANDATORY|0x00000001
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|54|Global|$SE_GROUP_ENABLED_BY_DEFAULT|0x00000002
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|55|Global|$SE_GROUP_ENABLED|0x00000004
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|56|Global|$SE_GROUP_OWNER|0x00000008
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|57|Global|$SE_GROUP_USE_FOR_DENY_ONLY|0x00000010
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|58|Global|$SE_GROUP_INTEGRITY|0x00000020
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|59|Global|$SE_GROUP_INTEGRITY_ENABLED|0x00000040
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|60|Global|$SE_GROUP_RESOURCE|0x20000000
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|61|Global|$SE_GROUP_LOGON_ID|0xC0000000
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|63|Global Enum|$TOKENPRIMARY|1
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|63|Global Enum|$TOKENIMPERSONATION|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|64|Global Enum|$SECURITYANONYMOUS|0
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|64|Global Enum|$SECURITYIDENTIFICATION|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|64|Global Enum|$SECURITYIMPERSONATION|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|64|Global Enum|$SECURITYDELEGATION|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|65|Global Enum|$TOKENUSER|1
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|65|Global Enum|$TOKENGROUPS|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|65|Global Enum|$TOKENPRIVILEGES|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|65|Global Enum|$TOKENOWNER|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|65|Global Enum|$TOKENPRIMARYGROUP|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|65|Global Enum|$TOKENDEFAULTDACL|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|65|Global Enum|$TOKENSOURCE|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|65|Global Enum|$TOKENTYPE|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|65|Global Enum|$TOKENIMPERSONATIONLEVEL|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|65|Global Enum|$TOKENSTATISTICS|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|65|Global Enum|$TOKENRESTRICTEDSIDS|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|65|Global Enum|$TOKENSESSIONID|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|65|Global Enum|$TOKENGROUPSANDPRIVILEGES|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|65|Global Enum|$TOKENSESSIONREFERENCE|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|65|Global Enum|$TOKENSANDBOXINERT|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|65|Global Enum|$TOKENAUDITPOLICY|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|65|Global Enum|$TOKENORIGIN|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|65|Global Enum|$TOKENELEVATIONTYPE|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|65|Global Enum|$TOKENLINKEDTOKEN|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|65|Global Enum|$TOKENELEVATION|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|65|Global Enum|$TOKENHASRESTRICTIONS|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|65|Global Enum|$TOKENACCESSINFORMATION|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|65|Global Enum|$TOKENVIRTUALIZATIONALLOWED|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|65|Global Enum|$TOKENVIRTUALIZATIONENABLED|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|65|Global Enum|$TOKENINTEGRITYLEVEL|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|65|Global Enum|$TOKENUIACCESS|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|65|Global Enum|$TOKENMANDATORYPOLICY|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|65|Global Enum|$TOKENLOGONSID|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|67|Global|$TOKEN_ASSIGN_PRIMARY|0x00000001
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|68|Global|$TOKEN_DUPLICATE|0x00000002
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|69|Global|$TOKEN_IMPERSONATE|0x00000004
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|70|Global|$TOKEN_QUERY|0x00000008
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|71|Global|$TOKEN_QUERY_SOURCE|0x00000010
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|72|Global|$TOKEN_ADJUST_PRIVILEGES|0x00000020
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|73|Global|$TOKEN_ADJUST_GROUPS|0x00000040
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|74|Global|$TOKEN_ADJUST_DEFAULT|0x00000080
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|75|Global|$TOKEN_ADJUST_SESSIONID|0x00000100
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|76|Global|$TOKEN_ALL_ACCESS|0x000F01FF
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|78|Global|$TOKEN_READ|0x00020008
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|79|Global|$TOKEN_WRITE|0x000200E0
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|80|Global|$TOKEN_EXECUTE|0x00020000
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|82|Global|$TOKEN_HAS_TRAVERSE_PRIVILEGE|0x00000001
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|83|Global|$TOKEN_HAS_BACKUP_PRIVILEGE|0x00000002
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|84|Global|$TOKEN_HAS_RESTORE_PRIVILEGE|0x00000004
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|85|Global|$TOKEN_HAS_ADMIN_GROUP|0x00000008
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|86|Global|$TOKEN_IS_RESTRICTED|0x00000010
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|87|Global|$TOKEN_SESSION_NOT_REFERENCED|0x00000020
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|88|Global|$TOKEN_SANDBOX_INERT|0x00000040
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|89|Global|$TOKEN_HAS_IMPERSONATE_PRIVILEGE|0x00000080
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|91|Global|$RIGHTS_DELETE|0x00010000
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|92|Global|$READ_CONTROL|0x00020000
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|93|Global|$WRITE_DAC|0x00040000
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|94|Global|$WRITE_OWNER|0x00080000
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|95|Global|$SYNCHRONIZE|0x00100000
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|96|Global|$ACCESS_SYSTEM_SECURITY|0x01000000
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|97|Global|$STANDARD_RIGHTS_REQUIRED|0x000f0000
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|98|Global|$STANDARD_RIGHTS_READ|$READ_CONTROL
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|99|Global|$STANDARD_RIGHTS_WRITE|$READ_CONTROL
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|100|Global|$STANDARD_RIGHTS_EXECUTE|$READ_CONTROL
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|101|Global|$STANDARD_RIGHTS_ALL|0x001F0000
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|102|Global|$SPECIFIC_RIGHTS_ALL|0x0000FFFF
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|104|Global Enum|$NOT_USED_ACCESS|0
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|104|Global Enum|$GRANT_ACCESS|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|104|Global Enum|$SET_ACCESS|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|104|Global Enum|$DENY_ACCESS|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|104|Global Enum|$REVOKE_ACCESS|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|104|Global Enum|$SET_AUDIT_SUCCESS|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|104|Global Enum|$SET_AUDIT_FAILURE|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|105|Global Enum|$TRUSTEE_IS_UNKNOWN|0
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|105|Global Enum|$TRUSTEE_IS_USER|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|105|Global Enum|$TRUSTEE_IS_GROUP|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|105|Global Enum|$TRUSTEE_IS_DOMAIN|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|105|Global Enum|$TRUSTEE_IS_ALIAS|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|105|Global Enum|$TRUSTEE_IS_WELL_KNOWN_GROUP|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|105|Global Enum|$TRUSTEE_IS_DELETED|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|105|Global Enum|$TRUSTEE_IS_INVALID|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|105|Global Enum|$TRUSTEE_IS_COMPUTER|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|107|Global|$LOGON_WITH_PROFILE|0x00000001
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|108|Global|$LOGON_NETCREDENTIALS_ONLY|0x00000002
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|110|Global Enum|$SIDTYPEUSER|1
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|110|Global Enum|$SIDTYPEGROUP|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|110|Global Enum|$SIDTYPEDOMAIN|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|110|Global Enum|$SIDTYPEALIAS|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|110|Global Enum|$SIDTYPEWELLKNOWNGROUP|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|110|Global Enum|$SIDTYPEDELETEDACCOUNT|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|110|Global Enum|$SIDTYPEINVALID|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|110|Global Enum|$SIDTYPEUNKNOWN|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|110|Global Enum|$SIDTYPECOMPUTER|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|110|Global Enum|$SIDTYPELABEL|{none}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|112|Global|$SID_ADMINISTRATORS|{string732}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|113|Global|$SID_USERS|{string733}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|114|Global|$SID_GUESTS|{string734}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|115|Global|$SID_ACCOUNT_OPERATORS|{string735}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|116|Global|$SID_SERVER_OPERATORS|{string736}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|117|Global|$SID_PRINT_OPERATORS|{string737}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|118|Global|$SID_BACKUP_OPERATORS|{string738}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|119|Global|$SID_REPLICATOR|{string739}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|121|Global|$SID_OWNER|{string740}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|122|Global|$SID_EVERYONE|{string741}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|123|Global|$SID_NETWORK|{string742}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|124|Global|$SID_INTERACTIVE|{string743}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|125|Global|$SID_SYSTEM|{string744}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|126|Global|$SID_AUTHENTICATED_USERS|{string745}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|128|Global|$SID_SCHANNEL_AUTHENTICATION|{string746}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|129|Global|$SID_DIGEST_AUTHENTICATION|{string747}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|130|Global|$SID_NT_SERVICE|{string748}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|131|Global|$SID_UNTRUSTED_MANDATORY_LEVEL|{string749}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|133|Global|$SID_LOW_MANDATORY_LEVEL|{string750}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|134|Global|$SID_MEDIUM_MANDATORY_LEVEL|{string751}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|135|Global|$SID_MEDIUM_PLUS_MANDATORY_LEVEL|{string752}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|136|Global|$SID_HIGH_MANDATORY_LEVEL|{string753}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|137|Global|$SID_SYSTEM_MANDATORY_LEVEL|{string754}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|138|Global|$SID_PROTECTED_PROCESS_MANDATORY_LEVEL|{string755}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|139|Global|$SID_SECURE_PROCESS_MANDATORY_LEVEL|{string756}
+True|C:\Program Files (x86)\AutoIt3\Include\SecurityConstants.au3|140|Global|$SID_ALL_SERVICES|{string757}
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIError.au3|20|func def|_WinAPI_GetLastError|Const $_iCurrentError = @error, Const $_iCurrentExtended = @extended
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIError.au3|21|AU3 call|DllCall|{string758} , {string759} , {string760}
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIError.au3|22|AU3 call|SetError|$_iCurrentError , $_iCurrentExtended , $aResult [ 0 ]
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIError.au3|23|func end|_WinAPI_GetLastError|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIError.au3|29|func def|_WinAPI_SetLastError|$iErrorCode, Const $_iCurrentError = @error, Const $_iCurrentExtended = @extended
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIError.au3|30|AU3 call|DllCall|{string761} , {string762} , {string763} , {string764} , $iErrorCode
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIError.au3|31|AU3 call|SetError|$_iCurrentError , $_iCurrentExtended , Null
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIError.au3|32|func end|_WinAPI_SetLastError|<n/a>
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIError.au3|48|func def|__COMErrorFormating|$oCOMError, $sPrefix = @TAB
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIError.au3|50|AU3 call|Hex|$oCOMError.Number , 8
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIError.au3|50|AU3 call|StringStripWS|$oCOMError.WinDescription , $STR_STRIPTRAILING
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIError.au3|50|AU3 call|StringStripWS|$oCOMError.Description , $STR_STRIPTRAILING
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIError.au3|50|AU3 call|Hex|$oCOMError.retcode
+True|C:\Program Files (x86)\AutoIt3\Include\WinAPIError.au3|61|func end|__COMErrorFormating|<n/a>

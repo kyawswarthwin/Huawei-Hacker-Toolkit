@@ -1,0 +1,13 @@
+Func {funcU62} (Const {var170} = {macro22}, Const {var171} = {macro25}) ; {file:10}{line:20}
+Local {var67} = {funcA122} ( {string758} , {string759} , {string760} )  ; {file:10}{line:21}
+Return {funcA375} ( {var170} , {var171} , {var67} [ 0 ] )  ; {file:10}{line:22}
+EndFunc  ; {file:10}{line:23}
+Func {funcU65} ({var172}, Const {var170} = {macro22}, Const {var171} = {macro25}) ; {file:10}{line:29}
+{funcA122} ( {string761} , {string762} , {string763} , {string764} , {var172} )  ; {file:10}{line:30}
+Return {funcA375} ( {var170} , {var171} , Null )  ; {file:10}{line:31}
+EndFunc  ; {file:10}{line:32}
+Func {funcU66} ({var173}, {var174} = {macro91}) ; {file:10}{line:48}
+Local Const {var175} = 2  ; {file:10}{line:49}
+Local {var176} = {string765} & {macro68} & {string766} & {var173}.Scriptline & {string767} & {macro14} & {var174} & {string768} & {macro91} & {string769} & {funcA262} ( {var173}.Number , 8 ) & {string770} & {var173}.Number & {string771} & {macro14} & {var174} & {string772} & {macro91} & {string773} & {funcA421} ( {var173}.WinDescription , {var175} ) & {macro14} & {var174} & {string774} & {macro91} & {string775} & {funcA421} ( {var173}.Description , {var175} ) & {macro14} & {var174} & {string776} & {macro91} & {string777} & {var173}.Source & {macro14} & {var174} & {string778} & {macro91} & {string779} & {var173}.HelpFile & {macro14} & {var174} & {string780} & {macro91} & {string781} & {var173}.HelpContext & {macro14} & {var174} & {string782} & {macro91} & {string783} & {var173}.LastDllError & {macro14} & {var174} & {string784} & {macro91} & {string785} & {funcA262} ( {var173}.retcode )  ; {file:10}{line:50}
+Return {var176} ; {file:10}{line:60}
+EndFunc  ; {file:10}{line:61}

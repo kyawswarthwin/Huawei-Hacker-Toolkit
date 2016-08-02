@@ -1,0 +1,8 @@
+7|Source file|Line|Tracking tag|Reference|Parameters
+False|C:\Program Files (x86)\AutoIt3\Include\Constants.au3|<n/a>|redundant #incl|no globals|no incoming calls, no main code
+False|C:\Program Files (x86)\AutoIt3\Include\String.au3|<n/a>|redundant #incl|no globals|no incoming calls, no main code
+False|C:\Program Files (x86)\AutoIt3\Include\WinAPIError.au3|<n/a>|redundant #incl|no globals|no incoming calls, no main code
+False|C:\Program Files (x86)\AutoIt3\Include\Security.au3|<n/a>|redundant #incl|no globals|no incoming calls, no main code
+False|C:\Program Files (x86)\AutoIt3\Include\SendMessage.au3|<n/a>|redundant #incl|no globals|no incoming calls, no main code
+False|C:\Program Files (x86)\AutoIt3\Include\WinAPIMisc.au3|<n/a>|redundant #incl|no globals|no incoming calls, no main code
+False|C:\Program Files (x86)\AutoIt3\Include\WinAPIShPath.au3|<n/a>|redundant #incl|no globals|no incoming calls, no main code

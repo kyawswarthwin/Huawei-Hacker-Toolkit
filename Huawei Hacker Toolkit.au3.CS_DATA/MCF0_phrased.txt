@@ -1,0 +1,2535 @@
+; CODE SCANNER Output
+;
+; Source Language: AutoIt
+; Extracted from : C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3
+; on             : 2016-02-22, at 08:53:59
+; CodeScanner was itself running AutoIt version: 3.3.14.2
+;
+; This Single-Build was generated on 2016-02-22, at 08:58:14
+;===========================================================
+#NoTrayIcon       ; {file:1}{line:1}
+#AutoIt3Wrapper_Outfile_type=a3x       ; {file:1}{line:3}
+#AutoIt3Wrapper_Outfile=Release\Huawei Hacker Toolkit.a3x       ; {file:1}{line:4}
+#AutoIt3Wrapper_Run_After=move {string1}{string2}       ; {file:1}{line:5}
+
+Global Const {var89} = 2        ; {file:25}{line:120}{ref6020}
+Global Const {var88} = 4        ; {file:25}{line:121}{ref6021}
+Global Const {var311} = 0        ; {file:25}{line:127}{ref6025}
+Global Const {var304} = 1        ; {file:25}{line:128}{ref6026}
+Global Const {var318} = 2        ; {file:25}{line:129}{ref6027}
+
+Global Const {var48} = 1        ; {file:26}{line:56}{ref6203}
+Global Const {var724} = 1        ; {file:26}{line:62}{ref6208}
+Global Const {var725} = 2        ; {file:26}{line:63}{ref6209}
+Global Const {var726} = 3        ; {file:26}{line:64}{ref6210}
+Global Const {var727} = 4        ; {file:26}{line:65}{ref6211}
+Global Const {var728} = 5        ; {file:26}{line:66}{ref6212}
+Global Const {var275} = 2        ; {file:26}{line:73}{ref6216}
+Global Const {var731} = 0x00000001        ; {file:26}{line:75}{ref6217}
+Global Const {var730} = 0x00000002        ; {file:26}{line:76}{ref6218}
+Global Const {var732} = 0x00000004        ; {file:26}{line:77}{ref6219}
+Global Const {var729} = 0x00000020        ; {file:26}{line:79}{ref6221}
+Global Const {var722} = 0x00000001        ; {file:26}{line:90}{ref6231}
+Global Const {var723} = 0x00000002        ; {file:26}{line:91}{ref6232}
+Global Const {var721} = 0x00000004        ; {file:26}{line:92}{ref6233}
+Global Const {var718} = 0x20000000        ; {file:26}{line:97}{ref6240}
+Global Const {var720} = 0x40000000        ; {file:26}{line:98}{ref6241}
+Global Const {var719} = 0x80000000        ; {file:26}{line:99}{ref6242}
+
+Global Const {var51} = 16        ; {file:12}{line:25}{ref2620}
+Global Const {var54} = 64        ; {file:12}{line:30}{ref2625}
+Global Const {var52} = 0        ; {file:12}{line:41}{ref2632}
+
+Global Const {var280} = 1        ; {file:21}{line:15}{ref5193}
+Global Const {var1171} = 1        ; {file:21}{line:32}{ref5203}
+
+Func {funcU19}({var84})        ; {file:2}{line:113}
+	Local {var85},{var86},{var87}={string356}        ; {file:2}{line:114}
+	{var85}={phrase1}        ; {file:2}{line:115}
+	While {phrase2} ; {file:2}{line:116}
+	{var86}={phrase3}        ; {file:2}{line:117}
+	If {phrase4} Then ExitLoop        ; {file:2}{line:118}
+	{var87}&={var86}        ; {file:2}{line:119}
+	WEnd        ; {file:2}{line:120}
+	Return {phrase5}        ; {file:2}{line:121}
+EndFunc         ; {file:2}{line:122}
+
+Func {funcU40}({var84})        ; {file:2}{line:182}
+	Return {phrase6}={string368}        ; {file:2}{line:183}
+EndFunc         ; {file:2}{line:184}
+
+Func {funcU30}()        ; {file:2}{line:199}
+	Local {var93}={phrase7}        ; {file:2}{line:200}
+	If {phrase8} Then        ; {file:2}{line:201}
+	{phrase9}        ; {file:2}{line:202}
+	{phrase10}        ; {file:2}{line:203}
+	{var93}={phrase11}        ; {file:2}{line:204}
+	EndIf        ; {file:2}{line:205}
+	Return {phrase12}        ; {file:2}{line:206}
+EndFunc         ; {file:2}{line:207}
+
+Func {funcU20}({var47})        ; {file:2}{line:241}
+	Return {phrase13}={string376}        ; {file:2}{line:242}
+EndFunc         ; {file:2}{line:243}
+
+Func {funcU36}({var78},{var47})        ; {file:2}{line:259}
+	Return {phrase14}        ; {file:2}{line:260}
+EndFunc         ; {file:2}{line:261}
+
+Func {funcU27}()        ; {file:2}{line:418}
+	Local {var82}={phrase15}        ; {file:2}{line:419}
+	If {phrase16} Then Return {var82}[0]        ; {file:2}{line:420}
+EndFunc         ; {file:2}{line:421}
+
+Func {funcU14}({var61})        ; {file:2}{line:683}
+	Return {phrase17}        ; {file:2}{line:684}
+EndFunc         ; {file:2}{line:685}
+
+Func {funcU26}()        ; {file:2}{line:798}
+	If {phrase18} Then         ; {file:2}{line:799}
+	Return {string444}        ; {file:2}{line:800}
+	ElseIf {phrase19} Then         ; {file:2}{line:801}
+	Return {string445}        ; {file:2}{line:802}
+	ElseIf {phrase20} Then         ; {file:2}{line:803}
+	Return {string446}        ; {file:2}{line:804}
+	Else        ; {file:2}{line:805}
+	Return {string447}        ; {file:2}{line:806}
+	EndIf        ; {file:2}{line:807}
+EndFunc         ; {file:2}{line:808}
+
+Func {funcU69}()        ; {file:2}{line:823}
+	Return {phrase21}        ; {file:2}{line:824}
+EndFunc         ; {file:2}{line:825}
+
+Func {funcU28}()        ; {file:2}{line:840}
+	Return {phrase22}={string450}        ; {file:2}{line:841}
+EndFunc         ; {file:2}{line:842}
+
+Func {funcU68}()        ; {file:2}{line:1027}
+	Return {phrase23}<>{string495}        ; {file:2}{line:1028}
+EndFunc         ; {file:2}{line:1029}
+
+Func {funcU67}()        ; {file:2}{line:1061}
+	Return {phrase24}={string498}        ; {file:2}{line:1062}
+EndFunc         ; {file:2}{line:1063}
+
+Func {funcU41}()        ; {file:2}{line:1078}
+	Return {phrase25}={string500}        ; {file:2}{line:1079}
+EndFunc         ; {file:2}{line:1080}
+
+Func {funcU15}({var179},{var180})        ; {file:2}{line:1121}
+	Return {phrase26}        ; {file:2}{line:1122}
+EndFunc         ; {file:2}{line:1123}
+
+Func {funcU11}({var180},{var179})        ; {file:2}{line:1139}
+	Return {phrase27}        ; {file:2}{line:1140}
+EndFunc         ; {file:2}{line:1141}
+
+Func {funcU13}({var78}={string513})        ; {file:2}{line:1156}
+	If {phrase28} Then {var78}={string514}        ; {file:2}{line:1157}
+	Switch {var78}        ; {file:2}{line:1158}
+	Case {string515}        ; {file:2}{line:1159}
+	If {phrase29} Then Return {phrase30}        ; {file:2}{line:1160}
+	{phrase31}        ; {file:2}{line:1161}
+	Case {string517}        ; {file:2}{line:1162}
+	If {phrase32} Then         ; {file:2}{line:1163}
+	{phrase33}        ; {file:2}{line:1164}
+	Else        ; {file:2}{line:1165}
+	{phrase34}        ; {file:2}{line:1166}
+	EndIf        ; {file:2}{line:1167}
+	Case {string520}        ; {file:2}{line:1168}
+	If {phrase35} Then Return {phrase36}        ; {file:2}{line:1169}
+	If {phrase37} Then Return {phrase38}        ; {file:2}{line:1170}
+	{phrase39}        ; {file:2}{line:1171}
+	Case Else        ; {file:2}{line:1172}
+	If {phrase40} Then         ; {file:2}{line:1173}
+	{phrase41}        ; {file:2}{line:1174}
+	Else        ; {file:2}{line:1175}
+	{phrase42}        ; {file:2}{line:1176}
+	EndIf        ; {file:2}{line:1177}
+	EndSwitch        ; {file:2}{line:1178}
+	Return 1        ; {file:2}{line:1179}
+EndFunc         ; {file:2}{line:1180}
+
+Func {funcU10}({var84},{var184}= False,{var185}= False)        ; {file:2}{line:1260}
+	If {phrase43} Then {var184}= False        ; {file:2}{line:1261}
+	If {phrase44} Then {var185}= False        ; {file:2}{line:1262}
+	If {phrase45} Then        ; {file:2}{line:1263}
+	If {phrase46} Then        ; {file:2}{line:1264}
+	If {phrase47} Then         ; {file:2}{line:1265}
+	If {phrase48} Then         ; {file:2}{line:1266}
+	{phrase49}        ; {file:2}{line:1267}
+	{phrase50}        ; {file:2}{line:1268}
+	{phrase51}        ; {file:2}{line:1269}
+	EndIf        ; {file:2}{line:1270}
+	Return {phrase52}        ; {file:2}{line:1271}
+	Else        ; {file:2}{line:1272}
+	Return {phrase53}        ; {file:2}{line:1273}
+	EndIf        ; {file:2}{line:1274}
+	Else        ; {file:2}{line:1275}
+	Return {phrase54}        ; {file:2}{line:1276}
+	EndIf        ; {file:2}{line:1277}
+	Else        ; {file:2}{line:1278}
+	If {phrase55} Then        ; {file:2}{line:1279}
+	If {phrase56} Then         ; {file:2}{line:1280}
+	If {phrase57} Then         ; {file:2}{line:1281}
+	{phrase58}        ; {file:2}{line:1282}
+	{phrase59}        ; {file:2}{line:1283}
+	{phrase60}        ; {file:2}{line:1284}
+	EndIf        ; {file:2}{line:1285}
+	Return {phrase61}        ; {file:2}{line:1286}
+	Else        ; {file:2}{line:1287}
+	Return {phrase62}        ; {file:2}{line:1288}
+	EndIf        ; {file:2}{line:1289}
+	Else        ; {file:2}{line:1290}
+	Return {phrase63}        ; {file:2}{line:1291}
+	EndIf        ; {file:2}{line:1292}
+	EndIf        ; {file:2}{line:1293}
+EndFunc         ; {file:2}{line:1294}
+
+Global Const {var218} = 0x00800000        ; {file:15}{line:54}{ref3969}
+Global Const {var215} = 0x08000000        ; {file:15}{line:61}{ref3978}
+Global Const {var214} = 0x80000000        ; {file:15}{line:67}{ref3984}
+Global Const {var223} = 0x00080000        ; {file:15}{line:95}{ref4009}
+Global Const {var216} = 0x00000080        ; {file:15}{line:108}{ref4022}
+Global Const {var44} = 0x0111        ; {file:15}{line:273}{ref4181}
+Global Const {var43} = 0x0219        ; {file:15}{line:315}{ref4221}
+
+Global Const {var46} = -3        ; {file:10}{line:18}{ref2320}
+Global Const {var67} = {string972}        ; {file:10}{line:30}{ref2331}
+Global Const {var235} = 16        ; {file:10}{line:45}{ref2341}
+Global Const {var230} = 32        ; {file:10}{line:46}{ref2342}
+Global Const {var1064} = 64        ; {file:10}{line:47}{ref2343}
+Global Const {var224} = 128        ; {file:10}{line:48}{ref2344}
+
+Global Const {var232} = 0x1        ; {file:13}{line:14}{ref2655}
+
+Global Enum {var302} , {var312} , {var306} , {var307} , {var308} , {var309} , {var310}         ; {file:7}{line:64}{ref1091}
+Global Enum {var1796} , {var516}         ; {file:7}{line:65}{ref1093}
+Global Enum {var518} , {var522} , {var523} , {var529} , {var530}         ; {file:7}{line:66}{ref1098}
+
+Func {funcU139}(ByRef {var296}, Const ByRef {var298}, Const ByRef {var326})        ; {file:7}{line:1705}
+	If {phrase64} Then Return        ; {file:7}{line:1706}
+	Local {var371}        ; {file:7}{line:1708}
+	If {phrase65} Then         ; {file:7}{line:1711}
+	Local {var480}        ; {file:7}{line:1712}
+	For {var77}={var298}+ 1 To {var326}        ; {file:7}{line:1713}
+	{var371}={var296}[{var77}]        ; {file:7}{line:1714}
+	If {phrase66} Then         ; {file:7}{line:1716}
+	For {var324}={var77}- 1 To {var298} Step -1        ; {file:7}{line:1717}
+	{var480}={var296}[{var324}]        ; {file:7}{line:1718}
+	If {phrase67} Then ExitLoop         ; {file:7}{line:1720}
+	{var296}[{var324}+ 1]={var480}        ; {file:7}{line:1721}
+	Next        ; {file:7}{line:1722}
+	Else        ; {file:7}{line:1723}
+	For {var324}={var77}- 1 To {var298} Step -1        ; {file:7}{line:1724}
+	If {phrase68} Then ExitLoop         ; {file:7}{line:1725}
+	{var296}[{var324}+ 1]={var296}[{var324}]        ; {file:7}{line:1726}
+	Next        ; {file:7}{line:1727}
+	EndIf        ; {file:7}{line:1728}
+	{var296}[{var324}+ 1]={var371}        ; {file:7}{line:1730}
+	Next        ; {file:7}{line:1731}
+	Return        ; {file:7}{line:1732}
+	EndIf        ; {file:7}{line:1733}
+	Local {var481}={var298},{var482}={var326},{var483}={var296}[{phrase69}],{var484}={funcA292}({var483})        ; {file:7}{line:1736}
+	Do        ; {file:7}{line:1737}
+	If {phrase70} Then        ; {file:7}{line:1738}
+	While {phrase71} ; {file:7}{line:1740}
+	{var481}+= 1        ; {file:7}{line:1741}
+	WEnd        ; {file:7}{line:1742}
+	While {phrase72} ; {file:7}{line:1744}
+	{var482}-= 1        ; {file:7}{line:1745}
+	WEnd        ; {file:7}{line:1746}
+	Else        ; {file:7}{line:1747}
+	While {phrase73} ; {file:7}{line:1748}
+	{var481}+= 1        ; {file:7}{line:1749}
+	WEnd        ; {file:7}{line:1750}
+	While {phrase74} ; {file:7}{line:1751}
+	{var482}-= 1        ; {file:7}{line:1752}
+	WEnd        ; {file:7}{line:1753}
+	EndIf        ; {file:7}{line:1754}
+	If {phrase75} Then        ; {file:7}{line:1757}
+	{var371}={var296}[{var481}]        ; {file:7}{line:1758}
+	{var296}[{var481}]={var296}[{var482}]        ; {file:7}{line:1759}
+	{var296}[{var482}]={var371}        ; {file:7}{line:1760}
+	{var481}+= 1        ; {file:7}{line:1761}
+	{var482}-= 1        ; {file:7}{line:1762}
+	EndIf        ; {file:7}{line:1763}
+	Until {phrase76} ; {file:7}{line:1764}
+	{phrase77}        ; {file:7}{line:1766}
+	{phrase78}        ; {file:7}{line:1767}
+EndFunc         ; {file:7}{line:1768}
+
+Func {funcU140}(ByRef {var296}, Const ByRef {var470}, Const ByRef {var298}, Const ByRef {var326}, Const ByRef {var455}, Const ByRef {var479})        ; {file:7}{line:1788}
+	If {phrase79} Then Return        ; {file:7}{line:1789}
+	Local {var371},{var481}={var298},{var482}={var326},{var483}={var296}[{phrase80}][{var455}],{var484}={funcA292}({var483})        ; {file:7}{line:1792}
+	Do        ; {file:7}{line:1793}
+	If {phrase81} Then        ; {file:7}{line:1794}
+	While {phrase82} ; {file:7}{line:1796}
+	{var481}+= 1        ; {file:7}{line:1797}
+	WEnd        ; {file:7}{line:1798}
+	While {phrase83} ; {file:7}{line:1800}
+	{var482}-= 1        ; {file:7}{line:1801}
+	WEnd        ; {file:7}{line:1802}
+	Else        ; {file:7}{line:1803}
+	While {phrase84} ; {file:7}{line:1804}
+	{var481}+= 1        ; {file:7}{line:1805}
+	WEnd        ; {file:7}{line:1806}
+	While {phrase85} ; {file:7}{line:1807}
+	{var482}-= 1        ; {file:7}{line:1808}
+	WEnd        ; {file:7}{line:1809}
+	EndIf        ; {file:7}{line:1810}
+	If {phrase86} Then        ; {file:7}{line:1813}
+	For {var77}= 0 To {var479}        ; {file:7}{line:1814}
+	{var371}={var296}[{var481}][{var77}]        ; {file:7}{line:1815}
+	{var296}[{var481}][{var77}]={var296}[{var482}][{var77}]        ; {file:7}{line:1816}
+	{var296}[{var482}][{var77}]={var371}        ; {file:7}{line:1817}
+	Next        ; {file:7}{line:1818}
+	{var481}+= 1        ; {file:7}{line:1819}
+	{var482}-= 1        ; {file:7}{line:1820}
+	EndIf        ; {file:7}{line:1821}
+	Until {phrase87} ; {file:7}{line:1822}
+	{phrase88}        ; {file:7}{line:1824}
+	{phrase89}        ; {file:7}{line:1825}
+EndFunc         ; {file:7}{line:1826}
+
+Func {funcU138}(ByRef {var296},{var485},{var486},{var487}= True)        ; {file:7}{line:1844}
+	If {phrase90} Then Return        ; {file:7}{line:1845}
+	Local {var488}={var486}-{var485}+ 1        ; {file:7}{line:1846}
+	Local {var77},{var324},{var489},{var490},{var491},{var492},{var493},{var494}        ; {file:7}{line:1847}
+	If {phrase91} Then         ; {file:7}{line:1848}
+	If {phrase92} Then        ; {file:7}{line:1849}
+	{var77}={var485}        ; {file:7}{line:1850}
+	While {phrase93} ; {file:7}{line:1851}
+	{var324}={var77}        ; {file:7}{line:1852}
+	{var490}={var296}[{var77}+ 1]        ; {file:7}{line:1853}
+	While {phrase94} ; {file:7}{line:1854}
+	{var296}[{var324}+ 1]={var296}[{var324}]        ; {file:7}{line:1855}
+	{var324}-= 1        ; {file:7}{line:1856}
+	If {phrase95} Then ExitLoop        ; {file:7}{line:1857}
+	WEnd        ; {file:7}{line:1858}
+	{var296}[{var324}+ 1]={var490}        ; {file:7}{line:1859}
+	{var77}+= 1        ; {file:7}{line:1860}
+	WEnd        ; {file:7}{line:1861}
+	Else        ; {file:7}{line:1862}
+	While {phrase96} ; {file:7}{line:1863}
+	If {phrase97} Then Return 1        ; {file:7}{line:1864}
+	{var485}+= 1        ; {file:7}{line:1865}
+	If {phrase98} Then ExitLoop        ; {file:7}{line:1866}
+	WEnd        ; {file:7}{line:1867}
+	While {phrase99} ; {file:7}{line:1868}
+	{var489}={var485}        ; {file:7}{line:1869}
+	{var485}+= 1        ; {file:7}{line:1870}
+	If {phrase100} Then ExitLoop        ; {file:7}{line:1871}
+	{var492}={var296}[{var489}]        ; {file:7}{line:1872}
+	{var493}={var296}[{var485}]        ; {file:7}{line:1873}
+	If {phrase101} Then        ; {file:7}{line:1874}
+	{var493}={var492}        ; {file:7}{line:1875}
+	{var492}={var296}[{var485}]        ; {file:7}{line:1876}
+	EndIf        ; {file:7}{line:1877}
+	{var489}-= 1        ; {file:7}{line:1878}
+	While {phrase102} ; {file:7}{line:1879}
+	{var296}[{var489}+ 2]={var296}[{var489}]        ; {file:7}{line:1880}
+	{var489}-= 1        ; {file:7}{line:1881}
+	WEnd        ; {file:7}{line:1882}
+	{var296}[{var489}+ 2]={var492}        ; {file:7}{line:1883}
+	While {phrase103} ; {file:7}{line:1884}
+	{var296}[{var489}+ 1]={var296}[{var489}]        ; {file:7}{line:1885}
+	{var489}-= 1        ; {file:7}{line:1886}
+	WEnd        ; {file:7}{line:1887}
+	{var296}[{var489}+ 1]={var493}        ; {file:7}{line:1888}
+	{var485}+= 1        ; {file:7}{line:1889}
+	WEnd        ; {file:7}{line:1890}
+	{var494}={var296}[{var486}]        ; {file:7}{line:1891}
+	{var486}-= 1        ; {file:7}{line:1892}
+	While {phrase104} ; {file:7}{line:1893}
+	{var296}[{var486}+ 1]={var296}[{var486}]        ; {file:7}{line:1894}
+	{var486}-= 1        ; {file:7}{line:1895}
+	WEnd        ; {file:7}{line:1896}
+	{var296}[{var486}+ 1]={var494}        ; {file:7}{line:1897}
+	EndIf        ; {file:7}{line:1898}
+	Return 1        ; {file:7}{line:1899}
+	EndIf        ; {file:7}{line:1900}
+	Local {var495}={phrase105}+{funcA51}({var488}, 6 )+ 1         ; {file:7}{line:1901}
+	Local {var496},{var497},{var498},{var499},{var500},{var501}        ; {file:7}{line:1902}
+	{var498}={phrase106}        ; {file:7}{line:1903}
+	{var497}={var498}-{var495}        ; {file:7}{line:1904}
+	{var496}={var497}-{var495}        ; {file:7}{line:1905}
+	{var499}={var498}+{var495}        ; {file:7}{line:1906}
+	{var500}={var499}+{var495}        ; {file:7}{line:1907}
+	If {phrase107} Then        ; {file:7}{line:1908}
+	{var501}={var296}[{var497}]        ; {file:7}{line:1909}
+	{var296}[{var497}]={var296}[{var496}]        ; {file:7}{line:1910}
+	{var296}[{var496}]={var501}        ; {file:7}{line:1911}
+	EndIf        ; {file:7}{line:1912}
+	If {phrase108} Then        ; {file:7}{line:1913}
+	{var501}={var296}[{var498}]        ; {file:7}{line:1914}
+	{var296}[{var498}]={var296}[{var497}]        ; {file:7}{line:1915}
+	{var296}[{var497}]={var501}        ; {file:7}{line:1916}
+	If {phrase109} Then        ; {file:7}{line:1917}
+	{var296}[{var497}]={var296}[{var496}]        ; {file:7}{line:1918}
+	{var296}[{var496}]={var501}        ; {file:7}{line:1919}
+	EndIf        ; {file:7}{line:1920}
+	EndIf        ; {file:7}{line:1921}
+	If {phrase110} Then        ; {file:7}{line:1922}
+	{var501}={var296}[{var499}]        ; {file:7}{line:1923}
+	{var296}[{var499}]={var296}[{var498}]        ; {file:7}{line:1924}
+	{var296}[{var498}]={var501}        ; {file:7}{line:1925}
+	If {phrase111} Then        ; {file:7}{line:1926}
+	{var296}[{var498}]={var296}[{var497}]        ; {file:7}{line:1927}
+	{var296}[{var497}]={var501}        ; {file:7}{line:1928}
+	If {phrase112} Then        ; {file:7}{line:1929}
+	{var296}[{var497}]={var296}[{var496}]        ; {file:7}{line:1930}
+	{var296}[{var496}]={var501}        ; {file:7}{line:1931}
+	EndIf        ; {file:7}{line:1932}
+	EndIf        ; {file:7}{line:1933}
+	EndIf        ; {file:7}{line:1934}
+	If {phrase113} Then        ; {file:7}{line:1935}
+	{var501}={var296}[{var500}]        ; {file:7}{line:1936}
+	{var296}[{var500}]={var296}[{var499}]        ; {file:7}{line:1937}
+	{var296}[{var499}]={var501}        ; {file:7}{line:1938}
+	If {phrase114} Then        ; {file:7}{line:1939}
+	{var296}[{var499}]={var296}[{var498}]        ; {file:7}{line:1940}
+	{var296}[{var498}]={var501}        ; {file:7}{line:1941}
+	If {phrase115} Then        ; {file:7}{line:1942}
+	{var296}[{var498}]={var296}[{var497}]        ; {file:7}{line:1943}
+	{var296}[{var497}]={var501}        ; {file:7}{line:1944}
+	If {phrase116} Then        ; {file:7}{line:1945}
+	{var296}[{var497}]={var296}[{var496}]        ; {file:7}{line:1946}
+	{var296}[{var496}]={var501}        ; {file:7}{line:1947}
+	EndIf        ; {file:7}{line:1948}
+	EndIf        ; {file:7}{line:1949}
+	EndIf        ; {file:7}{line:1950}
+	EndIf        ; {file:7}{line:1951}
+	Local {var502}={var485}        ; {file:7}{line:1952}
+	Local {var503}={var486}        ; {file:7}{line:1953}
+	If {phrase117} Then         ; {file:7}{line:1954}
+	Local {var504}={var296}[{var497}]        ; {file:7}{line:1955}
+	Local {var505}={var296}[{var499}]        ; {file:7}{line:1956}
+	{var296}[{var497}]={var296}[{var485}]        ; {file:7}{line:1957}
+	{var296}[{var499}]={var296}[{var486}]        ; {file:7}{line:1958}
+	Do        ; {file:7}{line:1959}
+	{var502}+= 1        ; {file:7}{line:1960}
+	Until {phrase118} ; {file:7}{line:1961}
+	Do        ; {file:7}{line:1962}
+	{var503}-= 1        ; {file:7}{line:1963}
+	Until {phrase119} ; {file:7}{line:1964}
+	{var489}={var502}        ; {file:7}{line:1965}
+	While {phrase120} ; {file:7}{line:1966}
+	{var491}={var296}[{var489}]        ; {file:7}{line:1967}
+	If {phrase121} Then        ; {file:7}{line:1968}
+	{var296}[{var489}]={var296}[{var502}]        ; {file:7}{line:1969}
+	{var296}[{var502}]={var491}        ; {file:7}{line:1970}
+	{var502}+= 1        ; {file:7}{line:1971}
+	ElseIf {var491}>{var505} Then        ; {file:7}{line:1972}
+	While {phrase122} ; {file:7}{line:1973}
+	{var503}-= 1        ; {file:7}{line:1974}
+	If {phrase123} Then ExitLoop 2        ; {file:7}{line:1975}
+	WEnd        ; {file:7}{line:1976}
+	If {phrase124} Then        ; {file:7}{line:1977}
+	{var296}[{var489}]={var296}[{var502}]        ; {file:7}{line:1978}
+	{var296}[{var502}]={var296}[{var503}]        ; {file:7}{line:1979}
+	{var502}+= 1        ; {file:7}{line:1980}
+	Else        ; {file:7}{line:1981}
+	{var296}[{var489}]={var296}[{var503}]        ; {file:7}{line:1982}
+	EndIf        ; {file:7}{line:1983}
+	{var296}[{var503}]={var491}        ; {file:7}{line:1984}
+	{var503}-= 1        ; {file:7}{line:1985}
+	EndIf        ; {file:7}{line:1986}
+	{var489}+= 1        ; {file:7}{line:1987}
+	WEnd        ; {file:7}{line:1988}
+	{var296}[{var485}]={var296}[{var502}- 1]        ; {file:7}{line:1989}
+	{var296}[{var502}- 1]={var504}        ; {file:7}{line:1990}
+	{var296}[{var486}]={var296}[{var503}+ 1]        ; {file:7}{line:1991}
+	{var296}[{var503}+ 1]={var505}        ; {file:7}{line:1992}
+	{phrase125}        ; {file:7}{line:1993}
+	{phrase126}        ; {file:7}{line:1994}
+	If {phrase127} Then         ; {file:7}{line:1995}
+	While {phrase128} ; {file:7}{line:1996}
+	{var502}+= 1        ; {file:7}{line:1997}
+	WEnd        ; {file:7}{line:1998}
+	While {phrase129} ; {file:7}{line:1999}
+	{var503}-= 1        ; {file:7}{line:2000}
+	WEnd        ; {file:7}{line:2001}
+	{var489}={var502}        ; {file:7}{line:2002}
+	While {phrase130} ; {file:7}{line:2003}
+	{var491}={var296}[{var489}]        ; {file:7}{line:2004}
+	If {phrase131} Then        ; {file:7}{line:2005}
+	{var296}[{var489}]={var296}[{var502}]        ; {file:7}{line:2006}
+	{var296}[{var502}]={var491}        ; {file:7}{line:2007}
+	{var502}+= 1        ; {file:7}{line:2008}
+	ElseIf {var491}={var505} Then        ; {file:7}{line:2009}
+	While {phrase132} ; {file:7}{line:2010}
+	{var503}-= 1        ; {file:7}{line:2011}
+	If {phrase133} Then ExitLoop 2        ; {file:7}{line:2012}
+	WEnd        ; {file:7}{line:2013}
+	If {phrase134} Then        ; {file:7}{line:2014}
+	{var296}[{var489}]={var296}[{var502}]        ; {file:7}{line:2015}
+	{var296}[{var502}]={var504}        ; {file:7}{line:2016}
+	{var502}+= 1        ; {file:7}{line:2017}
+	Else        ; {file:7}{line:2018}
+	{var296}[{var489}]={var296}[{var503}]        ; {file:7}{line:2019}
+	EndIf        ; {file:7}{line:2020}
+	{var296}[{var503}]={var491}        ; {file:7}{line:2021}
+	{var503}-= 1        ; {file:7}{line:2022}
+	EndIf        ; {file:7}{line:2023}
+	{var489}+= 1        ; {file:7}{line:2024}
+	WEnd        ; {file:7}{line:2025}
+	EndIf        ; {file:7}{line:2026}
+	{phrase135}        ; {file:7}{line:2027}
+	Else        ; {file:7}{line:2028}
+	Local {var478}={var296}[{var498}]        ; {file:7}{line:2029}
+	{var489}={var502}        ; {file:7}{line:2030}
+	While {phrase136} ; {file:7}{line:2031}
+	If {phrase137} Then        ; {file:7}{line:2032}
+	{var489}+= 1        ; {file:7}{line:2033}
+	ContinueLoop        ; {file:7}{line:2034}
+	EndIf        ; {file:7}{line:2035}
+	{var491}={var296}[{var489}]        ; {file:7}{line:2036}
+	If {phrase138} Then        ; {file:7}{line:2037}
+	{var296}[{var489}]={var296}[{var502}]        ; {file:7}{line:2038}
+	{var296}[{var502}]={var491}        ; {file:7}{line:2039}
+	{var502}+= 1        ; {file:7}{line:2040}
+	Else        ; {file:7}{line:2041}
+	While {phrase139} ; {file:7}{line:2042}
+	{var503}-= 1        ; {file:7}{line:2043}
+	WEnd        ; {file:7}{line:2044}
+	If {phrase140} Then        ; {file:7}{line:2045}
+	{var296}[{var489}]={var296}[{var502}]        ; {file:7}{line:2046}
+	{var296}[{var502}]={var296}[{var503}]        ; {file:7}{line:2047}
+	{var502}+= 1        ; {file:7}{line:2048}
+	Else        ; {file:7}{line:2049}
+	{var296}[{var489}]={var478}        ; {file:7}{line:2050}
+	EndIf        ; {file:7}{line:2051}
+	{var296}[{var503}]={var491}        ; {file:7}{line:2052}
+	{var503}-= 1        ; {file:7}{line:2053}
+	EndIf        ; {file:7}{line:2054}
+	{var489}+= 1        ; {file:7}{line:2055}
+	WEnd        ; {file:7}{line:2056}
+	{phrase141}        ; {file:7}{line:2057}
+	{phrase142}        ; {file:7}{line:2058}
+	EndIf        ; {file:7}{line:2059}
+EndFunc         ; {file:7}{line:2060}
+
+Func {funcU35}(Const ByRef {var296},{var509}={string824},{var448}=-1,{var449}=-1,{var300}={macro14},{var450}=-1,{var451}=-1)        ; {file:7}{line:2136}
+	If {phrase143} Then {var509}={string825}        ; {file:7}{line:2138}
+	If {phrase144} Then {var300}={phrase145}        ; {file:7}{line:2139}
+	If {phrase146} Then {var448}=-1        ; {file:7}{line:2140}
+	If {phrase147} Then {var449}=-1        ; {file:7}{line:2141}
+	If {phrase148} Then {var450}=-1        ; {file:7}{line:2142}
+	If {phrase149} Then {var451}=-1        ; {file:7}{line:2143}
+	If {phrase150} Then Return {phrase151}        ; {file:7}{line:2144}
+	Local {var303}={phrase152}- 1         ; {file:7}{line:2145}
+	If {phrase153} Then {var448}= 0        ; {file:7}{line:2146}
+	If {phrase154} Then {var449}={var303}        ; {file:7}{line:2147}
+	If {phrase155} Then Return {phrase156}        ; {file:7}{line:2148}
+	If {phrase157} Then Return {phrase158}        ; {file:7}{line:2149}
+	If {phrase159} Then Return {phrase160}        ; {file:7}{line:2150}
+	Local {var511}={string827}        ; {file:7}{line:2151}
+	Switch {phrase161}        ; {file:7}{line:2152}
+	Case 1        ; {file:7}{line:2153}
+	For {var77}={var448} To {var449}        ; {file:7}{line:2154}
+	{var511}&={var296}[{var77}]&{var509}        ; {file:7}{line:2155}
+	Next        ; {file:7}{line:2156}
+	Return {phrase162}        ; {file:7}{line:2157}
+	Case 2        ; {file:7}{line:2158}
+	Local {var317}={phrase163}- 1         ; {file:7}{line:2159}
+	If {phrase164} Then {var450}= 0        ; {file:7}{line:2160}
+	If {phrase165} Then {var451}={var317}        ; {file:7}{line:2161}
+	If {phrase166} Then Return {phrase167}        ; {file:7}{line:2162}
+	If {phrase168} Then Return {phrase169}        ; {file:7}{line:2163}
+	If {phrase170} Then Return {phrase171}        ; {file:7}{line:2164}
+	For {var77}={var448} To {var449}        ; {file:7}{line:2165}
+	For {var324}={var450} To {var451}        ; {file:7}{line:2166}
+	{var511}&={var296}[{var77}][{var324}]&{var509}        ; {file:7}{line:2167}
+	Next        ; {file:7}{line:2168}
+	{var511}={phrase172}&{var300}        ; {file:7}{line:2169}
+	Next        ; {file:7}{line:2170}
+	Return {phrase173}        ; {file:7}{line:2171}
+	Case Else        ; {file:7}{line:2172}
+	Return {phrase174}        ; {file:7}{line:2173}
+	EndSwitch        ; {file:7}{line:2174}
+	Return 1        ; {file:7}{line:2175}
+EndFunc         ; {file:7}{line:2177}
+
+Func {funcU132}(ByRef {var296},{var298},{var462},{var332}, ByRef {var335}, ByRef {var241}, ByRef {var264})        ; {file:7}{line:2476}
+	If {phrase175} Then        ; {file:7}{line:2477}
+	For {var77}= 0 To {var462}- 1        ; {file:7}{line:2478}
+	{var241}[{var264}]&={var296}[{var335}[{var77}]]&{var332}        ; {file:7}{line:2479}
+	Next        ; {file:7}{line:2480}
+	If {phrase176} Then {var241}[{var264}]={phrase177}        ; {file:7}{line:2481}
+	{var264}+= 1        ; {file:7}{line:2482}
+	Else        ; {file:7}{line:2483}
+	Local {var540}        ; {file:7}{line:2484}
+	For {var77}={var298} To {var462}- 1        ; {file:7}{line:2485}
+	{var540}={var335}[{var77}]        ; {file:7}{line:2486}
+	{var335}[{var77}]={var335}[{var298}]        ; {file:7}{line:2488}
+	{var335}[{var298}]={var540}        ; {file:7}{line:2489}
+	{phrase178}        ; {file:7}{line:2490}
+	{var335}[{var298}]={var335}[{var77}]        ; {file:7}{line:2491}
+	{var335}[{var77}]={var540}        ; {file:7}{line:2492}
+	Next        ; {file:7}{line:2493}
+	EndIf        ; {file:7}{line:2494}
+EndFunc         ; {file:7}{line:2495}
+
+Func {funcU150}()        ; {file:7}{line:2614}
+EndFunc         ; {file:7}{line:2616}
+
+Func {funcU412}({var1159},{var1160}={macro100})        ; {file:22}{line:831}
+	If {phrase179} Then Return {var1160}        ; {file:22}{line:832}
+	Local {var1088}={phrase180}        ; {file:22}{line:835}
+	Local Const {var1161}={var1088}        ; {file:22}{line:836}
+	Local {var181}        ; {file:22}{line:837}
+	Local {var1162}={phrase181}={string2631} And {phrase182}<>{string2632}        ; {file:22}{line:838}
+	If {phrase183} Then {var1160}={phrase184}        ; {file:22}{line:840}
+	For {var77}= 1 To 2        ; {file:22}{line:845}
+	{var181}={phrase185}        ; {file:22}{line:846}
+	If {phrase186} Then        ; {file:22}{line:847}
+	{var1088}={phrase187}        ; {file:22}{line:848}
+	Local {var1163}={phrase188}- 1         ; {file:22}{line:849}
+	{var181}={string2635}&{phrase189}        ; {file:22}{line:850}
+	{var1088}={phrase190}        ; {file:22}{line:851}
+	ExitLoop        ; {file:22}{line:852}
+	ElseIf {phrase191}={string2636} Then         ; {file:22}{line:853}
+	{var1088}={phrase192}        ; {file:22}{line:854}
+	ExitLoop        ; {file:22}{line:855}
+	Else        ; {file:22}{line:856}
+	{var1088}={var1160}&{string2637}&{var1088}        ; {file:22}{line:857}
+	EndIf        ; {file:22}{line:858}
+	Next        ; {file:22}{line:859}
+	If {phrase193} Then         ; {file:22}{line:870}
+	If {phrase194} Then         ; {file:22}{line:871}
+	{var1088}={var1160}&{string2639}&{var1088}        ; {file:22}{line:872}
+	Else        ; {file:22}{line:873}
+	{var1088}={string2640}&{var1088}        ; {file:22}{line:874}
+	EndIf        ; {file:22}{line:875}
+	EndIf        ; {file:22}{line:876}
+	Local {var512}={phrase195}        ; {file:22}{line:879}
+	Local {var1164}[{var512}[0]],{var324}= 0        ; {file:22}{line:880}
+	For {var77}= 2 To {var512}[0]        ; {file:22}{line:881}
+	If {phrase196} Then        ; {file:22}{line:882}
+	If {phrase197} Then {var324}-= 1        ; {file:22}{line:883}
+	ElseIf Not ({var512}[{var77}]={string2643} And {var77}<>{var512}[ 0 ]) And {var512}[{var77}]<>{string2644} Then         ; {file:22}{line:884}
+	{var1164}[{var324}]={var512}[{var77}]        ; {file:22}{line:885}
+	{var324}+= 1        ; {file:22}{line:886}
+	EndIf        ; {file:22}{line:887}
+	Next        ; {file:22}{line:888}
+	{var1088}={var181}        ; {file:22}{line:892}
+	If {phrase198} Then        ; {file:22}{line:893}
+	For {var77}= 0 To {var324}- 1        ; {file:22}{line:894}
+	{var1088}&={string2645}&{var1164}[{var77}]        ; {file:22}{line:895}
+	Next        ; {file:22}{line:896}
+	Else        ; {file:22}{line:897}
+	{var1088}&={var1161}        ; {file:22}{line:898}
+	If {phrase199} Then {var1088}={phrase200}        ; {file:22}{line:900}
+	EndIf        ; {file:22}{line:901}
+	Do        ; {file:22}{line:904}
+	{var1088}={phrase201}        ; {file:22}{line:905}
+	Until {phrase202} ; {file:22}{line:906}
+	Return {var1088}        ; {file:22}{line:907}
+EndFunc         ; {file:22}{line:908}
+
+Func {funcU111}({var47}, ByRef {var290}, ByRef {var237}, ByRef {var285}, ByRef {var291})        ; {file:22}{line:987}
+	Local {var296}={phrase203}        ; {file:22}{line:988}
+	If {phrase204} Then         ; {file:22}{line:989}
+	ReDim {var296}[5]        ; {file:22}{line:990}
+	{var296}[0]={var47}        ; {file:22}{line:991}
+	EndIf        ; {file:22}{line:992}
+	{var290}={var296}[1]        ; {file:22}{line:993}
+	If {phrase205} Then         ; {file:22}{line:994}
+	{var237}={phrase206}        ; {file:22}{line:995}
+	Else        ; {file:22}{line:996}
+	{var237}={phrase207}        ; {file:22}{line:997}
+	EndIf        ; {file:22}{line:998}
+	{var296}[2]={var237}        ; {file:22}{line:999}
+	{var285}={var296}[3]        ; {file:22}{line:1000}
+	{var291}={var296}[4]        ; {file:22}{line:1001}
+	Return {var296}        ; {file:22}{line:1002}
+EndFunc         ; {file:22}{line:1003}
+
+Global Enum {var1797} = 1, {var1798}         ; {file:41}{line:63}{ref7890}
+Global Enum {var1799} = 0, {var1800} , {var1277} , {var1801}         ; {file:41}{line:64}{ref7894}
+Global Enum {var1802} = 1, {var1803} , {var1804} , {var1805} , {var1806} , {var1807} , {var1808} , {var1809} , {var1810} , {var1811} , {var1812} , {var1813} , {var1814} , {var1815} , {var1816} , {var1817} , {var1818} , {var1819} , {var1820} , {var1821} , {var1822} , {var1823} , {var1824} , {var1825} , {var1826} , {var1827} , {var1828} , {var1829}         ; {file:41}{line:65}{ref7922}
+Global Enum {var1830} = 0, {var1831} , {var1832} , {var1833} , {var1834} , {var1835} , {var1836}         ; {file:41}{line:104}{ref7962}
+Global Enum {var1837} = 0, {var1838} , {var1839} , {var1840} , {var1841} , {var1842} , {var1843} , {var1844} , {var1845}         ; {file:41}{line:105}{ref7971}
+Global Enum {var1298} = 1, {var1299} , {var1300} , {var1301} , {var1302} , {var1303} , {var1304} , {var1305} , {var1306} , {var1307}         ; {file:41}{line:110}{ref7983}
+
+Global Const {var641} = {string3475}        ; {file:28}{line:128}{ref6363}
+Global Const {var648} = {string3642}        ; {file:28}{line:819}{ref6465}
+
+Global Const {var733} = {phrase208}        ; {file:32}{line:14}{ref6627}
+Global Const {var809} = 2        ; {file:32}{line:157}{ref6745}
+Global Const {var808} = 5        ; {file:32}{line:160}{ref6748}
+
+Global {var664}[64][2] = [[0, 0]]        ; {file:14}{line:23}{ref2695}
+
+Func {funcU90}({var63}, ByRef {var207})        ; {file:14}{line:413}
+	Local {var550}={phrase209}        ; {file:14}{line:414}
+	If {phrase210} Then Return {phrase211}        ; {file:14}{line:415}
+	Return {var207}        ; {file:14}{line:417}
+EndFunc         ; {file:14}{line:418}
+
+Func {funcU105}({var680})        ; {file:14}{line:424}
+	Local {var241}={phrase212}        ; {file:14}{line:425}
+	If {phrase213} Then Return {phrase214}        ; {file:14}{line:426}
+	Return {var241}[0]        ; {file:14}{line:428}
+EndFunc         ; {file:14}{line:429}
+
+Func {funcU103}({var285},{var710},{var711}= 4,{var712}= 0,{var627}= 0,{var713}= 0)        ; {file:14}{line:577}
+	Local {var714}= 0,{var715}= 0,{var716}= 0,{var717}= 0        ; {file:14}{line:578}
+	If {phrase215} Then {var714}={phrase216}        ; {file:14}{line:580}
+	If {phrase217} Then {var714}={phrase218}        ; {file:14}{line:581}
+	If {phrase219} Then {var714}={phrase220}        ; {file:14}{line:582}
+	If {phrase221} Then {var715}={phrase222}        ; {file:14}{line:584}
+	If {phrase223} Then {var715}={phrase224}        ; {file:14}{line:585}
+	If {phrase225} Then {var715}={phrase226}        ; {file:14}{line:586}
+	Switch {var710}        ; {file:14}{line:588}
+	Case 0        ; {file:14}{line:589}
+	{var716}={var724}        ; {file:14}{line:590}
+	Case 1        ; {file:14}{line:591}
+	{var716}={var725}        ; {file:14}{line:592}
+	Case 2        ; {file:14}{line:593}
+	{var716}={var726}        ; {file:14}{line:594}
+	Case 3        ; {file:14}{line:595}
+	{var716}={var727}        ; {file:14}{line:596}
+	Case 4        ; {file:14}{line:597}
+	{var716}={var728}        ; {file:14}{line:598}
+	EndSwitch        ; {file:14}{line:599}
+	If {phrase227} Then {var717}={phrase228}        ; {file:14}{line:601}
+	If {phrase229} Then {var717}={phrase230}        ; {file:14}{line:602}
+	If {phrase231} Then {var717}={phrase232}        ; {file:14}{line:603}
+	If {phrase233} Then {var717}={phrase234}        ; {file:14}{line:604}
+	Local {var241}={phrase235}        ; {file:14}{line:606}
+	If {phrase236} Then Return {phrase237}        ; {file:14}{line:608}
+	Return {var241}[0]        ; {file:14}{line:610}
+EndFunc         ; {file:14}{line:611}
+
+Func {funcU224}({var63},{var769}={string1456})        ; {file:14}{line:985}
+	If {phrase238} Then {var769}={phrase239}        ; {file:14}{line:986}
+	{var664}[0][0]+= 1        ; {file:14}{line:987}
+	Local {var264}={var664}[0][0]        ; {file:14}{line:988}
+	If {phrase240} Then        ; {file:14}{line:989}
+	ReDim {var664}[{var264}+ 64][2]        ; {file:14}{line:990}
+	{var664}[0][1]+= 64        ; {file:14}{line:991}
+	EndIf        ; {file:14}{line:992}
+	{var664}[{var264}][0]={var63}        ; {file:14}{line:993}
+	{var664}[{var264}][1]={var769}        ; {file:14}{line:994}
+EndFunc         ; {file:14}{line:995}
+
+Func {funcU223}({var63},{var807}= True)        ; {file:14}{line:1013}
+	{var63}={phrase241}        ; {file:14}{line:1014}
+	While {phrase242} ; {file:14}{line:1015}
+	If {phrase243} Then         ; {file:14}{line:1016}
+	{phrase244}        ; {file:14}{line:1017}
+	{phrase245}        ; {file:14}{line:1018}
+	EndIf        ; {file:14}{line:1019}
+	{var63}={phrase246}        ; {file:14}{line:1020}
+	WEnd        ; {file:14}{line:1021}
+EndFunc         ; {file:14}{line:1022}
+
+Func {funcU225}({var63})        ; {file:14}{line:1285}
+	If {phrase247} Then {var63}={phrase248}        ; {file:14}{line:1286}
+	Local {var241}={phrase249}        ; {file:14}{line:1287}
+	If {phrase250} Then Return {phrase251}        ; {file:14}{line:1288}
+	Return {phrase252}        ; {file:14}{line:1290}
+EndFunc         ; {file:14}{line:1291}
+
+Func {funcU89}({var63})        ; {file:14}{line:1319}
+	Local {var206}={phrase253}        ; {file:14}{line:1320}
+	Local {var550}={phrase254}        ; {file:14}{line:1321}
+	If {phrase255} Then Return {phrase256}        ; {file:14}{line:1322}
+	Return {var206}        ; {file:14}{line:1324}
+EndFunc         ; {file:14}{line:1325}
+
+Func {funcU104}({var276})        ; {file:14}{line:1462}
+	Local {var241}={phrase257}        ; {file:14}{line:1463}
+	If {phrase258} Then Return {phrase259}        ; {file:14}{line:1464}
+	Return {var241}[2]        ; {file:14}{line:1466}
+EndFunc         ; {file:14}{line:1467}
+
+Func {funcU226}({var63},{var896})        ; {file:14}{line:1906}
+	Local {var241}={phrase260}        ; {file:14}{line:1907}
+	If {phrase261} Then Return {phrase262}        ; {file:14}{line:1908}
+	Return {var241}[0]        ; {file:14}{line:1910}
+EndFunc         ; {file:14}{line:1911}
+
+Func {funcU24}({var907})        ; {file:14}{line:2077}
+	Return {phrase263}        ; {file:14}{line:2078}
+EndFunc         ; {file:14}{line:2079}
+
+Func {funcU227}({var63})        ; {file:14}{line:2150}
+	Local {var241}={phrase264}        ; {file:14}{line:2151}
+	If {phrase265} Then Return {phrase266}        ; {file:14}{line:2152}
+	Return {var241}[0]        ; {file:14}{line:2154}
+EndFunc         ; {file:14}{line:2155}
+
+Func {funcU23}({var907})        ; {file:14}{line:2267}
+	Return {phrase267}        ; {file:14}{line:2268}
+EndFunc         ; {file:14}{line:2269}
+
+Func {funcU107}({var276},{var585},{var961}, ByRef {var273},{var885}= 0)        ; {file:14}{line:2577}
+	Local {var241}={phrase268}        ; {file:14}{line:2578}
+	If {phrase269} Then Return {phrase270}        ; {file:14}{line:2580}
+	{var273}={var241}[4]        ; {file:14}{line:2582}
+	Return {var241}[0]        ; {file:14}{line:2583}
+EndFunc         ; {file:14}{line:2584}
+
+Func {funcU106}({var276},{var971},{var972}= 0)        ; {file:14}{line:2768}
+	Local {var241}={phrase271}        ; {file:14}{line:2769}
+	If {phrase272} Then Return {phrase273}        ; {file:14}{line:2770}
+	Return {var241}[0]        ; {file:14}{line:2772}
+EndFunc         ; {file:14}{line:2773}
+
+Func {funcU108}({var276},{var585},{var1017}, ByRef {var274},{var885}= 0)        ; {file:14}{line:3196}
+	Local {var241}={phrase274}        ; {file:14}{line:3197}
+	If {phrase275} Then Return {phrase276}        ; {file:14}{line:3199}
+	{var274}={var241}[4]        ; {file:14}{line:3201}
+	Return {var241}[0]        ; {file:14}{line:3202}
+EndFunc         ; {file:14}{line:3203}
+
+Func {funcU92}({var285},{var337},{var637}, ByRef {var1182}, ByRef {var1183}, ByRef {var1184}, ByRef {var1185})        ; {file:23}{line:24}
+	Local {var1186}={phrase277}        ; {file:23}{line:26}
+	{var1182}={phrase278}        ; {file:23}{line:28}
+	If {phrase279} Then        ; {file:23}{line:30}
+	{phrase280}        ; {file:23}{line:31}
+	{var1186}= 0        ; {file:23}{line:32}
+	Return {phrase281}        ; {file:23}{line:33}
+	EndIf        ; {file:23}{line:34}
+	If {phrase282} Then         ; {file:23}{line:36}
+	{var1183}={phrase283}        ; {file:23}{line:38}
+	If {phrase284} Then        ; {file:23}{line:40}
+	For {var77}= 0 To {phrase285}- 1         ; {file:23}{line:41}
+	{phrase286}        ; {file:23}{line:42}
+	Next        ; {file:23}{line:43}
+	Return {phrase287}        ; {file:23}{line:44}
+	EndIf        ; {file:23}{line:45}
+	EndIf        ; {file:23}{line:47}
+	Return {phrase288}        ; {file:23}{line:49}
+EndFunc         ; {file:23}{line:51}
+
+Func {funcU86}(ByRef {var1186}, ByRef {var1182}, ByRef {var1183}, ByRef {var1185})        ; {file:23}{line:94}
+	{phrase289}        ; {file:23}{line:96}
+	{phrase290}        ; {file:23}{line:97}
+	{var1186}= 0        ; {file:23}{line:98}
+	{var1185}= 0        ; {file:23}{line:99}
+	Return 1        ; {file:23}{line:101}
+EndFunc         ; {file:23}{line:103}
+
+Func {funcU421}(ByRef {var1182}, ByRef {var1183},{var336}= 0)        ; {file:23}{line:189}
+	If {phrase291} Then        ; {file:23}{line:191}
+	{phrase292}        ; {file:23}{line:192}
+	{var1183}= 0        ; {file:23}{line:193}
+	EndIf        ; {file:23}{line:194}
+	If {phrase293} Then         ; {file:23}{line:196}
+	If {phrase294} Then        ; {file:23}{line:197}
+	For {var77}= 0 To {phrase295}- 1         ; {file:23}{line:198}
+	{phrase296}        ; {file:23}{line:199}
+	Next        ; {file:23}{line:200}
+	{var1182}= 0        ; {file:23}{line:201}
+	Else        ; {file:23}{line:202}
+	For {var77}= 1 To {phrase297}- 1         ; {file:23}{line:203}
+	{phrase298}        ; {file:23}{line:204}
+	Next        ; {file:23}{line:205}
+	ReDim {var1182}[1][3]        ; {file:23}{line:206}
+	EndIf        ; {file:23}{line:207}
+	EndIf        ; {file:23}{line:208}
+	Return 1        ; {file:23}{line:210}
+EndFunc         ; {file:23}{line:212}
+
+Func {funcU95}({var1189},{var1182},{var1183},{var1190},{var1191})        ; {file:23}{line:230}
+	If {phrase299} Then        ; {file:23}{line:232}
+	If {phrase300} Then         ; {file:23}{line:233}
+	Local {var1192}={phrase301}        ; {file:23}{line:235}
+	Local {var1193}={phrase302}        ; {file:23}{line:237}
+	If {phrase303} Then        ; {file:23}{line:238}
+	Return        ; {file:23}{line:239}
+	EndIf        ; {file:23}{line:240}
+	Local {var615}={var1193}[0]        ; {file:23}{line:241}
+	Local {var1194}={phrase304}        ; {file:23}{line:243}
+	If {phrase305} Then         ; {file:23}{line:244}
+	{var1194}= 0        ; {file:23}{line:245}
+	EndIf        ; {file:23}{line:246}
+	Local {var701}={var1182}[{var1194}][0]        ; {file:23}{line:248}
+	{phrase306}        ; {file:23}{line:250}
+	{phrase307}        ; {file:23}{line:261}
+	EndIf        ; {file:23}{line:263}
+	EndIf        ; {file:23}{line:264}
+EndFunc         ; {file:23}{line:266}
+
+Func {funcU418}({var1189},{var1201},{var1202}, ByRef {var1185})        ; {file:23}{line:365}
+	Local {var1193}={phrase308}        ; {file:23}{line:367}
+	If {phrase309} Then        ; {file:23}{line:368}
+	Return {phrase310}        ; {file:23}{line:369}
+	EndIf        ; {file:23}{line:370}
+	Local {var1012}={var1193}[0]        ; {file:23}{line:372}
+	Local {var1203}={phrase311}        ; {file:23}{line:374}
+	If {phrase312} Then        ; {file:23}{line:375}
+	Return {phrase313}        ; {file:23}{line:376}
+	EndIf        ; {file:23}{line:377}
+	Local {var1204}={var1203}[0]        ; {file:23}{line:379}
+	Local {var464}={phrase314}        ; {file:23}{line:381}
+	{var1185}={phrase315}        ; {file:23}{line:383}
+	Local {var1205}={phrase316}        ; {file:23}{line:384}
+	Local {var1206}        ; {file:23}{line:386}
+	Local {var1207}        ; {file:23}{line:387}
+	Local {var1208}        ; {file:23}{line:388}
+	If {phrase317} Then        ; {file:23}{line:390}
+	{var1193}={phrase318}        ; {file:23}{line:392}
+	If {phrase319} Then        ; {file:23}{line:393}
+	Return {phrase320}        ; {file:23}{line:394}
+	EndIf        ; {file:23}{line:395}
+	{var1012}={var1193}[0]        ; {file:23}{line:397}
+	Local {var1209}={phrase321}        ; {file:23}{line:399}
+	If {phrase322} Then        ; {file:23}{line:400}
+	Return {phrase323}        ; {file:23}{line:401}
+	EndIf        ; {file:23}{line:402}
+	Local {var1210}={var1209}[0]        ; {file:23}{line:404}
+	For {var77}= 1 To {var464}        ; {file:23}{line:406}
+	{var1206}&={string2828}        ; {file:23}{line:407}
+	Next        ; {file:23}{line:408}
+	{var1206}&={string2829}        ; {file:23}{line:409}
+	{var1207}={phrase324}        ; {file:23}{line:411}
+	{var1208}={phrase325}        ; {file:23}{line:413}
+	{var1208}={var1208}[0]        ; {file:23}{line:419}
+	For {var77}= 1 To {var464}        ; {file:23}{line:421}
+	{phrase326}        ; {file:23}{line:423}
+	Next        ; {file:23}{line:436}
+	{phrase327}        ; {file:23}{line:438}
+	Else        ; {file:23}{line:444}
+	{var1193}={phrase328}        ; {file:23}{line:446}
+	If {phrase329} Then        ; {file:23}{line:447}
+	Return {phrase330}        ; {file:23}{line:448}
+	EndIf        ; {file:23}{line:449}
+	{var1012}={var1193}[0]        ; {file:23}{line:451}
+	Local {var1211}={phrase331}        ; {file:23}{line:453}
+	If {phrase332} Then        ; {file:23}{line:454}
+	Return {phrase333}        ; {file:23}{line:455}
+	EndIf        ; {file:23}{line:456}
+	Local {var1212}={var1211}[0]        ; {file:23}{line:458}
+	For {var77}= 1 To {var464}        ; {file:23}{line:460}
+	{var1206}&={string2863}        ; {file:23}{line:461}
+	Next        ; {file:23}{line:462}
+	{var1206}&={string2864}        ; {file:23}{line:463}
+	{var1207}={phrase334}        ; {file:23}{line:465}
+	{var1208}={phrase335}        ; {file:23}{line:467}
+	{var1208}={var1208}[0]        ; {file:23}{line:473}
+	{var1193}={phrase336}        ; {file:23}{line:475}
+	If {phrase337} Then        ; {file:23}{line:476}
+	Return {phrase338}        ; {file:23}{line:477}
+	EndIf        ; {file:23}{line:478}
+	Local {var615}={var1193}[0]        ; {file:23}{line:480}
+	For {var77}= 1 To {var464}        ; {file:23}{line:482}
+	{phrase339}        ; {file:23}{line:484}
+	Next        ; {file:23}{line:504}
+	{phrase340}        ; {file:23}{line:506}
+	EndIf        ; {file:23}{line:512}
+	{phrase341}        ; {file:23}{line:514}
+	{var1193}={phrase342}        ; {file:23}{line:519}
+	If {phrase343} Then        ; {file:23}{line:521}
+	Return {phrase344}        ; {file:23}{line:522}
+	EndIf        ; {file:23}{line:523}
+	Local {var1183}={var1193}[0]        ; {file:23}{line:525}
+	Return {phrase345}        ; {file:23}{line:527}
+EndFunc         ; {file:23}{line:529}
+
+Func {funcU425}({var986})        ; {file:23}{line:541}
+	Return {phrase346}        ; {file:23}{line:543}
+EndFunc         ; {file:23}{line:545}
+
+Func {funcU417}({var1186},{var1195},{var337},{var637}, ByRef {var1184})        ; {file:23}{line:557}
+	Local {var1197}={phrase347}        ; {file:23}{line:559}
+	If {phrase348} Then        ; {file:23}{line:561}
+	Return {phrase349}        ; {file:23}{line:562}
+	EndIf        ; {file:23}{line:563}
+	If {phrase350} Then        ; {file:23}{line:565}
+	Local {var992}={phrase351}        ; {file:23}{line:566}
+	If {phrase352} Then        ; {file:23}{line:567}
+	Return {phrase353}        ; {file:23}{line:568}
+	EndIf        ; {file:23}{line:569}
+	EndIf        ; {file:23}{line:570}
+	Local {var1198}={phrase354}        ; {file:23}{line:572}
+	{phrase355}        ; {file:23}{line:577}
+	Local {var1188}={phrase356}        ; {file:23}{line:579}
+	If {phrase357} Then        ; {file:23}{line:584}
+	Return {phrase358}        ; {file:23}{line:585}
+	EndIf        ; {file:23}{line:586}
+	Local {var1199}={var1188}[1]        ; {file:23}{line:588}
+	{var1188}={phrase359}        ; {file:23}{line:590}
+	If {phrase360} Then        ; {file:23}{line:594}
+	{phrase361}        ; {file:23}{line:595}
+	Return {phrase362}        ; {file:23}{line:596}
+	EndIf        ; {file:23}{line:597}
+	Local {var1200}={var1188}[2]        ; {file:23}{line:599}
+	{var1188}={phrase363}        ; {file:23}{line:601}
+	If {phrase364} Then        ; {file:23}{line:606}
+	{phrase365}        ; {file:23}{line:607}
+	{phrase366}        ; {file:23}{line:608}
+	Return {phrase367}        ; {file:23}{line:609}
+	EndIf        ; {file:23}{line:610}
+	Local {var205}={var1188}[2]        ; {file:23}{line:612}
+	Local {var204}={var1188}[3]        ; {file:23}{line:613}
+	{phrase368}        ; {file:23}{line:615}
+	{var1188}={phrase369}        ; {file:23}{line:617}
+	If {phrase370} Then        ; {file:23}{line:621}
+	{phrase371}        ; {file:23}{line:622}
+	{phrase372}        ; {file:23}{line:623}
+	Return {phrase373}        ; {file:23}{line:624}
+	EndIf        ; {file:23}{line:625}
+	Local {var1213}={var1188}[2]        ; {file:23}{line:627}
+	Local {var905}={phrase374}        ; {file:23}{line:629}
+	{var1188}={phrase375}        ; {file:23}{line:631}
+	If {phrase376} Then        ; {file:23}{line:636}
+	{phrase377}        ; {file:23}{line:637}
+	{phrase378}        ; {file:23}{line:638}
+	Return {phrase379}        ; {file:23}{line:639}
+	EndIf        ; {file:23}{line:640}
+	{var1188}={phrase380}        ; {file:23}{line:642}
+	If {phrase381} Then        ; {file:23}{line:647}
+	{phrase382}        ; {file:23}{line:648}
+	{phrase383}        ; {file:23}{line:649}
+	Return {phrase384}        ; {file:23}{line:650}
+	EndIf        ; {file:23}{line:651}
+	Local {var1214}={var1188}[3]        ; {file:23}{line:653}
+	Local {var1215}[{var1214}][3]        ; {file:23}{line:655}
+	Local {var884}= 1        ; {file:23}{line:657}
+	For {var77}= 0 To {var1214}- 1        ; {file:23}{line:659}
+	{var1188}={phrase385}        ; {file:23}{line:661}
+	If {phrase386} Then        ; {file:23}{line:666}
+	{var1215}[{var77}][0]= 0        ; {file:23}{line:667}
+	ContinueLoop        ; {file:23}{line:668}
+	EndIf        ; {file:23}{line:669}
+	{var1188}={phrase387}        ; {file:23}{line:671}
+	If {phrase388} Then        ; {file:23}{line:675}
+	{var1215}[{var77}][0]= 0        ; {file:23}{line:676}
+	ContinueLoop        ; {file:23}{line:677}
+	EndIf        ; {file:23}{line:678}
+	{var1215}[{var77}][0]={var1188}[2]        ; {file:23}{line:680}
+	If {phrase389} Then         ; {file:23}{line:682}
+	{phrase390}        ; {file:23}{line:683}
+	{var884}= 0        ; {file:23}{line:684}
+	EndIf        ; {file:23}{line:685}
+	Next        ; {file:23}{line:687}
+	{var1188}={phrase391}        ; {file:23}{line:689}
+	If {phrase392} Then        ; {file:23}{line:694}
+	{phrase393}        ; {file:23}{line:695}
+	{phrase394}        ; {file:23}{line:696}
+	Return {phrase395}        ; {file:23}{line:697}
+	EndIf        ; {file:23}{line:698}
+	Local {var1216}={var1188}[3]        ; {file:23}{line:700}
+	Local {var1217}={phrase396}        ; {file:23}{line:702}
+	{var1188}={phrase397}        ; {file:23}{line:704}
+	If {phrase398} Then        ; {file:23}{line:710}
+	{phrase399}        ; {file:23}{line:711}
+	{phrase400}        ; {file:23}{line:712}
+	Return {phrase401}        ; {file:23}{line:713}
+	EndIf        ; {file:23}{line:714}
+	Local {var1218}={phrase402}        ; {file:23}{line:716}
+	Local {var462}={phrase403}/ 4         ; {file:23}{line:722}
+	Local {var1219}={phrase404}        ; {file:23}{line:724}
+	For {var77}= 0 To {var1214}- 1        ; {file:23}{line:726}
+	{var1215}[{var77}][ 1 ]={phrase405}* 10         ; {file:23}{line:727}
+	{var1215}[{var77}][2]={var1215}[{var77}][1]        ; {file:23}{line:728}
+	If {phrase406} Then        ; {file:23}{line:729}
+	{var1215}[{var77}][1]= 130         ; {file:23}{line:730}
+	EndIf        ; {file:23}{line:731}
+	If {phrase407} Then         ; {file:23}{line:732}
+	{var1215}[{var77}][1]= 50        ; {file:23}{line:733}
+	EndIf        ; {file:23}{line:734}
+	Next        ; {file:23}{line:735}
+	{var1184}= 1         ; {file:23}{line:737}
+	{var1188}={phrase408}        ; {file:23}{line:739}
+	If {phrase409} Then        ; {file:23}{line:745}
+	{phrase410}        ; {file:23}{line:746}
+	{phrase411}        ; {file:23}{line:747}
+	Return {phrase412}        ; {file:23}{line:748}
+	EndIf        ; {file:23}{line:749}
+	If {phrase413} Then        ; {file:23}{line:751}
+	{var1184}= 0        ; {file:23}{line:752}
+	EndIf        ; {file:23}{line:753}
+	{phrase414}        ; {file:23}{line:755}
+	{phrase415}        ; {file:23}{line:756}
+	Return {phrase416}        ; {file:23}{line:758}
+EndFunc         ; {file:23}{line:760}
+
+Global Const {var190} = 14        ; {file:3}{line:20}{ref701}
+Global Const {var196} = 0        ; {file:3}{line:20}{ref702}
+Global Const {var195} = 1        ; {file:3}{line:20}{ref703}
+Global Const {var191} = 2        ; {file:3}{line:20}{ref704}
+Global Const {var231} = 3        ; {file:3}{line:20}{ref705}
+Global Const {var228} = 4        ; {file:3}{line:20}{ref706}
+Global Const {var197} = 5        ; {file:3}{line:20}{ref707}
+Global Const {var201} = 6        ; {file:3}{line:20}{ref708}
+Global Const {var221} = 7        ; {file:3}{line:20}{ref709}
+Global Const {var233} = 8        ; {file:3}{line:20}{ref710}
+Global Const {var229} = 9        ; {file:3}{line:20}{ref711}
+Global Const {var227} = 10        ; {file:3}{line:20}{ref712}
+Global Const {var217} = 11        ; {file:3}{line:20}{ref713}
+Global Const {var225} = 12        ; {file:3}{line:20}{ref714}
+Global Const {var222} = 13        ; {file:3}{line:20}{ref715}
+Global Const {var49} = 0x1        ; {file:3}{line:36}{ref716}
+Global Const {var211} = 0x2        ; {file:3}{line:36}{ref717}
+Global Const {var212} = 0x4        ; {file:3}{line:36}{ref718}
+Global Const {var213} = 0x8        ; {file:3}{line:36}{ref719}
+Global {var189}[{var190}]         ; {file:3}{line:41}{ref720}
+Global {var192}         ; {file:3}{line:41}{ref721}
+Global {var192}         ; {file:3}{line:41}{ref722}
+Global {var193}         ; {file:3}{line:41}{ref723}
+Global {var226}         ; {file:3}{line:41}{ref724}
+Global {var194}         ; {file:3}{line:41}{ref725}
+
+Func {funcU8}()        ; {file:3}{line:55}
+	If {phrase417} Then Return {phrase418}        ; {file:3}{line:56}
+	{phrase419}        ; {file:3}{line:57}
+	{phrase420}        ; {file:3}{line:58}
+	{phrase421}        ; {file:3}{line:59}
+	{phrase422}        ; {file:3}{line:60}
+	{phrase423}        ; {file:3}{line:61}
+	If {phrase424} Then {phrase425}        ; {file:3}{line:62}
+	{phrase426}        ; {file:3}{line:63}
+	Return 0        ; {file:3}{line:64}
+EndFunc         ; {file:3}{line:65}
+
+Func {funcU6}({var198}={string574},{var199}=-1,{var200}=-1,{var3}= 0)        ; {file:3}{line:86}
+	If {phrase427} Then Return {phrase428}        ; {file:3}{line:87}
+	If {phrase429} Then {phrase430}        ; {file:3}{line:88}
+	Local {var202}= 85,{var203}= 150,{var204},{var205},{var206},{var207}        ; {file:3}{line:89}
+	Local {var208}= False,{var209}= False,{var210}= False        ; {file:3}{line:90}
+	If {phrase431} Then {var199}= 0         ; {file:3}{line:93}
+	If {phrase432} Then {var200}= 225         ; {file:3}{line:94}
+	If {phrase433} Then {var200}= 255        ; {file:3}{line:95}
+	If {phrase434} Then         ; {file:3}{line:96}
+	{var3}= 0        ; {file:3}{line:97}
+	Else        ; {file:3}{line:98}
+	{var206}={phrase435}        ; {file:3}{line:99}
+	{var207}={phrase436}        ; {file:3}{line:100}
+	{phrase437}        ; {file:3}{line:101}
+	EndIf        ; {file:3}{line:102}
+	{var189}[{var195}]={var3}        ; {file:3}{line:103}
+	If {phrase438} Then         ; {file:3}{line:104}
+	{var202}+= 10        ; {file:3}{line:105}
+	{var208}= True        ; {file:3}{line:106}
+	EndIf        ; {file:3}{line:107}
+	If {phrase439} Then {var209}= True         ; {file:3}{line:108}
+	If {phrase440} Then {var210}= True         ; {file:3}{line:109}
+	If {phrase441} Then         ; {file:3}{line:112}
+	If {phrase442} Then        ; {file:3}{line:113}
+	{var189}[{var197}]={phrase443}        ; {file:3}{line:114}
+	Else        ; {file:3}{line:115}
+	{var189}[{var197}]={phrase444}        ; {file:3}{line:116}
+	EndIf        ; {file:3}{line:117}
+	{phrase445}        ; {file:3}{line:118}
+	{phrase446}        ; {file:3}{line:119}
+	If {phrase447} Then {phrase448}        ; {file:3}{line:120}
+	{phrase449}        ; {file:3}{line:121}
+	EndIf        ; {file:3}{line:122}
+	If {phrase450} Then        ; {file:3}{line:125}
+	{var189}[{var196}]={phrase451}        ; {file:3}{line:126}
+	Else        ; {file:3}{line:127}
+	Local {var219}=({phrase452}-{var203})/ 2 +{funcA130}({var207},{string587})        ; {file:3}{line:128}
+	Local {var220}=({phrase453}-{var202})/ 2 +{funcA130}({var207},{string589})        ; {file:3}{line:129}
+	{var189}[{var196}]={phrase454}        ; {file:3}{line:130}
+	{phrase455}        ; {file:3}{line:131}
+	{phrase456}        ; {file:3}{line:132}
+	EndIf        ; {file:3}{line:133}
+	If {phrase457} Then {phrase458}        ; {file:3}{line:134}
+	{phrase459}        ; {file:3}{line:135}
+	If {phrase460} Then        ; {file:3}{line:138}
+	{phrase461}        ; {file:3}{line:139}
+	{phrase462}        ; {file:3}{line:140}
+	{phrase463}        ; {file:3}{line:141}
+	{phrase464}        ; {file:3}{line:142}
+	{phrase465}        ; {file:3}{line:143}
+	{phrase466}        ; {file:3}{line:144}
+	{phrase467}        ; {file:3}{line:145}
+	{phrase468}        ; {file:3}{line:146}
+	{phrase469}        ; {file:3}{line:147}
+	EndIf        ; {file:3}{line:148}
+	{phrase470}        ; {file:3}{line:149}
+	{var189}[{var191}]={phrase471}        ; {file:3}{line:150}
+	{phrase472}        ; {file:3}{line:151}
+	If {phrase473} Then        ; {file:3}{line:154}
+	{phrase474}        ; {file:3}{line:155}
+	{phrase475}        ; {file:3}{line:156}
+	{var189}[{var228}]={phrase476}        ; {file:3}{line:157}
+	{phrase477}        ; {file:3}{line:158}
+	{phrase478}        ; {file:3}{line:159}
+	{var189}[{var231}]={phrase479}        ; {file:3}{line:160}
+	{phrase480}        ; {file:3}{line:161}
+	{phrase481}        ; {file:3}{line:162}
+	Else        ; {file:3}{line:163}
+	{var189}[{var231}]={phrase482}        ; {file:3}{line:164}
+	{phrase483}        ; {file:3}{line:165}
+	{phrase484}        ; {file:3}{line:166}
+	EndIf        ; {file:3}{line:167}
+	{phrase485}        ; {file:3}{line:168}
+	Return 0        ; {file:3}{line:169}
+EndFunc         ; {file:3}{line:170}
+
+Func {funcU12}({var198}={string601},{var234}=-1)        ; {file:3}{line:185}
+	If {phrase486} Then Return {phrase487}        ; {file:3}{line:186}
+	If {phrase488} Then {phrase489}        ; {file:3}{line:187}
+	If {phrase490} Then        ; {file:3}{line:188}
+	If {phrase491} Then {var234}= 100        ; {file:3}{line:189}
+	If {phrase492} Then        ; {file:3}{line:190}
+	{phrase493}        ; {file:3}{line:191}
+	Else        ; {file:3}{line:192}
+	{phrase494}        ; {file:3}{line:193}
+	If {phrase495} Then {phrase496}        ; {file:3}{line:194}
+	EndIf        ; {file:3}{line:195}
+	EndIf        ; {file:3}{line:196}
+	Return 0        ; {file:3}{line:197}
+EndFunc         ; {file:3}{line:198}
+
+Func {funcU88}({var236})        ; {file:3}{line:217}
+	If {phrase497} Then Return {phrase498}        ; {file:3}{line:218}
+	Local {var237},{var238},{var239}        ; {file:3}{line:219}
+	{var237}={phrase499}&{string602}&{var236}        ; {file:3}{line:220}
+	If {phrase500} Then Return {phrase501}        ; {file:3}{line:221}
+	{var238}={var237}&{string603}        ; {file:3}{line:222}
+	If {phrase502} Then Return {phrase503}        ; {file:3}{line:223}
+	{var189}[{var201}]={var237}        ; {file:3}{line:224}
+	{var189}[{var221}]={phrase504}        ; {file:3}{line:225}
+	If {phrase505} Then {var189}[{var221}]= 0x000000        ; {file:3}{line:226}
+	{var189}[{var233}]={phrase506}        ; {file:3}{line:227}
+	If {phrase507} Then {var189}[{var233}]= 0xFFFFFF        ; {file:3}{line:228}
+	{var189}[{var229}]={phrase508}        ; {file:3}{line:229}
+	If {phrase509} Then {var189}[{var229}]= 0xFFFFFF        ; {file:3}{line:230}
+	{var189}[{var227}]={phrase510}        ; {file:3}{line:231}
+	If {phrase511} Then {var189}[{var227}]= 0x000000        ; {file:3}{line:232}
+	{var189}[{var217}]={phrase512}        ; {file:3}{line:233}
+	If {phrase513} Then {var189}[{var217}]= 0xFFFFFF        ; {file:3}{line:234}
+	{var189}[{var222}]={phrase514}        ; {file:3}{line:235}
+	If {phrase515} Then        ; {file:3}{line:236}
+	{var189}[{var222}]= True        ; {file:3}{line:237}
+	Else        ; {file:3}{line:238}
+	{var189}[{var222}]= False        ; {file:3}{line:239}
+	EndIf        ; {file:3}{line:240}
+	{var189}[{var225}]={var237}&{string617}        ; {file:3}{line:241}
+	{phrase516}        ; {file:3}{line:242}
+EndFunc         ; {file:3}{line:243}
+
+Func {funcU94}({var240})        ; {file:3}{line:247}
+	If {phrase517} Then Return {phrase518}        ; {file:3}{line:248}
+	Local {var241}={phrase519}        ; {file:3}{line:249}
+	If {phrase520} Then Return {string619}&{var241}[0]        ; {file:3}{line:250}
+	Return {phrase521}        ; {file:3}{line:251}
+EndFunc         ; {file:3}{line:252}
+
+Func {funcU87}()        ; {file:3}{line:254}
+	{var189}[{var196}]= 0        ; {file:3}{line:255}
+	{var189}[{var231}]= 0        ; {file:3}{line:256}
+	{var189}[{var228}]= 0        ; {file:3}{line:257}
+	{var189}[{var197}]= 0        ; {file:3}{line:258}
+	{var189}[{var191}]= 0        ; {file:3}{line:259}
+EndFunc         ; {file:3}{line:260}
+
+Func {funcU91}({var242}, ByRef {var243}, ByRef {var244})        ; {file:3}{line:262}
+	If {phrase522} Then         ; {file:3}{line:263}
+	Local {var245}={phrase523}        ; {file:3}{line:264}
+	{var243}={phrase524}* 256 +{funcA5}({funcA413}({var245}, 7 , 1 ))        ; {file:3}{line:265}
+	{var244}={phrase525}* 256 +{funcA5}({funcA413}({var245}, 9 , 1 ))        ; {file:3}{line:266}
+	EndIf        ; {file:3}{line:267}
+EndFunc         ; {file:3}{line:268}
+
+Func {funcU93}({var63},{var45},{var246},{var247})        ; {file:3}{line:270}
+#forceref {var63}, {var45}, {var246}, {var247}       ; {file:3}{line:271}
+	{phrase526}        ; {file:3}{line:272}
+EndFunc         ; {file:3}{line:273}
+
+Global Const {var257} = 0x00001000        ; {file:40}{line:32}{ref7823}
+Global Const {var258} = 0x00000040        ; {file:40}{line:44}{ref7832}
+Global Const {var250} = 0x00008000        ; {file:40}{line:54}{ref7839}
+
+Func {funcU100}({var1237},{var462},{var1238},{var1239})        ; {file:24}{line:223}
+	Local {var241}={phrase527}        ; {file:24}{line:224}
+	If {phrase528} Then Return {phrase529}        ; {file:24}{line:225}
+	Return {var241}[0]        ; {file:24}{line:226}
+EndFunc         ; {file:24}{line:227}
+
+Func {funcU97}({var1237},{var462},{var1240})        ; {file:24}{line:243}
+	Local {var241}={phrase530}        ; {file:24}{line:244}
+	If {phrase531} Then Return {phrase532}        ; {file:24}{line:245}
+	Return {var241}[0]        ; {file:24}{line:246}
+EndFunc         ; {file:24}{line:247}
+
+Global {var248}         ; {file:4}{line:10}{ref864}
+Global {var249}         ; {file:4}{line:10}{ref865}
+Global {var251}         ; {file:4}{line:11}{ref866}
+Global {var252}         ; {file:4}{line:11}{ref867}
+
+Func {funcU96}()        ; {file:4}{line:13}
+	{var248}= 0        ; {file:4}{line:14}
+	{phrase533}        ; {file:4}{line:15}
+EndFunc        ; {file:4}{line:16}
+
+Func {funcU98}()        ; {file:4}{line:18}
+	{var251}= 0        ; {file:4}{line:19}
+	{phrase534}        ; {file:4}{line:20}
+EndFunc        ; {file:4}{line:21}
+
+Func {funcU101}({var253},{var254}= 0,{var255}= 0xA001)        ; {file:4}{line:52}
+	If {phrase535} Then         ; {file:4}{line:53}
+	If {phrase536} Then        ; {file:4}{line:54}
+	Local {var256}={string635}        ; {file:4}{line:55}
+	Else        ; {file:4}{line:56}
+	Local {var256}={string636}        ; {file:4}{line:57}
+	EndIf        ; {file:4}{line:58}
+	{var256}={phrase537}        ; {file:4}{line:59}
+	{var252}={phrase538}        ; {file:4}{line:61}
+	{var251}={phrase539}        ; {file:4}{line:62}
+	{phrase540}        ; {file:4}{line:63}
+	{phrase541}        ; {file:4}{line:64}
+	EndIf        ; {file:4}{line:65}
+	{var253}={phrase542}        ; {file:4}{line:67}
+	Local {var259}={phrase543}        ; {file:4}{line:68}
+	Local {var260}={phrase544}        ; {file:4}{line:69}
+	{phrase545}        ; {file:4}{line:70}
+	Local {var261}={phrase546}        ; {file:4}{line:72}
+	Return {var261}[0]        ; {file:4}{line:78}
+EndFunc        ; {file:4}{line:79}
+
+Func {funcU102}({var262},{var263},{var264}=-1,{var265}= 0,{var266}=-1)        ; {file:5}{line:37}
+	Local {var267},{var268},{var269},{var270}= 2097152,{var271},{var272}= 0,{var273},{var274}        ; {file:5}{line:38}
+	If {phrase547} Then {var265}= 0        ; {file:5}{line:39}
+	{var267}={phrase548}        ; {file:5}{line:40}
+	If {phrase549} Then Return {phrase550}        ; {file:5}{line:41}
+	{var268}={phrase551}        ; {file:5}{line:42}
+	If {phrase552} Then        ; {file:5}{line:43}
+	{phrase553}        ; {file:5}{line:44}
+	Return {phrase554}        ; {file:5}{line:45}
+	EndIf        ; {file:5}{line:46}
+	If {phrase555} Then {var264}={var268}        ; {file:5}{line:47}
+	If {phrase556} Then        ; {file:5}{line:48}
+	{phrase557}        ; {file:5}{line:49}
+	Return {phrase558}        ; {file:5}{line:50}
+	EndIf        ; {file:5}{line:51}
+	{phrase559}        ; {file:5}{line:52}
+	{var269}={phrase560}        ; {file:5}{line:53}
+	If {phrase561} Then        ; {file:5}{line:54}
+	{phrase562}        ; {file:5}{line:55}
+	Return {phrase563}        ; {file:5}{line:56}
+	EndIf        ; {file:5}{line:57}
+	If {phrase564} Then        ; {file:5}{line:58}
+	{phrase565}        ; {file:5}{line:59}
+	Else        ; {file:5}{line:60}
+	{phrase566}        ; {file:5}{line:61}
+	EndIf        ; {file:5}{line:62}
+	{var271}={phrase567}        ; {file:5}{line:63}
+	While {phrase568} ; {file:5}{line:64}
+	If {phrase569} Then {var270}={var264}-{var272}        ; {file:5}{line:65}
+	{phrase570}        ; {file:5}{line:66}
+	{phrase571}        ; {file:5}{line:67}
+	{var272}+={var270}        ; {file:5}{line:68}
+	WEnd        ; {file:5}{line:69}
+	{phrase572}        ; {file:5}{line:70}
+	{phrase573}        ; {file:5}{line:71}
+	Return 1        ; {file:5}{line:72}
+EndFunc         ; {file:5}{line:73}
+
+Func {funcU16}({var47},{var264}=-1,{var57}= 0)        ; {file:5}{line:90}
+	Local {var276},{var268},{var271},{var273}        ; {file:5}{line:91}
+	If {phrase574} Then {var57}= 0        ; {file:5}{line:92}
+	{var276}={phrase575}        ; {file:5}{line:93}
+	If {phrase576} Then Return {phrase577}        ; {file:5}{line:94}
+	{var268}={phrase578}        ; {file:5}{line:95}
+	If {phrase579} Then        ; {file:5}{line:96}
+	{phrase580}        ; {file:5}{line:97}
+	Return {phrase581}        ; {file:5}{line:98}
+	EndIf        ; {file:5}{line:99}
+	If {phrase582} Then {var264}={var268}        ; {file:5}{line:100}
+	If {phrase583} Then        ; {file:5}{line:101}
+	{phrase584}        ; {file:5}{line:102}
+	Return {phrase585}        ; {file:5}{line:103}
+	EndIf        ; {file:5}{line:104}
+	{phrase586}        ; {file:5}{line:105}
+	{var271}={phrase587}        ; {file:5}{line:106}
+	{phrase588}        ; {file:5}{line:107}
+	{phrase589}        ; {file:5}{line:108}
+	Return {phrase590}        ; {file:5}{line:109}
+EndFunc         ; {file:5}{line:110}
+
+Func {funcU17}({var47},{var277},{var278}= 0)        ; {file:5}{line:127}
+	Local {var276},{var268},{var270}= 2097152,{var271},{var57},{var273},{var279}        ; {file:5}{line:128}
+	If {phrase591} Then Return {phrase592}        ; {file:5}{line:129}
+	If {phrase593} Then {var278}= 0        ; {file:5}{line:130}
+	{var276}={phrase594}        ; {file:5}{line:131}
+	If {phrase595} Then Return {phrase596}        ; {file:5}{line:132}
+	{var268}={phrase597}        ; {file:5}{line:133}
+	If {phrase598} Then        ; {file:5}{line:134}
+	{phrase599}        ; {file:5}{line:135}
+	Return {phrase600}        ; {file:5}{line:136}
+	EndIf        ; {file:5}{line:137}
+	{phrase601}        ; {file:5}{line:138}
+	{var271}={phrase602}        ; {file:5}{line:139}
+	{var57}={var278}        ; {file:5}{line:140}
+	While {phrase603} ; {file:5}{line:141}
+	{phrase604}        ; {file:5}{line:142}
+	{var279}={phrase605}        ; {file:5}{line:143}
+	If {phrase606} Then ExitLoop        ; {file:5}{line:144}
+	If {phrase607} Then        ; {file:5}{line:145}
+	{phrase608}        ; {file:5}{line:146}
+	Return -1        ; {file:5}{line:147}
+	EndIf        ; {file:5}{line:148}
+	{var57}+={var273}        ; {file:5}{line:149}
+	WEnd        ; {file:5}{line:150}
+	{phrase609}        ; {file:5}{line:151}
+	{var279}={var57}+{var279}- 1        ; {file:5}{line:152}
+	Return {var279}        ; {file:5}{line:153}
+EndFunc         ; {file:5}{line:154}
+
+Func {funcU18}({var47},{var277},{var57}=-1)        ; {file:5}{line:171}
+	Local {var276},{var270},{var271},{var274},{var281}        ; {file:5}{line:172}
+	If {phrase610} Then Return {phrase611}        ; {file:5}{line:173}
+	{var276}={phrase612}        ; {file:5}{line:174}
+	If {phrase613} Then Return {phrase614}        ; {file:5}{line:175}
+	If {phrase615} Then        ; {file:5}{line:176}
+	{phrase616}        ; {file:5}{line:177}
+	Else        ; {file:5}{line:178}
+	{phrase617}        ; {file:5}{line:179}
+	EndIf        ; {file:5}{line:180}
+	{var270}={phrase618}        ; {file:5}{line:181}
+	{var271}={phrase619}        ; {file:5}{line:182}
+	{phrase620}        ; {file:5}{line:183}
+	{var281}={phrase621}        ; {file:5}{line:184}
+	{phrase622}        ; {file:5}{line:185}
+	Return {phrase623}        ; {file:5}{line:186}
+EndFunc         ; {file:5}{line:187}
+
+Func {funcU7}({var262},{var263})        ; {file:6}{line:3}
+	Local {var277},{var57},{var282}={var263}&{string661},{var283},{var284},{var61},{var285}        ; {file:6}{line:4}
+	{var277}={phrase624}        ; {file:6}{line:5}
+	If {phrase625} Then Return {phrase626}        ; {file:6}{line:6}
+	If {phrase627} Then Return {phrase628}        ; {file:6}{line:7}
+	{var57}={phrase629}        ; {file:6}{line:8}
+	{phrase630}        ; {file:6}{line:9}
+	While {phrase631} ; {file:6}{line:10}
+	{var283}={phrase632}        ; {file:6}{line:11}
+	{phrase633}        ; {file:6}{line:12}
+	If {phrase634} Then ExitLoop         ; {file:6}{line:13}
+	{var284}={phrase635}        ; {file:6}{line:14}
+	{phrase636}        ; {file:6}{line:15}
+	If {phrase637} Then Return {phrase638}        ; {file:6}{line:16}
+	If {phrase639} Then         ; {file:6}{line:17}
+	{var61}={phrase640}        ; {file:6}{line:18}
+	Else        ; {file:6}{line:19}
+	{var61}={phrase641}        ; {file:6}{line:20}
+	EndIf        ; {file:6}{line:21}
+	{var285}={phrase642}        ; {file:6}{line:22}
+	If {phrase643} Then {var285}={var61}&{string675}        ; {file:6}{line:23}
+	{phrase644}        ; {file:6}{line:25}
+	If {phrase645} Then Return {phrase646}        ; {file:6}{line:26}
+	{phrase647}        ; {file:6}{line:27}
+	If {phrase648} Then Return {phrase649}        ; {file:6}{line:28}
+	{var57}+={phrase650}        ; {file:6}{line:29}
+	{phrase651}        ; {file:6}{line:30}
+	If {phrase652} Then Return {phrase653}        ; {file:6}{line:31}
+	{var57}+={phrase654}        ; {file:6}{line:32}
+	If {phrase655} Then         ; {file:6}{line:33}
+	{var57}+= 4 -{phrase656}        ; {file:6}{line:34}
+	EndIf        ; {file:6}{line:35}
+	WEnd        ; {file:6}{line:36}
+EndFunc         ; {file:6}{line:37}
+
+Func {funcU9}({var262},{var263})        ; {file:6}{line:39}
+	Local {var289},{var290}={string683},{var237}={string684},{var285}={string685},{var291}={string686},{var57},{var292},{var270},{var293},{var283},{var294},{var271}        ; {file:6}{line:40}
+	{var289}={phrase657}        ; {file:6}{line:41}
+	If {phrase658} Then Return {phrase659}        ; {file:6}{line:42}
+	{phrase660}        ; {file:6}{line:43}
+	If {phrase661} Then Return {phrase662}        ; {file:6}{line:44}
+	{phrase663}        ; {file:6}{line:45}
+	For {var77}= 1 To {var289}[0][0]        ; {file:6}{line:59}
+	{var283}={phrase664}        ; {file:6}{line:60}
+	{phrase665}        ; {file:6}{line:61}
+	If {phrase666} Then Return {phrase667}        ; {file:6}{line:62}
+	{var57}= 0        ; {file:6}{line:63}
+	{var292}={phrase668}        ; {file:6}{line:64}
+	{var270}= 4096        ; {file:6}{line:65}
+	{var293}={string690}        ; {file:6}{line:66}
+	While {phrase669} ; {file:6}{line:67}
+	If {phrase670} Then {var270}={var292}-{var57}        ; {file:6}{line:68}
+	{var293}&={phrase671}        ; {file:6}{line:69}
+	{var57}+={var270}        ; {file:6}{line:70}
+	WEnd        ; {file:6}{line:71}
+	{var294}={phrase672}+{funcA411}({var293})        ; {file:6}{line:72}
+	{phrase673}        ; {file:6}{line:73}
+	{phrase674}        ; {file:6}{line:74}
+	{phrase675}        ; {file:6}{line:75}
+	{phrase676}        ; {file:6}{line:76}
+	{phrase677}        ; {file:6}{line:77}
+	{phrase678}        ; {file:6}{line:78}
+	{phrase679}        ; {file:6}{line:79}
+	{var270}={phrase680}        ; {file:6}{line:80}
+	If {phrase681} Then         ; {file:6}{line:81}
+	{var270}= 4 -{phrase682}        ; {file:6}{line:82}
+	{var271}={phrase683}        ; {file:6}{line:83}
+	{phrase684}        ; {file:6}{line:84}
+	EndIf        ; {file:6}{line:85}
+	Next        ; {file:6}{line:86}
+EndFunc         ; {file:6}{line:87}
+
+Func {funcU109}({var277}, ByRef {var295})        ; {file:6}{line:89}
+	Local {var271}={phrase685}        ; {file:6}{line:90}
+	{phrase686}        ; {file:6}{line:91}
+EndFunc         ; {file:6}{line:92}
+
+Func {funcU110}({var295})        ; {file:6}{line:94}
+	Local {var271}={phrase687}        ; {file:6}{line:95}
+	Return {phrase688}        ; {file:6}{line:96}
+EndFunc         ; {file:6}{line:97}
+
+Global Const {var549} = 24        ; {file:8}{line:40}{ref2006}
+Global Const {var551} = 0xF0000000        ; {file:8}{line:41}{ref2007}
+Global Const {var573} = 0x0004        ; {file:8}{line:42}{ref2008}
+Global Const {var574} = 0x0002        ; {file:8}{line:43}{ref2009}
+Global Const {var560} = 1        ; {file:8}{line:45}{ref2011}
+Global Const {var76} = 0x00008003        ; {file:8}{line:49}{ref2014}
+Global {var546}[3]         ; {file:8}{line:65}{ref2025}
+
+Func {funcU31}()        ; {file:8}{line:71}
+	If {phrase689} Then         ; {file:8}{line:72}
+	Local {var547}={phrase690}        ; {file:8}{line:73}
+	If {phrase691} Then Return {phrase692}        ; {file:8}{line:74}
+	{phrase693}        ; {file:8}{line:75}
+	Local {var548}={var549}        ; {file:8}{line:76}
+	Local {var550}={phrase694}        ; {file:8}{line:77}
+	If {phrase695} Then        ; {file:8}{line:78}
+	Local {var552}={phrase696}+ 10,{var553}={phrase697}        ; {file:8}{line:79}
+	{phrase698}        ; {file:8}{line:80}
+	Return {phrase699}        ; {file:8}{line:81}
+	Else        ; {file:8}{line:82}
+	{phrase700}        ; {file:8}{line:83}
+	EndIf        ; {file:8}{line:85}
+	EndIf        ; {file:8}{line:86}
+	{phrase701}        ; {file:8}{line:87}
+	Return True        ; {file:8}{line:88}
+EndFunc         ; {file:8}{line:89}
+
+Func {funcU34}()        ; {file:8}{line:95}
+	{phrase702}        ; {file:8}{line:96}
+	If {phrase703} Then         ; {file:8}{line:97}
+	{phrase704}        ; {file:8}{line:98}
+	{phrase705}        ; {file:8}{line:99}
+	EndIf        ; {file:8}{line:100}
+EndFunc         ; {file:8}{line:101}
+
+Func {funcU32}({var563},{var555},{var565}= True,{var558}= 0)        ; {file:8}{line:287}
+	Local {var550}= 0,{var557}= 0,{var552}= 0,{var553}= 0,{var572}= 0,{var559}= 0        ; {file:8}{line:288}
+	{phrase706}        ; {file:8}{line:293}
+	Do        ; {file:8}{line:294}
+	If {phrase707} Then        ; {file:8}{line:295}
+	{var550}={phrase708}        ; {file:8}{line:297}
+	If {phrase709} Then        ; {file:8}{line:298}
+	{var552}={phrase710}+ 10        ; {file:8}{line:299}
+	{var553}={phrase711}        ; {file:8}{line:300}
+	{var559}=-1        ; {file:8}{line:301}
+	ExitLoop        ; {file:8}{line:302}
+	EndIf        ; {file:8}{line:303}
+	{var558}={var550}[5]        ; {file:8}{line:304}
+	EndIf        ; {file:8}{line:305}
+	{var557}={phrase712}        ; {file:8}{line:307}
+	{phrase713}        ; {file:8}{line:308}
+	{var550}={phrase714}        ; {file:8}{line:310}
+	If {phrase715} Then        ; {file:8}{line:311}
+	{var552}={phrase716}+ 20        ; {file:8}{line:312}
+	{var553}={phrase717}        ; {file:8}{line:313}
+	{var559}=-1        ; {file:8}{line:314}
+	ExitLoop        ; {file:8}{line:315}
+	EndIf        ; {file:8}{line:316}
+	If {phrase718} Then        ; {file:8}{line:318}
+	{var550}={phrase719}        ; {file:8}{line:319}
+	If {phrase720} Then        ; {file:8}{line:320}
+	{var552}={phrase721}+ 30        ; {file:8}{line:321}
+	{var553}={phrase722}        ; {file:8}{line:322}
+	{var559}=-1        ; {file:8}{line:323}
+	ExitLoop        ; {file:8}{line:324}
+	EndIf        ; {file:8}{line:325}
+	{var572}={var550}[3]        ; {file:8}{line:326}
+	{var557}={phrase723}        ; {file:8}{line:329}
+	{var550}={phrase724}        ; {file:8}{line:330}
+	If {phrase725} Then        ; {file:8}{line:331}
+	{var552}={phrase726}+ 40        ; {file:8}{line:332}
+	{var553}={phrase727}        ; {file:8}{line:333}
+	{var559}=-1        ; {file:8}{line:334}
+	ExitLoop        ; {file:8}{line:335}
+	EndIf        ; {file:8}{line:336}
+	{var559}={phrase728}        ; {file:8}{line:337}
+	Else        ; {file:8}{line:338}
+	{var559}={var558}        ; {file:8}{line:339}
+	EndIf        ; {file:8}{line:340}
+	Until True        ; {file:8}{line:341}
+	If {phrase729} Then {phrase730}        ; {file:8}{line:344}
+	{phrase731}        ; {file:8}{line:346}
+	Return {phrase732}        ; {file:8}{line:348}
+EndFunc         ; {file:8}{line:349}
+
+Func {funcU151}()        ; {file:8}{line:567}
+	Return {var546}[0]        ; {file:8}{line:568}
+EndFunc         ; {file:8}{line:569}
+
+Func {funcU155}()        ; {file:8}{line:584}
+	{var546}[0]+= 1        ; {file:8}{line:585}
+EndFunc         ; {file:8}{line:586}
+
+Func {funcU156}()        ; {file:8}{line:601}
+	If {phrase733} Then {var546}[0]-= 1        ; {file:8}{line:602}
+EndFunc         ; {file:8}{line:603}
+
+Func {funcU153}()        ; {file:8}{line:618}
+	Return {var546}[1]        ; {file:8}{line:619}
+EndFunc         ; {file:8}{line:620}
+
+Func {funcU152}({var547})        ; {file:8}{line:635}
+	{var546}[1]={var547}        ; {file:8}{line:636}
+EndFunc         ; {file:8}{line:637}
+
+Func {funcU157}()        ; {file:8}{line:652}
+	Return {var546}[2]        ; {file:8}{line:653}
+EndFunc         ; {file:8}{line:654}
+
+Func {funcU154}({var586})        ; {file:8}{line:669}
+	{var546}[2]={var586}        ; {file:8}{line:670}
+EndFunc         ; {file:8}{line:671}
+
+Global Const {var42} = 2048        ; {file:9}{line:24}{ref2250}
+Global Const {var68} = 0x300        ; {file:9}{line:96}{ref2307}
+Global Const {var41} = 0x00000080        ; {file:9}{line:119}{ref2316}
+
+Func {funcU1}({var642},{var643}= 0)        ; {file:11}{line:350}
+	Local Const {var644}= 183        ; {file:11}{line:351}
+	Local Const {var645}= 1        ; {file:11}{line:352}
+	Local {var646}= 0        ; {file:11}{line:353}
+	If {phrase734} Then         ; {file:11}{line:355}
+	Local {var647}={phrase735}        ; {file:11}{line:360}
+	Local {var550}={phrase736}        ; {file:11}{line:362}
+	If {phrase737} Then Return {phrase738}        ; {file:11}{line:364}
+	If {phrase739} Then        ; {file:11}{line:365}
+	{var550}={phrase740}        ; {file:11}{line:367}
+	If {phrase741} Then Return {phrase742}        ; {file:11}{line:369}
+	If {phrase743} Then        ; {file:11}{line:370}
+	{var646}={phrase744}        ; {file:11}{line:372}
+	{phrase745}        ; {file:11}{line:374}
+	{phrase746}        ; {file:11}{line:375}
+	{phrase747}        ; {file:11}{line:376}
+	EndIf        ; {file:11}{line:377}
+	EndIf        ; {file:11}{line:378}
+	EndIf        ; {file:11}{line:379}
+	Local {var649}={phrase748}        ; {file:11}{line:381}
+	If {phrase749} Then Return {phrase750}        ; {file:11}{line:382}
+	Local {var650}={phrase751}        ; {file:11}{line:383}
+	If {phrase752} Then Return {phrase753}        ; {file:11}{line:384}
+	If {phrase754} Then        ; {file:11}{line:385}
+	If {phrase755} Then         ; {file:11}{line:386}
+	{phrase756}        ; {file:11}{line:387}
+	If {phrase757} Then Return {phrase758}        ; {file:11}{line:388}
+	Return {phrase759}        ; {file:11}{line:389}
+	Else        ; {file:11}{line:390}
+	Exit -1        ; {file:11}{line:391}
+	EndIf        ; {file:11}{line:392}
+	EndIf        ; {file:11}{line:393}
+	Return {var649}[0]        ; {file:11}{line:394}
+EndFunc         ; {file:11}{line:395}
+
+Global {var1319}         ; {file:33}{line:10}{ref6861}
+Global {var1320}         ; {file:33}{line:10}{ref6862}
+Global {var1322}         ; {file:33}{line:11}{ref6863}
+Global {var1323}         ; {file:33}{line:11}{ref6864}
+Global {var1324}         ; {file:33}{line:11}{ref6865}
+Global {var1325}         ; {file:33}{line:11}{ref6866}
+Global {var1326}         ; {file:33}{line:12}{ref6867}
+Global {var1327}         ; {file:33}{line:12}{ref6868}
+Global {var1328}         ; {file:33}{line:13}{ref6869}
+Global {var1329}         ; {file:33}{line:13}{ref6870}
+Global {var1330}         ; {file:33}{line:14}{ref6871}
+Global {var1331}         ; {file:33}{line:14}{ref6872}
+Global {var1332}         ; {file:33}{line:15}{ref6873}
+Global {var1333}         ; {file:33}{line:15}{ref6874}
+Global Const {var1346} = 0        ; {file:33}{line:16}{ref6875}
+Global Const {var1348} = 1        ; {file:33}{line:16}{ref6876}
+Global Const {var1349} = 2        ; {file:33}{line:16}{ref6877}
+
+Func {funcU458}()        ; {file:33}{line:18}
+	{var1319}= 0        ; {file:33}{line:19}
+	{phrase760}        ; {file:33}{line:20}
+EndFunc        ; {file:33}{line:21}
+
+Func {funcU381}()        ; {file:33}{line:23}
+	If {phrase761} Then         ; {file:33}{line:24}
+	If {phrase762} Then        ; {file:33}{line:25}
+	Local {var1321}={string3866}        ; {file:33}{line:26}
+	{var1321}&={string3867}        ; {file:33}{line:27}
+	{var1321}&={string3868}        ; {file:33}{line:28}
+	{var1321}&={string3869}        ; {file:33}{line:29}
+	{var1321}&={string3870}        ; {file:33}{line:30}
+	{var1321}&={string3871}        ; {file:33}{line:31}
+	{var1321}&={string3872}        ; {file:33}{line:32}
+	{var1321}&={string3873}        ; {file:33}{line:33}
+	{var1321}&={string3874}        ; {file:33}{line:34}
+	Else        ; {file:33}{line:35}
+	Local {var1321}={string3875}        ; {file:33}{line:36}
+	{var1321}&={string3876}        ; {file:33}{line:37}
+	{var1321}&={string3877}        ; {file:33}{line:38}
+	{var1321}&={string3878}        ; {file:33}{line:39}
+	{var1321}&={string3879}        ; {file:33}{line:40}
+	{var1321}&={string3880}        ; {file:33}{line:41}
+	{var1321}&={string3881}        ; {file:33}{line:42}
+	{var1321}&={string3882}        ; {file:33}{line:43}
+	{var1321}&={string3883}        ; {file:33}{line:44}
+	EndIf        ; {file:33}{line:45}
+	Local {var256}={phrase763}        ; {file:33}{line:46}
+	{var1322}=({phrase764}- 3 )/ 2         ; {file:33}{line:47}
+	{var1323}=({phrase765}- 3 )/ 2         ; {file:33}{line:48}
+	{var1324}=({phrase766}- 3 )/ 2         ; {file:33}{line:49}
+	{var1325}=({phrase767}- 3 )/ 2         ; {file:33}{line:50}
+	{var1326}=({phrase768}- 3 )/ 2         ; {file:33}{line:51}
+	{var1327}=({phrase769}- 3 )/ 2         ; {file:33}{line:52}
+	{var1328}=({phrase770}- 3 )/ 2         ; {file:33}{line:53}
+	{var1329}=({phrase771}- 3 )/ 2         ; {file:33}{line:54}
+	{var1330}=({phrase772}- 3 )/ 2         ; {file:33}{line:55}
+	{var1331}=({phrase773}- 3 )/ 2         ; {file:33}{line:56}
+	{var1332}=({phrase774}- 3 )/ 2         ; {file:33}{line:57}
+	{var1333}=({phrase775}- 3 )/ 2         ; {file:33}{line:58}
+	{var256}={phrase776}        ; {file:33}{line:59}
+	{var1320}={phrase777}        ; {file:33}{line:62}
+	{var1319}={phrase778}        ; {file:33}{line:63}
+	{phrase779}        ; {file:33}{line:64}
+	{phrase780}        ; {file:33}{line:65}
+	EndIf        ; {file:33}{line:66}
+EndFunc        ; {file:33}{line:67}
+
+Func {funcU460}({var1334})        ; {file:33}{line:69}
+	{var1334}={phrase781}        ; {file:33}{line:70}
+	Switch {phrase782}        ; {file:33}{line:71}
+	Case 0 To 16        ; {file:33}{line:72}
+	Local {var1335}= 16        ; {file:33}{line:73}
+	Case 17 To 24        ; {file:33}{line:74}
+	Local {var1335}= 24        ; {file:33}{line:75}
+	Case Else        ; {file:33}{line:76}
+	Local {var1335}= 32        ; {file:33}{line:77}
+	EndSwitch        ; {file:33}{line:78}
+	Local {var1336}={phrase783}        ; {file:33}{line:80}
+	{phrase784}        ; {file:33}{line:81}
+	Return {phrase785}        ; {file:33}{line:82}
+EndFunc        ; {file:33}{line:83}
+
+Func {funcU462}({var1334})        ; {file:33}{line:100}
+	If {phrase786} Then {phrase787}        ; {file:33}{line:101}
+	{var1334}={phrase788}        ; {file:33}{line:102}
+	Local {var1339}={phrase789}        ; {file:33}{line:104}
+	Local {var1340}={phrase790}        ; {file:33}{line:105}
+	{phrase791}        ; {file:33}{line:106}
+	{phrase792}        ; {file:33}{line:108}
+	Return {var1339}        ; {file:33}{line:114}
+EndFunc        ; {file:33}{line:115}
+
+Func {funcU463}({var1334})        ; {file:33}{line:117}
+	If {phrase793} Then {phrase794}        ; {file:33}{line:118}
+	{var1334}={phrase795}        ; {file:33}{line:119}
+	Local {var1339}={phrase796}        ; {file:33}{line:121}
+	Local {var1340}={phrase797}        ; {file:33}{line:122}
+	{phrase798}        ; {file:33}{line:123}
+	{phrase799}        ; {file:33}{line:125}
+	Return {var1339}        ; {file:33}{line:131}
+EndFunc        ; {file:33}{line:132}
+
+Func {funcU469}(ByRef {var1339}, ByRef {var1337},{var253})        ; {file:33}{line:229}
+	If {phrase800} Then {phrase801}        ; {file:33}{line:230}
+	If {phrase802} Then Return {phrase803}        ; {file:33}{line:231}
+	{var253}={phrase804}        ; {file:33}{line:233}
+	Local {var1342}={phrase805}* 16         ; {file:33}{line:234}
+	If {phrase806} Then Return {phrase807}        ; {file:33}{line:235}
+	Local {var1341}={phrase808}        ; {file:33}{line:237}
+	{phrase809}        ; {file:33}{line:238}
+	Local {var1338}={phrase810}        ; {file:33}{line:240}
+	{phrase811}        ; {file:33}{line:241}
+	{phrase812}        ; {file:33}{line:243}
+	{var1337}={phrase813}        ; {file:33}{line:248}
+	Return {phrase814}        ; {file:33}{line:249}
+EndFunc        ; {file:33}{line:250}
+
+Func {funcU471}(ByRef {var1339}, ByRef {var1337},{var253})        ; {file:33}{line:275}
+	If {phrase815} Then {phrase816}        ; {file:33}{line:276}
+	If {phrase817} Then Return {phrase818}        ; {file:33}{line:277}
+	{var253}={phrase819}        ; {file:33}{line:279}
+	Local {var1342}={phrase820}        ; {file:33}{line:280}
+	If {phrase821} Then Return {phrase822}        ; {file:33}{line:281}
+	Local {var1341}={phrase823}        ; {file:33}{line:283}
+	{phrase824}        ; {file:33}{line:284}
+	Local {var1338}={phrase825}        ; {file:33}{line:286}
+	{phrase826}        ; {file:33}{line:287}
+	{phrase827}        ; {file:33}{line:289}
+	{var1337}={phrase828}        ; {file:33}{line:294}
+	Return {phrase829}        ; {file:33}{line:295}
+EndFunc        ; {file:33}{line:296}
+
+Func {funcU472}(ByRef {var1339}, ByRef {var1337},{var253})        ; {file:33}{line:299}
+	If {phrase830} Then {phrase831}        ; {file:33}{line:300}
+	If {phrase832} Then Return {phrase833}        ; {file:33}{line:301}
+	{var253}={phrase834}        ; {file:33}{line:303}
+	Local {var1342}={phrase835}        ; {file:33}{line:304}
+	If {phrase836} Then Return {phrase837}        ; {file:33}{line:305}
+	Local {var1341}={phrase838}        ; {file:33}{line:307}
+	{phrase839}        ; {file:33}{line:308}
+	Local {var1338}={phrase840}        ; {file:33}{line:310}
+	{phrase841}        ; {file:33}{line:311}
+	{phrase842}        ; {file:33}{line:313}
+	{var1337}={phrase843}        ; {file:33}{line:319}
+	Return {phrase844}        ; {file:33}{line:320}
+EndFunc        ; {file:33}{line:321}
+
+Func {funcU474}(ByRef {var1339}, ByRef {var1337},{var253})        ; {file:33}{line:336}
+	{var253}={phrase845}        ; {file:33}{line:337}
+	Local {var1342}={phrase846}        ; {file:33}{line:338}
+	For {var77}={var1342} To {var1342}- 16 Step -1        ; {file:33}{line:339}
+	If {phrase847} Then         ; {file:33}{line:340}
+	Return {phrase848}        ; {file:33}{line:341}
+	EndIf        ; {file:33}{line:342}
+	Next        ; {file:33}{line:343}
+	Return {var253}        ; {file:33}{line:344}
+EndFunc        ; {file:33}{line:345}
+
+Func {funcU383}({var1334},{var253},{var1345}={var1346})        ; {file:33}{line:366}
+	{var253}={phrase849}        ; {file:33}{line:367}
+	If {phrase850} Then Return {phrase851}        ; {file:33}{line:368}
+	Local {var1337}={phrase852},{var1339},{var261}        ; {file:33}{line:370}
+	{var253}={phrase853}        ; {file:33}{line:371}
+	Switch {phrase854}        ; {file:33}{line:373}
+	Case {string4042},{var1348}        ; {file:33}{line:374}
+	{var1339}={phrase855}        ; {file:33}{line:375}
+	{var261}={phrase856}        ; {file:33}{line:376}
+	Case {string4043},{var1349}        ; {file:33}{line:377}
+	{var1339}={phrase857}        ; {file:33}{line:378}
+	{var261}={phrase858}        ; {file:33}{line:379}
+	Case Else        ; {file:33}{line:380}
+	{var1339}={phrase859}        ; {file:33}{line:381}
+	{var261}={phrase860}        ; {file:33}{line:382}
+	EndSwitch        ; {file:33}{line:383}
+	If {phrase861} Then Return {phrase862}        ; {file:33}{line:385}
+	Return {var261}        ; {file:33}{line:386}
+EndFunc        ; {file:33}{line:387}
+
+Func {funcU459}({var1321})        ; {file:33}{line:389}
+	If {phrase863} Then        ; {file:33}{line:390}
+	Local {var256}={string4045}        ; {file:33}{line:391}
+	Else        ; {file:33}{line:392}
+	Local {var256}={string4046}        ; {file:33}{line:393}
+	EndIf        ; {file:33}{line:394}
+	Local {var1350}=({phrase864}- 3 )/ 2         ; {file:33}{line:395}
+	Local {var1351}=({phrase865}- 3 )/ 2         ; {file:33}{line:396}
+	Local {var1352}=({phrase866}- 3 )/ 2         ; {file:33}{line:397}
+	{var256}={phrase867}        ; {file:33}{line:398}
+	Local {var1353}={phrase868}        ; {file:33}{line:400}
+	Local {var1354}={phrase869}        ; {file:33}{line:401}
+	{phrase870}        ; {file:33}{line:402}
+	Local {var1355}={phrase871}        ; {file:33}{line:404}
+	Local {var1356}={phrase872}        ; {file:33}{line:405}
+	Local {var1357}={phrase873}        ; {file:33}{line:406}
+	{phrase874}        ; {file:33}{line:408}
+	{phrase875}        ; {file:33}{line:414}
+	Local {var1358}={phrase876}        ; {file:33}{line:420}
+	Local {var1359}={phrase877}        ; {file:33}{line:421}
+	Local {var261}={phrase878}        ; {file:33}{line:423}
+	{phrase879}        ; {file:33}{line:430}
+	Return {phrase880}        ; {file:33}{line:431}
+EndFunc        ; {file:33}{line:432}
+
+Func {funcU375}(ByRef {var1041}, ByRef {var1042})        ; {file:16}{line:101}
+	{var1041}={var1042}        ; {file:16}{line:102}
+EndFunc        ; {file:16}{line:103}
+
+Func {funcU376}(ByRef {var1041},{var1042}, ByRef {var1043})        ; {file:16}{line:106}
+	{var1041}[{var1042}]={var1043}        ; {file:16}{line:107}
+EndFunc        ; {file:16}{line:108}
+
+Func {funcU377}(ByRef {var1041}, ByRef {var1042},{var1043})        ; {file:16}{line:111}
+	{var1041}={var1042}[{var1043}]        ; {file:16}{line:112}
+EndFunc        ; {file:16}{line:113}
+
+Func {funcU378}(ByRef {var1041},{var1042}, ByRef {var1043},{var1044})        ; {file:16}{line:116}
+	{var1041}[{var1042}]={var1043}[{var1044}]        ; {file:16}{line:117}
+EndFunc        ; {file:16}{line:118}
+
+Func {funcU379}(ByRef {var1041},{var1045})        ; {file:16}{line:121}
+	{var1041}={phrase881}        ; {file:16}{line:122}
+EndFunc        ; {file:16}{line:123}
+
+Func {funcU380}(ByRef {var1041},{var1042},{var1045})        ; {file:16}{line:126}
+	{var1041}[{var1042}]={phrase882}        ; {file:16}{line:127}
+EndFunc        ; {file:16}{line:128}
+{phrase883}        ; {file:16}{line:135}
+Global {var1052} = 0        ; {file:16}{line:139}{ref4687}
+Global {var1046}[2]         ; {file:16}{line:140}{ref4688}
+{var1046}[0]={string2413}        ; {file:16}{line:141}
+
+Func {funcU382}(Const {var1047},{var1048}=0)        ; {file:16}{line:145}
+	Return {phrase884}        ; {file:16}{line:146}
+EndFunc        ; {file:16}{line:147}
+{phrase885}        ; {file:16}{line:155}
+
+Func {funcU384}()        ; {file:16}{line:157}
+	{phrase886} ; {file:16}{line:162}
+	{phrase887}        ; {file:16}{line:163}
+	Local {var1041}=0,{var1042}=1        ; {file:16}{line:165}
+	Local {var1043}[1]        ; {file:16}{line:166}
+	{phrase888}        ; {file:16}{line:167}
+	{phrase889}        ; {file:16}{line:168}
+	{phrase890}        ; {file:16}{line:169}
+	{phrase891}        ; {file:16}{line:170}
+	{phrase892}        ; {file:16}{line:171}
+	{phrase893}        ; {file:16}{line:172}
+EndFunc        ; {file:16}{line:174}
+
+Func {funcU385}({var1049}=0,{var1050}=True)        ; {file:16}{line:177}
+	ReDim {var1046}[8]        ; {file:16}{line:181}
+	If {phrase894} Then        ; {file:16}{line:182}
+	{var1046}[1]={var1051}[1]        ; {file:16}{line:183}
+	Else        ; {file:16}{line:184}
+	{var1046}[1]={string2415}        ; {file:16}{line:185}
+	EndIf        ; {file:16}{line:186}
+	{var1046}[2]={string2416}        ; {file:16}{line:187}
+	{var1046}[3]={string2417}        ; {file:16}{line:188}
+	{var1046}[4]={string2418}        ; {file:16}{line:189}
+	{var1046}[5]={string2419}        ; {file:16}{line:190}
+	{var1046}[6]={string2420}        ; {file:16}{line:191}
+	{var1046}[7]={string2421}        ; {file:16}{line:192}
+	If {phrase895} Then {var1049}=1        ; {file:16}{line:195}
+	If {phrase896} Then         ; {file:16}{line:196}
+	{var1052}=1        ; {file:16}{line:197}
+	{var1046}[{var1052}]={phrase897}        ; {file:16}{line:198}
+	Return        ; {file:16}{line:199}
+	EndIf        ; {file:16}{line:200}
+	If {phrase898} Then {var1046}[{var1049}]={phrase899}        ; {file:16}{line:202}
+	{var1052}={var1049}        ; {file:16}{line:203}
+EndFunc        ; {file:16}{line:205}
+
+#RequireAdmin       ; {file:17}{line:2}
+
+Global {var1393}         ; {file:44}{line:18}{ref8837}
+
+Func {funcU637}({var63},{var807})        ; {file:44}{line:431}
+	Local {var241}        ; {file:44}{line:432}
+	If {phrase900} Then        ; {file:44}{line:433}
+	{var241}={phrase901}        ; {file:44}{line:434}
+	If {phrase902} Then        ; {file:44}{line:435}
+	Return 1        ; {file:44}{line:436}
+	EndIf        ; {file:44}{line:437}
+	EndIf        ; {file:44}{line:438}
+	{phrase903}        ; {file:44}{line:439}
+	{var1393}[{var1393}[0][0]][0]={var63}        ; {file:44}{line:440}
+	{var241}={phrase904}        ; {file:44}{line:441}
+	{var1393}[{var1393}[0][0]][1]={var241}[2]        ; {file:44}{line:442}
+	Return 1        ; {file:44}{line:443}
+EndFunc         ; {file:44}{line:444}
+
+Func {funcU480}(ByRef {var1378},{var1541}= 100)        ; {file:44}{line:587}
+	Select        ; {file:44}{line:588}
+	Case {phrase905}        ; {file:44}{line:589}
+	If {phrase906} Then        ; {file:44}{line:590}
+	ReDim {var1378}[{var1378}[ 0 ][ 0 ]+ 1 ][{phrase907}]        ; {file:44}{line:591}
+	Else        ; {file:44}{line:592}
+	{var1378}[0][0]+= 1        ; {file:44}{line:593}
+	If {phrase908} Then         ; {file:44}{line:594}
+	ReDim {var1378}[{var1378}[ 0 ][ 0 ]+{var1541}][{phrase909}]        ; {file:44}{line:595}
+	EndIf        ; {file:44}{line:596}
+	EndIf        ; {file:44}{line:597}
+	Case {phrase910}        ; {file:44}{line:598}
+	If {phrase911} Then        ; {file:44}{line:599}
+	ReDim {var1378}[{var1378}[0]+ 1]        ; {file:44}{line:600}
+	Else        ; {file:44}{line:601}
+	{var1378}[0]+= 1        ; {file:44}{line:602}
+	If {phrase912} Then         ; {file:44}{line:603}
+	ReDim {var1378}[{var1378}[0]+{var1541}]        ; {file:44}{line:604}
+	EndIf        ; {file:44}{line:605}
+	EndIf        ; {file:44}{line:606}
+	Case Else        ; {file:44}{line:607}
+	Return 0        ; {file:44}{line:608}
+	EndSelect        ; {file:44}{line:609}
+	Return 1        ; {file:44}{line:610}
+EndFunc         ; {file:44}{line:611}
+
+Func {funcU478}({var1542},{var1543},{var1544})        ; {file:44}{line:628}
+	Return {var1542}?{var1543}:{var1544}        ; {file:44}{line:629}
+EndFunc         ; {file:44}{line:630}
+
+Func {funcU504}({var63},{var45},{var246},{var247})        ; {file:46}{line:87}
+	Local {var550}={phrase913}        ; {file:46}{line:88}
+	If {phrase914} Then Return {phrase915}        ; {file:46}{line:90}
+	Return {var550}[0]        ; {file:46}{line:92}
+EndFunc         ; {file:46}{line:93}
+
+Func {funcU507}({var63},{var1605},{var1606})        ; {file:46}{line:154}
+	Local {var550}={phrase916}        ; {file:46}{line:155}
+	If {phrase917} Then Return {phrase918}        ; {file:46}{line:156}
+	Return {var550}[0]        ; {file:46}{line:159}
+EndFunc         ; {file:46}{line:160}
+
+Global {var1373} = 0        ; {file:35}{line:22}{ref7307}
+Global {var1390} = 0        ; {file:35}{line:22}{ref7308}
+
+Func {funcU503}({var1408},{var45},{var246},{var247},{var1374},{var1369})        ; {file:35}{line:683}
+#forceref {var1374}       ; {file:35}{line:684}
+	Switch {var45}        ; {file:35}{line:686}
+	Case 0x004E         ; {file:35}{line:687}
+	Local {var1409}={phrase919}        ; {file:35}{line:689}
+	Local {var1410}={phrase920}        ; {file:35}{line:690}
+	Local {var1411}={phrase921}        ; {file:35}{line:691}
+	Local {var1389}={phrase922}        ; {file:35}{line:692}
+	Local {var1412}={phrase923}        ; {file:35}{line:693}
+	Local {var1376}={phrase924}        ; {file:35}{line:694}
+	Switch {var1410}        ; {file:35}{line:696}
+	Case {var1376}        ; {file:35}{line:697}
+	Switch {var1411}        ; {file:35}{line:698}
+	Case -109         ; {file:35}{line:699}
+	Return 0        ; {file:35}{line:700}
+	Case -114         ; {file:35}{line:701}
+	If {phrase925} Then        ; {file:35}{line:702}
+	{phrase926}        ; {file:35}{line:703}
+	EndIf        ; {file:35}{line:704}
+	Return 0        ; {file:35}{line:705}
+	EndSwitch        ; {file:35}{line:706}
+	EndSwitch        ; {file:35}{line:707}
+	EndSwitch        ; {file:35}{line:708}
+	Return {phrase927}        ; {file:35}{line:709}
+EndFunc         ; {file:35}{line:710}
+
+Func {funcU505}({var1418},{var1419},{var247})        ; {file:35}{line:832}
+#forceref {var1419}, {var247}       ; {file:35}{line:833}
+	Local {var1420}={string4410}        ; {file:35}{line:835}
+	Local {var1421}={phrase928}        ; {file:35}{line:836}
+	Local {var488}={phrase929}        ; {file:35}{line:837}
+	If {phrase930} Then         ; {file:35}{line:839}
+	{phrase931}        ; {file:35}{line:840}
+	{var1393}[{var1393}[ 0 ][ 0 ]][ 0 ]={phrase932}-{funcA130}({var1421},{string4414})        ; {file:35}{line:841}
+	{var1393}[{var1393}[ 0 ][ 0 ]][ 1 ]={phrase933}        ; {file:35}{line:842}
+	EndIf        ; {file:35}{line:843}
+	Return 1        ; {file:35}{line:844}
+EndFunc         ; {file:35}{line:845}
+
+Func {funcU506}({var1418},{var1419},{var247})        ; {file:35}{line:847}
+#forceref {var1419}, {var247}       ; {file:35}{line:848}
+	Local {var1420}={string4418}        ; {file:35}{line:850}
+	Local {var1421}={phrase934}        ; {file:35}{line:851}
+	Local {var488}={phrase935}        ; {file:35}{line:852}
+	If {phrase936} Then         ; {file:35}{line:854}
+	{phrase937}        ; {file:35}{line:855}
+	{var1393}[{var1393}[ 0 ][ 0 ]][ 0 ]={phrase938}-{funcA130}({var1421},{string4422})        ; {file:35}{line:856}
+	{var1393}[{var1393}[ 0 ][ 0 ]][ 1 ]={phrase939}        ; {file:35}{line:857}
+	EndIf        ; {file:35}{line:858}
+	Return 1        ; {file:35}{line:859}
+EndFunc         ; {file:35}{line:860}
+
+Func {funcU483}()        ; {file:35}{line:923}
+	Local {var1391}={phrase940}        ; {file:35}{line:924}
+	If {phrase941} Then        ; {file:35}{line:925}
+	{phrase942}        ; {file:35}{line:926}
+	{phrase943}        ; {file:35}{line:927}
+	EndIf        ; {file:35}{line:928}
+	{var1390}= 0        ; {file:35}{line:929}
+EndFunc         ; {file:35}{line:930}
+
+Global Const {var1063} = {string2428}        ; {file:17}{line:12}{ref4718}
+Global {var1058}         ; {file:17}{line:14}{ref4719}
+Global {var1060}         ; {file:17}{line:14}{ref4720}
+Global {var1056}         ; {file:17}{line:14}{ref4721}
+
+Func {funcU388}({var1055},{var1054})        ; {file:17}{line:82}
+	Local {var1062}={phrase944}        ; {file:17}{line:83}
+	Return {var1062}&{phrase945}=={var1055}        ; {file:17}{line:84}
+EndFunc         ; {file:17}{line:85}
+
+Func {funcU390}({var63},{var45},{var64},{var65})        ; {file:17}{line:87}
+#forceref {var63}, {var45}, {var65}       ; {file:17}{line:88}
+	Local {var1055}        ; {file:17}{line:89}
+	Switch {phrase946}        ; {file:17}{line:90}
+	Case {var1058}        ; {file:17}{line:91}
+	Switch {phrase947}        ; {file:17}{line:92}
+	Case {var68}        ; {file:17}{line:93}
+	{var1055}={phrase948}        ; {file:17}{line:94}
+	If {phrase949} Then         ; {file:17}{line:95}
+	{phrase950}        ; {file:17}{line:96}
+	Else        ; {file:17}{line:97}
+	{phrase951}        ; {file:17}{line:98}
+	EndIf        ; {file:17}{line:99}
+	{var1055}={phrase952}        ; {file:17}{line:100}
+	{phrase953}        ; {file:17}{line:101}
+	EndSwitch        ; {file:17}{line:102}
+	EndSwitch        ; {file:17}{line:103}
+EndFunc         ; {file:17}{line:104}
+
+Func {funcU392}({var527})        ; {file:17}{line:106}
+	{phrase954}        ; {file:17}{line:107}
+	Local {var73},{var1065},{var1055}={string2457}        ; {file:17}{line:108}
+	{var73}={phrase955}        ; {file:17}{line:109}
+	For {var77}= 1 To 16        ; {file:17}{line:110}
+	{var1065}={phrase956}        ; {file:17}{line:111}
+	{var1055}&={phrase957}        ; {file:17}{line:112}
+	Next        ; {file:17}{line:113}
+	{phrase958}        ; {file:17}{line:114}
+	Return {var1055}        ; {file:17}{line:115}
+EndFunc         ; {file:17}{line:116}
+
+Global Const {var1} = {string10}        ; {file:1}{line:29}{ref17}
+Global Const {var2} = {string11}        ; {file:1}{line:30}{ref18}
+Global Const {var62} = {string12}        ; {file:1}{line:31}{ref19}
+Global Const {var1054} = {phrase959}        ; {file:1}{line:34}{ref21}
+Global Const {var66} = 0x0007        ; {file:1}{line:36}{ref24}
+Global Const {var286} = {phrase960}        ; {file:1}{line:38}{ref25}
+Global Const {var287} = {string16} & {string17} & {string18} & {string19} & {string20} & {string21} & {string22} & {string23} & {string24} & {string25} & {string26} & {string27} & {string28}        ; {file:1}{line:39}{ref27}
+Global Const {var288} = {phrase961}        ; {file:1}{line:53}{ref28}
+Global {var4} = {var1}        ; {file:1}{line:55}{ref30}
+Global {var50}         ; {file:1}{line:56}{ref31}
+Global {var55}         ; {file:1}{line:56}{ref32}
+Global {var71}         ; {file:1}{line:56}{ref33}
+Global {var72}         ; {file:1}{line:56}{ref34}
+Global {var53}         ; {file:1}{line:56}{ref35}
+If {phrase962} Then Exit        ; {file:1}{line:58}
+{phrase963}        ; {file:1}{line:60}
+{phrase964}        ; {file:1}{line:64}
+{phrase965}        ; {file:1}{line:66}
+{phrase966}        ; {file:1}{line:67}
+{var3}={phrase967}        ; {file:1}{line:69}
+{var5}={phrase968}        ; {file:1}{line:70}
+{var6}={phrase969}        ; {file:1}{line:71}
+{var7}={phrase970}        ; {file:1}{line:72}
+{var8}={phrase971}        ; {file:1}{line:73}
+{var9}={phrase972}        ; {file:1}{line:74}
+{var10}={phrase973}        ; {file:1}{line:75}
+{var11}={phrase974}        ; {file:1}{line:76}
+{phrase975}        ; {file:1}{line:77}
+{var12}={phrase976}        ; {file:1}{line:78}
+{var13}={phrase977}        ; {file:1}{line:79}
+{var14}={phrase978}        ; {file:1}{line:80}
+{var15}={phrase979}        ; {file:1}{line:81}
+{var16}={phrase980}        ; {file:1}{line:82}
+{var17}={phrase981}        ; {file:1}{line:83}
+{var18}={phrase982}        ; {file:1}{line:84}
+{var19}={phrase983}        ; {file:1}{line:85}
+{var20}={phrase984}        ; {file:1}{line:86}
+{phrase985}        ; {file:1}{line:87}
+{var21}={phrase986}        ; {file:1}{line:88}
+{var22}={phrase987}        ; {file:1}{line:89}
+{var23}={phrase988}        ; {file:1}{line:90}
+{var24}={phrase989}        ; {file:1}{line:91}
+{phrase990}        ; {file:1}{line:92}
+{var25}={phrase991}        ; {file:1}{line:93}
+{var26}={phrase992}        ; {file:1}{line:94}
+{var27}={phrase993}        ; {file:1}{line:95}
+{var28}={phrase994}        ; {file:1}{line:96}
+{var29}={phrase995}        ; {file:1}{line:97}
+{var30}={phrase996}        ; {file:1}{line:98}
+{var31}={phrase997}        ; {file:1}{line:99}
+{var32}={phrase998}        ; {file:1}{line:100}
+{var33}={phrase999}        ; {file:1}{line:101}
+{var34}={phrase1000}        ; {file:1}{line:102}
+{var35}={phrase1001}        ; {file:1}{line:103}
+{var36}={phrase1002}        ; {file:1}{line:104}
+{var37}={phrase1003}        ; {file:1}{line:105}
+{var38}={phrase1004}        ; {file:1}{line:106}
+{var39}={phrase1005}        ; {file:1}{line:107}
+{var40}={phrase1006}        ; {file:1}{line:108}
+{phrase1007}        ; {file:1}{line:109}
+{phrase1008}        ; {file:1}{line:110}
+{phrase1009}        ; {file:1}{line:111}
+{phrase1010}        ; {file:1}{line:112}
+While {phrase1011} ; {file:1}{line:114}
+{var45}={phrase1012}        ; {file:1}{line:115}
+Switch {var45}        ; {file:1}{line:116}
+Case {var46},{var6}        ; {file:1}{line:117}
+Exit        ; {file:1}{line:118}
+Case {var9}        ; {file:1}{line:119}
+{var47}={phrase1013}        ; {file:1}{line:120}
+If {phrase1014} Then        ; {file:1}{line:121}
+{phrase1015}        ; {file:1}{line:122}
+{phrase1016}        ; {file:1}{line:123}
+{phrase1017}        ; {file:1}{line:124}
+{phrase1018}        ; {file:1}{line:125}
+{phrase1019}        ; {file:1}{line:126}
+EndIf        ; {file:1}{line:127}
+Case {var11}        ; {file:1}{line:128}
+{var47}={phrase1020}        ; {file:1}{line:129}
+If {phrase1021} Then        ; {file:1}{line:130}
+{phrase1022}        ; {file:1}{line:131}
+{phrase1023}        ; {file:1}{line:132}
+{phrase1024}        ; {file:1}{line:133}
+{phrase1025}        ; {file:1}{line:134}
+EndIf        ; {file:1}{line:135}
+Case {var13}        ; {file:1}{line:136}
+If {phrase1026} Then        ; {file:1}{line:137}
+{phrase1027}        ; {file:1}{line:138}
+Else        ; {file:1}{line:139}
+If {phrase1028} Then        ; {file:1}{line:140}
+{phrase1029}        ; {file:1}{line:141}
+Else        ; {file:1}{line:142}
+{phrase1030}        ; {file:1}{line:143}
+{phrase1031}        ; {file:1}{line:144}
+{phrase1032}        ; {file:1}{line:145}
+{phrase1033}        ; {file:1}{line:146}
+{phrase1034}        ; {file:1}{line:147}
+{phrase1035}        ; {file:1}{line:148}
+{phrase1036}        ; {file:1}{line:149}
+{phrase1037}        ; {file:1}{line:150}
+{phrase1038}        ; {file:1}{line:151}
+{phrase1039}        ; {file:1}{line:152}
+{phrase1040}        ; {file:1}{line:153}
+{phrase1041}        ; {file:1}{line:154}
+{phrase1042}        ; {file:1}{line:155}
+{phrase1043}        ; {file:1}{line:156}
+EndIf        ; {file:1}{line:157}
+EndIf        ; {file:1}{line:158}
+Case {var14}        ; {file:1}{line:159}
+If {phrase1044} Then        ; {file:1}{line:160}
+{phrase1045}        ; {file:1}{line:161}
+Else        ; {file:1}{line:162}
+If {phrase1046} Then         ; {file:1}{line:163}
+{phrase1047}        ; {file:1}{line:164}
+Else        ; {file:1}{line:165}
+If {phrase1048} Then        ; {file:1}{line:166}
+{phrase1049}        ; {file:1}{line:167}
+Else        ; {file:1}{line:168}
+{phrase1050}        ; {file:1}{line:169}
+{phrase1051}        ; {file:1}{line:170}
+{phrase1052}        ; {file:1}{line:171}
+{phrase1053}        ; {file:1}{line:172}
+{phrase1054}        ; {file:1}{line:173}
+{phrase1055}        ; {file:1}{line:174}
+{phrase1056}        ; {file:1}{line:175}
+{phrase1057}        ; {file:1}{line:176}
+{phrase1058}        ; {file:1}{line:177}
+{phrase1059}        ; {file:1}{line:178}
+{phrase1060}        ; {file:1}{line:179}
+{phrase1061}        ; {file:1}{line:180}
+{phrase1062}        ; {file:1}{line:181}
+EndIf        ; {file:1}{line:182}
+EndIf        ; {file:1}{line:183}
+EndIf        ; {file:1}{line:184}
+Case {var15}        ; {file:1}{line:185}
+{phrase1063}        ; {file:1}{line:186}
+Case {var17}        ; {file:1}{line:187}
+If {phrase1064} Then        ; {file:1}{line:188}
+{phrase1065}        ; {file:1}{line:189}
+Else        ; {file:1}{line:190}
+Switch {var55}        ; {file:1}{line:191}
+Case {string139}        ; {file:1}{line:192}
+If {phrase1066} Then        ; {file:1}{line:193}
+{phrase1067}        ; {file:1}{line:194}
+Else        ; {file:1}{line:195}
+{phrase1068}        ; {file:1}{line:196}
+{phrase1069}        ; {file:1}{line:197}
+{phrase1070}        ; {file:1}{line:198}
+{var56}={string144}        ; {file:1}{line:199}
+{phrase1071}        ; {file:1}{line:200}
+{phrase1072}        ; {file:1}{line:201}
+{phrase1073}        ; {file:1}{line:202}
+If {phrase1074} Then         ; {file:1}{line:203}
+{var56}={string154}        ; {file:1}{line:204}
+{phrase1075}        ; {file:1}{line:205}
+{phrase1076}        ; {file:1}{line:206}
+{phrase1077}        ; {file:1}{line:207}
+EndIf        ; {file:1}{line:208}
+{var57}={phrase1078}        ; {file:1}{line:209}
+If {phrase1079} Then        ; {file:1}{line:210}
+{phrase1080}        ; {file:1}{line:211}
+{phrase1081}        ; {file:1}{line:212}
+{phrase1082}        ; {file:1}{line:213}
+{phrase1083}        ; {file:1}{line:214}
+Else        ; {file:1}{line:215}
+{var58}={phrase1084}        ; {file:1}{line:216}
+{var59}={phrase1085}        ; {file:1}{line:217}
+{var60}={phrase1086}        ; {file:1}{line:218}
+If {phrase1087} Then        ; {file:1}{line:219}
+{phrase1088}        ; {file:1}{line:220}
+{phrase1089}        ; {file:1}{line:221}
+{phrase1090}        ; {file:1}{line:222}
+{phrase1091}        ; {file:1}{line:223}
+Else        ; {file:1}{line:224}
+If {phrase1092} Then        ; {file:1}{line:225}
+{phrase1093}        ; {file:1}{line:226}
+{phrase1094}        ; {file:1}{line:227}
+{phrase1095}        ; {file:1}{line:228}
+{phrase1096}        ; {file:1}{line:229}
+Else        ; {file:1}{line:230}
+{phrase1097}        ; {file:1}{line:231}
+{phrase1098}        ; {file:1}{line:232}
+{phrase1099}        ; {file:1}{line:233}
+{phrase1100}        ; {file:1}{line:234}
+{phrase1101}        ; {file:1}{line:235}
+{phrase1102}        ; {file:1}{line:236}
+{phrase1103}        ; {file:1}{line:237}
+{phrase1104}        ; {file:1}{line:238}
+{phrase1105}        ; {file:1}{line:239}
+EndIf        ; {file:1}{line:240}
+EndIf        ; {file:1}{line:241}
+EndIf        ; {file:1}{line:242}
+EndIf        ; {file:1}{line:243}
+Case Else        ; {file:1}{line:244}
+{phrase1106}        ; {file:1}{line:245}
+EndSwitch        ; {file:1}{line:246}
+EndIf        ; {file:1}{line:247}
+Case {var18}        ; {file:1}{line:248}
+If {phrase1107} Then        ; {file:1}{line:249}
+{phrase1108}        ; {file:1}{line:250}
+Else        ; {file:1}{line:251}
+Switch {var55}        ; {file:1}{line:252}
+Case {string200}        ; {file:1}{line:253}
+If {phrase1109} Then        ; {file:1}{line:254}
+{phrase1110}        ; {file:1}{line:255}
+Else        ; {file:1}{line:256}
+{phrase1111}        ; {file:1}{line:257}
+{phrase1112}        ; {file:1}{line:258}
+{phrase1113}        ; {file:1}{line:259}
+{var56}={string205}        ; {file:1}{line:260}
+{phrase1114}        ; {file:1}{line:261}
+{phrase1115}        ; {file:1}{line:262}
+{phrase1116}        ; {file:1}{line:263}
+If {phrase1117} Then         ; {file:1}{line:264}
+{var56}={string215}        ; {file:1}{line:265}
+{phrase1118}        ; {file:1}{line:266}
+{phrase1119}        ; {file:1}{line:267}
+{phrase1120}        ; {file:1}{line:268}
+EndIf        ; {file:1}{line:269}
+{var57}={phrase1121}        ; {file:1}{line:270}
+If {phrase1122} Then        ; {file:1}{line:271}
+{phrase1123}        ; {file:1}{line:272}
+{phrase1124}        ; {file:1}{line:273}
+{phrase1125}        ; {file:1}{line:274}
+{phrase1126}        ; {file:1}{line:275}
+Else        ; {file:1}{line:276}
+{var58}={phrase1127}        ; {file:1}{line:277}
+{var59}={phrase1128}        ; {file:1}{line:278}
+{var60}={phrase1129}        ; {file:1}{line:279}
+If {phrase1130} Then        ; {file:1}{line:280}
+{phrase1131}        ; {file:1}{line:281}
+{phrase1132}        ; {file:1}{line:282}
+{phrase1133}        ; {file:1}{line:283}
+{phrase1134}        ; {file:1}{line:284}
+Else        ; {file:1}{line:285}
+If {phrase1135} Then         ; {file:1}{line:286}
+{phrase1136}        ; {file:1}{line:287}
+{phrase1137}        ; {file:1}{line:288}
+{phrase1138}        ; {file:1}{line:289}
+{phrase1139}        ; {file:1}{line:290}
+Else        ; {file:1}{line:291}
+{phrase1140}        ; {file:1}{line:292}
+{phrase1141}        ; {file:1}{line:293}
+{phrase1142}        ; {file:1}{line:294}
+{phrase1143}        ; {file:1}{line:295}
+{phrase1144}        ; {file:1}{line:296}
+{phrase1145}        ; {file:1}{line:297}
+{phrase1146}        ; {file:1}{line:298}
+{phrase1147}        ; {file:1}{line:299}
+{phrase1148}        ; {file:1}{line:300}
+EndIf        ; {file:1}{line:301}
+EndIf        ; {file:1}{line:302}
+EndIf        ; {file:1}{line:303}
+EndIf        ; {file:1}{line:304}
+Case Else        ; {file:1}{line:305}
+{phrase1149}        ; {file:1}{line:306}
+EndSwitch        ; {file:1}{line:307}
+EndIf        ; {file:1}{line:308}
+Case {var20}        ; {file:1}{line:309}
+{phrase1150}        ; {file:1}{line:310}
+Case {var21}        ; {file:1}{line:311}
+If {phrase1151} Then        ; {file:1}{line:312}
+{phrase1152}        ; {file:1}{line:313}
+Else        ; {file:1}{line:314}
+If {phrase1153} Then        ; {file:1}{line:315}
+{phrase1154}        ; {file:1}{line:316}
+Else        ; {file:1}{line:317}
+While {phrase1155} ; {file:1}{line:318}
+{var61}={phrase1156}        ; {file:1}{line:319}
+If {phrase1157} Then        ; {file:1}{line:320}
+ExitLoop        ; {file:1}{line:321}
+Else        ; {file:1}{line:322}
+{phrase1158}        ; {file:1}{line:323}
+EndIf        ; {file:1}{line:324}
+WEnd        ; {file:1}{line:325}
+If {phrase1159} Then        ; {file:1}{line:326}
+{phrase1160}        ; {file:1}{line:327}
+{phrase1161}        ; {file:1}{line:328}
+{phrase1162}        ; {file:1}{line:329}
+EndIf        ; {file:1}{line:330}
+EndIf        ; {file:1}{line:331}
+EndIf        ; {file:1}{line:332}
+Case {var22}        ; {file:1}{line:333}
+If {phrase1163} Then        ; {file:1}{line:334}
+{phrase1164}        ; {file:1}{line:335}
+Else        ; {file:1}{line:336}
+If {phrase1165} Then        ; {file:1}{line:337}
+{phrase1166}        ; {file:1}{line:338}
+Else        ; {file:1}{line:339}
+While {phrase1167} ; {file:1}{line:340}
+{var61}={phrase1168}        ; {file:1}{line:341}
+If {phrase1169} Then        ; {file:1}{line:342}
+ExitLoop        ; {file:1}{line:343}
+Else        ; {file:1}{line:344}
+{phrase1170}        ; {file:1}{line:345}
+EndIf        ; {file:1}{line:346}
+WEnd        ; {file:1}{line:347}
+If {phrase1171} Then        ; {file:1}{line:348}
+{phrase1172}        ; {file:1}{line:349}
+{phrase1173}        ; {file:1}{line:350}
+{phrase1174}        ; {file:1}{line:351}
+EndIf        ; {file:1}{line:352}
+EndIf        ; {file:1}{line:353}
+EndIf        ; {file:1}{line:354}
+Case {var24}        ; {file:1}{line:355}
+If {phrase1175} Then        ; {file:1}{line:356}
+{phrase1176}        ; {file:1}{line:357}
+Else        ; {file:1}{line:358}
+If {phrase1177} Then        ; {file:1}{line:359}
+{phrase1178}        ; {file:1}{line:360}
+Else        ; {file:1}{line:361}
+{phrase1179}        ; {file:1}{line:362}
+If {phrase1180} Then         ; {file:1}{line:363}
+{phrase1181}        ; {file:1}{line:364}
+Else        ; {file:1}{line:365}
+{phrase1182}        ; {file:1}{line:366}
+{var47}={phrase1183}        ; {file:1}{line:367}
+If {phrase1184} Then        ; {file:1}{line:368}
+{phrase1185}        ; {file:1}{line:369}
+{phrase1186}        ; {file:1}{line:370}
+{phrase1187}        ; {file:1}{line:371}
+{phrase1188}        ; {file:1}{line:372}
+{phrase1189}        ; {file:1}{line:373}
+{phrase1190}        ; {file:1}{line:374}
+{phrase1191}        ; {file:1}{line:375}
+{phrase1192}        ; {file:1}{line:376}
+EndIf        ; {file:1}{line:377}
+EndIf        ; {file:1}{line:378}
+EndIf        ; {file:1}{line:379}
+EndIf        ; {file:1}{line:380}
+Case {var25}        ; {file:1}{line:381}
+{phrase1193}        ; {file:1}{line:382}
+Case {var26}        ; {file:1}{line:383}
+{phrase1194}        ; {file:1}{line:384}
+Case {var27}        ; {file:1}{line:385}
+{phrase1195}        ; {file:1}{line:386}
+Case {var29}        ; {file:1}{line:387}
+{phrase1196}        ; {file:1}{line:388}
+Case {var30}        ; {file:1}{line:389}
+{phrase1197}        ; {file:1}{line:390}
+Case {var31}        ; {file:1}{line:391}
+{phrase1198}        ; {file:1}{line:392}
+Case {var33}        ; {file:1}{line:393}
+{phrase1199}        ; {file:1}{line:394}
+EndSwitch        ; {file:1}{line:395}
+WEnd        ; {file:1}{line:396}
+
+Func {funcU3}({var63},{var45},{var64},{var65})        ; {file:1}{line:398}
+#forceref {var63}, {var45}, {var65}       ; {file:1}{line:399}
+	Switch {var64}        ; {file:1}{line:400}
+	Case {var66}        ; {file:1}{line:401}
+	{phrase1200}        ; {file:1}{line:402}
+	EndSwitch        ; {file:1}{line:403}
+	Return {var67}        ; {file:1}{line:404}
+EndFunc         ; {file:1}{line:405}
+
+Func {funcU4}({var63},{var45},{var64},{var65})        ; {file:1}{line:407}
+#forceref {var63}, {var45}, {var65}       ; {file:1}{line:408}
+	Switch {phrase1201}        ; {file:1}{line:409}
+	Case {var36},{var38}        ; {file:1}{line:410}
+	Switch {phrase1202}        ; {file:1}{line:411}
+	Case {var68}        ; {file:1}{line:412}
+	{phrase1203}        ; {file:1}{line:413}
+	EndSwitch        ; {file:1}{line:414}
+	EndSwitch        ; {file:1}{line:415}
+EndFunc         ; {file:1}{line:416}
+
+Func {funcU5}()        ; {file:1}{line:418}
+	Local {var69},{var70}        ; {file:1}{line:419}
+	{var69}={phrase1204}        ; {file:1}{line:420}
+	If {phrase1205} Then        ; {file:1}{line:421}
+	{var71}={string310}        ; {file:1}{line:422}
+	{var72}={string311}        ; {file:1}{line:423}
+	{var70}={var50}        ; {file:1}{line:424}
+	{var50}={var69}        ; {file:1}{line:425}
+	Switch {var50}        ; {file:1}{line:426}
+	Case {string312}        ; {file:1}{line:427}
+	{var55}={phrase1206}        ; {file:1}{line:428}
+	{var71}={phrase1207}        ; {file:1}{line:429}
+	{var72}={phrase1208}        ; {file:1}{line:430}
+	{var53}={phrase1209}        ; {file:1}{line:431}
+	Case {string315}        ; {file:1}{line:432}
+	{phrase1210}        ; {file:1}{line:433}
+	Case {string316}        ; {file:1}{line:434}
+	Case Else        ; {file:1}{line:436}
+	If {phrase1211} Then {phrase1212}        ; {file:1}{line:437}
+	EndSwitch        ; {file:1}{line:438}
+	{phrase1213}        ; {file:1}{line:439}
+	{phrase1214}        ; {file:1}{line:440}
+	EndIf        ; {file:1}{line:441}
+EndFunc         ; {file:1}{line:442}
+
+Func {funcU29}()        ; {file:1}{line:444}
+	{phrase1215}        ; {file:1}{line:445}
+	{phrase1216}        ; {file:1}{line:446}
+	{phrase1217}        ; {file:1}{line:447}
+EndFunc         ; {file:1}{line:448}
+
+Func {funcU25}({var71},{var72})        ; {file:1}{line:450}
+	{phrase1218}        ; {file:1}{line:451}
+	Local {var73},{var74},{var75}[8]=[0, 0, 0, 0, 0, 0, 0, 0]        ; {file:1}{line:452}
+	{var73}={phrase1219}        ; {file:1}{line:453}
+	{var74}={phrase1220}        ; {file:1}{line:454}
+	For {var77}= 1 To {var74}[0]        ; {file:1}{line:455}
+	If {phrase1221} Then         ; {file:1}{line:456}
+	{var75}[{var77}- 1 ]={phrase1222}        ; {file:1}{line:457}
+	Else        ; {file:1}{line:458}
+	{var75}[{var77}- 1]={var74}[{var77}]        ; {file:1}{line:459}
+	EndIf        ; {file:1}{line:460}
+	Next        ; {file:1}{line:461}
+	{phrase1223}        ; {file:1}{line:462}
+	Return {phrase1224}        ; {file:1}{line:463}
+EndFunc         ; {file:1}{line:464}
+
+Func {funcU21}({var78})        ; {file:1}{line:466}
+	If {phrase1225} Then        ; {file:1}{line:467}
+	{phrase1226}        ; {file:1}{line:468}
+	Else        ; {file:1}{line:469}
+	If {phrase1227} Then        ; {file:1}{line:470}
+	{phrase1228}        ; {file:1}{line:471}
+	Else        ; {file:1}{line:472}
+	Switch {var78}        ; {file:1}{line:473}
+	Case {string328}        ; {file:1}{line:474}
+	{var79}={string329}        ; {file:1}{line:475}
+	Case {string330}        ; {file:1}{line:476}
+	{var79}={string331}        ; {file:1}{line:477}
+	Case Else        ; {file:1}{line:478}
+	{var79}={string332}        ; {file:1}{line:479}
+	EndSwitch        ; {file:1}{line:480}
+	{var47}={phrase1229}        ; {file:1}{line:481}
+	If {phrase1230} Then        ; {file:1}{line:482}
+	{phrase1231}        ; {file:1}{line:483}
+	{phrase1232}        ; {file:1}{line:484}
+	{phrase1233}        ; {file:1}{line:485}
+	EndIf        ; {file:1}{line:486}
+	EndIf        ; {file:1}{line:487}
+	EndIf        ; {file:1}{line:488}
+EndFunc         ; {file:1}{line:489}
+
+Func {funcU22}({var78}={string337})        ; {file:1}{line:491}
+	If {phrase1234} Then         ; {file:1}{line:492}
+	{phrase1235}        ; {file:1}{line:493}
+	Else        ; {file:1}{line:494}
+	If {phrase1236} Then        ; {file:1}{line:495}
+	{phrase1237}        ; {file:1}{line:496}
+	Else        ; {file:1}{line:497}
+	{phrase1238}        ; {file:1}{line:498}
+	{phrase1239}        ; {file:1}{line:499}
+	{phrase1240}        ; {file:1}{line:500}
+	EndIf        ; {file:1}{line:501}
+	EndIf        ; {file:1}{line:502}
+EndFunc         ; {file:1}{line:503}
+
+Func {funcU2}()        ; {file:1}{line:505}
+	{phrase1241}        ; {file:1}{line:506}
+EndFunc         ; {file:1}{line:507}
+
+Func {funcU33}({var80})        ; {file:1}{line:516}
+	Local {var81}={phrase1242}        ; {file:1}{line:517}
+	While {phrase1243} ; {file:1}{line:518}
+	{var81}={phrase1244}        ; {file:1}{line:519}
+	If {phrase1245} Then ExitLoop         ; {file:1}{line:520}
+	WEnd        ; {file:1}{line:521}
+	Return {var81}        ; {file:1}{line:522}
+EndFunc         ; {file:1}{line:523}
+
