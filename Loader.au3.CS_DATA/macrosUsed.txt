@@ -1,0 +1,7 @@
+@AutoItX64
+@Compiled
+@error
+@extended
+@OSVersion
+@ScriptDir
+@ScriptFullPath

@@ -1,18 +1,18 @@
 #NoTrayIcon
 #Region ;**** Directives created by AutoIt3Wrapper_GUI ****
-#AutoIt3Wrapper_Icon=Icon.ico
-#AutoIt3Wrapper_Outfile=Release\Huawei Hacker Toolkit.exe
-#AutoIt3Wrapper_Res_Description=Huawei Hacker Toolkit
-#AutoIt3Wrapper_Res_Fileversion=1.1.0.0
-#AutoIt3Wrapper_Res_LegalCopyright=Copyright © 2014 Kyaw Swar Thwin
-#AutoIt3Wrapper_Res_Language=1033
-;~ #AutoIt3Wrapper_Res_File_Add=Compiled.txt, RT_RCDATA, COMPILED, 0
+#AutoIt3Wrapper_Outfile_type=a3x
+#AutoIt3Wrapper_Outfile=Release\Huawei Hacker Toolkit.a3x
+#AutoIt3Wrapper_Run_After=move "%out%" "Release\Data.dat"
 #EndRegion ;**** Directives created by AutoIt3Wrapper_GUI ****
+;~ #AutoIt3Wrapper_Icon=Icon.ico
+;~ #AutoIt3Wrapper_Res_Description=Huawei Hacker Toolkit
+;~ #AutoIt3Wrapper_Res_Fileversion=1.2.0.0
+;~ #AutoIt3Wrapper_Res_LegalCopyright=Copyright © 2014 Kyaw Swar Thwin
+;~ #AutoIt3Wrapper_Res_Language=1033
 #include "Include\Android.au3"
 #include "Include\Busy.au3"
 #include "Include\CRC.au3"
 #include "Include\Hex.au3"
-;~ #include "Include\ResourcesEx.au3"
 #include "Include\UPDATEAPP.au3"
 #include <Array.au3>
 #include <Crypt.au3>
@@ -27,11 +27,11 @@
 #include "Include\Registration.au3"
 
 Global Const $sAppName = "Huawei Hacker Toolkit"
-Global Const $sAppVersion = "1.1"
+Global Const $sAppVersion = "1.2"
 Global Const $sAppPublisher = "Kyaw Swar Thwin"
-Global Const $sAppURL = "http://huaweihackertoolkit.site.bz"
+Global Const $sAppURL = "http://huaweihackertoolkit.nazuka.net"
 
-Global Const $vPrivateKey = __GetUniqueKey("95BB4D6B-82EF-4BC1-B8C5-0BFDC93A0513")
+Global Const $vPrivateKey = __GetUniqueKey("{496DA150-1F60-4B1C-9A04-5F0D91098F9F}")
 
 Global Const $DBT_DEVNODES_CHANGED = 0x0007
 
@@ -47,7 +47,7 @@ Global Const $tagHEADER = _
 		"char Time[16];" & _
 		"char Type[16];" & _
 		"byte Reserved1[16];" & _
-		"byte CRC[2];" & _
+		"align 2;word CRC;" & _
 		"align 2;word Unknown;" & _
 		"byte Reserved2[2]"
 Global Const $dSignature2 = Binary("0x55AA5AA5")
@@ -56,8 +56,6 @@ Global $sTitle = $sAppName
 Global $sDeviceState, $sManufacturer, $sModelNumber, $sDeviceID, $bRootAccess
 
 If Not @Compiled Then Exit
-
-;~ If _Resource_GetAsString("COMPILED") <> "True" Then Exit
 
 _Singleton($sAppName & " v" & $sAppVersion)
 
@@ -123,14 +121,14 @@ While 1
 			If Not @error Then
 				_Busy_Create("Unpacking...", $BUSY_SCREEN, 200, $hGUI)
 				DirCreate(@WorkingDir & "\UPDATE")
-				_Unpack_UPDATEAPP($sFilePath, @WorkingDir & "\UPDATE")
+				_UPDATEAPP_Unpack($sFilePath, @WorkingDir & "\UPDATE")
 				_Busy_Close()
 			EndIf
 		Case $idToolsRepackUPDATEAPPMenu
-			$sFilePath = FileOpenDialog("Open", @WorkingDir, "Sequence Files (*.ini)|All Files (*.*)", $FD_FILEMUSTEXIST, "Sequence.ini", $hGUI)
+			$sFilePath = FileOpenDialog("Open", @WorkingDir & "\UPDATE", "Sequence Files (*.ini)|All Files (*.*)", $FD_FILEMUSTEXIST, "Sequence.ini", $hGUI)
 			If Not @error Then
 				_Busy_Create("Repacking...", $BUSY_SCREEN, 200, $hGUI)
-				_Repack_UPDATEAPP($sFilePath, StringLeft(@WorkingDir, StringInStr(@WorkingDir, "\", Default, -1) - 1) & "\UPDATE.APP.NEW")
+				_UPDATEAPP_Repack($sFilePath, StringLeft(@WorkingDir, StringInStr(@WorkingDir, "\", Default, -1) - 1) & "\UPDATE.APP.NEW")
 				_Busy_Close()
 			EndIf
 		Case $idToolsMiscellaneousRemoveImmutableMenu
@@ -190,50 +188,53 @@ While 1
 			Else
 				Switch $sManufacturer
 					Case "Huawei"
-						If Not _Android_FileExists("/dev/block/mmcblk0p5") Then
-							MsgBox(BitOR($MB_ICONERROR, $MB_APPLMODAL), "Error", "Device Is Not Supported.", Default, $hGUI)
+						If Not $bRootAccess Then
+							MsgBox(BitOR($MB_ICONINFORMATION, $MB_APPLMODAL), $sTitle, "Root Access Is Required.", Default, $hGUI)
 						Else
-							If Not $bRootAccess Then
-								MsgBox(BitOR($MB_ICONINFORMATION, $MB_APPLMODAL), $sTitle, "Root Access Is Required.", Default, $hGUI)
-							Else
-								_Busy_Create("Checking...", $BUSY_SCREEN, 200, $hGUI)
-								_Android_Shell("mkdir /data/local/tmp", True)
-								_Android_Shell("rm -r /data/local/tmp/*", True)
-								_Android_Shell("cat /dev/block/mmcblk0p5 > /data/local/tmp/oeminfo.mbn", True)
+							_Busy_Create("Checking...", $BUSY_SCREEN, 200, $hGUI)
+							_Android_Shell("mkdir /data/local/tmp", True)
+							_Android_Shell("rm -r /data/local/tmp/*", True)
+							$sOEMInfo = "mmcblk0p5"
+							_Android_Shell("cat /dev/block/" & $sOEMInfo & " > /data/local/tmp/oeminfo.mbn", True)
+							_Android_Shell("chmod 666 /data/local/tmp/oeminfo.mbn", True)
+							_Android_Pull("/data/local/tmp/oeminfo.mbn", @TempDir & "\" & $sAppName & "\oeminfo.mbn")
+							If _Hex_Read(@TempDir & "\" & $sAppName & "\oeminfo.mbn", 8) <> Binary("0x4F454D5F494E464F") Then
+								$sOEMInfo = "mmcblk0p8"
+								_Android_Shell("cat /dev/block/" & $sOEMInfo & " > /data/local/tmp/oeminfo.mbn", True)
 								_Android_Shell("chmod 666 /data/local/tmp/oeminfo.mbn", True)
 								_Android_Pull("/data/local/tmp/oeminfo.mbn", @TempDir & "\" & $sAppName & "\oeminfo.mbn")
-								$iOffset = _Hex_Search(@TempDir & "\" & $sAppName & "\oeminfo.mbn", Binary("0x010010"))
-								If $iOffset = -1 Then
+							EndIf
+							$iOffset = _Hex_Search(@TempDir & "\" & $sAppName & "\oeminfo.mbn", Binary("0x010010"))
+							If $iOffset = -1 Then
+								FileDelete(@TempDir & "\" & $sAppName & "\*.mbn")
+								_Android_Shell("rm -r /data/local/tmp/*", True)
+								_Busy_Close()
+								MsgBox(BitOR($MB_ICONERROR, $MB_APPLMODAL), "Error", "Device Is Not Supported.", Default, $hGUI)
+							Else
+								$dData1 = _Hex_Read(@TempDir & "\" & $sAppName & "\oeminfo.mbn", 16, $iOffset + 3)
+								$dData2 = _Hex_Read(@TempDir & "\" & $sAppName & "\oeminfo.mbn", 16, $iOffset + 3 + 16 + 3)
+								$dData3 = _Hex_Read(@TempDir & "\" & $sAppName & "\oeminfo.mbn", 16, $iOffset + 3 + 16 + 3 + 16 + 3)
+								If $dData2 <> $dData3 Then
 									FileDelete(@TempDir & "\" & $sAppName & "\*.mbn")
 									_Android_Shell("rm -r /data/local/tmp/*", True)
 									_Busy_Close()
 									MsgBox(BitOR($MB_ICONERROR, $MB_APPLMODAL), "Error", "Device Is Not Supported.", Default, $hGUI)
 								Else
-									$dData1 = _Hex_Read(@TempDir & "\" & $sAppName & "\oeminfo.mbn", 16, $iOffset + 3)
-									$dData2 = _Hex_Read(@TempDir & "\" & $sAppName & "\oeminfo.mbn", 16, $iOffset + 3 + 16 + 3)
-									$dData3 = _Hex_Read(@TempDir & "\" & $sAppName & "\oeminfo.mbn", 16, $iOffset + 3 + 16 + 3 + 16 + 3)
-									If $dData2 <> $dData3 Then
+									If $dData1 = $dData2 Then
 										FileDelete(@TempDir & "\" & $sAppName & "\*.mbn")
 										_Android_Shell("rm -r /data/local/tmp/*", True)
 										_Busy_Close()
-										MsgBox(BitOR($MB_ICONERROR, $MB_APPLMODAL), "Error", "Device Is Not Supported.", Default, $hGUI)
+										MsgBox(BitOR($MB_ICONINFORMATION, $MB_APPLMODAL), $sTitle, "Network Is Already Unlocked.", Default, $hGUI)
 									Else
-										If $dData1 = $dData2 Then
-											FileDelete(@TempDir & "\" & $sAppName & "\*.mbn")
-											_Android_Shell("rm -r /data/local/tmp/*", True)
-											_Busy_Close()
-											MsgBox(BitOR($MB_ICONINFORMATION, $MB_APPLMODAL), $sTitle, "Network Is Already Unlocked.", Default, $hGUI)
-										Else
-											_Busy_Update("Unlocking...")
-											_Hex_Write(@TempDir & "\" & $sAppName & "\oeminfo.mbn", $dData2, $iOffset + 3)
-											_Android_Push(@TempDir & "\" & $sAppName & "\oeminfo.mbn", "/data/local/tmp")
-											_Android_Shell("cat /data/local/tmp/oeminfo.mbn > /dev/block/mmcblk0p5", True)
-											FileDelete(@TempDir & "\" & $sAppName & "\*.mbn")
-											_Android_Shell("rm -r /data/local/tmp/*", True)
-											_Busy_Update("Rebooting...")
-											_Android_Reboot()
-											_Busy_Close()
-										EndIf
+										_Busy_Update("Unlocking...")
+										_Hex_Write(@TempDir & "\" & $sAppName & "\oeminfo.mbn", $dData2, $iOffset + 3)
+										_Android_Push(@TempDir & "\" & $sAppName & "\oeminfo.mbn", "/data/local/tmp")
+										_Android_Shell("cat /data/local/tmp/oeminfo.mbn > /dev/block/" & $sOEMInfo, True)
+										FileDelete(@TempDir & "\" & $sAppName & "\*.mbn")
+										_Android_Shell("rm -r /data/local/tmp/*", True)
+										_Busy_Update("Rebooting...")
+										_Android_Reboot()
+										_Busy_Close()
 									EndIf
 								EndIf
 							EndIf
@@ -248,50 +249,53 @@ While 1
 			Else
 				Switch $sManufacturer
 					Case "Huawei"
-						If Not _Android_FileExists("/dev/block/mmcblk0p5") Then
-							MsgBox(BitOR($MB_ICONERROR, $MB_APPLMODAL), "Error", "Device Is Not Supported.", Default, $hGUI)
+						If Not $bRootAccess Then
+							MsgBox(BitOR($MB_ICONINFORMATION, $MB_APPLMODAL), $sTitle, "Root Access Is Required.", Default, $hGUI)
 						Else
-							If Not $bRootAccess Then
-								MsgBox(BitOR($MB_ICONINFORMATION, $MB_APPLMODAL), $sTitle, "Root Access Is Required.", Default, $hGUI)
-							Else
-								_Busy_Create("Checking...", $BUSY_SCREEN, 200, $hGUI)
-								_Android_Shell("mkdir /data/local/tmp", True)
-								_Android_Shell("rm -r /data/local/tmp/*", True)
-								_Android_Shell("cat /dev/block/mmcblk0p5 > /data/local/tmp/oeminfo.mbn", True)
+							_Busy_Create("Checking...", $BUSY_SCREEN, 200, $hGUI)
+							_Android_Shell("mkdir /data/local/tmp", True)
+							_Android_Shell("rm -r /data/local/tmp/*", True)
+							$sOEMInfo = "mmcblk0p5"
+							_Android_Shell("cat /dev/block/" & $sOEMInfo & " > /data/local/tmp/oeminfo.mbn", True)
+							_Android_Shell("chmod 666 /data/local/tmp/oeminfo.mbn", True)
+							_Android_Pull("/data/local/tmp/oeminfo.mbn", @TempDir & "\" & $sAppName & "\oeminfo.mbn")
+							If _Hex_Read(@TempDir & "\" & $sAppName & "\oeminfo.mbn", 8) <> Binary("0x4F454D5F494E464F") Then
+								$sOEMInfo = "mmcblk0p8"
+								_Android_Shell("cat /dev/block/" & $sOEMInfo & " > /data/local/tmp/oeminfo.mbn", True)
 								_Android_Shell("chmod 666 /data/local/tmp/oeminfo.mbn", True)
 								_Android_Pull("/data/local/tmp/oeminfo.mbn", @TempDir & "\" & $sAppName & "\oeminfo.mbn")
-								$iOffset = _Hex_Search(@TempDir & "\" & $sAppName & "\oeminfo.mbn", Binary("0x010010"))
-								If $iOffset = -1 Then
+							EndIf
+							$iOffset = _Hex_Search(@TempDir & "\" & $sAppName & "\oeminfo.mbn", Binary("0x010010"))
+							If $iOffset = -1 Then
+								FileDelete(@TempDir & "\" & $sAppName & "\*.mbn")
+								_Android_Shell("rm -r /data/local/tmp/*", True)
+								_Busy_Close()
+								MsgBox(BitOR($MB_ICONERROR, $MB_APPLMODAL), "Error", "Device Is Not Supported.", Default, $hGUI)
+							Else
+								$dData1 = _Hex_Read(@TempDir & "\" & $sAppName & "\oeminfo.mbn", 16, $iOffset + 3)
+								$dData2 = _Hex_Read(@TempDir & "\" & $sAppName & "\oeminfo.mbn", 16, $iOffset + 3 + 16 + 3)
+								$dData3 = _Hex_Read(@TempDir & "\" & $sAppName & "\oeminfo.mbn", 16, $iOffset + 3 + 16 + 3 + 16 + 3)
+								If $dData2 <> $dData3 Then
 									FileDelete(@TempDir & "\" & $sAppName & "\*.mbn")
 									_Android_Shell("rm -r /data/local/tmp/*", True)
 									_Busy_Close()
 									MsgBox(BitOR($MB_ICONERROR, $MB_APPLMODAL), "Error", "Device Is Not Supported.", Default, $hGUI)
 								Else
-									$dData1 = _Hex_Read(@TempDir & "\" & $sAppName & "\oeminfo.mbn", 16, $iOffset + 3)
-									$dData2 = _Hex_Read(@TempDir & "\" & $sAppName & "\oeminfo.mbn", 16, $iOffset + 3 + 16 + 3)
-									$dData3 = _Hex_Read(@TempDir & "\" & $sAppName & "\oeminfo.mbn", 16, $iOffset + 3 + 16 + 3 + 16 + 3)
-									If $dData2 <> $dData3 Then
+									If $dData1 = Binary("0x00000000000000000000000000000000") Then
 										FileDelete(@TempDir & "\" & $sAppName & "\*.mbn")
 										_Android_Shell("rm -r /data/local/tmp/*", True)
 										_Busy_Close()
-										MsgBox(BitOR($MB_ICONERROR, $MB_APPLMODAL), "Error", "Device Is Not Supported.", Default, $hGUI)
+										MsgBox(BitOR($MB_ICONINFORMATION, $MB_APPLMODAL), $sTitle, "Network Is Already Relocked.", Default, $hGUI)
 									Else
-										If $dData1 = Binary("0x00000000000000000000000000000000") Then
-											FileDelete(@TempDir & "\" & $sAppName & "\*.mbn")
-											_Android_Shell("rm -r /data/local/tmp/*", True)
-											_Busy_Close()
-											MsgBox(BitOR($MB_ICONINFORMATION, $MB_APPLMODAL), $sTitle, "Network Is Already Relocked.", Default, $hGUI)
-										Else
-											_Busy_Update("Relocking...")
-											_Hex_Write(@TempDir & "\" & $sAppName & "\oeminfo.mbn", Binary("0x00000000000000000000000000000000"), $iOffset + 3)
-											_Android_Push(@TempDir & "\" & $sAppName & "\oeminfo.mbn", "/data/local/tmp")
-											_Android_Shell("cat /data/local/tmp/oeminfo.mbn > /dev/block/mmcblk0p5", True)
-											FileDelete(@TempDir & "\" & $sAppName & "\*.mbn")
-											_Android_Shell("rm -r /data/local/tmp/*", True)
-											_Busy_Update("Rebooting...")
-											_Android_Reboot()
-											_Busy_Close()
-										EndIf
+										_Busy_Update("Relocking...")
+										_Hex_Write(@TempDir & "\" & $sAppName & "\oeminfo.mbn", Binary("0x00000000000000000000000000000000"), $iOffset + 3)
+										_Android_Push(@TempDir & "\" & $sAppName & "\oeminfo.mbn", "/data/local/tmp")
+										_Android_Shell("cat /data/local/tmp/oeminfo.mbn > /dev/block/" & $sOEMInfo, True)
+										FileDelete(@TempDir & "\" & $sAppName & "\*.mbn")
+										_Android_Shell("rm -r /data/local/tmp/*", True)
+										_Busy_Update("Rebooting...")
+										_Android_Reboot()
+										_Busy_Close()
 									EndIf
 								EndIf
 							EndIf
@@ -444,7 +448,7 @@ EndFunc   ;==>_Connect
 Func _GenerateProductID($sModelNumber, $sDeviceID)
 	_Crypt_Startup()
 	Local $sMD5, $aChar, $aProductID[8] = [0, 0, 0, 0, 0, 0, 0, 0]
-	$sMD5 = StringMid(_Crypt_HashData($sModelNumber & $sDeviceID, $CALG_MD5), 3)
+	$sMD5 = StringTrimLeft(_Crypt_HashData($sModelNumber & $sDeviceID, $CALG_MD5), 2)
 	$aChar = StringSplit(__HexEx(BitXOR(Dec(StringLeft($sMD5, 8)), Dec(StringRight($sMD5, 8)))), "")
 	For $i = 1 To $aChar[0]
 		If StringInStr("ABCDEF", $aChar[$i]) Then
@@ -494,7 +498,7 @@ EndFunc   ;==>_OnExit
 
 Func __GetUniqueKey($vKey)
 	_Crypt_Startup()
-	Local $dUniqueKey = _Crypt_EncryptData(StringMid(_Crypt_HashFile(@ScriptFullPath, $CALG_MD5), 3), $vKey, $CALG_RC4)
+	Local $dUniqueKey = _Crypt_EncryptData(StringTrimLeft(_Crypt_HashFile(@ScriptFullPath, $CALG_MD5), 2), $vKey, $CALG_RC4)
 	_Crypt_Shutdown()
 	Return $dUniqueKey
 EndFunc   ;==>__GetUniqueKey

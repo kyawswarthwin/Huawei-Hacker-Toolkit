@@ -1,0 +1,40 @@
+C:\Huawei Hacker Toolkit\AES.au3 UDF: _AES_CodeDecompress
+C:\Huawei Hacker Toolkit\AES.au3 UDF: _AES_CodeDecompress
+C:\Huawei Hacker Toolkit\AES.au3 UDF: _AES_Exit
+C:\Huawei Hacker Toolkit\AES.au3 UDF: _AES_Exit
+C:\Huawei Hacker Toolkit\AES.au3 UDF: _AES_Startup
+C:\Huawei Hacker Toolkit\AES.au3 UDF: _AES_Startup
+C:\Huawei Hacker Toolkit\AES.au3 UDF: _AesCryptOFB
+C:\Huawei Hacker Toolkit\AES.au3 UDF: _AesCryptOFB
+C:\Huawei Hacker Toolkit\AES.au3 UDF: _AesDecrypt
+C:\Huawei Hacker Toolkit\AES.au3 UDF: _AesDecrypt
+C:\Huawei Hacker Toolkit\AES.au3 UDF: _AesDecryptCBC
+C:\Huawei Hacker Toolkit\AES.au3 UDF: _AesDecryptCBC
+C:\Huawei Hacker Toolkit\AES.au3 UDF: _AesDecryptCBC_Pad
+C:\Huawei Hacker Toolkit\AES.au3 UDF: _AesDecryptCBC_Pad
+C:\Huawei Hacker Toolkit\AES.au3 UDF: _AesDecryptCFB
+C:\Huawei Hacker Toolkit\AES.au3 UDF: _AesDecryptCFB
+C:\Huawei Hacker Toolkit\AES.au3 UDF: _AesDecryptKey
+C:\Huawei Hacker Toolkit\AES.au3 UDF: _AesDecryptKey
+C:\Huawei Hacker Toolkit\AES.au3 UDF: _AesEncryptKey
+C:\Huawei Hacker Toolkit\AES.au3 UDF: _AesEncryptKey
+C:\Huawei Hacker Toolkit\AES.au3 UDF: _AesPrepareKey
+C:\Huawei Hacker Toolkit\AES.au3 UDF: _AesPrepareKey
+C:\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _ArrayVarIsArrayVar
+C:\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _ArrayVarIsNumber
+C:\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _ArrayVarIsNumber
+C:\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _ArrayVarIsVar
+C:\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _dummyCalls
+C:\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _dummyCalls
+C:\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _MCFCC
+C:\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _MCFCC
+C:\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _MCFCC_Init
+C:\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _MCFCC_Init
+C:\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _VarIsArrayVar
+C:\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _VarIsNumber
+C:\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _VarIsNumber
+C:\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _VarIsVar
+C:\Program Files\AutoIt3\Include\Memory.au3 UDF: _MemVirtualAlloc
+C:\Program Files\AutoIt3\Include\Memory.au3 UDF: _MemVirtualAlloc
+C:\Program Files\AutoIt3\Include\Memory.au3 UDF: _MemVirtualFree
+C:\Program Files\AutoIt3\Include\Memory.au3 UDF: _MemVirtualFree

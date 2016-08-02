@@ -1,3 +1,13 @@
+C:\Huawei Hacker Toolkit\AES.au3
+C:\Huawei Hacker Toolkit\Include\Android.au3
+C:\Huawei Hacker Toolkit\Include\AndroidConstants.au3
+C:\Huawei Hacker Toolkit\Include\Busy.au3
+C:\Huawei Hacker Toolkit\Include\CRC.au3
+C:\Huawei Hacker Toolkit\Include\GIFAnimation.au3
+C:\Huawei Hacker Toolkit\Include\Hex.au3
+C:\Huawei Hacker Toolkit\Include\Registration.au3
+C:\Huawei Hacker Toolkit\Include\UPDATEAPP.au3
+C:\Huawei Hacker Toolkit\MCFinclude.au3
 C:\Program Files\AutoIt3\Include\APIComConstants.au3
 C:\Program Files\AutoIt3\Include\APIDiagConstants.au3
 C:\Program Files\AutoIt3\Include\APIFilesConstants.au3
@@ -44,13 +54,3 @@ C:\Program Files\AutoIt3\Include\WinAPIShellEx.au3
 C:\Program Files\AutoIt3\Include\WinAPIShPath.au3
 C:\Program Files\AutoIt3\Include\WinAPITheme.au3
 C:\Program Files\AutoIt3\Include\WindowsConstants.au3
-D:\Kyaw Swar Thwin\Products\Huawei Hacker Toolkit\AES.au3
-D:\Kyaw Swar Thwin\Products\Huawei Hacker Toolkit\Include\Android.au3
-D:\Kyaw Swar Thwin\Products\Huawei Hacker Toolkit\Include\AndroidConstants.au3
-D:\Kyaw Swar Thwin\Products\Huawei Hacker Toolkit\Include\Busy.au3
-D:\Kyaw Swar Thwin\Products\Huawei Hacker Toolkit\Include\CRC.au3
-D:\Kyaw Swar Thwin\Products\Huawei Hacker Toolkit\Include\GIFAnimation.au3
-D:\Kyaw Swar Thwin\Products\Huawei Hacker Toolkit\Include\Hex.au3
-D:\Kyaw Swar Thwin\Products\Huawei Hacker Toolkit\Include\Registration.au3
-D:\Kyaw Swar Thwin\Products\Huawei Hacker Toolkit\Include\UPDATEAPP.au3
-D:\Kyaw Swar Thwin\Products\Huawei Hacker Toolkit\MCFinclude.au3

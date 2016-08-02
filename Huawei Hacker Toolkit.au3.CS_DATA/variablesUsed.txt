@@ -55,6 +55,7 @@ $MB_APPLMODAL
 $bRootAccess
 $MB_ICONINFORMATION
 $sManufacturer
+$sOEMInfo
 $iOffset
 $dData1
 $dData2
@@ -286,7 +287,6 @@ $sSequencePath
 $tHeader
 $sDevice
 $sFileName
-$iSequence
 $dSignature1
 $tagHEADER
 $dSignature2
@@ -1042,9 +1042,9 @@ $idSerialNumberInput
 $ES_UPPERCASE
 $idRegisterButton
 $hGUI_AccelTable
-$GUI_ENABLE
 $sRandomKey
 $VALID_CHARS
+$GUI_ENABLE
 $iChar
 $oHTTP
 $sStart

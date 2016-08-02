@@ -28,7 +28,6 @@ __FLTAR_AddToList
 __FLTAR_ListToMask
 __GenerateSerialNumber
 __GetGifPixSize
-__GetHardwareID
 __GetUniqueKey
 __GetUniqueKey
 __HeapAlloc
@@ -46,6 +45,7 @@ __MISC_GetDeviceCaps
 __MISC_ReleaseDC
 __Quit
 __Register
+__Registration_WM_COMMAND
 __RGB
 __Run
 __URLEncode
@@ -148,8 +148,6 @@ _Reboot
 _RefreshGIF
 _Registration_Check
 _Registration_ValidateSerialNumber
-_Registration_WM_COMMAND
-_Repack_UPDATEAPP
 _Security__AdjustTokenPrivileges
 _Security__GetLengthSid
 _Security__ImpersonateSelf
@@ -164,7 +162,8 @@ _Security__StringSidToSid
 _SendMessage
 _Singleton
 _StringBetween
-_Unpack_UPDATEAPP
+_UPDATEAPP_Repack
+_UPDATEAPP_Unpack
 _VarIsArrayVar
 _VarIsNumber
 _VarIsVar

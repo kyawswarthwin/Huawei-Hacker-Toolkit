@@ -1,0 +1,16 @@
+2014/10/23 16:10:25: MCF Encoding Logging initiated.
+
+Encoding Settings:
+MCF_REPLACE_AUFUNCS = True
+MCF_REPLACE_UDFS = True
+MCF_REPLACE_VARS = True
+MCF_REPLACE_STRINGS = True
+MCF_REPLACE_MACROS = True
+MCF_REPLACE_PHRASES = True
+MCF_ENCRYPT_SUBSET = False
+MCF_WRITE_COMMENTS = False
+
+2014/10/23 16:10:26: 
+No problems found.
+
+2014/10/23 16:10:26: MCF Encoding completed.

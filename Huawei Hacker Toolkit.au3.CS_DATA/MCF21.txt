@@ -1,102 +1,17 @@
-#include {incl21} ; {file:20}{line:3}
-Func {funcU389} ({var85}) ; {file:20}{line:28}
-If Not ( {funcA409} ( {var85} , 2 ) = = {string2440} ) Then {var85} = {string2441} & {var85}  ; {file:20}{line:29}
-Return {funcA46} ( {var85} )  ; {file:20}{line:30}
-EndFunc  ; {file:20}{line:31}
-Func {funcU64} ({var523}, {var1050}, {var1051}, {var148} = {var1052}, {var1053} = False) ; {file:20}{line:37}
-If {var148} <> {var1054} Then {var148} = {var1052} ; {file:20}{line:39}
-If {var1053} = Default Then ; {file:20}{line:42}
-{var1053} = False ; {file:20}{line:43}
-EndIf ; {file:20}{line:44}
-Local {var1055} = {var1053} ? {string2442} : {string2443} ; {file:20}{line:45}
-{var1050} = {var1050} ? {string2444} & {var1050} & {string2445} : {string2446} ; {file:20}{line:48}
-If {var148} = {var1052} Then ; {file:20}{line:51}
-{var1051} = {var1051} ? {string2447} & {var1051} & {string2448} : {string2449} ; {file:20}{line:53}
-Else ; {file:20}{line:54}
-{var1051} = {var1051} ? {string2450} & {var1051} & {string2451} : {string2452} ; {file:20}{line:56}
-EndIf ; {file:20}{line:57}
-Local {var619} = {funcA413} ( {var523} , {var1055} & {var1050} & {string2453} & {var1051} , {var1056} )  ; {file:20}{line:59}
-If {macro22} Then Return {funcA374} ( 1 , 0 , 0 )  ; {file:20}{line:60}
-Return {var619} ; {file:20}{line:61}
-EndFunc  ; {file:20}{line:62}
-Func {funcU390} ({var523}, {var1057}, {var1058} = 0) ; {file:20}{line:68}
-Local Const {var1059} = {funcA58} ( 0 )  ; {file:20}{line:69}
-If {var1058} = Default Then {var1058} = 0 ; {file:20}{line:70}
-If {var1058} > 0 Then ; {file:20}{line:71}
-{var523} = {funcA415} ( {var523} , {var1057} , {var1059} , {var1058} )  ; {file:20}{line:73}
-{var1057} = {var1059} ; {file:20}{line:76}
-ElseIf {var1058} < 0 Then ; {file:20}{line:77}
-Local {var383} = {funcA398} ( {var523} , {var1057} , 0 , {var1058} )  ; {file:20}{line:79}
-If {var383} Then ; {file:20}{line:80}
-{var523} = {funcA409} ( {var523} , {var383} - 1 )  ; {file:20}{line:82}
-EndIf ; {file:20}{line:83}
-EndIf ; {file:20}{line:84}
-Return {funcA418} ( {var523} , {var1057} , {var310} )  ; {file:20}{line:86}
-EndFunc  ; {file:20}{line:87}
-Func {funcU391} ({var523}, {var1060}, {var1061}) ; {file:20}{line:93}
-{var1061} = {funcA279} ( {var1061} )  ; {file:20}{line:95}
-Local {var486} = {funcA410} ( {var523} )  ; {file:20}{line:98}
-If {funcA1} ( {var1061} ) > {var486} Then  ; {file:20}{line:101}
-Return {funcA374} ( 1 , 0 , {var523} )  ; {file:20}{line:102}
-EndIf ; {file:20}{line:103}
-If Not {funcA294} ( {var1060} ) Then {var1060} = {funcA393} ( {var1060} )  ; {file:20}{line:106}
-If Not {funcA294} ( {var523} ) Then {var523} = {funcA393} ( {var523} )  ; {file:20}{line:107}
-{var1060} = {funcA415} ( {var1060} , {string2454} , {string2455} )  ; {file:20}{line:109}
-If {var1061} >= 0 Then ; {file:20}{line:111}
-Return {funcA414} ( {var523} , {string2456} & {var1061} & {string2457} , {string2458} & {var1060} & {string2459} )  ; {file:20}{line:112}
-Else ; {file:20}{line:113}
-Return {funcA414} ( {var523} , {string2460} & - {var1061} & {string2461} , {string2462} & {var1060} & {string2463} )  ; {file:20}{line:114}
-EndIf ; {file:20}{line:115}
-EndFunc  ; {file:20}{line:116}
-Func {funcU392} ({var523}) ; {file:20}{line:122}
-Local {var1062} = True, {var1063} = {string2464}, {var1064} = {string2465} ; {file:20}{line:123}
-For {var79} = 1 To {funcA410} ( {var523} )  ; {file:20}{line:124}
-{var1063} = {funcA412} ( {var523} , {var79} , 1 )  ; {file:20}{line:125}
-Select ; {file:20}{line:126}
-Case {var1062} = True ; {file:20}{line:127}
-If {funcA413} ( {var1063} , {string2466} ) Then  ; {file:20}{line:128}
-{var1063} = {funcA425} ( {var1063} )  ; {file:20}{line:129}
-{var1062} = False ; {file:20}{line:130}
-EndIf ; {file:20}{line:131}
-Case Not {funcA413} ( {var1063} , {string2467} )  ; {file:20}{line:132}
-{var1062} = True ; {file:20}{line:133}
-Case Else ; {file:20}{line:134}
-{var1063} = {funcA411} ( {var1063} )  ; {file:20}{line:135}
-EndSelect ; {file:20}{line:136}
-{var1064} &= {var1063} ; {file:20}{line:137}
-Next ; {file:20}{line:138}
-Return {var1064} ; {file:20}{line:139}
-EndFunc  ; {file:20}{line:140}
-Func {funcU393} ({var523}, {var524}) ; {file:20}{line:146}
-{var524} = {funcA279} ( {var524} )  ; {file:20}{line:148}
-If {funcA410} ( {var523} ) < 1 Or {var524} < 0 Then Return {funcA374} ( 1 , 0 , {string2468} )  ; {file:20}{line:150}
-Local {var506} = {string2469} ; {file:20}{line:151}
-While {var524} > 1 ; {file:20}{line:152}
-If {funcA47} ( {var524} , 1 ) Then {var506} & = {var523}  ; {file:20}{line:153}
-{var523} &= {var523} ; {file:20}{line:154}
-{var524} = {funcA51} ( {var524} , 1 )  ; {file:20}{line:155}
-WEnd ; {file:20}{line:156}
-Return {var523} & {var506} ; {file:20}{line:157}
-EndFunc  ; {file:20}{line:158}
-Func {funcU394} ({var523}) ; {file:20}{line:164}
-Local {var1062} = True, {var1063} = {string2470}, {var1064} = {string2471} ; {file:20}{line:165}
-For {var79} = 1 To {funcA410} ( {var523} )  ; {file:20}{line:166}
-{var1063} = {funcA412} ( {var523} , {var79} , 1 )  ; {file:20}{line:167}
-Select ; {file:20}{line:168}
-Case {var1062} = True ; {file:20}{line:169}
-If {funcA413} ( {var1063} , {string2472} ) Then  ; {file:20}{line:170}
-{var1063} = {funcA425} ( {var1063} )  ; {file:20}{line:171}
-{var1062} = False ; {file:20}{line:172}
-EndIf ; {file:20}{line:173}
-Case Not {funcA413} ( {var1063} , {string2473} )  ; {file:20}{line:174}
-{var1062} = True ; {file:20}{line:175}
-Case Else ; {file:20}{line:176}
-{var1063} = {funcA411} ( {var1063} )  ; {file:20}{line:177}
-EndSelect ; {file:20}{line:178}
-{var1064} &= {var1063} ; {file:20}{line:179}
-Next ; {file:20}{line:180}
-Return {var1064} ; {file:20}{line:181}
-EndFunc  ; {file:20}{line:182}
-Func {funcU395} ({var523}) ; {file:20}{line:188}
-Return {funcA261} ( {funcA422} ( {var523} ) )  ; {file:20}{line:189}
-EndFunc  ; {file:20}{line:190}
+Global Const $* ; {file:21}{line:14}{ref5125}
+Global Const $* ; {file:21}{line:15}{ref5126}
+Global Const $* ; {file:21}{line:16}{ref5127}
+Global Const $* ; {file:21}{line:20}{ref5128}
+Global Const $* ; {file:21}{line:21}{ref5129}
+Global Const $* ; {file:21}{line:22}{ref5130}
+Global Const $* ; {file:21}{line:23}{ref5131}
+Global Const $* ; {file:21}{line:26}{ref5132}
+Global Const $* ; {file:21}{line:27}{ref5133}
+Global Const $* ; {file:21}{line:28}{ref5134}
+Global Const $* ; {file:21}{line:31}{ref5135}
+Global Const $* ; {file:21}{line:32}{ref5136}
+Global Const $* ; {file:21}{line:33}{ref5137}
+Global Const $* ; {file:21}{line:34}{ref5138}
+Global Const $* ; {file:21}{line:35}{ref5139}
+Global Const $* ; {file:21}{line:38}{ref5140}
+Global Const $* ; {file:21}{line:39}{ref5141}

@@ -16,7 +16,6 @@ __Crypt_RefCountDec
 __Crypt_RefCountInc
 __GenerateSerialNumber
 __GetGifPixSize
-__GetHardwareID
 __GetUniqueKey
 __GetUniqueKey
 __HexEx
@@ -25,6 +24,7 @@ __Inc
 __MD5
 __Quit
 __Register
+__Registration_WM_COMMAND
 __Run
 __ValidateThemeEntry
 __WinAPI_EnumWindowsAdd
@@ -100,11 +100,9 @@ _Reboot
 _RefreshGIF
 _Registration_Check
 _Registration_ValidateSerialNumber
-_Registration_WM_COMMAND
-_Repack_UPDATEAPP
 _Singleton
-_StringBetween
-_Unpack_UPDATEAPP
+_UPDATEAPP_Repack
+_UPDATEAPP_Unpack
 _VarIsArrayVar
 _VarIsNumber
 _VarIsVar

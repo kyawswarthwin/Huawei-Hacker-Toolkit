@@ -4,7 +4,7 @@ _WM_COMMAND
 __Busy_Refresh
 _CRC32_Exit
 _CRC16_Exit
-_Registration_WM_COMMAND
+__Registration_WM_COMMAND
 _AES_Exit
 __DlgSubclassProc
 __Quit
