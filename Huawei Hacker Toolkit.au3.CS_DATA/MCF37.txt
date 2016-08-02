@@ -1,8 +1,0 @@
-Global Const $* ; {file:37}{line:12}{ref7740}
-Global Const $* ; {file:37}{line:13}{ref7741}
-Global Const $* ; {file:37}{line:14}{ref7742}
-Global Const $* ; {file:37}{line:15}{ref7743}
-Global Const $* ; {file:37}{line:16}{ref7744}
-Global Const $* ; {file:37}{line:17}{ref7745}
-Global Const $* ; {file:37}{line:18}{ref7746}
-Global Const $* ; {file:37}{line:19}{ref7747}

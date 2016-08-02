@@ -1,3 +1,0 @@
-C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Loader.au3
-C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3
-C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3

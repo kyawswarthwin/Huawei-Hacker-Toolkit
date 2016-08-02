@@ -1,2 +1,0 @@
-C:\Program Files (x86)\AutoIt3\Include\Security.au3
-C:\Program Files (x86)\AutoIt3\Include\WinAPIError.au3

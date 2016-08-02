@@ -1,8 +1,0 @@
-$a
-$aAcct
-$aCall
-$aResult
-$b
-$c
-$CCkey
-$cmdline

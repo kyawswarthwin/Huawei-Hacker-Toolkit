@@ -1,5 +1,0 @@
-4|Source file|Line|Tracking tag|Reference|Parameters
-True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Loader.au3|13|Exit|<explicit>|If Not @Compiled Then Exit
-True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\Loader.au3|15|Exit|<implicit Exit>|Run(@ScriptFullPath & ' /AutoIt3ExecuteScript "' & @ScriptDir & '\Script.scr"')
-False|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\MCFinclude.au3|155|Exit|<implicit Exit>|_dummyCalls() ; do not remove!
-False|C:\Program Files (x86)\AutoIt3\Include\MemoryConstants.au3|28|Exit|<implicit Exit>|Global Const $GHND = BitOR($GMEM_MOVEABLE, $GMEM_ZEROINIT)

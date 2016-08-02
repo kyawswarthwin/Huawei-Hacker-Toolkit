@@ -1,5 +1,0 @@
-4|Source file|Line|Tracking tag|Reference|Parameters
-True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|88|Loop Start #1 |For|$i = 1 To 16
-True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|90|Loop End  #1 |Next|<n/a>
-True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|339|Loop Start #2 |For|$i = $DataLen To $DataLen - 16 Step -1
-True|C:\Users\Kyaw Swar Thwin\Desktop\Huawei Hacker Toolkit\AES.au3|343|Loop End  #2 |Next|<n/a>
