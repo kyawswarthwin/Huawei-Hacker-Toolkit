@@ -217,7 +217,7 @@ EndFunc   ;==>_Busy_Update
 Func _Busy_UseTheme($sThemeName)
 	If Not IsArray($g_aBsy_Info) Or UBound($g_aBsy_Info) <> $BSY_SIZE Then Return SetError(1, 0, -1)
 	Local $sDir, $sSettingsFile, $sTemp
-	$sDir = @ScriptDir & "\res\busy\" & $sThemeName
+	$sDir = @ScriptDir & "\res\" & $sThemeName
 	If Not FileExists($sDir) Then Return SetError(2, 0, -1)
 	$sSettingsFile = $sDir & "\settings.ini"
 	If Not FileExists($sSettingsFile) Then Return SetError(3, 0, -1)
