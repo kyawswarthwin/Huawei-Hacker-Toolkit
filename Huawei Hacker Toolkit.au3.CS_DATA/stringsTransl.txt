@@ -1,5 +1,5 @@
 "%out%"
-"Release\Data.dat"
+"Release\Script.scr"
 "Include\Android.au3"
 "Include\Busy.au3"
 "Include\CRC.au3"
@@ -8,10 +8,10 @@
 "MCFinclude.au3"
 "Include\Registration.au3"
 "Huawei Hacker Toolkit"
-"1.2"
+"1.3"
 "Kyaw Swar Thwin"
 "http://huaweihackertoolkit.nazuka.net"
-"{496DA150-1F60-4B1C-9A04-5F0D91098F9F}"
+"0x5D744568B606B05925AA26F8FD75392AFF9EE47A2B544C52027612F218CD9D1A"
 "0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
 "byte Signature[4];"
 "dword HeadSize;"
@@ -28,7 +28,7 @@
 "byte Reserved2[2]"
 "0x55AA5AA5"
 " v"
-"{funcU4}"
+"{funcU3}"
 "\"
 "\"
 "&File"
@@ -71,12 +71,13 @@
 ""
 "Product ID:"
 ""
+"{funcU4}"
 "{funcU5}"
-"{funcU6}"
 "Open"
 "Huawei Firmware Files (*.app)|All Files (*.*)"
 "UPDATE.APP"
 "Unpacking..."
+"\UPDATE"
 "\UPDATE"
 "\UPDATE"
 "Open"
@@ -84,6 +85,8 @@
 "Sequence Files (*.ini)|All Files (*.*)"
 "Sequence.ini"
 "Repacking..."
+"\"
+"\UPDATE.APP.NEW"
 "\"
 "\UPDATE.APP.NEW"
 "Online"
@@ -322,9 +325,14 @@
 "Device Is Not Found."
 "Bootloader"
 "This Function Only Works In Bootloader Mode."
+"boot"
+"Image Files (*.img;*.sin;*.elf)"
+"system"
+"Image Files (*.img;*.ext4;*.yaffs2;*.sin)"
+"Image Files (*.img)"
 "Open"
-"Image Files (*.img)|All Files (*.*)"
-".img"
+"|All Files (*.*)"
+""
 "Flashing..."
 ""
 "Online"
@@ -347,6 +355,7 @@
 ":(.*)"
 ""
 " /c "
+" 2>&1"
 ""
 ""
 "$-_.+!*'(),;/?:@=&abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
@@ -436,6 +445,9 @@
 "Offline"
 "Bootloader"
 "Unknown"
+"busybox"
+"echo Root Checker"
+"Root Checker"
 'adb install -r -s "'
 '"'
 'adb install -s "'
@@ -481,14 +493,11 @@
 "true"
 "fastboot devices"
 ""
-"busybox"
 "true"
 "adb get-state"
 "offline"
 "adb get-state"
 "device"
-"echo Root Checker"
-"Root Checker"
 "ro.build.version.sdk"
 "dumpsys power"
 "mPowerState=([0-9]+)"
@@ -530,23 +539,26 @@
 "Result: Parcel(00000000 '....')"
 "/data/local/tmp/busybox echo BusyBox Checker"
 "BusyBox Checker"
+"mkdir /data/local/tmp"
 "busybox"
 "/data/local/tmp"
 "chmod 755 /data/local/tmp/busybox"
-"export PATH=/data/local/tmp:{var939}; busybox "
+"export PATH=/data/local/tmp:{var936}; busybox "
 "busybox "
 'adb shell su -c "'
 '"'
 "/data/local/tmp/busybox echo BusyBox Checker"
 "BusyBox Checker"
+"mkdir /data/local/tmp"
 "busybox"
 "/data/local/tmp"
 "chmod 755 /data/local/tmp/busybox"
-"export PATH=/data/local/tmp:{var939}; busybox "
+"export PATH=/data/local/tmp:{var936}; busybox "
 "busybox "
 'adb shell "'
 '"'
 "am start -n "
+"mkdir /data/local/tmp"
 "screencap -p /data/local/tmp/screenshot.png"
 "/data/local/tmp/screenshot.png"
 "adb uninstall -k "
@@ -581,7 +593,7 @@
 "\br.bmp"
 "\bl.bmp"
 "\tl.bmp"
-"{funcU97}"
+"{funcU94}"
 ""
 ""
 "Arial"
@@ -609,7 +621,7 @@
 '0xC8000400538B5514B9000100008D41FF516A0859D1E8730231D0E2F85989848DFCFBFFFFE2E78B5D088B4D0C8B451085DB7416E3148A1330C20FB6D2C1E80833849500FCFFFF43E2ECF7D05BC9C21000'
 "byte["
 "]"
-"{funcU100}"
+"{funcU97}"
 "byte["
 "]"
 "user32.dll"
@@ -624,7 +636,7 @@
 '0xC800020053668B5514B9000100006689C86648516A085966D1E873036631D0E2F6596689844DFEFDFFFFE2E28B5D088B4D0C668B451085DB7418E3168A1330C20FB6D266C1E8086633845500FEFFFF43E2EA5BC9C21000'
 "byte["
 "]"
-"{funcU102}"
+"{funcU99}"
 "byte["
 "]"
 "user32.dll"
@@ -673,7 +685,6 @@
 ""
 ""
 "Sequence"
-""
 ".header"
 "Signature"
 ""
@@ -2386,7 +2397,7 @@
 ""
 "&Register"
 "{Enter}"
-"{funcU386}"
+"{funcU385}"
 "-"
 ""
 "Error"
@@ -3771,7 +3782,7 @@
 "09ED"
 "byte["
 "]"
-"{funcU453}"
+"{funcU452}"
 "byte["
 "]"
 "0x"
@@ -4069,11 +4080,11 @@
 '|<endstruct>|'
 '|-'
 'ptr;uint'
-'{funcU498}'
+'{funcU497}'
 'lresult'
 'hwnd;uint;wparam;lparam;uint;ptr'
-'{funcU478}'
-'{funcU478}'
+'{funcU477}'
+'{funcU477}'
 'GUIDataSeparatorChar'
 'GUIOnEventMode'
 'GUICloseOnESC'
@@ -4210,7 +4221,7 @@
 'ptr'
 'uint64'
 'dword'
-'{funcU500}'
+'{funcU499}'
 'int'
 'ptr;ulong;lparam'
 'ptr'
@@ -4259,7 +4270,7 @@
 'dword'
 'ptr'
 'dword'
-'{funcU501}'
+'{funcU500}'
 'int'
 'ptr;ulong;lparam'
 'ptr'
@@ -5720,7 +5731,7 @@
 "bool"
 "CloseHandle"
 "handle"
-'{funcU629}'
+'{funcU628}'
 'bool'
 'hwnd;lparam'
 'user32.dll'

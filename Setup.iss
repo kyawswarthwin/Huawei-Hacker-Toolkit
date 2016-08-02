@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Huawei Hacker Toolkit"
-#define MyAppVersion "1.2"
+#define MyAppVersion "1.3"
 #define MyAppPublisher "Kyaw Swar Thwin"
 #define MyAppExeName "Huawei Hacker Toolkit.exe"
 
@@ -21,10 +21,10 @@ OutputDir=D:\Kyaw Swar Thwin\Products\Huawei Hacker Toolkit\Output
 OutputBaseFilename=Setup
 Compression=lzma
 SolidCompression=yes
-VersionInfoVersion=1.2.0.0
+VersionInfoVersion=1.3.0.0
 VersionInfoCompany=Kyaw Swar Thwin
 VersionInfoDescription=Huawei Hacker Toolkit Setup
-VersionInfoTextVersion=1, 2, 0, 0
+VersionInfoTextVersion=1, 3, 0, 0
 VersionInfoCopyright=Copyright © 2014 Kyaw Swar Thwin
 
 [Languages]

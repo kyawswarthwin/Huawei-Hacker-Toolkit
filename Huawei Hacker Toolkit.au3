@@ -2,11 +2,11 @@
 #Region ;**** Directives created by AutoIt3Wrapper_GUI ****
 #AutoIt3Wrapper_Outfile_type=a3x
 #AutoIt3Wrapper_Outfile=Release\Huawei Hacker Toolkit.a3x
-#AutoIt3Wrapper_Run_After=move "%out%" "Release\Data.dat"
+#AutoIt3Wrapper_Run_After=move "%out%" "Release\Script.scr"
 #EndRegion ;**** Directives created by AutoIt3Wrapper_GUI ****
 ;~ #AutoIt3Wrapper_Icon=Icon.ico
 ;~ #AutoIt3Wrapper_Res_Description=Huawei Hacker Toolkit
-;~ #AutoIt3Wrapper_Res_Fileversion=1.2.0.0
+;~ #AutoIt3Wrapper_Res_Fileversion=1.3.0.0
 ;~ #AutoIt3Wrapper_Res_LegalCopyright=Copyright © 2014 Kyaw Swar Thwin
 ;~ #AutoIt3Wrapper_Res_Language=1033
 #include "Include\Android.au3"
@@ -27,11 +27,11 @@
 #include "Include\Registration.au3"
 
 Global Const $sAppName = "Huawei Hacker Toolkit"
-Global Const $sAppVersion = "1.2"
+Global Const $sAppVersion = "1.3"
 Global Const $sAppPublisher = "Kyaw Swar Thwin"
 Global Const $sAppURL = "http://huaweihackertoolkit.nazuka.net"
 
-Global Const $vPrivateKey = __GetUniqueKey("{496DA150-1F60-4B1C-9A04-5F0D91098F9F}")
+Global Const $vPrivateKey = Binary("0x5D744568B606B05925AA26F8FD75392AFF9EE47A2B544C52027612F218CD9D1A")
 
 Global Const $DBT_DEVNODES_CHANGED = 0x0007
 
@@ -120,6 +120,7 @@ While 1
 			$sFilePath = FileOpenDialog("Open", @WorkingDir, "Huawei Firmware Files (*.app)|All Files (*.*)", $FD_FILEMUSTEXIST, "UPDATE.APP", $hGUI)
 			If Not @error Then
 				_Busy_Create("Unpacking...", $BUSY_SCREEN, 200, $hGUI)
+				DirRemove(@WorkingDir & "\UPDATE", 1)
 				DirCreate(@WorkingDir & "\UPDATE")
 				_UPDATEAPP_Unpack($sFilePath, @WorkingDir & "\UPDATE")
 				_Busy_Close()
@@ -128,6 +129,7 @@ While 1
 			$sFilePath = FileOpenDialog("Open", @WorkingDir & "\UPDATE", "Sequence Files (*.ini)|All Files (*.*)", $FD_FILEMUSTEXIST, "Sequence.ini", $hGUI)
 			If Not @error Then
 				_Busy_Create("Repacking...", $BUSY_SCREEN, 200, $hGUI)
+				FileDelete(StringLeft(@WorkingDir, StringInStr(@WorkingDir, "\", Default, -1) - 1) & "\UPDATE.APP.NEW")
 				_UPDATEAPP_Repack($sFilePath, StringLeft(@WorkingDir, StringInStr(@WorkingDir, "\", Default, -1) - 1) & "\UPDATE.APP.NEW")
 				_Busy_Close()
 			EndIf
@@ -426,7 +428,7 @@ Func _GetDeviceInfo()
 				$sManufacturer = _Android_GetProperty("ro.product.manufacturer")
 				$sModelNumber = _Android_GetProperty("ro.product.model")
 				$sDeviceID = _Android_GetDeviceID()
-				$bRootAccess = _Android_IsRooted()
+				$bRootAccess = _Android_HasRootAccess()
 			Case "Offline"
 				_Connect()
 			Case "Bootloader"
@@ -468,7 +470,15 @@ Func _Flash($sMode)
 		If $sDeviceState <> "Bootloader" Then
 			MsgBox(BitOR($MB_ICONINFORMATION, $MB_APPLMODAL), $sTitle, "This Function Only Works In Bootloader Mode.", Default, $hGUI)
 		Else
-			$sFilePath = FileOpenDialog("Open", @WorkingDir, "Image Files (*.img)|All Files (*.*)", $FD_FILEMUSTEXIST, $sMode & ".img", $hGUI)
+			Switch $sMode
+				Case "boot"
+					$sFilter = "Image Files (*.img;*.sin;*.elf)"
+				Case "system"
+					$sFilter = "Image Files (*.img;*.ext4;*.yaffs2;*.sin)"
+				Case Else
+					$sFilter = "Image Files (*.img)"
+			EndSwitch
+			$sFilePath = FileOpenDialog("Open", @WorkingDir, $sFilter & "|All Files (*.*)", $FD_FILEMUSTEXIST, "", $hGUI)
 			If Not @error Then
 				_Busy_Create("Flashing...", $BUSY_SCREEN, 200, $hGUI)
 				_Android_Flash($sMode, $sFilePath)
@@ -496,12 +506,12 @@ Func _OnExit()
 	DirRemove(@TempDir & "\" & $sAppName, 1)
 EndFunc   ;==>_OnExit
 
-Func __GetUniqueKey($vKey)
-	_Crypt_Startup()
-	Local $dUniqueKey = _Crypt_EncryptData(StringTrimLeft(_Crypt_HashFile(@ScriptFullPath, $CALG_MD5), 2), $vKey, $CALG_RC4)
-	_Crypt_Shutdown()
-	Return $dUniqueKey
-EndFunc   ;==>__GetUniqueKey
+;~ Func __GetUniqueKey($vKey)
+;~ 	_Crypt_Startup()
+;~ 	Local $dUniqueKey = _Crypt_EncryptData(StringTrimLeft(_Crypt_HashFile(@ScriptFullPath, $CALG_MD5), 2), $vKey, $CALG_RC4)
+;~ 	_Crypt_Shutdown()
+;~ 	Return $dUniqueKey
+;~ EndFunc   ;==>__GetUniqueKey
 
 Func __HexEx($iDec)
 	Local $sHex = Hex($iDec)

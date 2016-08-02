@@ -28,8 +28,6 @@ __FLTAR_AddToList
 __FLTAR_ListToMask
 __GenerateSerialNumber
 __GetGifPixSize
-__GetUniqueKey
-__GetUniqueKey
 __HeapAlloc
 __HeapFree
 __HeapSize
@@ -84,11 +82,11 @@ _Android_GetDeviceID
 _Android_GetNetworkTypeName
 _Android_GetProperty
 _Android_GetState
+_Android_HasBusyBox
+_Android_HasRootAccess
 _Android_IsBootloader
-_Android_IsBusyBoxInstalled
 _Android_IsOffline
 _Android_IsOnline
-_Android_IsRooted
 _Android_IsScreenOn
 _Android_Pull
 _Android_Push
@@ -121,7 +119,6 @@ _Crypt_DeriveKey
 _Crypt_DestroyKey
 _Crypt_EncryptData
 _Crypt_HashData
-_Crypt_HashFile
 _Crypt_Shutdown
 _Crypt_Startup
 _dummyCalls

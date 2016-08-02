@@ -1,4 +1,3 @@
-__GetUniqueKey
 _Singleton
 _Registration_Check
 _OnExit
@@ -27,7 +26,7 @@ _WinAPI_HiWord
 _GenerateProductID
 _Android_GetState
 _Android_GetDeviceID
-_Android_IsRooted
+_Android_HasRootAccess
 _Connect
 _Android_Connect
 _Crypt_Startup
@@ -36,8 +35,6 @@ __HexEx
 _Crypt_Shutdown
 _ArrayToString
 _Android_Flash
-_Crypt_EncryptData
-_Crypt_HashFile
 __Android_GetBatteryInfo
 __URLEncode
 _Android_Call
@@ -70,12 +67,12 @@ _Android_GetSIMOperatorName
 _Android_GetSIMState
 _Android_IsOffline
 _Android_IsBootloader
+_Android_HasBusyBox
 _Android_Install
 _Android_IsAirplaneModeOn
 _Android_IsBatteryCharged
 _Android_IsBatteryLow
 _Android_IsBatteryPresent
-_Android_IsBusyBoxInstalled
 _Android_IsNetworkRoaming
 _Android_IsScreenOn
 _Android_Remount
@@ -157,7 +154,9 @@ __Crypt_RefCountDec
 __Crypt_Context
 _Crypt_DeriveKey
 _Crypt_DestroyKey
+_Crypt_EncryptData
 _Crypt_DecryptData
+_Crypt_HashFile
 _Crypt_EncryptFile
 _Crypt_DecryptFile
 _Crypt_GenRandom

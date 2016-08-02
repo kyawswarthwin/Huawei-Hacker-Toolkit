@@ -1,8 +1,8 @@
 ; CODE SCANNER Output
 ;
 ; Source Language: AutoIt
-; Extracted from : C:\Huawei Hacker Toolkit\Loader.au3
-; on             : 2014-10-23, at 16:10:06
+; Extracted from : C:\Users\User\Desktop\Huawei Hacker Toolkit\Loader.au3
+; on             : 2014-11-27, at 17:45:17
 ; CodeScanner was itself running AutoIt version: 3.3.12.0
 ;
 ; {file#}   = $includes[#]

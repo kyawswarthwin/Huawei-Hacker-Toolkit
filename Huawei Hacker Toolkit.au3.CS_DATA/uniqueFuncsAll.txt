@@ -1,153 +1,3 @@
-C:\Huawei Hacker Toolkit\AES.au3 UDF: _AES_CodeDecompress
-C:\Huawei Hacker Toolkit\AES.au3 UDF: _AES_CodeDecompress
-C:\Huawei Hacker Toolkit\AES.au3 UDF: _AES_Exit
-C:\Huawei Hacker Toolkit\AES.au3 UDF: _AES_Exit
-C:\Huawei Hacker Toolkit\AES.au3 UDF: _AES_Startup
-C:\Huawei Hacker Toolkit\AES.au3 UDF: _AES_Startup
-C:\Huawei Hacker Toolkit\AES.au3 UDF: _AesCryptOFB
-C:\Huawei Hacker Toolkit\AES.au3 UDF: _AesCryptOFB
-C:\Huawei Hacker Toolkit\AES.au3 UDF: _AesDecrypt
-C:\Huawei Hacker Toolkit\AES.au3 UDF: _AesDecrypt
-C:\Huawei Hacker Toolkit\AES.au3 UDF: _AesDecryptCBC
-C:\Huawei Hacker Toolkit\AES.au3 UDF: _AesDecryptCBC
-C:\Huawei Hacker Toolkit\AES.au3 UDF: _AesDecryptCBC_Pad
-C:\Huawei Hacker Toolkit\AES.au3 UDF: _AesDecryptCBC_Pad
-C:\Huawei Hacker Toolkit\AES.au3 UDF: _AesDecryptCFB
-C:\Huawei Hacker Toolkit\AES.au3 UDF: _AesDecryptCFB
-C:\Huawei Hacker Toolkit\AES.au3 UDF: _AesDecryptKey
-C:\Huawei Hacker Toolkit\AES.au3 UDF: _AesDecryptKey
-C:\Huawei Hacker Toolkit\AES.au3 UDF: _AesEncryptKey
-C:\Huawei Hacker Toolkit\AES.au3 UDF: _AesEncryptKey
-C:\Huawei Hacker Toolkit\AES.au3 UDF: _AesPrepareKey
-C:\Huawei Hacker Toolkit\AES.au3 UDF: _AesPrepareKey
-C:\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3 UDF: __GetUniqueKey
-C:\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3 UDF: __GetUniqueKey
-C:\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3 UDF: __GetUniqueKey
-C:\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3 UDF: __HexEx
-C:\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3 UDF: __HexEx
-C:\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3 UDF: _Connect
-C:\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3 UDF: _Connect
-C:\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3 UDF: _Flash
-C:\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3 UDF: _Flash
-C:\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3 UDF: _GenerateProductID
-C:\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3 UDF: _GenerateProductID
-C:\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3 UDF: _GetDeviceInfo
-C:\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3 UDF: _GetDeviceInfo
-C:\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3 UDF: _OnExit
-C:\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3 UDF: _OnExit
-C:\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3 UDF: _Reboot
-C:\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3 UDF: _Reboot
-C:\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3 UDF: _WM_COMMAND
-C:\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3 UDF: _WM_COMMAND
-C:\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3 UDF: _WM_DEVICECHANGE
-C:\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3 UDF: _WM_DEVICECHANGE
-C:\Huawei Hacker Toolkit\Include\Android.au3 UDF: __Run
-C:\Huawei Hacker Toolkit\Include\Android.au3 UDF: __Run
-C:\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_CommandExists
-C:\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_CommandExists
-C:\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_Connect
-C:\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_Connect
-C:\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_FileExists
-C:\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_FileExists
-C:\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_Flash
-C:\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_Flash
-C:\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_GetDeviceID
-C:\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_GetDeviceID
-C:\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_GetProperty
-C:\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_GetProperty
-C:\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_GetState
-C:\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_GetState
-C:\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_IsBootloader
-C:\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_IsBootloader
-C:\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_IsBusyBoxInstalled
-C:\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_IsBusyBoxInstalled
-C:\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_IsOffline
-C:\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_IsOffline
-C:\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_IsOnline
-C:\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_IsOnline
-C:\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_IsRooted
-C:\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_IsRooted
-C:\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_Pull
-C:\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_Pull
-C:\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_Push
-C:\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_Push
-C:\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_Reboot
-C:\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_Reboot
-C:\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_Shell
-C:\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_Shell
-C:\Huawei Hacker Toolkit\Include\Busy.au3 UDF: __Busy_Refresh
-C:\Huawei Hacker Toolkit\Include\Busy.au3 UDF: __Busy_Refresh
-C:\Huawei Hacker Toolkit\Include\Busy.au3 UDF: __Busy_Reset
-C:\Huawei Hacker Toolkit\Include\Busy.au3 UDF: __GetGifPixSize
-C:\Huawei Hacker Toolkit\Include\Busy.au3 UDF: __GetGifPixSize
-C:\Huawei Hacker Toolkit\Include\Busy.au3 UDF: __ValidateThemeEntry
-C:\Huawei Hacker Toolkit\Include\Busy.au3 UDF: __ValidateThemeEntry
-C:\Huawei Hacker Toolkit\Include\Busy.au3 UDF: _Busy_Close
-C:\Huawei Hacker Toolkit\Include\Busy.au3 UDF: _Busy_Close
-C:\Huawei Hacker Toolkit\Include\Busy.au3 UDF: _Busy_Create
-C:\Huawei Hacker Toolkit\Include\Busy.au3 UDF: _Busy_Create
-C:\Huawei Hacker Toolkit\Include\Busy.au3 UDF: _Busy_Update
-C:\Huawei Hacker Toolkit\Include\Busy.au3 UDF: _Busy_Update
-C:\Huawei Hacker Toolkit\Include\Busy.au3 UDF: _Busy_UseTheme
-C:\Huawei Hacker Toolkit\Include\Busy.au3 UDF: _Busy_UseTheme
-C:\Huawei Hacker Toolkit\Include\CRC.au3 UDF: _CRC16
-C:\Huawei Hacker Toolkit\Include\CRC.au3 UDF: _CRC16
-C:\Huawei Hacker Toolkit\Include\CRC.au3 UDF: _CRC16_Exit
-C:\Huawei Hacker Toolkit\Include\CRC.au3 UDF: _CRC16_Exit
-C:\Huawei Hacker Toolkit\Include\GIFAnimation.au3 UDF: _AnimateGifInAnotherThread
-C:\Huawei Hacker Toolkit\Include\GIFAnimation.au3 UDF: _AnimateGifInAnotherThread
-C:\Huawei Hacker Toolkit\Include\GIFAnimation.au3 UDF: _CreateArrayHIconsFromGIFFile
-C:\Huawei Hacker Toolkit\Include\GIFAnimation.au3 UDF: _CreateArrayHIconsFromGIFFile
-C:\Huawei Hacker Toolkit\Include\GIFAnimation.au3 UDF: _ExitGIFAnimation
-C:\Huawei Hacker Toolkit\Include\GIFAnimation.au3 UDF: _ExitGIFAnimation
-C:\Huawei Hacker Toolkit\Include\GIFAnimation.au3 UDF: _GUICtrlCreateGIF
-C:\Huawei Hacker Toolkit\Include\GIFAnimation.au3 UDF: _GUICtrlCreateGIF
-C:\Huawei Hacker Toolkit\Include\GIFAnimation.au3 UDF: _GUICtrlDeleteGIF
-C:\Huawei Hacker Toolkit\Include\GIFAnimation.au3 UDF: _GUICtrlDeleteGIF
-C:\Huawei Hacker Toolkit\Include\GIFAnimation.au3 UDF: _RefreshGIF
-C:\Huawei Hacker Toolkit\Include\GIFAnimation.au3 UDF: _RefreshGIF
-C:\Huawei Hacker Toolkit\Include\GIFAnimation.au3 UDF: SwapEndian
-C:\Huawei Hacker Toolkit\Include\GIFAnimation.au3 UDF: SwapEndian
-C:\Huawei Hacker Toolkit\Include\Hex.au3 UDF: _Hex_Copy
-C:\Huawei Hacker Toolkit\Include\Hex.au3 UDF: _Hex_Copy
-C:\Huawei Hacker Toolkit\Include\Hex.au3 UDF: _Hex_Read
-C:\Huawei Hacker Toolkit\Include\Hex.au3 UDF: _Hex_Read
-C:\Huawei Hacker Toolkit\Include\Hex.au3 UDF: _Hex_Search
-C:\Huawei Hacker Toolkit\Include\Hex.au3 UDF: _Hex_Search
-C:\Huawei Hacker Toolkit\Include\Hex.au3 UDF: _Hex_Write
-C:\Huawei Hacker Toolkit\Include\Hex.au3 UDF: _Hex_Write
-C:\Huawei Hacker Toolkit\Include\Registration.au3 UDF: __GenerateSerialNumber
-C:\Huawei Hacker Toolkit\Include\Registration.au3 UDF: __GenerateSerialNumber
-C:\Huawei Hacker Toolkit\Include\Registration.au3 UDF: __Register
-C:\Huawei Hacker Toolkit\Include\Registration.au3 UDF: __Register
-C:\Huawei Hacker Toolkit\Include\Registration.au3 UDF: __Registration_WM_COMMAND
-C:\Huawei Hacker Toolkit\Include\Registration.au3 UDF: __Registration_WM_COMMAND
-C:\Huawei Hacker Toolkit\Include\Registration.au3 UDF: _Registration_Check
-C:\Huawei Hacker Toolkit\Include\Registration.au3 UDF: _Registration_Check
-C:\Huawei Hacker Toolkit\Include\Registration.au3 UDF: _Registration_ValidateSerialNumber
-C:\Huawei Hacker Toolkit\Include\Registration.au3 UDF: _Registration_ValidateSerialNumber
-C:\Huawei Hacker Toolkit\Include\UPDATEAPP.au3 UDF: __BinaryFromDLLStruct
-C:\Huawei Hacker Toolkit\Include\UPDATEAPP.au3 UDF: __BinaryFromDLLStruct
-C:\Huawei Hacker Toolkit\Include\UPDATEAPP.au3 UDF: __BinaryToDLLStruct
-C:\Huawei Hacker Toolkit\Include\UPDATEAPP.au3 UDF: __BinaryToDLLStruct
-C:\Huawei Hacker Toolkit\Include\UPDATEAPP.au3 UDF: _UPDATEAPP_Repack
-C:\Huawei Hacker Toolkit\Include\UPDATEAPP.au3 UDF: _UPDATEAPP_Repack
-C:\Huawei Hacker Toolkit\Include\UPDATEAPP.au3 UDF: _UPDATEAPP_Unpack
-C:\Huawei Hacker Toolkit\Include\UPDATEAPP.au3 UDF: _UPDATEAPP_Unpack
-C:\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _ArrayVarIsArrayVar
-C:\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _ArrayVarIsNumber
-C:\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _ArrayVarIsNumber
-C:\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _ArrayVarIsVar
-C:\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _dummyCalls
-C:\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _dummyCalls
-C:\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _MCFCC
-C:\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _MCFCC
-C:\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _MCFCC_Init
-C:\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _MCFCC_Init
-C:\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _VarIsArrayVar
-C:\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _VarIsNumber
-C:\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _VarIsNumber
-C:\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _VarIsVar
 C:\Program Files\AutoIt3\Include\Array.au3 UDF: _ArrayToString
 C:\Program Files\AutoIt3\Include\Array.au3 UDF: _ArrayToString
 C:\Program Files\AutoIt3\Include\Crypt.au3 UDF: __Crypt_Context
@@ -167,8 +17,6 @@ C:\Program Files\AutoIt3\Include\Crypt.au3 UDF: _Crypt_EncryptData
 C:\Program Files\AutoIt3\Include\Crypt.au3 UDF: _Crypt_EncryptData
 C:\Program Files\AutoIt3\Include\Crypt.au3 UDF: _Crypt_HashData
 C:\Program Files\AutoIt3\Include\Crypt.au3 UDF: _Crypt_HashData
-C:\Program Files\AutoIt3\Include\Crypt.au3 UDF: _Crypt_HashFile
-C:\Program Files\AutoIt3\Include\Crypt.au3 UDF: _Crypt_HashFile
 C:\Program Files\AutoIt3\Include\Crypt.au3 UDF: _Crypt_Shutdown
 C:\Program Files\AutoIt3\Include\Crypt.au3 UDF: _Crypt_Shutdown
 C:\Program Files\AutoIt3\Include\Crypt.au3 UDF: _Crypt_Startup
@@ -218,3 +66,150 @@ C:\Program Files\AutoIt3\Include\WinAPIInternals.au3 UDF: __CheckErrorCloseHandl
 C:\Program Files\AutoIt3\Include\WinAPIInternals.au3 UDF: __WINVER
 C:\Program Files\AutoIt3\Include\WinAPIInternals.au3 UDF: __WINVER
 C:\Program Files\AutoIt3\Include\WinAPIInternals.au3 UDF: __WINVER
+C:\Users\User\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AES_CodeDecompress
+C:\Users\User\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AES_CodeDecompress
+C:\Users\User\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AES_Exit
+C:\Users\User\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AES_Exit
+C:\Users\User\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AES_Startup
+C:\Users\User\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AES_Startup
+C:\Users\User\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AesCryptOFB
+C:\Users\User\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AesCryptOFB
+C:\Users\User\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AesDecrypt
+C:\Users\User\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AesDecrypt
+C:\Users\User\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AesDecryptCBC
+C:\Users\User\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AesDecryptCBC
+C:\Users\User\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AesDecryptCBC_Pad
+C:\Users\User\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AesDecryptCBC_Pad
+C:\Users\User\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AesDecryptCFB
+C:\Users\User\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AesDecryptCFB
+C:\Users\User\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AesDecryptKey
+C:\Users\User\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AesDecryptKey
+C:\Users\User\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AesEncryptKey
+C:\Users\User\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AesEncryptKey
+C:\Users\User\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AesPrepareKey
+C:\Users\User\Desktop\Huawei Hacker Toolkit\AES.au3 UDF: _AesPrepareKey
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3 UDF: __HexEx
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3 UDF: __HexEx
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3 UDF: _Connect
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3 UDF: _Connect
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3 UDF: _Flash
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3 UDF: _Flash
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3 UDF: _GenerateProductID
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3 UDF: _GenerateProductID
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3 UDF: _GetDeviceInfo
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3 UDF: _GetDeviceInfo
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3 UDF: _OnExit
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3 UDF: _OnExit
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3 UDF: _Reboot
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3 UDF: _Reboot
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3 UDF: _WM_COMMAND
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3 UDF: _WM_COMMAND
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3 UDF: _WM_DEVICECHANGE
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3 UDF: _WM_DEVICECHANGE
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: __Run
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: __Run
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_CommandExists
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_CommandExists
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_Connect
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_Connect
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_FileExists
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_FileExists
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_Flash
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_Flash
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_GetDeviceID
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_GetDeviceID
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_GetProperty
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_GetProperty
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_GetState
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_GetState
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_HasBusyBox
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_HasBusyBox
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_HasRootAccess
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_HasRootAccess
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_IsBootloader
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_IsBootloader
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_IsOffline
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_IsOffline
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_IsOnline
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_IsOnline
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_Pull
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_Pull
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_Push
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_Push
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_Reboot
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_Reboot
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_Shell
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Android.au3 UDF: _Android_Shell
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Busy.au3 UDF: __Busy_Refresh
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Busy.au3 UDF: __Busy_Refresh
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Busy.au3 UDF: __Busy_Reset
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Busy.au3 UDF: __GetGifPixSize
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Busy.au3 UDF: __GetGifPixSize
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Busy.au3 UDF: __ValidateThemeEntry
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Busy.au3 UDF: __ValidateThemeEntry
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Busy.au3 UDF: _Busy_Close
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Busy.au3 UDF: _Busy_Close
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Busy.au3 UDF: _Busy_Create
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Busy.au3 UDF: _Busy_Create
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Busy.au3 UDF: _Busy_Update
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Busy.au3 UDF: _Busy_Update
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Busy.au3 UDF: _Busy_UseTheme
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Busy.au3 UDF: _Busy_UseTheme
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\CRC.au3 UDF: _CRC16
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\CRC.au3 UDF: _CRC16
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\CRC.au3 UDF: _CRC16_Exit
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\CRC.au3 UDF: _CRC16_Exit
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\GIFAnimation.au3 UDF: _AnimateGifInAnotherThread
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\GIFAnimation.au3 UDF: _AnimateGifInAnotherThread
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\GIFAnimation.au3 UDF: _CreateArrayHIconsFromGIFFile
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\GIFAnimation.au3 UDF: _CreateArrayHIconsFromGIFFile
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\GIFAnimation.au3 UDF: _ExitGIFAnimation
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\GIFAnimation.au3 UDF: _ExitGIFAnimation
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\GIFAnimation.au3 UDF: _GUICtrlCreateGIF
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\GIFAnimation.au3 UDF: _GUICtrlCreateGIF
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\GIFAnimation.au3 UDF: _GUICtrlDeleteGIF
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\GIFAnimation.au3 UDF: _GUICtrlDeleteGIF
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\GIFAnimation.au3 UDF: _RefreshGIF
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\GIFAnimation.au3 UDF: _RefreshGIF
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\GIFAnimation.au3 UDF: SwapEndian
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\GIFAnimation.au3 UDF: SwapEndian
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Hex.au3 UDF: _Hex_Copy
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Hex.au3 UDF: _Hex_Copy
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Hex.au3 UDF: _Hex_Read
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Hex.au3 UDF: _Hex_Read
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Hex.au3 UDF: _Hex_Search
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Hex.au3 UDF: _Hex_Search
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Hex.au3 UDF: _Hex_Write
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Hex.au3 UDF: _Hex_Write
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Registration.au3 UDF: __GenerateSerialNumber
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Registration.au3 UDF: __GenerateSerialNumber
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Registration.au3 UDF: __Register
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Registration.au3 UDF: __Register
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Registration.au3 UDF: __Registration_WM_COMMAND
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Registration.au3 UDF: __Registration_WM_COMMAND
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Registration.au3 UDF: _Registration_Check
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Registration.au3 UDF: _Registration_Check
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Registration.au3 UDF: _Registration_ValidateSerialNumber
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Registration.au3 UDF: _Registration_ValidateSerialNumber
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\UPDATEAPP.au3 UDF: __BinaryFromDLLStruct
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\UPDATEAPP.au3 UDF: __BinaryFromDLLStruct
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\UPDATEAPP.au3 UDF: __BinaryToDLLStruct
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\UPDATEAPP.au3 UDF: __BinaryToDLLStruct
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\UPDATEAPP.au3 UDF: _UPDATEAPP_Repack
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\UPDATEAPP.au3 UDF: _UPDATEAPP_Repack
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\UPDATEAPP.au3 UDF: _UPDATEAPP_Unpack
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\UPDATEAPP.au3 UDF: _UPDATEAPP_Unpack
+C:\Users\User\Desktop\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _ArrayVarIsArrayVar
+C:\Users\User\Desktop\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _ArrayVarIsNumber
+C:\Users\User\Desktop\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _ArrayVarIsNumber
+C:\Users\User\Desktop\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _ArrayVarIsVar
+C:\Users\User\Desktop\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _dummyCalls
+C:\Users\User\Desktop\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _dummyCalls
+C:\Users\User\Desktop\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _MCFCC
+C:\Users\User\Desktop\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _MCFCC
+C:\Users\User\Desktop\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _MCFCC_Init
+C:\Users\User\Desktop\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _MCFCC_Init
+C:\Users\User\Desktop\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _VarIsArrayVar
+C:\Users\User\Desktop\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _VarIsNumber
+C:\Users\User\Desktop\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _VarIsNumber
+C:\Users\User\Desktop\Huawei Hacker Toolkit\MCFinclude.au3 UDF: _VarIsVar

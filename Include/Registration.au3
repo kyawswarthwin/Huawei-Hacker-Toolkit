@@ -1,4 +1,5 @@
 #include-once
+#RequireAdmin
 #include <ButtonConstants.au3>
 #include <Crypt.au3>
 #include <EditConstants.au3>

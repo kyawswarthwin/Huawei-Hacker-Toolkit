@@ -1,4 +1,4 @@
-2014/10/23 16:06:51: MCF Encoding Logging initiated.
+2014/11/27 17:40:17: MCF Encoding Logging initiated.
 
 Encoding Settings:
 MCF_REPLACE_AUFUNCS = True
@@ -10,7 +10,7 @@ MCF_REPLACE_PHRASES = True
 MCF_ENCRYPT_SUBSET = False
 MCF_WRITE_COMMENTS = False
 
-2014/10/23 16:06:52: 
+2014/11/27 17:40:17: 
 No problems found.
 
-2014/10/23 16:06:52: MCF Encoding completed.
+2014/11/27 17:40:17: MCF Encoding completed.

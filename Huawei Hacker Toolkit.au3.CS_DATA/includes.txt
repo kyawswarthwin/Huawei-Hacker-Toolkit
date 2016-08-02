@@ -1,9 +1,9 @@
-C:\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3
-C:\Huawei Hacker Toolkit\Include\Android.au3
-C:\Huawei Hacker Toolkit\Include\Busy.au3
-C:\Huawei Hacker Toolkit\Include\CRC.au3
-C:\Huawei Hacker Toolkit\Include\Hex.au3
-C:\Huawei Hacker Toolkit\Include\UPDATEAPP.au3
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Huawei Hacker Toolkit.au3
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Android.au3
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Busy.au3
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\CRC.au3
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Hex.au3
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\UPDATEAPP.au3
 C:\Program Files\AutoIt3\Include\Array.au3
 C:\Program Files\AutoIt3\Include\Crypt.au3
 C:\Program Files\AutoIt3\Include\EditConstants.au3
@@ -13,14 +13,14 @@ C:\Program Files\AutoIt3\Include\MsgBoxConstants.au3
 C:\Program Files\AutoIt3\Include\StaticConstants.au3
 C:\Program Files\AutoIt3\Include\WinAPI.au3
 C:\Program Files\AutoIt3\Include\WindowsConstants.au3
-C:\Huawei Hacker Toolkit\MCFinclude.au3
-C:\Huawei Hacker Toolkit\Include\Registration.au3
-C:\Huawei Hacker Toolkit\Include\AndroidConstants.au3
+C:\Users\User\Desktop\Huawei Hacker Toolkit\MCFinclude.au3
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\Registration.au3
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\AndroidConstants.au3
 C:\Program Files\AutoIt3\Include\Constants.au3
 C:\Program Files\AutoIt3\Include\String.au3
 C:\Program Files\AutoIt3\Include\StringConstants.au3
 C:\Program Files\AutoIt3\Include\File.au3
-C:\Huawei Hacker Toolkit\Include\GIFAnimation.au3
+C:\Users\User\Desktop\Huawei Hacker Toolkit\Include\GIFAnimation.au3
 C:\Program Files\AutoIt3\Include\Memory.au3
 C:\Program Files\AutoIt3\Include\AutoItConstants.au3
 C:\Program Files\AutoIt3\Include\FileConstants.au3
@@ -30,7 +30,7 @@ C:\Program Files\AutoIt3\Include\WinAPIError.au3
 C:\Program Files\AutoIt3\Include\Security.au3
 C:\Program Files\AutoIt3\Include\SendMessage.au3
 C:\Program Files\AutoIt3\Include\WinAPIConstants.au3
-C:\Huawei Hacker Toolkit\AES.au3
+C:\Users\User\Desktop\Huawei Hacker Toolkit\AES.au3
 C:\Program Files\AutoIt3\Include\ButtonConstants.au3
 C:\Program Files\AutoIt3\Include\WinAPIDiag.au3
 C:\Program Files\AutoIt3\Include\ColorConstants.au3

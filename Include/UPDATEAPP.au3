@@ -43,19 +43,19 @@ Func _UPDATEAPP_Repack($sSourcePath, $sDestinationPath)
 	_Hex_Write($sDestinationPath, $dSignature1, 0)
 	If @error Then Return SetError(2, 0, 0)
 	_PathSplit($sSourcePath, $sDrive, $sDir, $sFileName, $sExtension)
-	FileDelete($sDrive & $sDir & $aSequence[2][1])
-	For $i = 3 To $aSequence[0][0]
-		$iOffset = 0
-		$iBodySize = FileGetSize($sDrive & $sDir & $aSequence[$i][1])
-		$iBufferSize = 32768
-		$sCRC = ""
-		While $iOffset < $iBodySize
-			If $iBufferSize > $iBodySize - $iOffset Then $iBufferSize = $iBodySize - $iOffset
-			$sCRC &= BinaryToString(BinaryMid(Binary(BitAND(BitXOR(_CRC16(_Hex_Read($sDrive & $sDir & $aSequence[$i][1], $iBufferSize, $iOffset), 0xFFFF, 0x8408), 0xFFFF), 0xFFFF)), 1, 2))
-			$iOffset += $iBufferSize
-		WEnd
-		_Hex_Write($sDrive & $sDir & $aSequence[2][1], StringToBinary($sCRC))
-	Next
+;~ 	FileDelete($sDrive & $sDir & $aSequence[2][1])
+;~ 	For $i = 3 To $aSequence[0][0]
+;~ 		$iOffset = 0
+;~ 		$iBodySize = FileGetSize($sDrive & $sDir & $aSequence[$i][1])
+;~ 		$iBufferSize = 32768
+;~ 		$sCRC = ""
+;~ 		While $iOffset < $iBodySize
+;~ 			If $iBufferSize > $iBodySize - $iOffset Then $iBufferSize = $iBodySize - $iOffset
+;~ 			$sCRC &= BinaryToString(BinaryMid(Binary(BitAND(BitXOR(_CRC16(_Hex_Read($sDrive & $sDir & $aSequence[$i][1], $iBufferSize, $iOffset), 0xFFFF, 0x8408), 0xFFFF), 0xFFFF)), 1, 2))
+;~ 			$iOffset += $iBufferSize
+;~ 		WEnd
+;~ 		_Hex_Write($sDrive & $sDir & $aSequence[2][1], StringToBinary($sCRC))
+;~ 	Next
 	For $i = 1 To $aSequence[0][0]
 		$tHeader = DllStructCreate($tagHEADER)
 		__BinaryToDLLStruct(_Hex_Read($sDrive & $sDir & $aSequence[$i][1] & ".header", DllStructGetSize($tHeader)), $tHeader)

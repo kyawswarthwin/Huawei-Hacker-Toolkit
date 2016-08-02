@@ -46,17 +46,17 @@
 ; _Android_GetSIMOperatorName
 ; _Android_GetSIMState
 ; _Android_GetState
+; _Android_HasBusyBox
+; _Android_HasRootAccess
 ; _Android_Install
 ; _Android_IsAirplaneModeOn
 ; _Android_IsBatteryCharged
 ; _Android_IsBatteryLow
 ; _Android_IsBatteryPresent
 ; _Android_IsBootloader
-; _Android_IsBusyBoxInstalled
 ; _Android_IsNetworkRoaming
 ; _Android_IsOffline
 ; _Android_IsOnline
-; _Android_IsRooted
 ; _Android_IsScreenOn
 ; _Android_Pull
 ; _Android_Push
@@ -112,7 +112,7 @@ EndFunc   ;==>__Android_GetBatteryInfo
 ; ===============================================================================================================================
 Func __Run($sCommand)
 	Local $iPID, $sLine, $sOutput = ""
-	$iPID = Run(@ComSpec & " /c " & $sCommand, @ScriptDir, @SW_HIDE, $STDERR_CHILD + $STDOUT_CHILD)
+	$iPID = Run(@ComSpec & " /c " & $sCommand & " 2>&1", @ScriptDir, @SW_HIDE, $STDERR_CHILD + $STDOUT_CHILD)
 	While 1
 		$sLine = StdoutRead($iPID)
 		If @error Then ExitLoop
@@ -808,6 +808,40 @@ Func _Android_GetState()
 EndFunc   ;==>_Android_GetState
 
 ; #FUNCTION# ====================================================================================================================
+; Name ..........: _Android_HasBusyBox
+; Description ...:
+; Syntax ........: _Android_HasBusyBox()
+; Parameters ....:
+; Return values .: None
+; Author ........: Kyaw Swar Thwin
+; Modified ......:
+; Remarks .......:
+; Related .......:
+; Link ..........:
+; Example .......: No
+; ===============================================================================================================================
+Func _Android_HasBusyBox()
+	Return _Android_CommandExists("busybox")
+EndFunc   ;==>_Android_HasBusyBox
+
+; #FUNCTION# ====================================================================================================================
+; Name ..........: _Android_HasRootAccess
+; Description ...:
+; Syntax ........: _Android_HasRootAccess()
+; Parameters ....:
+; Return values .: None
+; Author ........: Kyaw Swar Thwin
+; Modified ......:
+; Remarks .......:
+; Related .......:
+; Link ..........:
+; Example .......: No
+; ===============================================================================================================================
+Func _Android_HasRootAccess()
+	Return _Android_Shell("echo Root Checker", True) = "Root Checker"
+EndFunc   ;==>_Android_HasRootAccess
+
+; #FUNCTION# ====================================================================================================================
 ; Name ..........: _Android_Install
 ; Description ...:
 ; Syntax ........: _Android_Install($sFilePath[, $iMode = 1[, $bReinstall = False]])
@@ -995,23 +1029,6 @@ Func _Android_IsBootloader()
 EndFunc   ;==>_Android_IsBootloader
 
 ; #FUNCTION# ====================================================================================================================
-; Name ..........: _Android_IsBusyBoxInstalled
-; Description ...:
-; Syntax ........: _Android_IsBusyBoxInstalled()
-; Parameters ....:
-; Return values .: None
-; Author ........: Kyaw Swar Thwin
-; Modified ......:
-; Remarks .......:
-; Related .......:
-; Link ..........:
-; Example .......: No
-; ===============================================================================================================================
-Func _Android_IsBusyBoxInstalled()
-	Return _Android_CommandExists("busybox")
-EndFunc   ;==>_Android_IsBusyBoxInstalled
-
-; #FUNCTION# ====================================================================================================================
 ; Name ..........: _Android_IsNetworkRoaming
 ; Description ...:
 ; Syntax ........: _Android_IsNetworkRoaming()
@@ -1061,23 +1078,6 @@ EndFunc   ;==>_Android_IsOffline
 Func _Android_IsOnline()
 	Return __Run("adb get-state") = "device"
 EndFunc   ;==>_Android_IsOnline
-
-; #FUNCTION# ====================================================================================================================
-; Name ..........: _Android_IsRooted
-; Description ...:
-; Syntax ........: _Android_IsRooted()
-; Parameters ....:
-; Return values .: None
-; Author ........: Kyaw Swar Thwin
-; Modified ......:
-; Remarks .......:
-; Related .......:
-; Link ..........:
-; Example .......: No
-; ===============================================================================================================================
-Func _Android_IsRooted()
-	Return _Android_Shell("echo Root Checker", True) = "Root Checker"
-EndFunc   ;==>_Android_IsRooted
 
 ; #FUNCTION# ====================================================================================================================
 ; Name ..........: _Android_IsScreenOn
@@ -1196,7 +1196,7 @@ EndFunc   ;==>_Android_Reboot
 Func _Android_Remount($sMode = "rw", $sPath = "/system")
 	If $sMode = Default Then $sMode = "rw"
 	If $sPath = Default Then $sPath = "/system"
-	Local $sOutput = _Android_Shell("mount -o remount," & $sMode & " " & $sPath, _Android_IsRooted(), True)
+	Local $sOutput = _Android_Shell("mount -o remount," & $sMode & " " & $sPath, _Android_HasRootAccess(), True)
 	If $sOutput <> "" Then Return SetError(1, 0, 0)
 	Return 1
 EndFunc   ;==>_Android_Remount
@@ -1262,8 +1262,9 @@ Func _Android_Shell($sCommand, $bSuperuser = False, $bBusyBox = False)
 	If $bBusyBox = Default Then $bBusyBox = False
 	If $bSuperuser Then
 		If $bBusyBox Then
-			If Not _Android_IsBusyBoxInstalled() Then
+			If Not _Android_HasBusyBox() Then
 				If _Android_Shell("/data/local/tmp/busybox echo BusyBox Checker") <> "BusyBox Checker" Then
+					_Android_Shell("mkdir /data/local/tmp")
 					_Android_Push("busybox", "/data/local/tmp")
 					_Android_Shell("chmod 755 /data/local/tmp/busybox")
 				EndIf
@@ -1276,8 +1277,9 @@ Func _Android_Shell($sCommand, $bSuperuser = False, $bBusyBox = False)
 		EndIf
 	Else
 		If $bBusyBox Then
-			If Not _Android_IsBusyBoxInstalled() Then
+			If Not _Android_HasBusyBox() Then
 				If _Android_Shell("/data/local/tmp/busybox echo BusyBox Checker") <> "BusyBox Checker" Then
+					_Android_Shell("mkdir /data/local/tmp")
 					_Android_Push("busybox", "/data/local/tmp")
 					_Android_Shell("chmod 755 /data/local/tmp/busybox")
 				EndIf
@@ -1322,6 +1324,7 @@ EndFunc   ;==>_Android_StartActivity
 ; Example .......: No
 ; ===============================================================================================================================
 Func _Android_TakeSnapshot($sFilePath)
+	_Android_Shell("mkdir /data/local/tmp")
 	_Android_Shell("screencap -p /data/local/tmp/screenshot.png")
 	_Android_Pull("/data/local/tmp/screenshot.png", $sFilePath)
 EndFunc   ;==>_Android_TakeSnapshot
@@ -1412,7 +1415,7 @@ Func _Android_WipeDataCache()
 	If _Android_IsBootloader() Then
 		__Run("fastboot -w")
 	Else
-		If Not _Android_IsRooted() Then Return SetError(1, 0, 0)
+		If Not _Android_HasRootAccess() Then Return SetError(1, 0, 0)
 		_Android_Shell("wipe data", True)
 	EndIf
 	Return 1

@@ -78,9 +78,7 @@ $aProductID
 $CALG_MD5
 $i
 $sMode
-$vKey
-$dUniqueKey
-$CALG_RC4
+$sFilter
 $iDec
 $sHex
 $aOutput
@@ -837,7 +835,6 @@ $sModuleNameType
 $bToClient
 $aPos
 $pObject
-$sFilter
 $sInitalDir
 $sDefaultFile
 $sDefaultExt
@@ -1037,6 +1034,7 @@ $cmdline
 $CCkeytype
 $sSerialNumber
 $__vPrivateKey
+$CALG_RC4
 $idSerialNumberLabel
 $idSerialNumberInput
 $ES_UPPERCASE
@@ -1045,6 +1043,7 @@ $hGUI_AccelTable
 $sRandomKey
 $VALID_CHARS
 $GUI_ENABLE
+$vKey
 $iChar
 $oHTTP
 $sStart

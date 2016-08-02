@@ -16,7 +16,6 @@
 @NumParams
 @OSVersion
 @ScriptDir
-@ScriptFullPath
 @SEC
 @SW_DISABLE
 @SW_ENABLE
